@@ -1,0 +1,99 @@
+gates ok | min eig(sample corr)=0.0068  LW delta=0.04023  rbar=0.16064  T=753
+min eig LW cov=4.85e-06
+PCA {'lam': [13.477, 7.125, 3.089, 2.482, 1.726, 1.682], 'share': [0.259, 0.137, 0.059, 0.048, 0.033, 0.032], 'lam_plus': np.float64(1.595), 'n_sig': 6}
+PC2 most negative: {'XLP': -0.33, 'USMV': -0.29, 'XLV': -0.28, 'KO': -0.26, 'PG': -0.25, 'MCD': -0.24, 'BRK-B': -0.24, 'JNJ': -0.23}
+PC2 most positive: {'ETN': 0.06, 'SMH': 0.07, 'AVGO': 0.07, 'TSM': 0.07, 'NVDA': 0.07, 'MRVL': 0.07, 'MU': 0.08, 'VRT': 0.08}
+cluster 1 ['NVDA', 'AMD', 'AVGO', 'INTC', 'MU', 'TSM', 'META', 'ANET', 'MRVL', 'GOOGL', 'ASML', 'MSFT', 'AMZN', 'VRT', 'CEG', 'VST', 'ORCL', 'PLTR', 'NOW', 'ETN', 'SMH', 'QQQ', 'SPY', 'GLD', 'DBMF', 'BTC-USD']
+cluster 2 ['IEF', 'TLT']
+cluster 3 ['AAPL', 'SBUX', 'COST', 'MCD', 'WMT', 'KO', 'PG', 'LLY', 'JNJ', 'ABBV', 'BRK-B', 'V', 'JPM', 'XLV', 'XLP', 'XLU', 'USMV']
+cluster 4 ['XOM', 'CVX', 'LMT', 'XLE']
+cluster 5 ['UNH']
+cluster 6 ['BIL']
+cluster 7 ['BTAL']
+MST hubs: [('SMH', 12), ('SPY', 8), ('USMV', 8), ('QQQ', 6), ('XLV', 5), ('XLP', 5)]
+
+NVDA alone vol=0.471
+       rho3y  rho1y  rhoEWMA  h_star  effectiveness  vol5050  betaDown  betaUp  lamL10  tailSMH  r2022  rElection  rNov3_13
+asset                                                                                                                      
+AMZN   0.417   0.22     0.08   0.617          0.174    0.334      0.37    0.39    0.39   -0.022 -0.337      0.038     0.064
+SBUX   0.153  -0.01    -0.01   0.222          0.023    0.306      0.19    0.41    0.18   -0.009 -0.242      0.013     0.016
+GOOGL  0.341   0.21     0.15   0.517          0.116    0.323      0.27    0.36    0.36   -0.016 -0.327      0.009     0.056
+MSFT   0.409   0.23     0.18   0.731          0.167    0.313      0.21    0.31    0.30   -0.011 -0.321      0.029     0.006
+COST   0.108  -0.31    -0.47   0.247          0.012    0.267      0.01    0.12    0.16   -0.002 -0.173      0.045     0.085
+WMT   -0.001  -0.18    -0.28  -0.002          0.000    0.264     -0.05    0.16    0.11    0.002 -0.082      0.023     0.026
+KO    -0.259  -0.30    -0.39  -0.741          0.067    0.230     -0.16   -0.02    0.07    0.010 -0.049      0.010     0.047
+PG    -0.209  -0.27    -0.42  -0.535          0.044    0.236     -0.12    0.01    0.08    0.007 -0.223      0.031     0.048
+XLP   -0.173  -0.34    -0.40  -0.607          0.030    0.234     -0.08    0.04    0.08    0.005 -0.106      0.026     0.038
+JNJ   -0.267  -0.21    -0.22  -0.674          0.071    0.231     -0.14   -0.02    0.07    0.011 -0.033      0.023     0.074
+LLY    0.125  -0.12    -0.17   0.166          0.016    0.312      0.13    0.29    0.18   -0.004  0.207     -0.032     0.024
+XOM   -0.026  -0.18     0.02  -0.052          0.001    0.261      0.06   -0.04    0.16   -0.001  0.598     -0.069    -0.039
+GLD    0.118   0.25     0.19   0.252          0.014    0.272      0.10    0.16    0.29   -0.004 -0.073      0.045    -0.011
+TLT   -0.019   0.10     0.03  -0.071          0.000    0.243     -0.03    0.04    0.11    0.002 -0.293      0.010    -0.021
+IEF   -0.061   0.09    -0.02  -0.470          0.004    0.236     -0.03    0.01    0.09    0.002 -0.154      0.009    -0.012
+DBMF   0.278   0.25     0.28   1.166          0.077    0.257      0.16    0.08    0.38   -0.008  0.315     -0.035     0.006
+BTAL  -0.516  -0.61    -0.65  -1.139          0.266    0.206     -0.40   -0.38    0.01    0.023  0.166      0.037     0.015
+BIL   -0.026  -0.04    -0.12  -5.421          0.001    0.236     -0.00   -0.00    0.09    0.000  0.006      0.000     0.001
+
+VALUATION (rescaled to 2026-11-13 close)
+         price     mcapB   fwdPE    ttmPE  fcf_yield  earn_yield  r_capm  no_growth_share  g_implied_E  g_implied_FCF  fcf_to_ni  ni_to_opinc  capex_to_da  capex_to_rev  net_cash_B   roic  op_margin
+t                                                                                                                                                                                                     
+NVDA    162.85  3935.134  13.463   20.592      0.032       0.074   0.124            0.597        0.061          0.180      0.658        0.976        1.985         0.024      23.610   92.0      0.652
+AMD     534.06   875.899  35.502  115.758      0.008       0.028   0.136            0.206        0.223          0.410      0.927        0.941        0.681         0.046       6.570   12.8      0.178
+AVGO    347.01  1654.173  19.945   44.296      0.024       0.050   0.126            0.399        0.120          0.230      1.030        0.880        0.143         0.014     -35.440   30.7      0.488
+TSM     398.73  1847.281  19.058   26.993      0.024       0.052   0.116            0.453        0.096          0.196      0.566        0.882        2.134         0.322     100.360   60.3      0.580
+MU      778.31   880.596   4.410   10.468      0.067       0.227   0.139            1.637       -0.096          0.087      0.694        0.855        3.233         0.231      68.270   93.4      0.746
+ASML   1495.16   574.316  23.580   38.356      0.041       0.042   0.117            0.361        0.129          0.130      1.536        0.886        1.582         0.039      12.280   92.1      0.386
+ANET    197.29   249.258  35.046   52.892      0.020       0.029   0.123            0.232        0.195          0.237      1.057        0.912        2.466         0.019      14.360  239.9      0.438
+VRT     202.07    77.807  21.847   37.771      0.040       0.046   0.139            0.330        0.155          0.173      1.500        0.758        1.234         0.040       0.355   43.8      0.211
+INTC     59.66   317.095  42.869      NaN      0.012       0.023   0.127            0.184        0.232          0.329        NaN       -1.947        1.057         0.229       4.180    4.9      0.103
+PLTR    167.99   404.777  73.102  118.341      0.010       0.014   0.125            0.109        0.306          0.349      1.104        1.102        1.441         0.006      10.340    NaN      0.457
+GOOGL   295.77  3635.069  21.457   15.444      0.005       0.047   0.097            0.479        0.075          0.367      0.084        1.501        5.599         0.339     114.770   23.8      0.333
+META    641.69  1640.640  19.477   21.886      0.017       0.051   0.106            0.485        0.080          0.231      0.381        0.824        4.191         0.432     -32.390   29.6      0.378
+MSFT    523.88  3891.768  25.244   27.358      0.015       0.040   0.093            0.426        0.087          0.215      0.420        0.874        3.198         0.392     -69.420   25.4      0.471
+AMZN    266.66  2879.476  26.964   21.555     -0.016       0.037   0.105            0.354        0.122            NaN     -0.348        1.291        2.712         0.270    -190.620   10.9      0.131
+SBUX    106.44   121.319  36.191   61.141      0.030       0.028   0.089            0.311        0.124          0.133      1.838        0.497        0.807         0.035     -18.840   13.7      0.104
+COST   1106.21   490.191  48.456   53.286      0.019       0.021   0.075            0.274        0.124          0.131      1.016        0.802        2.403         0.021      11.120   37.3      0.038
+WMT     128.09  1016.230  42.635   46.411      0.013       0.023   0.074            0.316        0.105          0.185      0.612        0.762        1.949         0.040     -63.560   13.3      0.039
+KO       99.25   426.961  28.621   29.275      0.033       0.035   0.063            0.553        0.020          0.032      0.976        0.890        1.931         0.038     -25.880   20.6      0.322
+LLY    1443.50  1289.982  30.768   46.844      0.015       0.033   0.082            0.399        0.085          0.187      0.713        0.622        5.060         0.127     -43.860   42.7      0.513
+XOM     170.59   695.874  12.033   17.587      0.062       0.083   0.069            1.212       -0.067         -0.027      1.058        0.813        0.988         0.071     -22.100   13.0      0.129
+JNJ     285.75   687.892  25.682   43.394      0.030       0.039   0.064            0.611        0.010          0.045      1.279        0.610        0.689         0.056     -27.420   21.6      0.266
+
+ERC AI sleeve: {'NVDA': np.float64(0.0783), 'AVGO': np.float64(0.0747), 'TSM': np.float64(0.0877), 'AMD': np.float64(0.0654), 'MU': np.float64(0.0626), 'GOOGL': np.float64(0.1489), 'META': np.float64(0.1177), 'MSFT': np.float64(0.1768), 'AMZN': np.float64(0.1279), 'VRT': np.float64(0.0601)}  RC spread 0.1 0.1
+s=0.50 {'vol': np.float64(0.137), 'beta_SPY': np.float64(0.784), 'rho_SPY': np.float64(0.882), 'beta_SMH': np.float64(0.28), 'rho_SMH': np.float64(0.785), 'beta_NVDA': np.float64(0.202), 'rho_NVDA': np.float64(0.694), 'div_ratio': np.float64(2.208), 'div_return': np.float64(0.047), 'RC_AI': np.float64(0.964), 'ewma_vol_proxy': np.float64(0.169)} | hedge: {'BTAL': np.float64(0.08), 'XOM': np.float64(0.07), 'KO': np.float64(0.06), 'XLP': np.float64(0.1), 'JNJ': np.float64(0.06), 'COST': np.float64(0.02), 'WMT': np.float64(0.05), 'GLD': np.float64(0.06)}
+s=0.60 {'vol': np.float64(0.158), 'beta_SPY': np.float64(0.908), 'rho_SPY': np.float64(0.884), 'beta_SMH': np.float64(0.337), 'rho_SMH': np.float64(0.818), 'beta_NVDA': np.float64(0.244), 'rho_NVDA': np.float64(0.727), 'div_ratio': np.float64(2.029), 'div_return': np.float64(0.051), 'RC_AI': np.float64(1.038), 'ewma_vol_proxy': np.float64(0.196)} | hedge: {'BTAL': np.float64(0.08), 'XOM': np.float64(0.07), 'KO': np.float64(0.06), 'XLP': np.float64(0.1), 'JNJ': np.float64(0.06), 'WMT': np.float64(0.018), 'GLD': np.float64(0.012)}
+s=0.65 {'vol': np.float64(0.17), 'beta_SPY': np.float64(0.973), 'rho_SPY': np.float64(0.88), 'beta_SMH': np.float64(0.367), 'rho_SMH': np.float64(0.829), 'beta_NVDA': np.float64(0.267), 'rho_NVDA': np.float64(0.738), 'div_ratio': np.float64(1.938), 'div_return': np.float64(0.052), 'RC_AI': np.float64(1.057), 'ewma_vol_proxy': np.float64(0.211)} | hedge: {'BTAL': np.float64(0.08), 'XOM': np.float64(0.05), 'KO': np.float64(0.06), 'XLP': np.float64(0.1), 'JNJ': np.float64(0.06)}
+s=0.70 {'vol': np.float64(0.184), 'beta_SPY': np.float64(1.042), 'rho_SPY': np.float64(0.874), 'beta_SMH': np.float64(0.4), 'rho_SMH': np.float64(0.838), 'beta_NVDA': np.float64(0.291), 'rho_NVDA': np.float64(0.746), 'div_ratio': np.float64(1.853), 'div_return': np.float64(0.053), 'RC_AI': np.float64(1.064), 'ewma_vol_proxy': np.float64(0.228)} | hedge: {'BTAL': np.float64(0.08), 'XOM': np.float64(0.016), 'KO': np.float64(0.06), 'XLP': np.float64(0.084), 'JNJ': np.float64(0.06)}
+s=0.80 {'vol': np.float64(0.212), 'beta_SPY': np.float64(1.18), 'rho_SPY': np.float64(0.858), 'beta_SMH': np.float64(0.468), 'rho_SMH': np.float64(0.85), 'beta_NVDA': np.float64(0.341), 'rho_NVDA': np.float64(0.759), 'div_ratio': np.float64(1.73), 'div_return': np.float64(0.056), 'RC_AI': np.float64(1.065), 'ewma_vol_proxy': np.float64(0.263)} | hedge: {'BTAL': np.float64(0.08), 'KO': np.float64(0.06), 'JNJ': np.float64(0.06)}
+s=1.00 {'vol': np.float64(0.283), 'beta_SPY': np.float64(1.561), 'rho_SPY': np.float64(0.848), 'beta_SMH': np.float64(0.64), 'rho_SMH': np.float64(0.868), 'beta_NVDA': np.float64(0.462), 'rho_NVDA': np.float64(0.768), 'div_ratio': np.float64(1.446), 'div_return': np.float64(0.053), 'RC_AI': np.float64(1.0), 'ewma_vol_proxy': np.float64(0.352)} | hedge: {}
+NVDA only  {'vol': np.float64(0.471), 'beta_SPY': np.float64(1.958), 'rho_SPY': np.float64(0.64), 'beta_SMH': np.float64(0.936), 'rho_SMH': np.float64(0.764), 'beta_NVDA': np.float64(1.0), 'rho_NVDA': np.float64(1.0), 'div_ratio': np.float64(1.0), 'div_return': np.float64(0.0), 'RC_AI': np.float64(1.0), 'ewma_vol_proxy': np.float64(0.472)}
+SMH        {'vol': np.float64(0.384), 'beta_SPY': np.float64(1.923), 'rho_SPY': np.float64(0.77), 'beta_SMH': np.float64(1.0), 'rho_SMH': np.float64(1.0), 'beta_NVDA': np.float64(0.623), 'rho_NVDA': np.float64(0.764), 'div_ratio': np.float64(1.0), 'div_return': np.float64(0.0), 'RC_AI': np.float64(0.0), 'ewma_vol_proxy': np.float64(0.534)}
+SPY        {'vol': np.float64(0.154), 'beta_SPY': np.float64(1.0), 'rho_SPY': np.float64(1.0), 'beta_SMH': np.float64(0.309), 'rho_SMH': np.float64(0.77), 'beta_NVDA': np.float64(0.209), 'rho_NVDA': np.float64(0.64), 'div_ratio': np.float64(1.0), 'div_return': np.float64(0.0), 'RC_AI': np.float64(0.0), 'ewma_vol_proxy': np.float64(0.172)}
+QQQ        {'vol': np.float64(0.209), 'beta_SPY': np.float64(1.244), 'rho_SPY': np.float64(0.914), 'beta_SMH': np.float64(0.476), 'rho_SMH': np.float64(0.874), 'beta_NVDA': np.float64(0.314), 'rho_NVDA': np.float64(0.706), 'div_ratio': np.float64(1.0), 'div_return': np.float64(0.0), 'RC_AI': np.float64(0.0), 'ewma_vol_proxy': np.float64(0.281)}
+EW AI10    {'vol': np.float64(0.329), 'beta_SPY': np.float64(1.756), 'rho_SPY': np.float64(0.822), 'beta_SMH': np.float64(0.783), 'rho_SMH': np.float64(0.914), 'beta_NVDA': np.float64(0.551), 'rho_NVDA': np.float64(0.789), 'div_ratio': np.float64(1.396), 'div_return': np.float64(0.061), 'RC_AI': np.float64(1.0), 'ewma_vol_proxy': np.float64(0.416)}
+
+ERC AI8: {'NVDA': np.float64(0.0932), 'TSM': np.float64(0.1059), 'AVGO': np.float64(0.0887), 'MU': np.float64(0.0764), 'GOOGL': np.float64(0.1664), 'META': np.float64(0.132), 'MSFT': np.float64(0.1951), 'AMZN': np.float64(0.1424)}
+tilted AI8: {'NVDA': np.float64(0.1272), 'TSM': np.float64(0.1444), 'AVGO': np.float64(0.0806), 'MU': np.float64(0.0695), 'GOOGL': np.float64(0.1513), 'META': np.float64(0.12), 'MSFT': np.float64(0.1775), 'AMZN': np.float64(0.1295)} tilt applied to ['NVDA', 'TSM']
+
+RISK DIAL (final sleeve)
+s=0.50 vol=0.132 ewmaProxy=0.156 bSPY=0.75 bSMH=0.26 rhoNVDA=0.71 DR=2.20 divRet=0.041 RC_AI=0.954 capmER=0.082 | hedge {'BTAL': np.float64(0.08), 'XLP': np.float64(0.1), 'KO': np.float64(0.06), 'JNJ': np.float64(0.06), 'XOM': np.float64(0.07), 'COST': np.float64(0.02), 'WMT': np.float64(0.05), 'GLD': np.float64(0.06)}
+s=0.60 vol=0.152 ewmaProxy=0.180 bSPY=0.87 bSMH=0.32 rhoNVDA=0.75 DR=2.01 divRet=0.044 RC_AI=1.034 capmER=0.088 | hedge {'BTAL': np.float64(0.08), 'XLP': np.float64(0.1), 'KO': np.float64(0.06), 'JNJ': np.float64(0.06), 'XOM': np.float64(0.07), 'WMT': np.float64(0.014), 'GLD': np.float64(0.016)}
+s=0.65 vol=0.164 ewmaProxy=0.193 bSPY=0.93 bSMH=0.34 rhoNVDA=0.76 DR=1.92 divRet=0.045 RC_AI=1.053 capmER=0.090 | hedge {'BTAL': np.float64(0.08), 'XLP': np.float64(0.1), 'KO': np.float64(0.06), 'JNJ': np.float64(0.06), 'XOM': np.float64(0.05)}
+s=0.70 vol=0.177 ewmaProxy=0.208 bSPY=0.99 bSMH=0.38 rhoNVDA=0.77 DR=1.84 divRet=0.046 RC_AI=1.062 capmER=0.093 | hedge {'BTAL': np.float64(0.08), 'XLP': np.float64(0.06), 'KO': np.float64(0.06), 'JNJ': np.float64(0.06), 'XOM': np.float64(0.04)}
+s=0.75 vol=0.190 ewmaProxy=0.223 bSPY=1.06 bSMH=0.41 rhoNVDA=0.78 DR=1.78 divRet=0.047 RC_AI=1.064 capmER=0.096 | hedge {'BTAL': np.float64(0.08), 'XLP': np.float64(0.01), 'KO': np.float64(0.06), 'JNJ': np.float64(0.06), 'XOM': np.float64(0.04)}
+s=0.80 vol=0.205 ewmaProxy=0.240 bSPY=1.13 bSMH=0.44 rhoNVDA=0.78 DR=1.71 divRet=0.048 RC_AI=1.059 capmER=0.100 | hedge {'BTAL': np.float64(0.08), 'KO': np.float64(0.02), 'JNJ': np.float64(0.06), 'XOM': np.float64(0.04)}
+s=1.00 vol=0.273 ewmaProxy=0.322 bSPY=1.49 bSMH=0.60 rhoNVDA=0.79 DR=1.42 divRet=0.043 RC_AI=1.000 capmER=0.116 | hedge {}
+
+HRP (13 assets): {'XLP': 0.2, 'JNJ': 0.146, 'XOM': 0.137, 'KO': 0.133, 'BTAL': 0.112, 'GOOGL': 0.075, 'AMZN': 0.074, 'MSFT': 0.046, 'TSM': 0.026, 'META': 0.022, 'NVDA': 0.011, 'AVGO': 0.01, 'MU': 0.009}  AI share 0.272
+HRP describe {'vol': np.float64(0.092), 'beta_SPY': np.float64(0.324), 'rho_SPY': np.float64(0.544), 'beta_SMH': np.float64(0.043), 'rho_SMH': np.float64(0.18), 'beta_NVDA': np.float64(0.032), 'rho_NVDA': np.float64(0.164), 'div_ratio': np.float64(2.461), 'div_return': np.float64(0.025), 'RC_AI': np.float64(0.344), 'ewma_vol_proxy': np.float64(0.117)}
+NVDA+SBUX 50/50    vol=0.306 bSPY=1.39 rhoNVDA=0.85
+NVDA+AMZN 50/50    vol=0.334 bSPY=1.64 rhoNVDA=0.90
+NVDA+KO 50/50      vol=0.230 bSPY=0.98 rhoNVDA=0.94
+NVDA+BTAL 70/30    vol=0.304 bSPY=1.11 rhoNVDA=0.98
+
+JS payload: {"AI50":{"NVDA":0.06358,"TSM":0.0722,"AVGO":0.04032,"MU":0.03474,"GOOGL":0.07565,"META":0.06002,"MSFT":0.08874,"AMZN":0.06475,"BTAL":0.08,"XLP":0.1,"KO":0.06,"JNJ":0.06,"XOM":0.07,"COST":0.02,"WMT":0.05,"GLD":0.06},"AI60":{"NVDA":0.0763,"TSM":0.08665,"AVGO":0.04838,"MU":0.04169,"GOOGL":0.09078,"META":0.07203,"MSFT":0.10648,"AMZN":0.0777,"BTAL":0.08,"XLP":0.1,"KO":0.06,"JNJ":0.06,"XOM":0.07,"WMT":0.01396,"GLD":0.01604},"AI65":{"NVDA":0.08265,"TSM":0.09387,"AVGO":0.05241,"MU":0.04516,"GOOGL":0.09834,"META":0.07803,"MSFT":0.11536,"AMZN":0.08418,"BTAL":0.08,"XLP":0.1,"KO":0.06,"JNJ":0.06,"XOM":0.05},"AI70":{"NVDA":0.08901,"TSM":0.10109,"AVGO":0.05645,"MU":0.04864,"GOOGL":0.10591,"META":0.08403,"MSFT":0.12423,"AMZN":0.09065,"BTAL":0.08,"XLP":0.06,"KO":0.06,"JNJ":0.06,"XOM":0.04},"AI75":{"NVDA":0.09537,"TSM":0.10831,"AVGO":0.06048,"MU":0.05211,"GOOGL":0.11347,"META":0.09003,"MSFT":0.13311,"AMZN":0.09713,"BTAL":0.08,"XLP":0.01,"KO":0.06,"JNJ":0.06,"XOM":0.04},"AI80":{"NVDA":0.10173,"TSM":0.11553,"AVGO":0.06451,"MU":0.05558,"GOOGL":0.12104,"META":0.09603,"MSFT":0.14198,"AMZN":0.1036,"BTAL":0.08,"KO":0.02,"JNJ":0.06,"XOM":0.04},"AI100":{"NVDA":0.12716,"TSM":0.14441,"AVGO":0.08064,"MU":0.06948,"GOOGL":0.15129,"META":0.12004,"MSFT":0.17747,"AMZN":0.1295},"HRP13":{"MU":0.00901,"AVGO":0.00964,"NVDA":0.01115,"TSM":0.02612,"MSFT":0.04552,"META":0.02158,"GOOGL":0.07503,"AMZN":0.07427,"XOM":0.13667,"BTAL":0.11161,"JNJ":0.14579,"XLP":0.20043,"KO":0.13318},"NVDA only":{"NVDA":1.0},"SMH":{"SMH":1.0},"SPY":{"SPY":1.0},"QQQ":{"QQQ":1.0},"EW AI10":{"NVDA":0.1,"AVGO":0.1,"TSM":0.1,"AMD":0.1,"MU":0.1,"GOOGL":0.1,"META":0.1,"MSFT":0.1,"AMZN":0.1,"VRT":0.1},"NVDA+SBUX 50/50":{"NVDA":0.5,"SBUX":0.5},"NVDA+AMZN 50/50":{"NVDA":0.5,"AMZN":0.5},"NVDA+KO 50/50":{"NVDA":0.5,"KO":0.5},"NVDA+BTAL 70/30":{"NVDA":0.7,"BTAL":0.3}}
+MU: {"AI50":0.08232,"AI60":0.08755,"AI65":0.09033,"AI70":0.09328,"AI75":0.09623,"AI80":0.09952,"AI100":0.11573,"HRP13":0.06318,"NVDA only":0.13672,"SMH":0.13512,"SPY":0.0936,"QQQ":0.10458,"EW AI10":0.12761,"NVDA+SBUX 50/50":0.11119,"NVDA+AMZN 50/50":0.12245,"NVDA+KO 50/50":0.09249,"NVDA+BTAL 70/30":0.09857}
+
+FINAL {'vol': np.float64(0.1778), 'beta_SPY': np.float64(0.9975), 'rho_SPY': np.float64(0.864), 'beta_SMH': np.float64(0.379), 'rho_SMH': np.float64(0.8194), 'beta_NVDA': np.float64(0.2913), 'rho_NVDA': np.float64(0.7721), 'div_ratio': np.float64(1.8424), 'div_return': np.float64(0.0464), 'RC_AI': np.float64(1.0622), 'ewma_vol_proxy': np.float64(0.2088)} CAPM ER 0.0935
+RC% {'NVDA': np.float64(18.4), 'TSM': np.float64(17.9), 'AVGO': np.float64(12.4), 'MU': np.float64(11.9), 'GOOGL': np.float64(12.1), 'META': np.float64(10.9), 'MSFT': np.float64(11.2), 'AMZN': np.float64(11.4), 'BTAL': np.float64(-5.4), 'XLP': np.float64(0.2), 'KO': np.float64(-0.5), 'JNJ': np.float64(-0.7), 'XOM': np.float64(0.2)}
+rounding deviation vs optimizer (s=0.70): {'NVDA': np.float64(0.001), 'TSM': np.float64(-0.0011), 'AVGO': np.float64(0.0036), 'MU': np.float64(0.0014), 'GOOGL': np.float64(0.0041), 'META': np.float64(-0.004), 'MSFT': np.float64(-0.0042), 'AMZN': np.float64(-0.0007), 'BTAL': np.float64(0.0), 'XLP': np.float64(0.0), 'KO': np.float64(0.0), 'JNJ': np.float64(0.0), 'XOM': np.float64(-0.0)}
