@@ -1,0 +1,63 @@
+{
+  "reviewed_sha": "b13c216e6d4394f25e18d58f49eaf367f1e32ab5",
+  "price_input_sha256": "c297262a16daebfeb084de94bc5086c99ae26cc40a5e6efd16ee12d29586beae",
+  "windows": {
+    "three_year": [
+      "2023-11-13",
+      "2026-11-13"
+    ],
+    "stress2022": [
+      "2022-01-03",
+      "2022-10-12"
+    ],
+    "full_year2022": [
+      "2021-12-31",
+      "2022-12-30"
+    ],
+    "election_2d": [
+      "2026-11-03",
+      "2026-11-05"
+    ],
+    "election_full": [
+      "2026-11-03",
+      "2026-11-13"
+    ],
+    "drawdown_oct": [
+      "2026-10-06",
+      "2026-11-13"
+    ],
+    "risk_rebound": [
+      "2025-06-30",
+      "2026-06-30"
+    ],
+    "2024": [
+      "2023-12-29",
+      "2024-12-31"
+    ],
+    "2025": [
+      "2024-12-31",
+      "2025-12-31"
+    ],
+    "2026ytd": [
+      "2025-12-31",
+      "2026-11-13"
+    ],
+    "pre_2026_event": [
+      "2023-11-13",
+      "2026-11-03"
+    ]
+  },
+  "primary_rebalancing": "calendar quarter end, BEFORE first return in new quarter; initial NAV=1",
+  "returns": "USD adjusted-close simple daily returns; no duplicate dividend addition",
+  "risk_estimator": "sample covariance ddof=1, common 753 daily returns; frozen Claude LW separately reproduced",
+  "stress": "2022 values are retrospective historical scenarios, not true out-of-sample validation",
+  "forward_returns": "not estimated; all returns are historical",
+  "BTAL_financing": "conviction8 cash first: SGOV -5pp and VTI -3pp. Entry: SGOV -8pp. VTI-only sensitivity: VTI -8pp.",
+  "matched_NVDA": "Claude_NVDA15/10 set direct NVDA to 15/10% and proportionally reduce other 7 AI issuers, holding AI 70% and defense 30%",
+  "caveats": [
+    "No transaction costs, tax, spread or FX effects. ETF net price performance already includes fund expenses.",
+    "Weights selected with 2026 information; all earlier results are retrospective, including 2022.",
+    "Original Claude raw 52-asset file is missing. This independent 20-asset price reconstruction matches frozen overlap to displayed precision.",
+    "Paired stationary bootstrap is historical sampling sensitivity conditional on selected portfolios, not a correction for selection bias."
+  ]
+}

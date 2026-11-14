@@ -1,0 +1,47 @@
+[
+  {
+    "a": "Claude",
+    "b": "conviction8",
+    "estimate": 0.006144710977012208,
+    "low": -0.0012687715437929396,
+    "high": 0.014650370796710395,
+    "n_boot": 2000,
+    "mean_block": 20
+  },
+  {
+    "a": "Claude",
+    "b": "entry",
+    "estimate": 0.024860440811384117,
+    "low": 0.018784885768024603,
+    "high": 0.03228826993829306,
+    "n_boot": 2000,
+    "mean_block": 20
+  },
+  {
+    "a": "Claude",
+    "b": "Claude_BTAL_to_SGOV",
+    "estimate": -0.010326424877566227,
+    "low": -0.012419788947967997,
+    "high": -0.008438133454310038,
+    "n_boot": 2000,
+    "mean_block": 20
+  },
+  {
+    "a": "conviction8_BTAL_cash_first",
+    "b": "conviction8",
+    "estimate": -0.013763776373601237,
+    "low": -0.016962122574034646,
+    "high": -0.010982099902083056,
+    "n_boot": 2000,
+    "mean_block": 20
+  },
+  {
+    "a": "entry_BTAL_cash_first",
+    "b": "entry",
+    "estimate": -0.009418925559314218,
+    "low": -0.01126453684423468,
+    "high": -0.007731599772481679,
+    "n_boot": 2000,
+    "mean_block": 20
+  }
+]

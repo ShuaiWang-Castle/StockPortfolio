@@ -1,0 +1,37 @@
+{
+ "price_source": "Yahoo Finance v8 chart API (adjusted close, events=div,split), fetched in-browser 2026-11-13 after the close",
+ "raw_data_sha256": "50a5432ab918f9a6731faeb540cebbea9022bf33695011afa9fd0dee74cb82b5",
+ "calendar": "2021-11-15..2026-11-13 (SPY trading days, N=1255); estimation window 2023-11-14..2026-11-13 (T=753 daily log returns)",
+ "blocks": {
+  "data/stats_daily.csv": "71cdb945703eb25684a71f2aee27b24e5151d0897d28fe7ec21db138056d852b",
+  "data/matrix_block.txt": "23549f3fb93d38454058de368ff442e2fc8ec5ba0c22aa5e6a954dad330b0a8a",
+  "data/backtest.json": "78f6c006c3bfe6e7466b263728d32d56b9c546ac76faf7c3d8032ed0de1ef551",
+  "data/backtest_ai60.json": "a7c146a0044081639236ebfe24c30ea6ebadaea4d3491e81d984c33135751223"
+ },
+ "fundamentals_source": "stockanalysis.com /stocks/<t>/statistics/ (page prices/dates recorded; multiples rescaled to 2026-11-13 close)",
+ "assumptions": {
+  "rf": 0.0486,
+  "ERP": 0.045,
+  "terminal_g": 0.03,
+  "beta": "Blume-adjusted 0.67*beta_3y+0.33",
+  "LW": "Ledoit-Wolf 2004 constant-correlation"
+ },
+ "reproducibility": "Second independent browser session re-fetched prices and re-ran FINAL: all 26 metrics identical to backtest.json",
+ "cross_checks": {
+  "fmp_quote_short_2026-11-13": {
+   "NVDA": 162.85,
+   "MSFT": 523.88,
+   "KO": 99.25,
+   "result": "identical to Yahoo closes used here"
+  },
+  "portfolio_visualizer_monthly_corr_2023-11_2026-10": {
+   "NVDA-AMZN": 0.51,
+   "NVDA-XLP": -0.09,
+   "NVDA-SBUX": -0.03,
+   "NVDA-GLD": -0.08,
+   "NVDA-TLT": 0.0,
+   "note": "monthly-return basis; daily 3y here: 0.42, -0.17, 0.15, 0.12, -0.02"
+  },
+  "independent_rerun": "second browser session re-fetched prices; FINAL backtest metrics identical (data/backtest_ai60.json FINAL == data/backtest.json FINAL)"
+ }
+}

@@ -1,0 +1,104 @@
+{
+  "Claude": {
+    "vol": 0.17776087196922238,
+    "beta_spy": 0.9974810131927961,
+    "r22_rounded_inputs": -0.27621999999999997,
+    "rE1_rounded_inputs": -0.033060000000000006
+  },
+  "conviction8": {
+    "vol": 0.17365776789103654,
+    "beta_spy": 1.029944649119449,
+    "r22_rounded_inputs": -0.30845,
+    "rE1_rounded_inputs": -0.022049999999999997
+  },
+  "entry": {
+    "vol": 0.1554143607526447,
+    "beta_spy": 0.9320146245328067,
+    "r22_rounded_inputs": -0.27725000000000005,
+    "rE1_rounded_inputs": -0.015999999999999997
+  },
+  "VTI": {
+    "vol": 0.15398,
+    "beta_spy": 1.0,
+    "r22_rounded_inputs": -0.245,
+    "rE1_rounded_inputs": -0.028
+  },
+  "Claude_BTAL_to_SGOV": {
+    "vol": 0.1878546409142703,
+    "beta_spy": 1.0668487260278987,
+    "r22_rounded_inputs": -0.28902,
+    "rE1_rounded_inputs": -0.03602
+  },
+  "conviction8_BTAL_cash_first": {
+    "vol": 0.16047424195966659,
+    "beta_spy": 0.930562877734276,
+    "r22_rounded_inputs": -0.28812,
+    "rE1_rounded_inputs": -0.018249999999999995
+  },
+  "conviction8_BTAL_VTI_only": {
+    "vol": 0.15363692461858022,
+    "beta_spy": 0.880539446817492,
+    "r22_rounded_inputs": -0.27557,
+    "rE1_rounded_inputs": -0.016849999999999993
+  },
+  "entry_BTAL_cash_first": {
+    "vol": 0.14658557647989715,
+    "beta_spy": 0.8626469116977041,
+    "r22_rounded_inputs": -0.26445,
+    "rE1_rounded_inputs": -0.013039999999999996
+  },
+  "Claude_NVDA15": {
+    "vol": 0.1853058315169571,
+    "beta_spy": 1.029148943947842,
+    "r22_rounded_inputs": -0.28905213114754097,
+    "rE1_rounded_inputs": -0.03777147540983607
+  },
+  "Claude_NVDA10": {
+    "vol": 0.17887080351326165,
+    "beta_spy": 1.0027590016519703,
+    "r22_rounded_inputs": -0.2783586885245901,
+    "rE1_rounded_inputs": -0.03384524590163935
+  },
+  "conviction8_NVDA9_cash": {
+    "vol": 0.1519413611007581,
+    "beta_spy": 0.9124286196154782,
+    "r22_rounded_inputs": -0.27101000000000003,
+    "rE1_rounded_inputs": -0.014789999999999998
+  },
+  "conviction8_NVDA9_VTI": {
+    "vol": 0.16052584807724848,
+    "beta_spy": 0.9724567367156189,
+    "r22_rounded_inputs": -0.28607,
+    "rE1_rounded_inputs": -0.016469999999999995
+  },
+  "conviction8_proxy": {
+    "vol": 0.17365776789103654,
+    "beta_spy": 1.029944649119449,
+    "r22_rounded_inputs": -0.30845,
+    "rE1_rounded_inputs": -0.022049999999999997
+  },
+  "entry_proxy": {
+    "vol": 0.1554143607526447,
+    "beta_spy": 0.9320146245328067,
+    "r22_rounded_inputs": -0.27725000000000005,
+    "rE1_rounded_inputs": -0.015999999999999997
+  },
+  "SPY": {
+    "vol": 0.15398,
+    "beta_spy": 1.0,
+    "r22_rounded_inputs": -0.245,
+    "rE1_rounded_inputs": -0.028
+  },
+  "path_replace_VTI_by_AI7": {
+    "vol": 0.19032494023191843,
+    "beta_spy": 1.063045179233386,
+    "r22_rounded_inputs": -0.3267059016393443,
+    "rE1_rounded_inputs": -0.019856393442622945
+  },
+  "path_Claude_AI_original_defense": {
+    "vol": 0.195591433594668,
+    "beta_spy": 1.1078625146882048,
+    "r22_rounded_inputs": -0.31924,
+    "rE1_rounded_inputs": -0.033850000000000005
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "repository": "https://github.com/ShuaiWang-Castle/StockPortfolio",
+  "pr": 1,
+  "reviewed_sha": "b13c216e6d4394f25e18d58f49eaf367f1e32ab5",
+  "final_pr_state": "merged",
+  "merge_commit_sha": "ad949042e6ee011d7b64930731d852e63d9a5cd7",
+  "merge_file_diff_from_reviewed_sha": 0,
+  "reviewed_files": {
+    "build_datasets.py": "https://github.com/ShuaiWang-Castle/StockPortfolio/blob/b13c216e6d4394f25e18d58f49eaf367f1e32ab5/claude_analysis_20261113/build_datasets.py",
+    "analysis.py": "https://github.com/ShuaiWang-Castle/StockPortfolio/blob/b13c216e6d4394f25e18d58f49eaf367f1e32ab5/claude_analysis_20261113/analysis.py",
+    "out_compare_gpt.json": "https://github.com/ShuaiWang-Castle/StockPortfolio/blob/b13c216e6d4394f25e18d58f49eaf367f1e32ab5/claude_analysis_20261113/out_compare_gpt.json",
+    "README.md": "https://github.com/ShuaiWang-Castle/StockPortfolio/blob/b13c216e6d4394f25e18d58f49eaf367f1e32ab5/claude_analysis_20261113/README.md",
+    "out_FINAL.json": "https://github.com/ShuaiWang-Castle/StockPortfolio/blob/b13c216e6d4394f25e18d58f49eaf367f1e32ab5/claude_analysis_20261113/out_FINAL.json",
+    "out_valuation.csv": "https://github.com/ShuaiWang-Castle/StockPortfolio/blob/b13c216e6d4394f25e18d58f49eaf367f1e32ab5/claude_analysis_20261113/out_valuation.csv",
+    "out_final.json": "https://github.com/ShuaiWang-Castle/StockPortfolio/blob/b13c216e6d4394f25e18d58f49eaf367f1e32ab5/claude_analysis_20261113/out_final.json",
+    "data/meta.json": "https://github.com/ShuaiWang-Castle/StockPortfolio/blob/b13c216e6d4394f25e18d58f49eaf367f1e32ab5/claude_analysis_20261113/data/meta.json",
+    "data/stats_daily.csv": "https://github.com/ShuaiWang-Castle/StockPortfolio/blob/b13c216e6d4394f25e18d58f49eaf367f1e32ab5/claude_analysis_20261113/data/stats_daily.csv",
+    "data/backtest_ai60.json": "https://github.com/ShuaiWang-Castle/StockPortfolio/blob/b13c216e6d4394f25e18d58f49eaf367f1e32ab5/claude_analysis_20261113/data/backtest_ai60.json",
+    "data/backtest.json": "https://github.com/ShuaiWang-Castle/StockPortfolio/blob/b13c216e6d4394f25e18d58f49eaf367f1e32ab5/claude_analysis_20261113/data/backtest.json",
+    "data/matrix_block.txt": "https://github.com/ShuaiWang-Castle/StockPortfolio/blob/b13c216e6d4394f25e18d58f49eaf367f1e32ab5/claude_analysis_20261113/data/matrix_block.txt",
+    "js/02_stats.js": "https://github.com/ShuaiWang-Castle/StockPortfolio/blob/b13c216e6d4394f25e18d58f49eaf367f1e32ab5/claude_analysis_20261113/js/02_stats.js",
+    "js/04_backtest.js": "https://github.com/ShuaiWang-Castle/StockPortfolio/blob/b13c216e6d4394f25e18d58f49eaf367f1e32ab5/claude_analysis_20261113/js/04_backtest.js"
+  },
+  "external_sources": {
+    "BTAL_prospectus": "https://www.sec.gov/Archives/edgar/data/1479599/000199937126023611/btal-485bpos_102726.htm",
+    "BTAL_annual_report": "https://www.sec.gov/Archives/edgar/data/1479599/000199937126019517/R2.htm",
+    "BTAL_factsheet": "https://www.agf.com/agf-files/us/regulatory-documents/fact-sheets/agf-btal-ann-en.pdf",
+    "VTI_snapshot_20260930": "https://workplace.vanguard.com/assets/corp/fund_communications/pdf_publish/us-products/fact-sheet/F0970.pdf",
+    "XLP_snapshot_20261112": "https://www.ssga.com/us/en/intermediary/etfs/state-street-consumer-staples-select-sector-spdr-etf-xlp"
+  }
+}

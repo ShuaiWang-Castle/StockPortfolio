@@ -1,0 +1,14 @@
+{
+  "frozen_manifest_entries_checked": 39,
+  "frozen_manifest_all_match": true,
+  "analysis_rerun_max_numeric_error": 1e-12,
+  "independent_quarterly_path_max_absolute_difference": 3.6e-15,
+  "common_price_dates": 1255,
+  "common_assets": 20,
+  "estimation_daily_returns": 753,
+  "missing_prices": 0,
+  "frozen_overlap_assets_matching_displayed_vol_and_2022_return": 18,
+  "original_52_asset_raw_hash_verified": false,
+  "repository_writes": false,
+  "trades_executed": false
+}
