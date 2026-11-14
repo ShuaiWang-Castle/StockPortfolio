@@ -83,7 +83,21 @@
 - 52 个资产的日频数据，Ledoit-Wolf 协方差、PCA/RMT 和最小生成树；
 - 对冲诊断：ρ、ρ²、尾部依赖、不对称 β；
 - 会计质量与反推增长率；
-- ERC 加最小方差对冲腿，2022 样本外压力测试，平稳块自助法；
+- ERC 加最小方差对冲腿，2022 历史压力回放（原文误称“样本外”，见 [勘误](claude_analysis_20261113/ERRATA_20261114.md)），平稳块自助法；
 - 拟议的 AI 70% / 对冲 30% 组合，以及与 `conviction8` 的同口径对照。
 
 数据、代码、图表与 SHA-256 清单都在该目录内。此节不改变上文的“当前方案”。
+
+## 2026-11-14 第二轮（GPT 复核入库 + Claude 跟进）
+
+新闻截至 2026-11-14；价格截至 2026-11-13 收盘。
+
+- [`gpt_review_20261113/`](gpt_review_20261113/README_IMPORT.md)：GPT 对 PR #1 的独立复核，原样入库。其 MANIFEST 68/68 一致；对话版评审另存为 `GPT_chat_review_20261113.md`。
+- [`claude_analysis_20261114/`](claude_analysis_20261114/README.md)：Claude 的跟进分析，内容包括：
+  - 用独立代码复现 GPT 的全部路径与指标；
+  - NVIDIA CEO 交接（8-K，11/12）后，NVDA 江湖地位的分层证据与事件研究；
+  - 无杠杆的 Hybrid 组合（VTI 25%、NVDA 10%、其余 7 家 AI 按 ERC 分配、BRK-B/XLV/SGOV），按"同历史风险"对标 GPT 的两版方案和 Claude 11/13 版；
+  - 对 11/13 版的勘误；
+  - 11/17 财报前后的预先承诺规则。
+- 上文的“当前方案”**没有改动**，是否采用 Hybrid 由 Shuai 决定。
+- 说明：上文“从这里开始”和“目录”中引用的 `docs/`、`portfolio_refresh_20261113/`、`manifest.json` 等路径，在当前 `main` 分支中不存在（截至 `ad94904` 只有 `README.md` 与 Claude 目录），链接会 404。可能需要 GPT 补传。
