@@ -1,0 +1,115 @@
+{
+  "old_source_file": "/workspace/scratch/7569b1d31554/portfolio_refresh_20261113/market_data_extended/adjusted_close.csv",
+  "old_source_sha256": "e106efd219179a94b1d9c6f0499844a87c43b553257b29c10a184726c4748a87",
+  "old_provenance": "/workspace/scratch/7569b1d31554/portfolio_refresh_20261113/market_data_extended/provenance.json",
+  "fresh": {
+    "BTAL": {
+      "url": "https://query2.finance.yahoo.com/v8/finance/chart/BTAL?period1=1636070400&period2=1794614400&interval=1d&events=div%2Csplits%2CcapitalGains&includeAdjustedClose=true",
+      "retrieved_utc": "2026-11-14T02:39:28.140594+00:00",
+      "sha256": "47dc917ccfe5e2c48b8b536888d9c05ada8f2025017cab1671449e1f4726d1d1",
+      "currency": "USD",
+      "n": 1261,
+      "start": "2021-11-05",
+      "end": "2026-11-13",
+      "raw_file": "/workspace/scratch/f7bbb71d24eb/data_audit/raw/BTAL.json",
+      "adjustment": "Yahoo AdjClose, includes provider dividend/split adjustment; no forward filling",
+      "nulls": 0
+    },
+    "XLP": {
+      "url": "https://query2.finance.yahoo.com/v8/finance/chart/XLP?period1=1636070400&period2=1794614400&interval=1d&events=div%2Csplits%2CcapitalGains&includeAdjustedClose=true",
+      "retrieved_utc": "2026-11-14T02:39:31.393032+00:00",
+      "sha256": "675f630d576d695073b0a5cb6c9e32b2b11e559e876d92362233a93483b9f7d9",
+      "currency": "USD",
+      "n": 1261,
+      "start": "2021-11-05",
+      "end": "2026-11-13",
+      "raw_file": "/workspace/scratch/f7bbb71d24eb/data_audit/raw/XLP.json",
+      "adjustment": "Yahoo AdjClose, includes provider dividend/split adjustment; no forward filling",
+      "nulls": 0
+    },
+    "BIL": {
+      "url": "https://query2.finance.yahoo.com/v8/finance/chart/BIL?period1=1636070400&period2=1794614400&interval=1d&events=div%2Csplits%2CcapitalGains&includeAdjustedClose=true",
+      "retrieved_utc": "2026-11-14T02:39:31.420990+00:00",
+      "sha256": "9b597e9818ddcee491ae7702bdb28bb9d9f5d2037b7bfb26737f9cad093d4b70",
+      "currency": "USD",
+      "n": 1261,
+      "start": "2021-11-05",
+      "end": "2026-11-13",
+      "raw_file": "/workspace/scratch/f7bbb71d24eb/data_audit/raw/BIL.json",
+      "adjustment": "Yahoo AdjClose, includes provider dividend/split adjustment; no forward filling",
+      "nulls": 0
+    },
+    "SMH": {
+      "url": "https://query2.finance.yahoo.com/v8/finance/chart/SMH?period1=1636070400&period2=1794614400&interval=1d&events=div%2Csplits%2CcapitalGains&includeAdjustedClose=true",
+      "retrieved_utc": "2026-11-14T02:39:31.445887+00:00",
+      "sha256": "f935b4c4f127e78cd3686bcf052df8b1f43bfde8e393279c44b7946cda5dc805",
+      "currency": "USD",
+      "n": 1261,
+      "start": "2021-11-05",
+      "end": "2026-11-13",
+      "raw_file": "/workspace/scratch/f7bbb71d24eb/data_audit/raw/SMH.json",
+      "adjustment": "Yahoo AdjClose, includes provider dividend/split adjustment; no forward filling",
+      "nulls": 0
+    }
+  },
+  "combined": {
+    "columns": [
+      "NVDA",
+      "TSM",
+      "AVGO",
+      "MU",
+      "GOOGL",
+      "META",
+      "MSFT",
+      "AMZN",
+      "BTAL",
+      "XLP",
+      "KO",
+      "JNJ",
+      "XOM",
+      "VTI",
+      "SGOV",
+      "BRK-B",
+      "XLV",
+      "SPY",
+      "BIL",
+      "SMH"
+    ],
+    "shape": [
+      1255,
+      20
+    ],
+    "start": "2021-11-15",
+    "end": "2026-11-13",
+    "nulls": {
+      "NVDA": 0,
+      "TSM": 0,
+      "AVGO": 0,
+      "MU": 0,
+      "GOOGL": 0,
+      "META": 0,
+      "MSFT": 0,
+      "AMZN": 0,
+      "BTAL": 0,
+      "XLP": 0,
+      "KO": 0,
+      "JNJ": 0,
+      "XOM": 0,
+      "VTI": 0,
+      "SGOV": 0,
+      "BRK-B": 0,
+      "XLV": 0,
+      "SPY": 0,
+      "BIL": 0,
+      "SMH": 0
+    },
+    "base_price_date": "2023-11-13",
+    "estimate_return_dates": [
+      "2023-11-14",
+      "2026-11-13"
+    ],
+    "estimate_n": 753,
+    "stress_base": "2022-01-03",
+    "stress_end": "2022-10-12"
+  }
+}
