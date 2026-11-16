@@ -28,8 +28,8 @@ def save(fig, name):
 
 # F1 timing map ---------------------------------------------------------------
 T = pd.read_csv(OUT / 'timing_table_ai8.csv').set_index('t')
-ACT = {'buy at target': ('按目标买入', BLUE), 'overweight': ('加码', ORANGE), 'stage': ('分批（估值偏贵）', AQUA),
-       'underweight + stage': ('减配 + 分批', YELLOW), 'underweight (cycle-adjusted)': ('减配（周期顶部）', MAGENTA)}
+ACT = {'at target': ('按长期比例', BLUE), 'overweight': ('加码', ORANGE), 'at target (expensive, no add)': ('按长期比例（估值偏贵，不加）', AQUA),
+       'underweight': ('减配', YELLOW), 'underweight (cycle-adjusted)': ('减配（周期顶部）', MAGENTA)}
 fig, ax = plt.subplots(figsize=(9.2, 5.2))
 ax.axhspan(-45, -20, color=GRID, alpha=0.45, lw=0, zorder=0)
 ax.axhspan(-10, 2, color=GRID, alpha=0.45, lw=0, zorder=0)
@@ -85,28 +85,29 @@ fig.text(0.01, -0.02, 'FMP key-metrics：FY 为各财年末（1 月底）的市�
 fig.tight_layout()
 save(fig, 'f2_nvda_own_history.png')
 
-# F3 deployment plan ------------------------------------------------------------
+# F3 Monday one-shot purchase vs long-term proportions ---------------------------
 pl = S['plan']
 order = ['NVDA', 'MSFT', 'GOOGL', 'AMZN', 'META', 'TSM', 'AVGO', 'MU', 'VTI', 'BRK-B', 'XLV', 'SGOV']
-d0 = np.array([pl['day0'][t] for t in order]) * 100
-tg = np.array([pl['tilt_target'][t] for t in order]) * 100
-bs = np.array([pl['base'][t] for t in order]) * 100
+mo = np.array([pl['monday'][t] for t in order]) * 100
+lt = np.array([pl['long_term'][t] for t in order]) * 100
+usd = [pl['dollars_7000']['monday'][t] for t in order]
 fig, ax = plt.subplots(figsize=(9.4, 5.4))
 y = np.arange(len(order))[::-1]
-ax.barh(y, d0, color=BLUE, height=0.62, label='11/16 买入（SGOV 含暂缓资金）', zorder=3, edgecolor=SURF, linewidth=1.5)
-dfr = np.where(np.array(order) == 'SGOV', 0, tg - d0)
-ax.barh(y, dfr, left=d0, color=AQUA, height=0.62, label='按规则暂缓的部分', zorder=3, edgecolor=SURF, linewidth=1.5)
-ax.scatter(bs, y, marker='|', s=260, color=INK, linewidth=2, zorder=4, label='Hybrid-核心原目标')
-for yi, t, a, b, c in zip(y, order, d0, tg, bs):
-    txt = f'{a:.1f}%' if t == 'SGOV' else (f'{a:.1f} → {b:.1f}%' if b - a > 1e-9 else f'{b:.1f}%')
-    if abs(b - c) > 1e-9 and t != 'SGOV':
-        txt += f'（原 {c:.0f}%）'
-    ax.text(max(a, b, c) + 0.6, yi, txt, va='center', fontsize=8.6)
+cols = [ORANGE if m > l + 1e-9 else (YELLOW if m < l - 1e-9 else BLUE) for m, l in zip(mo, lt)]
+ax.barh(y, mo, color=cols, height=0.62, zorder=3, edgecolor=SURF, linewidth=1.5)
+ax.scatter(lt, y, marker='|', s=300, color=INK, linewidth=2.2, zorder=4)
+for yi, t, m, l, u in zip(y, order, mo, lt, usd):
+    txt = f'{m:.1f}% · ${u:,}' + (f'（长期 {l:.0f}%）' if abs(m - l) > 1e-9 else '')
+    ax.text(max(m, l) + 0.6, yi, txt, va='center', fontsize=8.8)
 ax.set_yticks(y, order)
 ax.set_xlim(0, 33)
 ax.set_xlabel('占 $7,000 的比例 (%)')
 ax.grid(axis='y', visible=False)
-ax.legend(frameon=False, fontsize=8.3, loc='lower right')
-ax.set_title('部署方案：NVDA 加到 12.5%（财报前先 7.5%），MSFT、MU 减配，AVGO、MSFT 分批')
-save(fig, 'f3_deployment_plan.png')
+from matplotlib.lines import Line2D
+from matplotlib.patches import Patch
+ax.legend(handles=[Patch(color=ORANGE, label='周一高于长期比例'), Patch(color=YELLOW, label='周一低于长期比例'),
+                   Patch(color=BLUE, label='等于长期比例'), Line2D([], [], color=INK, marker='|', ls='', ms=14, mew=2.2, label='长期理论比例')],
+          frameon=False, fontsize=8.3, loc='lower right')
+ax.set_title('周一一次性买齐 $7,000：NVDA 12.5%（长期 10%），MSFT 7%（长期 8%），MU 1.5%（长期 3%）')
+save(fig, 'f3_monday_vs_long_term.png')
 print(sorted(p.name for p in FIG.glob('*.png')))

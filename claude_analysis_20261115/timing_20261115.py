@@ -174,10 +174,10 @@ def action(r):
     if r.value_bucket == 'cheap' and r.price_bucket == 'relative-low':
         return 'overweight'
     if r.value_bucket == 'expensive' and r.price_bucket == 'relative-high':
-        return 'underweight + stage'
+        return 'underweight'
     if r.value_bucket == 'expensive':
-        return 'stage'
-    return 'buy at target'
+        return 'at target (expensive, no add)'
+    return 'at target'
 
 
 X['action'] = X.apply(action, axis=1)
@@ -189,13 +189,24 @@ TILT_PP = {'NVDA': +0.025, 'MU': -0.015, 'MSFT': -0.010}          # one NVDA dia
 assert X.loc['NVDA', 'action'] == 'overweight' and X.loc['MU', 'action'].startswith('underweight') and X.loc['MSFT', 'action'].startswith('underweight')
 tilt = {k: round(v + TILT_PP.get(k, 0.0), 6) for k, v in base.items()}
 assert abs(sum(tilt.values()) - 1) < 1e-9 and abs(sum(tilt[k] for k in AI8) - sum(base[k] for k in AI8)) < 1e-12
-NOW = {'NVDA': 0.075, 'AVGO': 0.025, 'MSFT': 0.035}                # bought on 2026-11-16; the rest is deferred by rule
-day0 = {t: NOW.get(t, tilt[t]) for t in tilt}
-day0['SGOV'] = round(tilt['SGOV'] + sum(tilt[t] - day0[t] for t in NOW), 6)
-deferred = {t: round(tilt[t] - day0[t], 6) for t in NOW}
-DEFER_RULE = {'NVDA': 'after the 11/17 report: add 5% if revenue >= $108B, GM >= 73.5% and the FY28 framework holds; otherwise stay at 7.5%',
-              'AVGO': 'after its December report, unless that report cuts AI guidance',
-              'MSFT': 'at the 12/31 quarterly rebalance, or earlier if it closes below its 200-day average'}
+monday = dict(tilt)          # Shuai buys the full $7,000 at once on 2026-11-16 at the tilted weights; no staging
+long_term = dict(base)       # theoretical long-term (neutral) proportions = Hybrid-Core
+SH = pd.DataFrame({'long_term_weight': pd.Series(long_term), 'monday_weight': pd.Series(monday)})
+SH['tilt_pp'] = (100 * (SH.monday_weight - SH.long_term_weight)).round(2)
+SH['monday_usd'] = (7000 * SH.monday_weight).round(0)
+SH['long_term_usd'] = (7000 * SH.long_term_weight).round(0)
+SH['close_2026_11_13'] = [float(P.loc[AS_OF, t]) for t in SH.index]
+SH['approx_shares_at_11_13_close'] = (SH.monday_usd / SH.close_2026_11_13).round(3)
+assert SH.monday_usd.sum() == 7000 and SH.long_term_usd.sum() == 7000
+SH.to_csv(OUT / 'monday_purchase_7000.csv', index_label='t')
+RULES = {
+    'post_earnings_2026_11_17': ('Cut NVDA 12.5% -> 7.5% and move the 5pp to the other 7 AI names in ERC sleeve shares if revenue < $105.8B, '
+                                 'or the Q4 gross-margin guide is below 71%, or the FY28 growth framework is withdrawn or cut, or a new US export '
+                                 'restriction specifically hits NVIDIA data-center sales, or the CEO search comes with roadmap or customer-commitment '
+                                 'changes. Otherwise hold. Price moves alone trigger nothing.'),
+    'quarterly_review': ('At each calendar quarter-end (first: 2026-12-31) rerun this script with new prices and fundamentals. Keep a tilt only '
+                         'while its signal still holds (NVDA cheap and not relative-high; MU cyclical-peak flag; MSFT expensive and relative-high); '
+                         'otherwise rebalance that name back to its long-term weight. Untilted names are rebalanced to long-term weights.')}
 
 # ------------------------------------------------------------------ risk of each weight vector (issuer level, VTI look-through)
 L = json.loads((H14 / 'out' / 'summary.json').read_text())['vti_lookthrough']
@@ -228,10 +239,12 @@ def risk(w):
                 cash=float(w.get('SGOV', 0)))
 
 
-RISK = pd.DataFrame({'Hybrid_Core (strategic)': risk(base), 'Timing target (after rules)': risk(tilt), 'Day-0 (11/16) holdings': risk(day0)}).T
+RISK = pd.DataFrame({'Long-term proportions (Hybrid-Core)': risk(long_term), 'Monday one-shot purchase': risk(monday)}).T
+RISK['nvda_report_day_move_10_6pct'] = 0.106 * RISK.nvda_lt      # options-implied move (MarketPulse, 11/10) x NVDA look-through
 RISK.to_csv(OUT / 'timing_plan_risk.csv')
-S['plan'] = dict(base=base, tilt_pp=TILT_PP, tilt_target=tilt, day0=day0, deferred=deferred, defer_rule=DEFER_RULE,
-                 dollars_7000={k: {t: round(7000 * v) for t, v in w.items()} for k, w in {'tilt_target': tilt, 'day0': day0}.items()})
+S['plan'] = dict(long_term=long_term, monday=monday, tilt_pp=TILT_PP, rules=RULES,
+                 dollars_7000={'monday': {t: int(v) for t, v in SH.monday_usd.items()}, 'long_term': {t: int(v) for t, v in SH.long_term_usd.items()}},
+                 approx_shares_at_11_13_close={t: float(v) for t, v in SH.approx_shares_at_11_13_close.items()})
 
 # ------------------------------------------------------------------ 5. historical check: did "buy the dip" or momentum rank these 8 names?
 me = P.index.to_series().groupby(P.index.to_period('M')).max()
@@ -275,5 +288,5 @@ print(X[['dd_from_hi52', 'hi52_date', 'range_pos52', 'vs_sma200', 'mom_12_1', 'r
 print(POS.loc[['VTI', 'BRK-B', 'XLV', 'SGOV']].round(3).to_string())
 print(nh[['evToEBITDA', 'evToSales', 'freeCashFlowYield', 'incomeQuality', 'daysOfSalesOutstanding', 'daysOfInventoryOutstanding', 'cashConversionCycle']].round(3).to_string())
 print(RISK.round(4).to_string())
-print(json.dumps({k: S['plan'][k] for k in ['tilt_target', 'day0', 'deferred']}, indent=0))
+print(SH.to_string())
 print(json.dumps(summ, indent=1, default=float))

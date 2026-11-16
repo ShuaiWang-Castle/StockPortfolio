@@ -18,7 +18,7 @@
     "ccc_fy26": 132.73760696157612
   },
   "plan": {
-    "base": {
+    "long_term": {
       "VTI": 0.25,
       "NVDA": 0.1,
       "TSM": 0.04,
@@ -32,12 +32,7 @@
       "XLV": 0.06,
       "SGOV": 0.11
     },
-    "tilt_pp": {
-      "NVDA": 0.025,
-      "MU": -0.015,
-      "MSFT": -0.01
-    },
-    "tilt_target": {
+    "monday": {
       "VTI": 0.25,
       "NVDA": 0.125,
       "TSM": 0.04,
@@ -51,32 +46,17 @@
       "XLV": 0.06,
       "SGOV": 0.11
     },
-    "day0": {
-      "VTI": 0.25,
-      "NVDA": 0.075,
-      "TSM": 0.04,
-      "AVGO": 0.025,
-      "MU": 0.015,
-      "GOOGL": 0.07,
-      "META": 0.05,
-      "MSFT": 0.035,
-      "AMZN": 0.06,
-      "BRK-B": 0.11,
-      "XLV": 0.06,
-      "SGOV": 0.21
+    "tilt_pp": {
+      "NVDA": 0.025,
+      "MU": -0.015,
+      "MSFT": -0.01
     },
-    "deferred": {
-      "NVDA": 0.05,
-      "AVGO": 0.015,
-      "MSFT": 0.035
-    },
-    "defer_rule": {
-      "NVDA": "after the 11/17 report: add 5% if revenue >= $108B, GM >= 73.5% and the FY28 framework holds; otherwise stay at 7.5%",
-      "AVGO": "after its December report, unless that report cuts AI guidance",
-      "MSFT": "at the 12/31 quarterly rebalance, or earlier if it closes below its 200-day average"
+    "rules": {
+      "post_earnings_2026_11_17": "Cut NVDA 12.5% -> 7.5% and move the 5pp to the other 7 AI names in ERC sleeve shares if revenue < $105.8B, or the Q4 gross-margin guide is below 71%, or the FY28 growth framework is withdrawn or cut, or a new US export restriction specifically hits NVIDIA data-center sales, or the CEO search comes with roadmap or customer-commitment changes. Otherwise hold. Price moves alone trigger nothing.",
+      "quarterly_review": "At each calendar quarter-end (first: 2026-12-31) rerun this script with new prices and fundamentals. Keep a tilt only while its signal still holds (NVDA cheap and not relative-high; MU cyclical-peak flag; MSFT expensive and relative-high); otherwise rebalance that name back to its long-term weight. Untilted names are rebalanced to long-term weights."
     },
     "dollars_7000": {
-      "tilt_target": {
+      "monday": {
         "VTI": 1750,
         "NVDA": 875,
         "TSM": 280,
@@ -90,20 +70,34 @@
         "XLV": 420,
         "SGOV": 770
       },
-      "day0": {
+      "long_term": {
         "VTI": 1750,
-        "NVDA": 525,
+        "NVDA": 700,
         "TSM": 280,
-        "AVGO": 175,
-        "MU": 105,
+        "AVGO": 280,
+        "MU": 210,
         "GOOGL": 490,
         "META": 350,
-        "MSFT": 245,
+        "MSFT": 560,
         "AMZN": 420,
         "BRK-B": 770,
         "XLV": 420,
-        "SGOV": 1470
+        "SGOV": 770
       }
+    },
+    "approx_shares_at_11_13_close": {
+      "VTI": 4.716,
+      "NVDA": 5.373,
+      "TSM": 0.702,
+      "AVGO": 0.807,
+      "MU": 0.135,
+      "GOOGL": 1.657,
+      "META": 0.545,
+      "MSFT": 0.935,
+      "AMZN": 1.575,
+      "BRK-B": 1.299,
+      "XLV": 2.224,
+      "SGOV": 7.657
     }
   },
   "historical_signal_check": {
