@@ -1,0 +1,109 @@
+{
+  "folder": "claude_analysis_20261115",
+  "prices_through": "2026-11-13 close",
+  "fundamentals_fetched_utc": "2026-11-16",
+  "execution": "one-shot purchase of the full $7,000 on 2026-11-16 (Shuai, 2026-11-15)",
+  "inputs": {
+    "claude_analysis_20261115/data/fmp_raw/AMZN_META.json": "e57d76313e2f7a8dbeb1facc072f79f429b2807884064a1c23fa451ad0c96706",
+    "claude_analysis_20261115/data/fmp_raw/GOOGL_MSFT.json": "cb096786afddf136f16af3e018abfa4d058d1ba038c96c5c3dd67652af42f449",
+    "claude_analysis_20261115/data/fmp_raw/NVDA.json": "02f20f4301b9f055504155fa4488d5b449bb442e151bf91212835dc84dc1fef1",
+    "claude_analysis_20261115/data/fmp_raw/NVDA_key_metrics_annual.json": "347153835e6147302ff942fd76f4cd7741afa60e89e8e9eaff1cf9426e492046",
+    "claude_analysis_20261115/data/fmp_raw/TSM.json": "8ae1f823882916e656ff573b39a54cd0426c6cde37a5e003fb1ca8e9d9a0d1d6",
+    "claude_analysis_20261115/data/fmp_raw/estimates_GOOGL.json": "c8498c561eec45f89ec400573207466a46054e71f09f005a828e619c90e300a9",
+    "claude_analysis_20261115/data/fmp_raw/estimates_MSFT_AMZN_META_TSM.json": "1b347b806a5db1868237dcacc55d153f3f76af35940c0077b67d1897a17cc082",
+    "gpt_review_20261113/data_audit/adjusted_close.csv": "c297262a16daebfeb084de94bc5086c99ae26cc40a5e6efd16ee12d29586beae",
+    "claude_analysis_20261113/out_valuation.csv": "a6846e1b881828eeb42e487fcf2a859365f6553c36abba0f6a96d215571ba794",
+    "claude_analysis_20261114/out/summary.json": "23889a56e2decbee527a4fc6bd3e45a2b75b65daa90899aba52e0b7ec1a8162d",
+    "claude_analysis_20261115/data/sources_web_20261115.json": "aabde98f9dbf82333db7989a6feb99e6c2d68c9e517f203d4dc6d65ee2975efc"
+  },
+  "reproduce": [
+    "python3 -I claude_analysis_20261115/timing_20261115.py .",
+    "python3 -I claude_analysis_20261115/make_figures_20261115.py ."
+  ],
+  "files": {
+    "README.md": {
+      "sha256": "52daa951863264ccf73fba49fd593e87e8bacf4b6d2fe6f94de35ae47f71e22d",
+      "bytes": 12436
+    },
+    "data/fmp_raw/AMZN_META.json": {
+      "sha256": "e57d76313e2f7a8dbeb1facc072f79f429b2807884064a1c23fa451ad0c96706",
+      "bytes": 9157
+    },
+    "data/fmp_raw/GOOGL_MSFT.json": {
+      "sha256": "cb096786afddf136f16af3e018abfa4d058d1ba038c96c5c3dd67652af42f449",
+      "bytes": 9279
+    },
+    "data/fmp_raw/NVDA.json": {
+      "sha256": "02f20f4301b9f055504155fa4488d5b449bb442e151bf91212835dc84dc1fef1",
+      "bytes": 6389
+    },
+    "data/fmp_raw/NVDA_key_metrics_annual.json": {
+      "sha256": "347153835e6147302ff942fd76f4cd7741afa60e89e8e9eaff1cf9426e492046",
+      "bytes": 3700
+    },
+    "data/fmp_raw/TSM.json": {
+      "sha256": "8ae1f823882916e656ff573b39a54cd0426c6cde37a5e003fb1ca8e9d9a0d1d6",
+      "bytes": 4900
+    },
+    "data/fmp_raw/estimates_GOOGL.json": {
+      "sha256": "c8498c561eec45f89ec400573207466a46054e71f09f005a828e619c90e300a9",
+      "bytes": 1337
+    },
+    "data/fmp_raw/estimates_MSFT_AMZN_META_TSM.json": {
+      "sha256": "1b347b806a5db1868237dcacc55d153f3f76af35940c0077b67d1897a17cc082",
+      "bytes": 4529
+    },
+    "data/sources_web_20261115.json": {
+      "sha256": "aabde98f9dbf82333db7989a6feb99e6c2d68c9e517f203d4dc6d65ee2975efc",
+      "bytes": 1982
+    },
+    "figures/f1_timing_map.png": {
+      "sha256": "12f39363f954b4ac14c7af8f2c8cecee7d68b306482771e70a7c99c22ee19bc4",
+      "bytes": 166979
+    },
+    "figures/f2_nvda_own_history.png": {
+      "sha256": "f9de579ef0366f7982585e04177904ea8837d95618685daf5c64ef4df7ec4048",
+      "bytes": 273733
+    },
+    "figures/f3_monday_vs_long_term.png": {
+      "sha256": "2cd94bfe2eb72bda8a371f206084ec4b025d6c9f41472170c8eb68c82e6a3955",
+      "bytes": 141461
+    },
+    "make_figures_20261115.py": {
+      "sha256": "5f7668b42714aad6c26b937c2658ae731f17c0a61cacf7cf47666af1ac6af1b0",
+      "bytes": 7288
+    },
+    "out/monday_purchase_7000.csv": {
+      "sha256": "640a8975a1183d8dc49d70f31aca59a0cee2ed9a8948db0c9cd69737aaa5c1c9",
+      "bytes": 775
+    },
+    "out/nvda_own_history.csv": {
+      "sha256": "df899dffd5fbb3f90b1ed943a53645b74f009324ede3a9d49a6454f626475d70",
+      "bytes": 2223
+    },
+    "out/price_position.csv": {
+      "sha256": "5cc485ad25cb83708429caaffa6cfc29dd1f5861bd013e130de5e790b673b517",
+      "bytes": 2934
+    },
+    "out/summary.json": {
+      "sha256": "05a382c596b5144aafeee5d000401020f86fe67c2ae7871833f13f4546469a66",
+      "bytes": 5973
+    },
+    "out/timing_plan_risk.csv": {
+      "sha256": "3f18ac619ecae48bb0e7ab614aa495c4866f94f515709008f88d8adca7b05654",
+      "bytes": 441
+    },
+    "out/timing_signal_ic_monthly.csv": {
+      "sha256": "43de42ce5a82156244cee3a107668836cb1bbea541df391f9534ebb08925810d",
+      "bytes": 8690
+    },
+    "out/timing_table_ai8.csv": {
+      "sha256": "a0a576de48fcdca88b2711830ed1edc39535ef66beb4c10f154c4f6ad3f34fa1",
+      "bytes": 5832
+    },
+    "timing_20261115.py": {
+      "sha256": "fa02028e6b7c68392e684ee2fcca5249e0f860e206d2dd5e902e905bd7171e4e",
+      "bytes": 19181
+    }
+  }
+}

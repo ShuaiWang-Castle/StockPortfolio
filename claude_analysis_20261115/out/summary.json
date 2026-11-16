@@ -1,0 +1,165 @@
+{
+  "nvda_own_history": {
+    "ev_ebitda_ttm": 16.84994912225196,
+    "ev_ebitda_fy_min": 31.428342257457523,
+    "ev_ebitda_fy_max": 81.04764450384229,
+    "fcf_yield_ttm": 0.03236081367039648,
+    "fcf_yield_fy_max": 0.021283852806575163,
+    "ev_sales_ttm": 13.008268172651327,
+    "ev_sales_fy_min": 17.98588270186105,
+    "ocf_to_ni_ttm": 0.6966025331943861,
+    "ocf_to_ni_fy_min": 0.855505675997568,
+    "dso_ttm": 75.96993421769224,
+    "dso_fy26": 65.01907955061175,
+    "dso_fy_max": 65.01907955061175,
+    "dio_ttm": 150.20429308726932,
+    "dio_fy26": 125.04353741496598,
+    "ccc_ttm": 154.53760182273865,
+    "ccc_fy26": 132.73760696157612
+  },
+  "plan": {
+    "long_term": {
+      "VTI": 0.25,
+      "NVDA": 0.1,
+      "TSM": 0.04,
+      "AVGO": 0.04,
+      "MU": 0.03,
+      "GOOGL": 0.07,
+      "META": 0.05,
+      "MSFT": 0.08,
+      "AMZN": 0.06,
+      "BRK-B": 0.11,
+      "XLV": 0.06,
+      "SGOV": 0.11
+    },
+    "monday": {
+      "VTI": 0.25,
+      "NVDA": 0.125,
+      "TSM": 0.04,
+      "AVGO": 0.04,
+      "MU": 0.015,
+      "GOOGL": 0.07,
+      "META": 0.05,
+      "MSFT": 0.07,
+      "AMZN": 0.06,
+      "BRK-B": 0.11,
+      "XLV": 0.06,
+      "SGOV": 0.11
+    },
+    "tilt_pp": {
+      "NVDA": 0.025,
+      "MU": -0.015,
+      "MSFT": -0.01
+    },
+    "rules": {
+      "post_earnings_2026_11_17": "Cut NVDA 12.5% -> 7.5% and move the 5pp to the other 7 AI names in ERC sleeve shares if revenue < $105.8B, or the Q4 gross-margin guide is below 71%, or the FY28 growth framework is withdrawn or cut, or a new US export restriction specifically hits NVIDIA data-center sales, or the CEO search comes with roadmap or customer-commitment changes. Otherwise hold. Price moves alone trigger nothing.",
+      "quarterly_review": "At each calendar quarter-end (first: 2026-12-31) rerun this script with new prices and fundamentals. Keep a tilt only while its signal still holds (NVDA cheap and not relative-high; MU cyclical-peak flag; MSFT expensive and relative-high); otherwise rebalance that name back to its long-term weight. Untilted names are rebalanced to long-term weights."
+    },
+    "dollars_7000": {
+      "monday": {
+        "VTI": 1750,
+        "NVDA": 875,
+        "TSM": 280,
+        "AVGO": 280,
+        "MU": 105,
+        "GOOGL": 490,
+        "META": 350,
+        "MSFT": 490,
+        "AMZN": 420,
+        "BRK-B": 770,
+        "XLV": 420,
+        "SGOV": 770
+      },
+      "long_term": {
+        "VTI": 1750,
+        "NVDA": 700,
+        "TSM": 280,
+        "AVGO": 280,
+        "MU": 210,
+        "GOOGL": 490,
+        "META": 350,
+        "MSFT": 560,
+        "AMZN": 420,
+        "BRK-B": 770,
+        "XLV": 420,
+        "SGOV": 770
+      }
+    },
+    "approx_shares_at_11_13_close": {
+      "VTI": 4.716,
+      "NVDA": 5.373,
+      "TSM": 0.702,
+      "AVGO": 0.807,
+      "MU": 0.135,
+      "GOOGL": 1.657,
+      "META": 0.545,
+      "MSFT": 0.935,
+      "AMZN": 1.575,
+      "BRK-B": 1.299,
+      "XLV": 2.224,
+      "SGOV": 7.657
+    }
+  },
+  "historical_signal_check": {
+    "universe": [
+      "NVDA",
+      "TSM",
+      "AVGO",
+      "MU",
+      "GOOGL",
+      "META",
+      "MSFT",
+      "AMZN"
+    ],
+    "window": "month-ends 2022-11..2026-08 (forward returns to 2026-11)",
+    "signals": {
+      "dip": {
+        "months": 45,
+        "ic1m_mean": 0.09347245389166517,
+        "ic1m_t": 1.551291475963858,
+        "ic3m_mean_nonoverlap": 0.22620128851454155,
+        "ic3m_t_nonoverlap": 3.081184518170214,
+        "n3m": 15,
+        "ls1m_mean": 0.009657481332208475,
+        "ls1m_t": 0.587692784643987,
+        "share_months_ic1m_positive": 0.6
+      },
+      "below_sma200": {
+        "months": 45,
+        "ic1m_mean": -0.03862433862433863,
+        "ic1m_t": -0.5471560371230468,
+        "ic3m_mean_nonoverlap": -0.11904761904761905,
+        "ic3m_t_nonoverlap": -1.4215432527361023,
+        "n3m": 15,
+        "ls1m_mean": -0.03736739906761967,
+        "ls1m_t": -1.8458495580933818,
+        "share_months_ic1m_positive": 0.4444444444444444
+      },
+      "mom_12_1": {
+        "months": 45,
+        "ic1m_mean": 0.04338624338624338,
+        "ic1m_t": 0.6869390349921809,
+        "ic3m_mean_nonoverlap": 0.08095238095238097,
+        "ic3m_t_nonoverlap": 0.8381598086279054,
+        "n3m": 15,
+        "ls1m_mean": 0.013005635807673997,
+        "ls1m_t": 0.6658395975565102,
+        "share_months_ic1m_positive": 0.5111111111111111
+      }
+    },
+    "note": "rank IC = Spearman correlation across 8 names; long-short = top-2 minus bottom-2 by signal; low power"
+  },
+  "inputs_sha256": {
+    "claude_analysis_20261115/data/fmp_raw/AMZN_META.json": "e57d76313e2f7a8dbeb1facc072f79f429b2807884064a1c23fa451ad0c96706",
+    "claude_analysis_20261115/data/fmp_raw/GOOGL_MSFT.json": "cb096786afddf136f16af3e018abfa4d058d1ba038c96c5c3dd67652af42f449",
+    "claude_analysis_20261115/data/fmp_raw/NVDA.json": "02f20f4301b9f055504155fa4488d5b449bb442e151bf91212835dc84dc1fef1",
+    "claude_analysis_20261115/data/fmp_raw/NVDA_key_metrics_annual.json": "347153835e6147302ff942fd76f4cd7741afa60e89e8e9eaff1cf9426e492046",
+    "claude_analysis_20261115/data/fmp_raw/TSM.json": "8ae1f823882916e656ff573b39a54cd0426c6cde37a5e003fb1ca8e9d9a0d1d6",
+    "claude_analysis_20261115/data/fmp_raw/estimates_GOOGL.json": "c8498c561eec45f89ec400573207466a46054e71f09f005a828e619c90e300a9",
+    "claude_analysis_20261115/data/fmp_raw/estimates_MSFT_AMZN_META_TSM.json": "1b347b806a5db1868237dcacc55d153f3f76af35940c0077b67d1897a17cc082",
+    "gpt_review_20261113/data_audit/adjusted_close.csv": "c297262a16daebfeb084de94bc5086c99ae26cc40a5e6efd16ee12d29586beae",
+    "claude_analysis_20261113/out_valuation.csv": "a6846e1b881828eeb42e487fcf2a859365f6553c36abba0f6a96d215571ba794",
+    "claude_analysis_20261114/out/summary.json": "23889a56e2decbee527a4fc6bd3e45a2b75b65daa90899aba52e0b7ec1a8162d",
+    "claude_analysis_20261115/data/sources_web_20261115.json": "aabde98f9dbf82333db7989a6feb99e6c2d68c9e517f203d4dc6d65ee2975efc"
+  }
+}
