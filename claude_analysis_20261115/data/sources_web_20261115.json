@@ -1,0 +1,18 @@
+{"retrieved": "2026-11-15/16 via web search (snippets read; figures as stated by the sources)",
+"MU_fq4_fy2026": {
+  "facts": {"fq4_revenue_usd_b": 54.23, "fq4_revenue_yoy": 3.79, "fq4_gaap_gross_margin": 0.868, "fq4_gross_margin_year_ago": 0.447,
+            "fq4_nongaap_gross_margin": 0.87, "fy2026_revenue_usd_b": 133.19, "fy2026_net_income_usd_b": 84.969, "fy2025_revenue_usd_b": 37.38,
+            "fq1_fy2027_guide_revenue_usd_b": 61.5, "fq1_fy2027_guide_nongaap_gross_margin": 0.8625,
+            "management": "FQ1 FY2027 expected to be the gross-margin low point of FY2027; most of calendar-2027 HBM bit supply contracted at significantly higher prices; supply constraints expected through FY2027-2028"},
+  "urls": ["https://www.marketbeat.com/instant-alerts/transcript-micron-technology-q4-earnings-call-highlights-2026-09-30/",
+           "https://www.blocksandfiles.com/flash/2026/10/01/memory-gold-rush-bonanza-makes-billions-for-micron/5300445",
+           "https://beancount.io/blog/2026/10/02/micron-fy2026-q4-earnings-analysis",
+           "https://pulse2.com/micron-reports-record-fiscal-q4-revenue-of-54-23-billion-and-fy2026-revenue-of-133-19-billion/amp/"]},
+"NVDA_context": {
+  "facts": {"q3_fy27_guide_revenue_usd_b": 108, "q3_fy27_guide_band": 0.02, "q3_fy27_gm_low_end": 0.735, "q4_fy27_gm_trough_range": [0.71, 0.72],
+            "options_implied_move": 0.106, "q3_report": "2026-11-17 ~16:20 ET, call 17:00 ET",
+            "q3_fy27_guidance_excludes_china_dc_compute": true},
+  "urls": ["https://www.marketpulse.com/markets/nvidia-nvda-q3-earnings-preview-ai-spending-risks-and-governance-concerns-threaten-major-uptrend/",
+           "https://www.trefis.com/stock/nvda/articles/616804/what-could-stop-nvidia-stock-over-the-next-six-months/2026-09-27",
+           "https://www.trefis.com/data/companies/NVDA?from=NOK-2026-05-26",
+           "https://nvidianews.nvidia.com/news/nvidia-sets-conference-call-for-third-quarter-financial-results-6928873"]}}

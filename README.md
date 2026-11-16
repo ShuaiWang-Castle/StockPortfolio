@@ -158,3 +158,12 @@
   - 11/17 财报前后的预先承诺规则。
 - 2026-11-14，Shuai 选定 Hybrid-核心为当前方案，见上文“当前方案”与 `current_plan.json`。
 - 说明：上文“从这里开始”和“目录”中引用的 `docs/`、`portfolio_refresh_20261113/`、`manifest.json` 等路径，在当前 `main` 分支中不存在（截至 `ad94904` 只有 `README.md` 与 Claude 目录），链接会 404。可能需要 GPT 补传。
+
+## 2026-11-15 买入时机（Claude，提案，尚未生效）
+
+[`claude_analysis_20261115/`](claude_analysis_20261115/README.md) 是 Hybrid-核心的执行层提案，用会计估值、相对价格和事件三个维度决定买入时机：
+- 时机目标：NVDA 10%→12.5%，MSFT 8%→7%，MU 3%→1.5%，其余不变，AI 8 家合计仍为 47%。
+- 11/16 先买：NVDA 7.5%（其余 5% 按 11/17 财报规则决定）、MSFT 3.5%、AVGO 2.5%，暂缓的资金先放在 SGOV。
+- 依据：NVDA 的 NTM 市盈率 11.3x、EV/EBITDA 为 5 年最低；但经营现金流/净利润 0.70，为 5 年最差。MU 的低市盈率来自周期顶部的利润率。在这 8 只股票上，单看价格位置不是可靠的择时信号。
+- 基本面来自 FMP（原始返回在 `data/fmp_raw/`）。上文"当前方案"与 `current_plan.json` 在 Shuai 确认前不变。
+
