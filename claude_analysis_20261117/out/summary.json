@@ -236,7 +236,7 @@
   },
   "inputs_sha256": {
     "claude_analysis_20261117/data/fmp_raw/NVDA_q3fy27_20261117.json": "e110e631b25c2d0326f333a6af5a087de776826c8b6ebe414d6a034845f5d47d",
-    "claude_analysis_20261117/data/sources_web_20261117.json": "54a0357142fe75c4764cb064d8ff1797331721d6c77a68e5c8c9e1708454e13f",
+    "claude_analysis_20261117/data/sources_web_20261117.json": "e6ecee7391f4fd12eab6a3d3a6884ef43fbd7b459a21b4f694c197711bdd61b8",
     "claude_analysis_20261116/data/fmp_raw/NVDA_20261116.json": "4a6b0a95a11a1a18e021a6e99425e4d73ddb0dd3a77007818e9f1932d233728b",
     "claude_analysis_20261115/data/fmp_raw/NVDA.json": "02f20f4301b9f055504155fa4488d5b449bb442e151bf91212835dc84dc1fef1",
     "claude_analysis_20261115/out/summary.json": "05a382c596b5144aafeee5d000401020f86fe67c2ae7871833f13f4546469a66",

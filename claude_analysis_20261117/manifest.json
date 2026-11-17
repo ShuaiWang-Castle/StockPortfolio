@@ -15,16 +15,16 @@
  ],
  "files": {
   "README.md": {
-   "sha256": "94744651ee6645ddc0c1cb24aa3f0adb185607d1fb39c53e03cde82d49311134",
-   "bytes": 10392
+   "sha256": "cfc0b374a5b39b64f626d3f3ecf7c764bc43a7df5eaabbae88975526fbf46e79",
+   "bytes": 10514
   },
   "data/fmp_raw/NVDA_q3fy27_20261117.json": {
    "sha256": "e110e631b25c2d0326f333a6af5a087de776826c8b6ebe414d6a034845f5d47d",
    "bytes": 12659
   },
   "data/sources_web_20261117.json": {
-   "sha256": "54a0357142fe75c4764cb064d8ff1797331721d6c77a68e5c8c9e1708454e13f",
-   "bytes": 7756
+   "sha256": "e6ecee7391f4fd12eab6a3d3a6884ef43fbd7b459a21b4f694c197711bdd61b8",
+   "bytes": 9147
   },
   "figures/f1_nvda_quality_5q.png": {
    "sha256": "bb728bc66e5518dc383bb30e01670c896d206eb9fff646d6c428df8ffe98381e",
@@ -51,7 +51,7 @@
    "bytes": 336
   },
   "out/summary.json": {
-   "sha256": "29d51afca4b8f1a723dc922c0c0271a79ffcd3a82663e462aaf1a0a28b74d215",
+   "sha256": "06a742eb4bb522328bb717ed13334d7aa2fd13dd519c796b5050cab48c47c9de",
    "bytes": 8731
   }
  }
