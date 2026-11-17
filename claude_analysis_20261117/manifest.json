@@ -1,0 +1,58 @@
+{
+ "folder": "claude_analysis_20261117",
+ "release": "NVIDIA Q3 FY27, 2026-11-17 16:20 ET; call coverage to about 17:45 ET",
+ "status": "rule check of the adopted plan: no trigger fired, weights unchanged; watch list in README section 6 is a proposal",
+ "clean_export_rerun": "byte-identical out/ and figures/ from git-archive of the input folders plus this folder (2026-11-17 ET)",
+ "inputs": {
+  "claude_analysis_20261116/data/fmp_raw/NVDA_20261116.json": "4a6b0a95a11a1a18e021a6e99425e4d73ddb0dd3a77007818e9f1932d233728b",
+  "claude_analysis_20261115/data/fmp_raw/NVDA.json": "02f20f4301b9f055504155fa4488d5b449bb442e151bf91212835dc84dc1fef1",
+  "claude_analysis_20261115/out/summary.json": "05a382c596b5144aafeee5d000401020f86fe67c2ae7871833f13f4546469a66",
+  "current_plan.json": "b8f143c0a18917a861bb3db0f929071bcfafbce86cdf1d97162af9ffd9fd6738"
+ },
+ "reproduce": [
+  "python3 -I claude_analysis_20261117/nvda_q3fy27_check.py .",
+  "python3 -I claude_analysis_20261117/make_figures_20261117.py ."
+ ],
+ "files": {
+  "README.md": {
+   "sha256": "94744651ee6645ddc0c1cb24aa3f0adb185607d1fb39c53e03cde82d49311134",
+   "bytes": 10392
+  },
+  "data/fmp_raw/NVDA_q3fy27_20261117.json": {
+   "sha256": "e110e631b25c2d0326f333a6af5a087de776826c8b6ebe414d6a034845f5d47d",
+   "bytes": 12659
+  },
+  "data/sources_web_20261117.json": {
+   "sha256": "54a0357142fe75c4764cb064d8ff1797331721d6c77a68e5c8c9e1708454e13f",
+   "bytes": 7756
+  },
+  "figures/f1_nvda_quality_5q.png": {
+   "sha256": "bb728bc66e5518dc383bb30e01670c896d206eb9fff646d6c428df8ffe98381e",
+   "bytes": 198817
+  },
+  "make_figures_20261117.py": {
+   "sha256": "df818a3e03bc6d16c770b89cdf563f7859ae39bd8216d55712c534093e761a52",
+   "bytes": 3358
+  },
+  "nvda_q3fy27_check.py": {
+   "sha256": "450f96074dac33d976599c15a2e9db8ff5bdde1eb2f47dd37e0ba54be95a4bb1",
+   "bytes": 12274
+  },
+  "out/decision_gate.json": {
+   "sha256": "6f1a6da143d708b1618d6a494af65c927b95d9e75482817677560c91086613c5",
+   "bytes": 1475
+  },
+  "out/nvda_quarterly_quality.csv": {
+   "sha256": "11b7959e4d380681a3dca1fb0692f2d41e214f64dc885deae69b482b19c6b647",
+   "bytes": 1525
+  },
+  "out/nvda_valuation_post_q3.csv": {
+   "sha256": "f1a04638bc9ff44a8c98df241075d271d04fdfeb166a6c5071a7924075ae6348",
+   "bytes": 336
+  },
+  "out/summary.json": {
+   "sha256": "29d51afca4b8f1a723dc922c0c0271a79ffcd3a82663e462aaf1a0a28b74d215",
+   "bytes": 8731
+  }
+ }
+}

@@ -1,0 +1,39 @@
+{
+  "gate": [
+    {
+      "trigger": "Q3 revenue < $105.8B",
+      "observed": "$115.8B",
+      "fired": false,
+      "margin": "+$10.0B above the floor"
+    },
+    {
+      "trigger": "Q4 gross-margin guide < 71%",
+      "observed": "71.0%-72.0% (mid 71.5%)",
+      "fired": false,
+      "margin": "low end exactly at the floor; mid +0.5pp; the dip to 71-72% was pre-announced in August"
+    },
+    {
+      "trigger": "FY28 growth framework withdrawn or cut",
+      "observed": "raised: about 75% from a higher FY27 base (was about 70%)",
+      "fired": false,
+      "margin": "raised, not cut"
+    },
+    {
+      "trigger": "new US export restriction specifically on NVIDIA data-center sales",
+      "observed": "none announced; Q4 guide again assumes no China data-center compute revenue; Senate Banking hearing requested for 12/03 (a hearing, not a restriction)",
+      "fired": false,
+      "margin": "watch: 12/03 and 12/10 hearings"
+    },
+    {
+      "trigger": "CEO search with roadmap or customer-commitment changes",
+      "observed": "interim CEO says roadmap on track; Vera Rubin NVL72 shipped; board will not reinstate Huang; supply commitments $279B -> $390B, cloud/lease $74B -> $102B",
+      "fired": false,
+      "margin": "no roadmap or customer change disclosed"
+    }
+  ],
+  "decision": {
+    "fired": [],
+    "outcome": "hold NVDA at 12.5% until the 2026-12-31 review",
+    "rule_source": "current_plan.json: decision_rules_nvda_q3fy27_2026_11_17"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "retrieved": "2026-11-17 17:15-17:45 ET via WebSearch/WebFetch (release at 16:20 ET; call at 17:00 ET still in progress for part of the window)",
+  "note": "Facts paraphrased; numbers that enter the script are under used_in_script.",
+  "q3_fy27_release": [
+    {"claim": "Q3 FY27 (ended 2026-10-25) revenue $115.8B, +20% q/q, +103% y/y; Data Center $107.6B (+21% q/q, +110% y/y); Edge Computing $8.2B; GAAP / non-GAAP gross margin 74.8% / 74.9%; GAAP / non-GAAP diluted EPS $2.70 / $2.68; GAAP other income $1,497M (Q2: $7,773M)",
+     "source": "NVIDIA press release (8-K exhibit 99.1), 2026-11-17", "url": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000088/q3fy27pr.htm"},
+    {"claim": "Q4 FY27 outlook (14-week quarter): revenue $130.0B +/-3%, no Data Center compute revenue from China assumed; GAAP and non-GAAP gross margin 71.0%-72.0%; GAAP opex about $11.0B (non-GAAP $10.7B); FY27 tax rate 16%-18%",
+     "source": "NVIDIA press release via GlobeNewswire", "url": "https://www.globenewswire.com/news-release/2026/11/17/3405200/0/en/nvidia-announces-financial-results-for-third-quarter-fiscal-2027.html"},
+    {"claim": "Kress (interim CEO): Vera Rubin off to an explosive start, roadmap on track; Vera Rubin NVL72 has shipped; forward-looking statements cite the leadership transition, the CEO search and the independent board committee investigation",
+     "source": "NVIDIA press release", "url": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000088/q3fy27pr.htm"},
+    {"claim": "Returned $28.1B in Q3 (repurchases $22,122M, dividends $6,026M); board added $150B to the buyback authorization in September 2026, $227.3B remaining; next dividend $0.25 per share",
+     "source": "NVIDIA press release via GlobeNewswire", "url": "https://www.globenewswire.com/news-release/2026/11/17/3405200/0/en/nvidia-announces-financial-results-for-third-quarter-fiscal-2027.html"}
+  ],
+  "cfo_commentary_8k": [
+    {"claim": "Accounts receivable $81.0B; DSO 64 days vs 60 last quarter, attributed to Rubin shipment linearity and extended terms on large multi-quarter agreements; inventory $39.7B vs $31.6B to support the Rubin ramp; gross margin up y/y on Blackwell Ultra mix, down slightly q/q on the initial Rubin ramp",
+     "source": "NVIDIA 8-K / CFO commentary summarized by Stock Titan", "url": "https://www.stocktitan.net/sec-filings/NVDA/8-k-nvidia-corp-reports-material-event-1b8846aa7232.html"},
+    {"claim": "Supply commitments $390B vs $279B last quarter, mainly multi-year memory procurement; schedule $69B rest of FY27, $203B FY28, $92B FY29, $24B FY30+; cloud service agreements $28B plus data-center leases not yet commenced $74B = $102B (vs $74B); separate $32B neocloud agreements contingent on partner financing and acceptance",
+     "source": "NVIDIA 8-K / CFO commentary summarized by Stock Titan", "url": "https://www.stocktitan.net/sec-filings/NVDA/8-k-nvidia-corp-reports-material-event-1b8846aa7232.html"},
+    {"claim": "Maximum gross guarantee exposure $118.0B at 2026-10-25: SB Energy credit support $105.0B (about 4.25 GW at PORTS-Pike, Ohio, 20-year leases to OpenAI), power and systems $9.5B, neocloud land/power/shell $3.5B; each takes effect only when its building is completed and ready for service, first expected in FY2029; exposure declines over each 20-year lease; no payments to date",
+     "source": "NVIDIA 8-K / CFO commentary summarized by Stock Titan", "url": "https://www.stocktitan.net/sec-filings/NVDA/8-k-nvidia-corp-reports-material-event-1b8846aa7232.html"},
+    {"claim": "The SB Energy residual value guarantees capped at $105B were first disclosed in an 8-K on 2026-08-17, with a $1.5B investment in SB Energy",
+     "source": "Unite.AI; Data Center Knowledge; The Energy Mag", "url": "https://www.unite.ai/nvidia-guarantees-up-to-105b-for-8-gw-ohio-ai-campus-leased-by-openai/"}
+  ],
+  "call_and_board_2026_11_17": [
+    {"claim": "On the call Kress said NVIDIA is raising its fiscal 2028 outlook to about 75% revenue growth from a higher fiscal 2027 base, versus about 70% before",
+     "source": "Yahoo Finance live blog (Daniel Howley); TheStreet live blog", "url": "https://finance.yahoo.com/technology/live/nvidia-earnings-live-nvidia-to-report-q3-results-after-the-bell-with-colette-kress-to-host-first-call-as-interim-ceo-202616349.html"},
+    {"claim": "The board unanimously accepted Huang's resignation and does not intend to reinstate him as CEO",
+     "source": "Yahoo Finance live blog", "url": "https://finance.yahoo.com/technology/live/nvidia-earnings-live-nvidia-to-report-q3-results-after-the-bell-with-colette-kress-to-host-first-call-as-interim-ceo-202616349.html"},
+    {"claim": "Shares rose about 3% in extended trading as of 4:51 pm ET (CNBC)",
+     "source": "MLQ.ai results page (search snippet; page fetch failed)", "url": "https://mlq.ai/news/nvidia-results-live-revenue-rises-103-to-1158-billion-and-it-guides-to-130-billion-in-its-first-report-since-jensen-huang-left/"},
+    {"claim": "Pre-earnings LSEG consensus: revenue $109.1B, EPS $2.47; shares had fallen six straight weeks, the longest streak since 2012",
+     "source": "CNBC 2026-11-16", "url": "https://www.cnbc.com/2026/11/16/nvidia-earnings-jensen-huang-resignation.html"},
+    {"claim": "August Q2 call: FY28 revenue growth about 70% (supply-constrained); Q4 gross margin expected to decline to 71%-72% on memory costs before stabilizing in FY28",
+     "source": "Yahoo Finance Q2 call highlights", "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-q2-earnings-call-highlights-230417656.html"}
+  ],
+  "huang_comeback_reports_for_errata": [
+    {"claim": "FT (2026-11-15, via Reuters): Huang is considering a comeback as CEO and has discussed returning with confidants; an ally is assembling a 'war room' of Silicon Valley executives to lobby the board",
+     "source": "Reuters via Yahoo Finance / US News", "url": "https://www.usnews.com/news/top-news/articles/2026-11-15/jensen-huang-discusses-comeback-as-nvidia-ceo-with-allies-ft-reports"},
+    {"claim": "Altimeter Capital and Atreides Management urged the board to consider all leadership options, including a Huang return",
+     "source": "CNBC 2026-11-16", "url": "https://www.cnbc.com/2026/11/16/nvidia-jensen-huang-return-tech.html"},
+    {"claim": "FT earlier reported the board approached Arm CEO Rene Haas about the role",
+     "source": "RTE", "url": "https://www.rte.ie/news/business/2026/1116/1599339-jensen-huang-nvidia/"}
+  ],
+  "export_and_congress": [
+    {"claim": "Senate Banking chair's 2026-11-12 letter asked Huang to testify at a public hearing on 2026-12-03 and Commerce Secretary Lutnick on 2026-12-10, citing export-control jurisdiction; the board said it has no reason to believe national security or company secrets were compromised",
+     "source": "Decrypt", "url": "https://decrypt.co/383211/congress-summons-ex-nvidia-ceo-jensen-huang-lutnick-over-chip-exports-to-china"}
+  ],
+  "used_in_script": {
+    "rule_revenue_floor_B": 105.8,
+    "rule_q4_gm_floor_pct": 71.0,
+    "q4_revenue_guide_mid_B": 130.0,
+    "q4_gm_guide_low_pct": 71.0,
+    "q4_gm_guide_high_pct": 72.0,
+    "q4_gaap_opex_B": 11.0,
+    "fy27_tax_rate_mid": 0.17,
+    "fy28_growth_prior": 0.70,
+    "fy28_growth_new": 0.75,
+    "guarantee_max_gross_B": 118.0,
+    "guarantee_sb_energy_B": 105.0,
+    "supply_commitments_B": 390.0,
+    "supply_commitments_prior_B": 279.0,
+    "supply_commitments_fy28_B": 203.0,
+    "cloud_and_lease_commitments_B": 102.0,
+    "cloud_and_lease_commitments_prior_B": 74.0,
+    "neocloud_contingent_B": 32.0,
+    "dso_reported_days": 64,
+    "dso_reported_prior_days": 60,
+    "repurchases_q3_B": 22.122,
+    "dividends_q3_B": 6.026,
+    "company_fcf_q3_B": 43.777
+  }
+}
