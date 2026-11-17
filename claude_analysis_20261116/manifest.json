@@ -19,9 +19,13 @@
   "python3 -I claude_analysis_20261116/make_figures_20261116.py ."
  ],
  "files": {
+  "ERRATA_20261117.md": {
+   "sha256": "5c0ce80291e35a9e7bca0c7e23a119fd69ce70c7b894d82da2b5408ea57b5f06",
+   "bytes": 1864
+  },
   "README.md": {
-   "sha256": "1df4fbadbac5f4c8804db88d75eb9d551ca65638807d21cf307b917f695bc210",
-   "bytes": 15298
+   "sha256": "4e45803515500a5ce8d3c1504a749107e5fdef60d805b49586cc6448f3ba44cb",
+   "bytes": 16050
   },
   "data/fmp_raw/GOOGL_20261116.json": {
    "sha256": "f2ff439cd1fc5398a798e35f719cedebafd6964256cecfb4eddb200045368df8",
@@ -79,5 +83,6 @@
    "sha256": "27ee4ff41cea260560f4a858c616f844ed1d23f60e4ab7bf48a6717e255264a2",
    "bytes": 19263
   }
- }
+ },
+ "errata": "ERRATA_20261117.md (2026-11-17): Huang comeback reporting; README sections 0.1 and 1 corrected; outputs unchanged"
 }
