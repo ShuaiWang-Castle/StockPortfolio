@@ -1,0 +1,15 @@
+{
+  "fetched_utc": "2026-11-17T03:5x (after the 2026-11-16 close)",
+  "source": "Financial Modeling Prep via MCP (mcp__FMP__quote, endpoint=quote, one symbol per call), responses pasted verbatim",
+  "denied": {
+    "AVGO": "ACCESS DENIED (plan tier) -- 11/13 close kept",
+    "MU": "ACCESS DENIED (plan tier) -- 11/13 close kept",
+    "batch TSM,AVGO,META,AMZN,MU": "ACCESS DENIED (plan tier)"
+  },
+  "NVDA": [{"symbol":"NVDA","name":"NVIDIA Corporation","price":156.14,"changePercentage":-4.12036,"change":-6.71,"volume":329959344,"dayLow":155.01,"dayHigh":163,"yearHigh":243.37,"yearLow":148.8,"marketCap":3762974000000,"priceAvg50":214.6472,"priceAvg200":204.1908,"exchange":"NASDAQ","open":159.0025,"previousClose":162.85,"timestamp":1794862801}],
+  "MSFT": [{"symbol":"MSFT","name":"Microsoft Corporation","price":517.99,"changePercentage":-1.1243,"change":-5.89,"volume":29564193,"dayLow":516.85,"dayHigh":527.95,"yearHigh":559.15,"yearLow":349.2,"marketCap":3846692158100,"priceAvg50":518.9972,"priceAvg200":441.4194,"exchange":"NASDAQ","open":525.09,"previousClose":523.88,"timestamp":1794862801}],
+  "GOOGL": [{"symbol":"GOOGL","name":"Alphabet Inc.","price":283.72,"changePercentage":-4.07411,"change":-12.05,"volume":34077805,"dayLow":282.97,"dayHigh":294.13,"yearHigh":408.61,"yearLow":272.11,"marketCap":3450678503607.0005,"priceAvg50":328.1858,"priceAvg200":338.48035,"exchange":"NASDAQ","open":293.81,"previousClose":295.77,"timestamp":1794862801}],
+  "TSM": [{"symbol":"TSM","name":"Taiwan Semiconductor Manufacturing Company Limited","price":373.45,"changePercentage":-6.34013,"change":-25.28,"volume":19424679,"dayLow":372.46,"dayHigh":385.469,"yearHigh":487.47,"yearLow":266.82,"marketCap":1936890956000,"priceAvg50":430.1094,"priceAvg200":403.05206,"exchange":"NYSE","open":379.59,"previousClose":398.73,"timestamp":1794862802}],
+  "META": [{"symbol":"META","name":"Meta Platforms, Inc.","price":626.41,"changePercentage":-2.38121,"change":-15.28,"volume":11508404,"dayLow":620.14,"dayHigh":640.7,"yearHigh":779.82,"yearLow":520.26,"marketCap":1601255071390,"priceAvg50":679.8062,"priceAvg200":630.7674,"exchange":"NASDAQ","open":640.39,"previousClose":641.69,"timestamp":1794862801}],
+  "AMZN": [{"symbol":"AMZN","name":"Amazon.com, Inc.","price":257.75,"changePercentage":-3.34133,"change":-8.91,"volume":47704999,"dayLow":256.68,"dayHigh":262.92,"yearHigh":287.2,"yearLow":196,"marketCap":2787076525000,"priceAvg50":254.8116,"priceAvg200":244.5955,"exchange":"NASDAQ","open":262.71,"previousClose":266.66,"timestamp":1794862800}]
+}

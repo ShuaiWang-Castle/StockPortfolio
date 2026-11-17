@@ -1,0 +1,45 @@
+{
+  "retrieved": "2026-11-16/17 (ET evening of 2026-11-16) via WebSearch/WebFetch",
+  "note": "Facts used in the README, paraphrased; numbers that enter the script are listed under used_in_script.",
+  "huang_status": [
+    {"claim": "Huang resigned as President, CEO and board member effective immediately; CFO Colette Kress is Interim CEO and keeps the CFO role; Harvey C. Jones named the board's first-ever Chair; the board will search for a permanent CEO and consider internal and external candidates; the release says nothing about any future role for Huang; Q3 FY27 results still due Tue 2026-11-17 ~1:20 pm PT, call 2 pm PT",
+     "source": "NVIDIA Form 8-K exhibit 'NVIDIA Announces CEO Transition', 2026-11-12", "url": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000082/nvidiaannouncesceotransiti.htm"},
+    {"claim": "Reports of Huang 'returning' describe him returning to Santa Clara HQ meetings on Mon 2026-11-09 and Tue 2026-11-10, after his affair disclosure and before the 11/12 resignation",
+     "source": "Outlook India citing CNBC/Reuters; NewsBytes 2026-11-11; TalkEsport", "url": "https://www.outlookindia.com/international/jensen-huang-nvidia-china-intelligence-operation-board-investigation-240000-chip-shipments-alice-huang"},
+    {"claim": "WSJ (via Cointelegraph, 2026-11-11): board preparing to oust Huang; Fortune (2026-11-11): board might rein him in rather than fire him (written before the resignation)",
+     "source": "Cointelegraph; Fortune", "url": "https://cointelegraph.com/news/nvidia-preparing-to-oust-ceo-jensen-huang-reports"},
+    {"claim": "Three House committee chairs asked Huang for a closed-door briefing on 2026-11-18",
+     "source": "KeenGamer", "url": "https://www.keengamer.com/articles/news/nvidia-board-opens-investigation-into-ceo-jensen-huang-after-affair-admission/"},
+    {"claim": "No search (English or Chinese, 2026-11-16) found a credible report that Huang is planning or negotiating a return as CEO after 11/12",
+     "source": "WebSearch: 'Jensen Huang reinstated OR comeback OR return as CEO', 'Jensen Huang return Nvidia after resignation report', '黄仁勋 回归 英伟达', '\"former Nvidia CEO\" Jensen Huang'", "url": null}
+  ],
+  "nvda_q3_fy27": [
+    {"claim": "Q3 FY27 revenue guide $108B +/-2%; Q4 FY27 gross margin guided to a low of 71%-72%", "source": "Trefis 2026-11-06", "url": "https://www.trefis.com/stock/nvda/articles/623367/whats-going-to-happen-with-nvidia-stock-soon/2026-11-06"},
+    {"claim": "Consensus Q3 FY27 revenue $108.80B and EPS $2.47 (MarketBeat)", "source": "eciks.org", "url": "https://eciks.org/29651-nvidia-fiscal-2027-q3-results"}
+  ],
+  "googl_q3_2026": [
+    {"claim": "Revenue $127.6B (+25%); Google Services $96.3B (+11%); Search & other +12%; Google Cloud $30.7B (+103%)", "source": "Alphabet Q3 2026 release via Earnings Whispers", "url": "https://www.earningswhispers.com/article/GOOGL/4000000311"},
+    {"claim": "Diluted EPS $2.12 vs $2.87; Cloud operating margin 36.2% vs 23.7%; capex $51.4B; free cash flow -$9.1B", "source": "Neoteo", "url": "https://www.neoteo.com/en/alphabets-q3-2026-results-search-and-cloud-grow-free-cash-flow-is-negative"},
+    {"claim": "$8.7B net loss on equity securities in Q3 2026", "source": "Unite.AI (8-K summary)", "url": "https://www.unite.ai/?p=496727"},
+    {"claim": "Board declared dividends on Series A and Series B mandatory convertible preferred stock (October 2026)", "source": "Unite.AI (8-K summary)", "url": "https://www.unite.ai/?p=496723"},
+    {"claim": "2026 capex guide $195B-$205B maintained; management said 2027 capex will rise significantly again, details with the Q4 report", "source": "LetsDataScience", "url": "https://letsdatascience.com/blog/google-cloud-doubled-alphabet-burned-9-billion-cash"},
+    {"claim": "Shares fell about 12% the morning after the report, to $286.27, 28.9% below the $402.62 52-week high from May 2026", "source": "Barchart via Webull", "url": "https://www.webull.com/news/15832271003722752"}
+  ],
+  "googl_q3_2025_base": [
+    {"claim": "Q3 2025 operating income included a $3.5B European Commission fine; excluding it, operating income was $34.7B (+22%) and operating margin 33.9%", "source": "Alphabet Q3 2025 8-K (equibles); ppc.land", "url": "https://ppc.land/alphabet-reaches-102-3-billion-in-quarterly-revenue-milestone/"}
+  ],
+  "msft_q1_fy27": [
+    {"claim": "Revenue $92.3B (+19%); operating income $45.9B (+21%); GAAP net income $36.6B (+32%); non-GAAP net income +18%; commercial RPO +73%", "source": "LetsDataScience (earnings release summary)", "url": "https://letsdatascience.com/news/microsoft-reports-19-revenue-growth-and-48-azure-growth-in-q-bd5ee9a7"},
+    {"claim": "Azure revenue $33.17B (+48%, first dollar disclosure; prior quarter +42%); new segments Agents and Infra / Devices and Consumer; free cash flow $18.6B (-27% y/y); shares +4% after hours", "source": "SiliconANGLE; INSIDE", "url": "https://www.inside.com.tw/article/42759-microsoft-fy2027-q1-earnings-azure-48-percent-capex-free-cash-flow"},
+    {"claim": "Non-GAAP EPS $4.89 excluding OpenAI investment impacts (+18%); Microsoft Cloud $63.9B (+30%); commercial bookings -12%", "source": "Zacks", "url": "https://www.zacks.com/stock/news/3018768/microsoft-q1-earnings-beat-estimates-as-cloud-accelerates"},
+    {"claim": "Capital expenditures including finance leases $45.2B; PP&E cash capex $39.4B", "source": "Redmond; 24/7 Wall St.", "url": "https://redmondmag.com/articles/2026/10/30/microsoft-revenue-jumps-as-azure-and-ai-demand--fuel-growth.aspx"}
+  ],
+  "msft_openai_stake": [
+    {"claim": "After OpenAI's October 2025 recapitalization Microsoft holds about 27% of OpenAI Group PBC, valued at about $135B; Microsoft had invested about $13B", "source": "Thurrott; Trending Topics", "url": "https://www.thurrott.com/?p=328925"}
+  ],
+  "used_in_script": {
+    "GOOGL_Q3_2025_operating_income_ex_EC_fine_USD_B": 34.7,
+    "NVDA_report_day_options_implied_move": 0.106,
+    "statutory_tax_rate_for_nonoperating_items": 0.21
+  }
+}
