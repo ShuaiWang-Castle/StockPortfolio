@@ -1,0 +1,79 @@
+{
+  "unit": "share counts in shares, currency fields suffixed _b or _m in USD billions or millions",
+  "source": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026074944/anthropicpbc-424b4.htm",
+  "retrieved_et": "2026-11-19T15:38:00-05:00",
+  "offering": {
+    "price": 83,
+    "issuer_a": 956351354,
+    "selling_a": 23648646,
+    "placement_n": 313253007,
+    "greenshoe_a": 147000000,
+    "issuer_underwriting_usd": 536723507,
+    "other_offering_costs_b_approx": 0.069,
+    "greenshoe_incremental_underwriting_b": 0,
+    "issuer_net_with_placement_b_rounded": 104.8,
+    "legal_a": 7583103996,
+    "legal_n": 5636538278,
+    "non_economic_t_f": 2,
+    "accounting_n": 4789697318,
+    "subsidiary_public_benefit_n": 846840960
+  },
+  "incremental_to_legal_economic_shares": {
+    "option_gross": 1774342693,
+    "option_treasury_reduction_at_83": 62208882,
+    "rsus_outstanding": 1026660010,
+    "rsus_subsequent": 47041287,
+    "rollover_notes_shares": 1547676309,
+    "acquisition_a": 561963,
+    "acquisition_n": 848882,
+    "acquisition_holdback": 1590190,
+    "donation_matching_issue": 27991850,
+    "max_vested_matching": 553441297
+  },
+  "capital": {
+    "cash_short_actual_b": 131.845,
+    "cash_short_pf_adjusted_b": 232.351,
+    "cash_short_full_shoe_b_rounded": 244.6,
+    "shares_withheld_rsu": 51578975,
+    "preferred_after_ipo_b": 0,
+    "revolver_drawn_b": 0,
+    "finance_lease_b": 1.674,
+    "operating_lease_b": 2.810,
+    "remaining_convertible_fair_value_b": 109.742,
+    "partner_warrant_rights_b": 1.128,
+    "partner_financing_rights_b": 0.894
+  },
+  "financials": {
+    "quarterly_revenue_m_from_2025q1": [376,787,1382,2040,4731,11555,16956],
+    "run_rate_oct31_b_approx": 81,
+    "nine_months_revenue_m": 33242,
+    "nine_months_expenses_by_function_m": {
+      "cost_of_revenue": 4812,
+      "research_and_development": 19240,
+      "sales_and_marketing": 6619,
+      "general_and_administrative": 3831
+    },
+    "nine_months_ocf_m": 6569,
+    "nine_months_sbc_m": 3255,
+    "nine_months_capex_cash_m": 925,
+    "nine_months_prepaid_lease_equipment_m": 1955,
+    "nine_months_interest_income_m": 2359,
+    "nine_months_operating_loss_m": 1260,
+    "q3_operating_loss_m": 567,
+    "q3_compute_infrastructure_m": 9863
+  },
+  "holders": {
+    "post_placement_n_total_shares": {"AMZN":1936452353,"GOOGL":1774959745},
+    "placement_increment_shares": {"GOOGL":120481927,"NVDA":120481927,"AMD":30120481,"AVGO":12048192,"MU":12048192,"MSFT":12048192,"TSM":6024096}
+  },
+  "contractual": {
+    "commitments_b": 900.9,
+    "through_2030_b": 451.6,
+    "within_12m_after_2026_09_30_b": 70.7,
+    "conditional_or_terminable_b": 186.2,
+    "outside_fixed_schedule_estimate_b": [150,175]
+  },
+  "unlock_caps_m": {"2026-11-19":315,"2026-12-15":303,"2027-01-05":303,"2027-01-19":353,"2027-02-02":353},
+  "opening_price": 111.50,
+  "claude_comparison_price": 100.18
+}

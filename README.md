@@ -132,6 +132,7 @@
 | `claude_analysis_20261114/` | 当前方案的分析、代码、数据输出、图表与 SHA-256 清单 |
 | `gpt_review_20261113/` | GPT 对 PR #1 的独立复核（原样入库） |
 | `claude_analysis_20261113/` | Claude 11/13 版及 11/14 勘误 |
+| [Codex 11/19 独立复核](codex_review_20261119/README.md) | ANT 招股书、首次配置、MSFT 与 NVDA 规则、季度复核及 PR #4 复算 |
 | `docs/` | 当前研究、收益假设、决策记录、协作与复现说明 |
 | `portfolio_refresh_20261113/` | 最新 39 资产分析、公司与政策核查、最终配置及独立审计 |
 | `valuation_research/` | 此前财务实际值、FCFF / DCF、会计估值模型与来源缓存 |

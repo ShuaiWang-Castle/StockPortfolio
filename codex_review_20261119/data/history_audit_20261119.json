@@ -1,0 +1,309 @@
+{
+  "clean_export": {
+    "absolute_tolerance": "1E-9",
+    "environment": {
+      "architecture": "arm64",
+      "font_files": {
+        "bold": {
+          "filename": "NotoSansCJKsc-Bold.otf",
+          "sha256": "b5f0d1a190a7f9b43c310a8850630af12553df32c4c050543f9059732d9b4c0a"
+        },
+        "normal": {
+          "filename": "NotoSansCJKsc-Regular.otf",
+          "sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b"
+        }
+      },
+      "os": "Darwin",
+      "packages": {
+        "matplotlib": "3.10.6",
+        "numpy": "1.26.4",
+        "pandas": "2.3.2",
+        "scipy": "1.16.2"
+      },
+      "python": "3.11.6",
+      "release": "13.7.3"
+    },
+    "results": {
+      "claude_analysis_20261116": {
+        "rebuilt": {
+          "figures/f1_own_history_msft_googl.png": {
+            "actual_bytes": 222957,
+            "actual_sha256": "1e5a6e9d3b82a36c406068cc675234e4c63511619b83ad2b7cbfffeb0f37bd06",
+            "byte_identical": false,
+            "original_dimensions": [
+              2059,
+              964
+            ],
+            "rebuilt_dimensions": [
+              2059,
+              965
+            ]
+          },
+          "figures/f2_reallocation_options.png": {
+            "actual_bytes": 247123,
+            "actual_sha256": "55a25097547e451198acc0d21dda11c7560a55a2af6ccbe979825fe975c75361",
+            "byte_identical": false,
+            "original_dimensions": [
+              1862,
+              1010
+            ],
+            "rebuilt_dimensions": [
+              1860,
+              1010
+            ]
+          },
+          "out/accounting_ttm_3names.csv": {
+            "actual_bytes": 3177,
+            "actual_sha256": "f6e497ec4baa967c870762bd0b87c2735ff584896a5b294c4c888180ca9d3e77",
+            "byte_identical": true,
+            "max_abs_error": "0"
+          },
+          "out/cross_section_20261116.csv": {
+            "actual_bytes": 2242,
+            "actual_sha256": "8fa92b66e1ee9ef9805a14dc571d7cf6b9620c43d6002d9985a70e90f91480d3",
+            "byte_identical": true,
+            "max_abs_error": "0"
+          },
+          "out/own_history_ev_ebit.csv": {
+            "actual_bytes": 1877,
+            "actual_sha256": "7c3233dde010cabd0ec8eade223dde8e0e62c3f0b30935cfc42f3be7b1ee18d8",
+            "byte_identical": true,
+            "max_abs_error": "0"
+          },
+          "out/reallocation_options.csv": {
+            "actual_bytes": 2735,
+            "actual_sha256": "16ff0e3caee61dc7d38ff0637d0bd61e5f9124a33d3d37cb63682dd8f2fbc5be",
+            "byte_identical": false,
+            "max_abs_error": "2E-16"
+          },
+          "out/summary.json": {
+            "actual_bytes": 19258,
+            "actual_sha256": "3bb82995a719db9d1bb2c6bbae41481c9ca8305d54523601a119d23f562f107b",
+            "byte_identical": false,
+            "max_abs_error": "2E-16"
+          }
+        },
+        "static_files": 9
+      },
+      "claude_analysis_20261117": {
+        "rebuilt": {
+          "figures/f1_nvda_quality_5q.png": {
+            "actual_bytes": 201156,
+            "actual_sha256": "6aa75a5cc27040c722a278061b944e69a521798692640fd10ca8118676189114",
+            "byte_identical": false,
+            "original_dimensions": [
+              2135,
+              964
+            ],
+            "rebuilt_dimensions": [
+              2133,
+              965
+            ]
+          },
+          "out/decision_gate.json": {
+            "actual_bytes": 1475,
+            "actual_sha256": "6f1a6da143d708b1618d6a494af65c927b95d9e75482817677560c91086613c5",
+            "byte_identical": true,
+            "max_abs_error": "0"
+          },
+          "out/nvda_quarterly_quality.csv": {
+            "actual_bytes": 1525,
+            "actual_sha256": "11b7959e4d380681a3dca1fb0692f2d41e214f64dc885deae69b482b19c6b647",
+            "byte_identical": true,
+            "max_abs_error": "0"
+          },
+          "out/nvda_valuation_post_q3.csv": {
+            "actual_bytes": 336,
+            "actual_sha256": "f1a04638bc9ff44a8c98df241075d271d04fdfeb166a6c5071a7924075ae6348",
+            "byte_identical": true,
+            "max_abs_error": "0"
+          },
+          "out/summary.json": {
+            "actual_bytes": 8731,
+            "actual_sha256": "06a742eb4bb522328bb717ed13334d7aa2fd13dd519c796b5050cab48c47c9de",
+            "byte_identical": true,
+            "max_abs_error": "0"
+          }
+        },
+        "static_files": 5
+      },
+      "claude_analysis_20261119": {
+        "rebuilt": {
+          "figures/f1_ant_growth_and_sizing.png": {
+            "actual_bytes": 264641,
+            "actual_sha256": "fa8dd1b864d75c8c83304616e445e11417890425bad22b754eae8ed6f520c17a",
+            "byte_identical": false,
+            "original_dimensions": [
+              2110,
+              994
+            ],
+            "rebuilt_dimensions": [
+              2110,
+              995
+            ]
+          },
+          "out/rc_curve_new_money.csv": {
+            "actual_bytes": 8528,
+            "actual_sha256": "8181c04ccf82009173b802d5b216663f4f28e226182b0a3bc0b5f79930e88741",
+            "byte_identical": false,
+            "max_abs_error": "1.3E-16"
+          },
+          "out/reverse_dcf.csv": {
+            "actual_bytes": 727,
+            "actual_sha256": "d7114def378f7143311ee314b641ffc172e5d876e8726490da57d5b67d01ce51",
+            "byte_identical": true,
+            "max_abs_error": "0"
+          },
+          "out/sizing_base.csv": {
+            "actual_bytes": 3763,
+            "actual_sha256": "97df9d5565300934d3cc705489c02051bde3bae5bcaf42d0efa7a6700e8a3ea0",
+            "byte_identical": false,
+            "max_abs_error": "2E-16"
+          },
+          "out/sizing_sensitivity.csv": {
+            "actual_bytes": 1992,
+            "actual_sha256": "5bba047f91954a96d48db334454cf33621dfb4d87ad5e55db1bbd71d12b1af3b",
+            "byte_identical": false,
+            "max_abs_error": "2E-16"
+          },
+          "out/summary.json": {
+            "actual_bytes": 16363,
+            "actual_sha256": "c120ab6d0e4e6afaa38b72f84fe25fa73e699646ca6c51afc33efc60f4668ae4",
+            "byte_identical": false,
+            "max_abs_error": "2E-16"
+          },
+          "out/valuation_grid.csv": {
+            "actual_bytes": 1000,
+            "actual_sha256": "30c65a1f8f4f5f29d45b54c5848f17eafb0f017fcd341536d0cc564b6fbdd4bb",
+            "byte_identical": true,
+            "max_abs_error": "0"
+          }
+        },
+        "static_files": 4
+      }
+    }
+  },
+  "d5bf419b94179b6ad5f8d6be6ed794f0bfb31d64": {
+    "browser_blocks_per_copy": 4,
+    "extra_adjusted_close_references": 2,
+    "fresh_raw_present": 4,
+    "gpt_chat_file": 1,
+    "gpt_manifest_files": 68,
+    "manifests": {
+      "claude_analysis_20261113": {
+        "files_with_sha256_and_size": 39,
+        "manifest_inputs": 0,
+        "summary_inputs": 0
+      },
+      "claude_analysis_20261114": {
+        "files_with_sha256_and_size": 23,
+        "manifest_inputs": 8,
+        "summary_inputs": 8
+      },
+      "claude_analysis_20261115": {
+        "files_with_sha256_and_size": 21,
+        "manifest_inputs": 11,
+        "summary_inputs": 11
+      },
+      "claude_analysis_20261116": {
+        "files_with_sha256_and_size": 16,
+        "manifest_inputs": 8,
+        "summary_inputs": 13
+      },
+      "claude_analysis_20261117": {
+        "files_with_sha256_and_size": 10,
+        "manifest_inputs": 4,
+        "summary_inputs": 6
+      },
+      "claude_analysis_20261119": {
+        "files_with_sha256_and_size": 11,
+        "manifest_inputs": 4,
+        "summary_inputs": 5
+      }
+    },
+    "missing_browser_price_array": true,
+    "missing_import_zip": true,
+    "missing_older_csv_hashes": 3,
+    "old_raw_present": 16,
+    "plan_sources": 8,
+    "provenance_only_tickers": [
+      "AAPL",
+      "AMD",
+      "ANET",
+      "ASML",
+      "CEG",
+      "CRM",
+      "DUK",
+      "ETN",
+      "GLD",
+      "IEF",
+      "INTC",
+      "JPM",
+      "LLY",
+      "NOW",
+      "ORCL",
+      "PG",
+      "PLTR",
+      "QCOM",
+      "SBUX",
+      "SOXX",
+      "UNH",
+      "VRT",
+      "WMT"
+    ]
+  },
+  "f9c4e5481742a828f7e548d0ad0ce6c99d613247": {
+    "browser_blocks_per_copy": 4,
+    "extra_adjusted_close_references": 2,
+    "fresh_raw_present": 4,
+    "gpt_chat_file": 1,
+    "gpt_manifest_files": 68,
+    "manifests": {
+      "claude_analysis_20261113": {
+        "files_with_sha256_and_size": 39,
+        "manifest_inputs": 0,
+        "summary_inputs": 0
+      },
+      "claude_analysis_20261114": {
+        "files_with_sha256_and_size": 23,
+        "manifest_inputs": 8,
+        "summary_inputs": 8
+      },
+      "claude_analysis_20261115": {
+        "files_with_sha256_and_size": 21,
+        "manifest_inputs": 11,
+        "summary_inputs": 11
+      }
+    },
+    "missing_browser_price_array": true,
+    "missing_import_zip": true,
+    "missing_older_csv_hashes": 3,
+    "old_raw_present": 16,
+    "plan_sources": 8,
+    "provenance_only_tickers": [
+      "AAPL",
+      "AMD",
+      "ANET",
+      "ASML",
+      "CEG",
+      "CRM",
+      "DUK",
+      "ETN",
+      "GLD",
+      "IEF",
+      "INTC",
+      "JPM",
+      "LLY",
+      "NOW",
+      "ORCL",
+      "PG",
+      "PLTR",
+      "QCOM",
+      "SBUX",
+      "SOXX",
+      "UNH",
+      "VRT",
+      "WMT"
+    ]
+  }
+}

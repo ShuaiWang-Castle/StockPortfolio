@@ -1,0 +1,145 @@
+{
+  "review_subject": {
+    "main": "f9c4e5481742a828f7e548d0ad0ce6c99d613247",
+    "pr4": "d5bf419b94179b6ad5f8d6be6ed794f0bfb31d64"
+  },
+  "command": "python3 -I codex_review_20261119/review_20261119.py .",
+  "inputs_sha256": {
+    "claude_analysis_20261114/out/summary.json": "23889a56e2decbee527a4fc6bd3e45a2b75b65daa90899aba52e0b7ec1a8162d",
+    "claude_analysis_20261115/data/fmp_raw/NVDA.json": "02f20f4301b9f055504155fa4488d5b449bb442e151bf91212835dc84dc1fef1",
+    "claude_analysis_20261115/data/fmp_raw/estimates_GOOGL.json": "c8498c561eec45f89ec400573207466a46054e71f09f005a828e619c90e300a9",
+    "claude_analysis_20261115/data/fmp_raw/estimates_MSFT_AMZN_META_TSM.json": "1b347b806a5db1868237dcacc55d153f3f76af35940c0077b67d1897a17cc082",
+    "claude_analysis_20261115/out/timing_table_ai8.csv": "a0a576de48fcdca88b2711830ed1edc39535ef66beb4c10f154c4f6ad3f34fa1",
+    "codex_review_20261119/ant_valuation_20261119.py": "dff1e5bc622aba3d01ab681ebe748094d581054b4387e28724cf42f0c0364148",
+    "codex_review_20261119/data/ant_filing_inputs.json": "7ffb3efa64c05090d618c71786c1ff276104bc2b80b00b8b81f14fd6fd5bb283",
+    "codex_review_20261119/data/ant_nasdaq_quote_1535.json": "faf23741277355a573de8dbed90e9d345951d8cc339c78a11cde470722a63f08",
+    "codex_review_20261119/data/equities_pr4_fields.json": "3d598cea2f8dc37fc118a4dfe5e83eaeeb21fe743e347331c3608bec277ef4bd",
+    "codex_review_20261119/data/equities_sec_fields.json": "4ce4297ce2c27eacaec5be383c585225c1f6d16f4ca3d2ff0e1821f4e74fb946",
+    "codex_review_20261119/data/history_audit_20261119.json": "d43a8774dc82694e30d8ded935af91772bf0f7625d8ac94018bde8fb1acdbfeb",
+    "codex_review_20261119/data/sources_web_20261119.json": "3c1d5213569f70396bad8d983535715461f7743d160ca74e30853c1fd338d97d",
+    "codex_review_20261119/equities_20261119.py": "e16b1dceba91064fdd835ed83d5876088d84ae4f2179235f86af194226b05d01",
+    "codex_review_20261119/portfolio_20261119.py": "af6470337572287101690a72ecca4ba76e6d05ed428b9a0a30e0d658dad995dc",
+    "codex_review_20261119/review_20261119.py": "b598275ca92ad36581348a6c29c30f5f45bf7f2e254cb4362ee2d3e5a5857429",
+    "current_plan.json": "b8f143c0a18917a861bb3db0f929071bcfafbce86cdf1d97162af9ffd9fd6738",
+    "gpt_review_20261113/data_audit/adjusted_close.csv": "c297262a16daebfeb084de94bc5086c99ae26cc40a5e6efd16ee12d29586beae"
+  },
+  "files": {
+    "ANT.md": {
+      "sha256": "160fd529b8ccce7b6fb17fc2bfbaecf398ed52ba277918e2de8a414897e790f0",
+      "bytes": 11788
+    },
+    "AUDIT.md": {
+      "sha256": "7d8c482556145c6fbe50910666fff4617a8482cc413a9f193452f5e5839f841b",
+      "bytes": 5937
+    },
+    "EQUITIES.md": {
+      "sha256": "bd9077f31235a68af187679f0e4dc8d8522fe231c02c351a137f35dc774b7375",
+      "bytes": 16916
+    },
+    "ERRATA_20261119.md": {
+      "sha256": "5865d0d7b05ae99326b3e5394a0b571e49ad49132b9b7bcbc03c4b788bf1fab8",
+      "bytes": 2287
+    },
+    "PORTFOLIO.md": {
+      "sha256": "ea2a4b6ad96faad77c4512ecdc923bdf8576ca0377db40e812530e6cf5202b13",
+      "bytes": 9449
+    },
+    "README.md": {
+      "sha256": "77ac990bfa5838aa7228248786ad7c36748913b839c2bafbb7c5d7b5f1e71b78",
+      "bytes": 7997
+    },
+    "ant_valuation_20261119.py": {
+      "sha256": "dff1e5bc622aba3d01ab681ebe748094d581054b4387e28724cf42f0c0364148",
+      "bytes": 7717
+    },
+    "data/ant_filing_inputs.json": {
+      "sha256": "7ffb3efa64c05090d618c71786c1ff276104bc2b80b00b8b81f14fd6fd5bb283",
+      "bytes": 2898
+    },
+    "data/ant_nasdaq_quote_1535.json": {
+      "sha256": "faf23741277355a573de8dbed90e9d345951d8cc339c78a11cde470722a63f08",
+      "bytes": 803
+    },
+    "data/equities_pr4_fields.json": {
+      "sha256": "3d598cea2f8dc37fc118a4dfe5e83eaeeb21fe743e347331c3608bec277ef4bd",
+      "bytes": 10664
+    },
+    "data/equities_sec_fields.json": {
+      "sha256": "4ce4297ce2c27eacaec5be383c585225c1f6d16f4ca3d2ff0e1821f4e74fb946",
+      "bytes": 19008
+    },
+    "data/history_audit_20261119.json": {
+      "sha256": "d43a8774dc82694e30d8ded935af91772bf0f7625d8ac94018bde8fb1acdbfeb",
+      "bytes": 9286
+    },
+    "data/sources_web_20261119.json": {
+      "sha256": "3c1d5213569f70396bad8d983535715461f7743d160ca74e30853c1fd338d97d",
+      "bytes": 19171
+    },
+    "equities_20261119.py": {
+      "sha256": "e16b1dceba91064fdd835ed83d5876088d84ae4f2179235f86af194226b05d01",
+      "bytes": 9312
+    },
+    "out/ant_valuation.json": {
+      "sha256": "3b2d96e0ae83ac3d3ab5e025eee393f7b1f2a183e0ad20589c5be80eb5d23e64",
+      "bytes": 29022
+    },
+    "out/equities_accounting.csv": {
+      "sha256": "e6eb55183e86dd983b0cdca7a071d40d158e781a2930ae7f3622c477a85dd5c6",
+      "bytes": 714
+    },
+    "out/equities_checks.json": {
+      "sha256": "aa4899648accde1503310beea18586ceb4d6d47ecb813bc0c84484c32f701042",
+      "bytes": 2314
+    },
+    "out/equities_options.csv": {
+      "sha256": "b09ddfbf9190816c0d03c0b83d76b9539688dd6ab8d16dc57d46d942323f0345",
+      "bytes": 2525
+    },
+    "out/portfolio.json": {
+      "sha256": "5c5adf24a9f48a25fda3a87c722f70d377e31e299e69bf20bd893dc60a0e5790",
+      "bytes": 5860
+    },
+    "out/portfolio_scenarios.csv": {
+      "sha256": "93e0d812701fa9de476702ddbcbe2ae83e852bcbc66b78daffaeed9ed91ed185",
+      "bytes": 151784
+    },
+    "out/summary.json": {
+      "sha256": "d9d0ae4c3fa52b643179c12eb9f7a08b63020d9682eccb2b61821d1f92e621c2",
+      "bytes": 3783
+    },
+    "portfolio_20261119.py": {
+      "sha256": "af6470337572287101690a72ecca4ba76e6d05ed428b9a0a30e0d658dad995dc",
+      "bytes": 10050
+    },
+    "review_20261119.py": {
+      "sha256": "b598275ca92ad36581348a6c29c30f5f45bf7f2e254cb4362ee2d3e5a5857429",
+      "bytes": 2296
+    },
+    "verify_history_20261119.py": {
+      "sha256": "c3c5b1e8f487e0d9ad699089eef60592c11c5e0e7f846dc16ae68daa2276a889",
+      "bytes": 10795
+    }
+  },
+  "clean_export": {
+    "procedure": "git archive review tree; remove codex_review_20261119/out; run the command from export root; compare generated filenames, bytes and SHA-256.",
+    "environment": {
+      "python": "3.11.6",
+      "numpy": "1.26.4",
+      "pandas": "2.3.2",
+      "scipy": "1.16.2",
+      "os": "macOS arm64"
+    },
+    "outputs_byte_identical": 7,
+    "outputs_expected": 7,
+    "verified_outputs": [
+      "out/ant_valuation.json",
+      "out/equities_accounting.csv",
+      "out/equities_checks.json",
+      "out/equities_options.csv",
+      "out/portfolio.json",
+      "out/portfolio_scenarios.csv",
+      "out/summary.json"
+    ]
+  }
+}

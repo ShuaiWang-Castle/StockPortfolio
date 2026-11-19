@@ -1,0 +1,198 @@
+{
+  "ic_window": [
+    "2022-11-30",
+    "2026-07-31"
+  ],
+  "ic_3m_phases": [
+    {
+      "first_date": "2022-11-30",
+      "n": 15,
+      "mean": 0.22620128851454155,
+      "descriptive_t": 3.0811845181702138,
+      "overlapping_adjacent_windows": 4,
+      "max_overlap_days": 3
+    },
+    {
+      "first_date": "2022-12-30",
+      "n": 15,
+      "mean": 0.1523527628011721,
+      "descriptive_t": 1.1752349818126906,
+      "overlapping_adjacent_windows": 7,
+      "max_overlap_days": 3
+    },
+    {
+      "first_date": "2023-01-31",
+      "n": 15,
+      "mean": 0.11876400668314582,
+      "descriptive_t": 1.1327398434811204,
+      "overlapping_adjacent_windows": 7,
+      "max_overlap_days": 2
+    }
+  ],
+  "peer_risk": {
+    "NVDA": {
+      "vol": 0.4723292102929581,
+      "beta_leave_one_out": 1.1409499092607778
+    },
+    "TSM": {
+      "vol": 0.40909042674112833,
+      "beta_leave_one_out": 1.034462237144729
+    },
+    "AVGO": {
+      "vol": 0.5108932870595777,
+      "beta_leave_one_out": 1.220630029447973
+    },
+    "MU": {
+      "vol": 0.6646190948801848,
+      "beta_leave_one_out": 1.36529641302043
+    },
+    "GOOGL": {
+      "vol": 0.3109936721642949,
+      "beta_leave_one_out": 0.47281133425615024
+    },
+    "META": {
+      "vol": 0.38713005777618686,
+      "beta_leave_one_out": 0.6139099633475306
+    },
+    "MSFT": {
+      "vol": 0.26585923050691557,
+      "beta_leave_one_out": 0.40265032760478187
+    },
+    "AMZN": {
+      "vol": 0.32108563375804494,
+      "beta_leave_one_out": 0.603541092831237
+    }
+  },
+  "timing_check_1113": {
+    "NVDA": {
+      "drawdown": -0.31930278229253417,
+      "vs_ma200": -0.2014032756238554,
+      "price_band": "relative-low",
+      "value_band": "cheap"
+    },
+    "TSM": {
+      "drawdown": -0.17923009261940714,
+      "vs_ma200": -0.007318177080818833,
+      "price_band": "middle",
+      "value_band": "cheap"
+    },
+    "AVGO": {
+      "drawdown": -0.27696470285561714,
+      "vs_ma200": -0.053122081563897416,
+      "price_band": "relative-low",
+      "value_band": "expensive"
+    },
+    "MU": {
+      "drawdown": -0.3584559613321714,
+      "vs_ma200": 0.016844764914795363,
+      "price_band": "middle",
+      "value_band": "cyclical-peak"
+    },
+    "GOOGL": {
+      "drawdown": -0.2644754869331162,
+      "vs_ma200": -0.12545805392881215,
+      "price_band": "relative-low",
+      "value_band": "mid"
+    },
+    "META": {
+      "drawdown": -0.17477079144602037,
+      "vs_ma200": 0.018517316877932677,
+      "price_band": "middle",
+      "value_band": "mid"
+    },
+    "MSFT": {
+      "drawdown": -0.05743070099174996,
+      "vs_ma200": 0.18930722044171433,
+      "price_band": "relative-high",
+      "value_band": "expensive"
+    },
+    "AMZN": {
+      "drawdown": -0.061122406953993846,
+      "vs_ma200": 0.09020813361514257,
+      "price_band": "relative-high",
+      "value_band": "mid"
+    }
+  },
+  "entry": {
+    "vol": 0.1762067729162375,
+    "nvda_rc": 0.3031408854496274,
+    "nvda_weight": 0.13776367131398196,
+    "ai8_weight": 0.5292624639180497,
+    "googl_rc": 0.08650948768874489
+  },
+  "neutral": {
+    "vol": 0.17446624735973643,
+    "nvda_rc": 0.2433299615216838,
+    "nvda_weight": 0.11276367131398196,
+    "ai8_weight": 0.5292624639180495,
+    "googl_rc": 0.08785457175551152
+  },
+  "export_gate_baseline": {
+    "vol": 0.1699593472695424,
+    "nvda_rc": 0.1865792413676026,
+    "nvda_weight": 0.08776367131398195,
+    "ai8_weight": 0.5292624639180497,
+    "googl_rc": 0.10406682823134596
+  },
+  "per_issuer_after_export_gate": {
+    "VTI": 0.25,
+    "NVDA": 0.075,
+    "MSFT": 0.08068632837145874,
+    "GOOGL": 0.07904200863696442,
+    "AMZN": 0.06771775289615715,
+    "META": 0.057212358493682704,
+    "TSM": 0.04604772926692283,
+    "AVGO": 0.044994427840649845,
+    "MU": 0.019299394494164335,
+    "BRK-B": 0.11,
+    "XLV": 0.06,
+    "SGOV": 0.11
+  },
+  "erc7": {
+    "TSM": 0.12095458533845645,
+    "AVGO": 0.09988855681299688,
+    "MU": 0.08598788988328673,
+    "GOOGL": 0.18084017273928832,
+    "META": 0.14424716987365396,
+    "MSFT": 0.2137265674291746,
+    "AMZN": 0.15435505792314305
+  },
+  "ai8_factor_vol": 0.29936863787705614,
+  "vol_quarterly_old": 0.17683747585464532,
+  "vol_quarterly_neutral": 0.17614101813021563,
+  "exact_hybrid_ai_budget": 0.47050900019307784,
+  "exact_hybrid_weights": {
+    "NVDA": 0.1,
+    "VTI": 0.25,
+    "TSM": 0.04481476248251981,
+    "AVGO": 0.037009609315512934,
+    "MU": 0.03185928710936904,
+    "GOOGL": 0.06700291159637721,
+    "META": 0.05344487469056859,
+    "MSFT": 0.07918761681288192,
+    "AMZN": 0.05718993818584835,
+    "BRK-B": 0.11179639992276887,
+    "XLV": 0.05589819996138443,
+    "SGOV": 0.11179639992276887
+  },
+  "weight_for_pre_ipo_googl_rc": 0.03730121981381007,
+  "weight_for_same_portfolio_googl_rc": 0.03459048449224231,
+  "vti_seven_asof": {
+    "NVDA": 0.0510546852559278,
+    "MSFT": 0.05356116318265293,
+    "GOOGL": 0.04247548297779935,
+    "AMZN": 0.03561709485833294,
+    "AVGO": 0.022917922563289755,
+    "META": 0.0196313286366791,
+    "MU": 0.011792178197516462
+  },
+  "indirect_extra_if_amzn_converts_no_cap": 0.0038331730679171906,
+  "inputs_sha256": {
+    "gpt_review_20261113/data_audit/adjusted_close.csv": "c297262a16daebfeb084de94bc5086c99ae26cc40a5e6efd16ee12d29586beae",
+    "current_plan.json": "b8f143c0a18917a861bb3db0f929071bcfafbce86cdf1d97162af9ffd9fd6738",
+    "codex_review_20261119/data/sources_web_20261119.json": "3c1d5213569f70396bad8d983535715461f7743d160ca74e30853c1fd338d97d",
+    "codex_review_20261119/data/ant_filing_inputs.json": "7ffb3efa64c05090d618c71786c1ff276104bc2b80b00b8b81f14fd6fd5bb283",
+    "codex_review_20261119/data/ant_nasdaq_quote_1535.json": "faf23741277355a573de8dbed90e9d345951d8cc339c78a11cde470722a63f08",
+    "claude_analysis_20261115/out/timing_table_ai8.csv": "a0a576de48fcdca88b2711830ed1edc39535ef66beb4c10f154c4f6ad3f34fa1"
+  }
+}

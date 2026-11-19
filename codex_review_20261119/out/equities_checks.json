@@ -1,0 +1,45 @@
+{
+  "inputs_sha256": {
+    "claude_analysis_20261114/out/summary.json": "23889a56e2decbee527a4fc6bd3e45a2b75b65daa90899aba52e0b7ec1a8162d",
+    "claude_analysis_20261115/data/fmp_raw/NVDA.json": "02f20f4301b9f055504155fa4488d5b449bb442e151bf91212835dc84dc1fef1",
+    "claude_analysis_20261115/data/fmp_raw/estimates_GOOGL.json": "c8498c561eec45f89ec400573207466a46054e71f09f005a828e619c90e300a9",
+    "claude_analysis_20261115/data/fmp_raw/estimates_MSFT_AMZN_META_TSM.json": "1b347b806a5db1868237dcacc55d153f3f76af35940c0077b67d1897a17cc082",
+    "codex_review_20261119/data/equities_pr4_fields.json": "3d598cea2f8dc37fc118a4dfe5e83eaeeb21fe743e347331c3608bec277ef4bd",
+    "codex_review_20261119/data/equities_sec_fields.json": "4ce4297ce2c27eacaec5be383c585225c1f6d16f4ca3d2ff0e1821f4e74fb946",
+    "codex_review_20261119/data/sources_web_20261119.json": "3c1d5213569f70396bad8d983535715461f7743d160ca74e30853c1fd338d97d",
+    "current_plan.json": "b8f143c0a18917a861bb3db0f929071bcfafbce86cdf1d97162af9ffd9fd6738",
+    "gpt_review_20261113/data_audit/adjusted_close.csv": "c297262a16daebfeb084de94bc5086c99ae26cc40a5e6efd16ee12d29586beae"
+  },
+  "largest_difference_six_options": 2.842170943040401e-14,
+  "nvda": {
+    "fy1_weight_1117": 0.2054794520547945,
+    "guarantees_to_cash_and_debt_securities": 2.2051128718792046,
+    "guarantees_to_cash_debt_and_equity_securities": 1.207395810950466,
+    "last_day_FY27": "2027-01-31",
+    "pe_at_155_46_fy28_eps_consensus_pre": 10.74013509289661,
+    "pe_at_155_46_fy28_eps_scaled": 10.151526569815502,
+    "q2_DSO_91": 59.63738684902464,
+    "q2_ar_qoq": 0.5489805944485384,
+    "q2_sales_qoq": 0.17896220057587464,
+    "q3_DSO_91": 63.654595835779155,
+    "q3_ar_qoq": 0.2850346500895986,
+    "q3_sales_qoq": 0.20393677055944126
+  },
+  "openai_sensitivities": [
+    {
+      "hypothetical_stake_B": 204.48,
+      "multiple_high": 22.42004251521224,
+      "multiple_low": 22.34405793272914,
+      "restricted_addback_multiple": 0.07721014026508816,
+      "value_proxy": "march_post_money_B"
+    },
+    {
+      "hypothetical_stake_B": 300.0,
+      "multiple_high": 21.834716118535955,
+      "multiple_low": 21.758731536052853,
+      "restricted_addback_multiple": 0.07721014026508816,
+      "value_proxy": "november_round_B"
+    }
+  ],
+  "risk_observations": 753
+}
