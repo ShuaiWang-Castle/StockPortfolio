@@ -10,13 +10,13 @@
     "claude_analysis_20261115/data/fmp_raw/estimates_GOOGL.json": "c8498c561eec45f89ec400573207466a46054e71f09f005a828e619c90e300a9",
     "claude_analysis_20261115/data/fmp_raw/estimates_MSFT_AMZN_META_TSM.json": "1b347b806a5db1868237dcacc55d153f3f76af35940c0077b67d1897a17cc082",
     "claude_analysis_20261115/out/timing_table_ai8.csv": "a0a576de48fcdca88b2711830ed1edc39535ef66beb4c10f154c4f6ad3f34fa1",
-    "codex_review_20261119/ant_valuation_20261119.py": "1b46487d2c44c0176c5906bfe66462b3da90216197a9333cce2c2bf94288b298",
-    "codex_review_20261119/data/ant_filing_inputs.json": "9551271858b17c65c4eee7db5eab4c6594f52bf7b38f3c7a4a321dc78399fb3f",
+    "codex_review_20261119/ant_valuation_20261119.py": "dff1e5bc622aba3d01ab681ebe748094d581054b4387e28724cf42f0c0364148",
+    "codex_review_20261119/data/ant_filing_inputs.json": "7ffb3efa64c05090d618c71786c1ff276104bc2b80b00b8b81f14fd6fd5bb283",
     "codex_review_20261119/data/ant_nasdaq_quote_1535.json": "faf23741277355a573de8dbed90e9d345951d8cc339c78a11cde470722a63f08",
     "codex_review_20261119/data/equities_pr4_fields.json": "3d598cea2f8dc37fc118a4dfe5e83eaeeb21fe743e347331c3608bec277ef4bd",
     "codex_review_20261119/data/equities_sec_fields.json": "4ce4297ce2c27eacaec5be383c585225c1f6d16f4ca3d2ff0e1821f4e74fb946",
     "codex_review_20261119/data/history_audit_20261119.json": "d43a8774dc82694e30d8ded935af91772bf0f7625d8ac94018bde8fb1acdbfeb",
-    "codex_review_20261119/data/sources_web_20261119.json": "f1fa67658cf2fe65d3ca44791b1553b79144868134b8d9e2c0e455906500a1a5",
+    "codex_review_20261119/data/sources_web_20261119.json": "3c1d5213569f70396bad8d983535715461f7743d160ca74e30853c1fd338d97d",
     "codex_review_20261119/equities_20261119.py": "e16b1dceba91064fdd835ed83d5876088d84ae4f2179235f86af194226b05d01",
     "codex_review_20261119/portfolio_20261119.py": "af6470337572287101690a72ecca4ba76e6d05ed428b9a0a30e0d658dad995dc",
     "codex_review_20261119/review_20261119.py": "b598275ca92ad36581348a6c29c30f5f45bf7f2e254cb4362ee2d3e5a5857429",
@@ -36,21 +36,25 @@
       "sha256": "bd9077f31235a68af187679f0e4dc8d8522fe231c02c351a137f35dc774b7375",
       "bytes": 16916
     },
+    "ERRATA_20261119.md": {
+      "sha256": "5865d0d7b05ae99326b3e5394a0b571e49ad49132b9b7bcbc03c4b788bf1fab8",
+      "bytes": 2287
+    },
     "PORTFOLIO.md": {
       "sha256": "ea2a4b6ad96faad77c4512ecdc923bdf8576ca0377db40e812530e6cf5202b13",
       "bytes": 9449
     },
     "README.md": {
-      "sha256": "da502613ce937a74e93a19260c4473c63ab3d3cf1fdb082b15c09e41798473d0",
-      "bytes": 7883
+      "sha256": "77ac990bfa5838aa7228248786ad7c36748913b839c2bafbb7c5d7b5f1e71b78",
+      "bytes": 7997
     },
     "ant_valuation_20261119.py": {
-      "sha256": "1b46487d2c44c0176c5906bfe66462b3da90216197a9333cce2c2bf94288b298",
-      "bytes": 7214
+      "sha256": "dff1e5bc622aba3d01ab681ebe748094d581054b4387e28724cf42f0c0364148",
+      "bytes": 7717
     },
     "data/ant_filing_inputs.json": {
-      "sha256": "9551271858b17c65c4eee7db5eab4c6594f52bf7b38f3c7a4a321dc78399fb3f",
-      "bytes": 2699
+      "sha256": "7ffb3efa64c05090d618c71786c1ff276104bc2b80b00b8b81f14fd6fd5bb283",
+      "bytes": 2898
     },
     "data/ant_nasdaq_quote_1535.json": {
       "sha256": "faf23741277355a573de8dbed90e9d345951d8cc339c78a11cde470722a63f08",
@@ -69,23 +73,23 @@
       "bytes": 9286
     },
     "data/sources_web_20261119.json": {
-      "sha256": "f1fa67658cf2fe65d3ca44791b1553b79144868134b8d9e2c0e455906500a1a5",
-      "bytes": 18506
+      "sha256": "3c1d5213569f70396bad8d983535715461f7743d160ca74e30853c1fd338d97d",
+      "bytes": 19171
     },
     "equities_20261119.py": {
       "sha256": "e16b1dceba91064fdd835ed83d5876088d84ae4f2179235f86af194226b05d01",
       "bytes": 9312
     },
     "out/ant_valuation.json": {
-      "sha256": "4163ce0c360cc2c737d52c881813793244db42b85a9916ef047eb2774fff5e2b",
-      "bytes": 28877
+      "sha256": "3b2d96e0ae83ac3d3ab5e025eee393f7b1f2a183e0ad20589c5be80eb5d23e64",
+      "bytes": 29022
     },
     "out/equities_accounting.csv": {
       "sha256": "e6eb55183e86dd983b0cdca7a071d40d158e781a2930ae7f3622c477a85dd5c6",
       "bytes": 714
     },
     "out/equities_checks.json": {
-      "sha256": "be2a69e1b41a5b4c2ce9eb1eb79062d434e479bd15b10f1e1091ef1d12b9be23",
+      "sha256": "aa4899648accde1503310beea18586ceb4d6d47ecb813bc0c84484c32f701042",
       "bytes": 2314
     },
     "out/equities_options.csv": {
@@ -93,7 +97,7 @@
       "bytes": 2525
     },
     "out/portfolio.json": {
-      "sha256": "eee625c25bf1126a44a8bed66877dfff08c73617ea1898adc14c9a32b555849a",
+      "sha256": "5c5adf24a9f48a25fda3a87c722f70d377e31e299e69bf20bd893dc60a0e5790",
       "bytes": 5860
     },
     "out/portfolio_scenarios.csv": {
@@ -101,7 +105,7 @@
       "bytes": 151784
     },
     "out/summary.json": {
-      "sha256": "bbf0f43d54798f9637b873528e7c225d08d82fe1477c4311e9ed34971c0b67f8",
+      "sha256": "d9d0ae4c3fa52b643179c12eb9f7a08b63020d9682eccb2b61821d1f92e621c2",
       "bytes": 3783
     },
     "portfolio_20261119.py": {

@@ -389,5 +389,16 @@
       "amzn_uncapped_additional_shares": 1547676309
     },
     "id": "ant_holders"
+  },
+  {
+    "section": "ant",
+    "claim": "2026 年前九个月收入 33,242 百万美元。按职能分列的收入成本、研发、销售与营销、一般及行政分别为 4,812、19,240、6,619、3,831 百万美元。",
+    "source": "Anthropic，最终 424B4",
+    "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026074944/anthropicpbc-424b4.htm",
+    "script_inputs": [
+      "ant_filing_inputs.json: financials.nine_months_revenue_m, financials.nine_months_expenses_by_function_m, financials.nine_months_operating_loss_m"
+    ],
+    "locator": "合并经营表及附注 8，第 F-41 页",
+    "retrieved_at": "2026-11-19T16:23:01-05:00"
   }
 ]

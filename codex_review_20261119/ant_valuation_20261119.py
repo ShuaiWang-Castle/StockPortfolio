@@ -63,6 +63,11 @@ def main():
     quarter_ann = 4 * financials["quarterly_revenue_m_from_2025q1"][-1] / 1000
     rr = financials["run_rate_oct31_b_approx"]
     assert sum(financials["quarterly_revenue_m_from_2025q1"][-3:]) == financials["nine_months_revenue_m"]
+    revenue = financials["nine_months_revenue_m"]
+    expenses = financials["nine_months_expenses_by_function_m"]
+    gross_profit = revenue - expenses["cost_of_revenue"]
+    operating_income = revenue - sum(expenses.values())
+    assert operating_income == -financials["nine_months_operating_loss_m"]
     comparison = []
     valuations = []
     for label, price in prices.items():
@@ -100,6 +105,9 @@ def main():
                "cash_short_pf_adjusted_b": capital["cash_short_pf_adjusted_b"],
                "net_issuer_proceeds_estimated_b": net_estimate, "full_shoe_pf_cash_b": full_shoe_cash_b,
                "withholding_b": capital["shares_withheld_rsu"] * offering["price"] / 1e9,
+               "nine_months_gross_profit_m": gross_profit,
+               "nine_months_gross_margin": gross_profit / revenue,
+               "nine_months_operating_margin": operating_income / revenue,
                "nine_months_ocf_minus_ppe_m": raw_fcf,
                "nine_months_after_prepaid_capex_and_sbc_m": cash_proxy,
                "nine_months_proxy_ex_gross_interest_m": cash_proxy - financials["nine_months_interest_income_m"],
