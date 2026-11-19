@@ -1,0 +1,307 @@
+[
+  {
+    "source": "Anthropic, PBC, Form 424B4 (filed 2026-11-19)",
+    "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026074944/anthropicpbc-424b4.htm",
+    "location": "Glossary, pp. 2–4 and MD&A pp. 140–141, 149",
+    "retrieved_at": "2026-11-19T16:20:00-05:00",
+    "claim": "客户分层按 TTM 组织收入。满足门槛的客户正扩大部署。交叉使用按当季平台及至少一个自家应用定义。",
+    "observed": {
+      "as_of": "2026-09-30",
+      "ttm_customer_threshold_usd": 100000,
+      "customers_strict_lower_bound": 11900,
+      "prior_year_customers_strict_lower_bound": 950,
+      "ttm_threshold_group_revenue_usd_bn_approx": 26.1,
+      "ttm_threshold_group_pct_total_approx": 74,
+      "q3_2026_dual_product_pct_strict_lower_bound": 50,
+      "q4_2025_dual_product_pct_approx": 30
+    },
+    "script_inputs": []
+  },
+  {
+    "source": "Anthropic, PBC, Form 424B4 (filed 2026-11-19)",
+    "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026074944/anthropicpbc-424b4.htm",
+    "location": "Glossary pp. 3–4 and MD&A p. 141",
+    "retrieved_at": "2026-11-19T16:20:00-05:00",
+    "claim": "以基期有至少 1 美元收入的固定客户为组，排除 Claude Pro、Max、Ultra。含流失、收缩和扩张。",
+    "observed": {
+      "base_period": "2025Q3",
+      "current_period": "2026Q3",
+      "base_minimum_revenue_usd": 1,
+      "nrr_pct_approx": 900
+    },
+    "script_inputs": []
+  },
+  {
+    "source": "Anthropic, PBC, Form 424B4 (filed 2026-11-19)",
+    "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026074944/anthropicpbc-424b4.htm",
+    "location": "Risk Factors pp. 61–62 and Note 1, p. F-22",
+    "retrieved_at": "2026-11-19T16:20:00-05:00",
+    "claim": "终端前五大客户与云市场是两种有重叠的集中度。云市场按总额确认收入，公司直接与终端买方签约并定价，向云商付费。",
+    "observed": {
+      "period": "9M2026",
+      "top_five_customer_pct_approx": 25,
+      "csp_marketplace_revenue_pct_approx": 44
+    },
+    "script_inputs": []
+  },
+  {
+    "source": "Anthropic, PBC, Form 424B4 (filed 2026-11-19)",
+    "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026074944/anthropicpbc-424b4.htm",
+    "location": "Consolidated Statements of Operations; Note 8, Supplemental Operating Expense Information, p. F-41",
+    "retrieved_at": "2026-11-19T16:20:00-05:00",
+    "claim": "公司在主营报表按性质列示费用。附注 8 将费用按职能重新分组，可直接复算九个月毛利和经营利润。",
+    "observed": {
+      "period": "9M2026",
+      "unaudited": true,
+      "usd_mn": {
+        "revenue": 33242,
+        "cost_of_revenue": 4812,
+        "research_and_development": 19240,
+        "sales_and_marketing": 6619,
+        "general_and_administrative": 3831,
+        "bartz_settlement": 0,
+        "total_operating_expenses": 34502,
+        "operating_income": -1260
+      }
+    },
+    "script_inputs": []
+  },
+  {
+    "source": "Anthropic, PBC, Form 424B4 (filed 2026-11-19)",
+    "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026074944/anthropicpbc-424b4.htm",
+    "location": "MD&A pp. 140, 142–143; Business p. 191",
+    "retrieved_at": "2026-11-19T16:20:00-05:00",
+    "claim": "短期算力成本高于多年合约，是第三季度调整后经营利润率较第二季度下滑的主要原因。提前采购与按量销售形成期限错配。",
+    "observed": {
+      "q3_2026_short_term_compute_usd_bn": 5.0,
+      "q3_2026_gaap_operating_margin_pct_rounded": -3,
+      "q2_2026_adjusted_operating_margin_pct": 19,
+      "q3_2026_adjusted_operating_margin_pct": 15,
+      "typical_procurement_lead_time_months": [
+        12,
+        18
+      ]
+    },
+    "script_inputs": []
+  },
+  {
+    "source": "Anthropic, PBC, Form 424B4 (filed 2026-11-19)",
+    "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026074944/anthropicpbc-424b4.htm",
+    "location": "MD&A pp. 178–179; Note 2, Remaining Performance Obligations, p. F-27",
+    "retrieved_at": "2026-11-19T16:20:00-05:00",
+    "claim": "RPO 限已签不可取消合约与递延收入。采购义务包括期后承诺、未开始租赁等，部分有解除权或先决条件，包含随后取得的供应安排。分别呈列两个指标。",
+    "observed": {
+      "rpo_as_of": "2026-09-30",
+      "rpo_usd_bn": 13.8,
+      "rpo_expected_in_next_12m_pct_approx": 75,
+      "purchases_and_leases_usd_bn_approx": 900.9,
+      "purchases_and_leases_due_12m_following_2026_09_30_usd_bn_approx": 70.7,
+      "terminable_or_contingent_subset_usd_bn_approx": 186.2
+    },
+    "script_inputs": []
+  },
+  {
+    "source": "Anthropic, PBC, Form 424B4 (filed 2026-11-19)",
+    "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026074944/anthropicpbc-424b4.htm",
+    "location": "The Offering, Certain Stockholders; MD&A pp. 141–142; Business, pp. 213–214",
+    "retrieved_at": "2026-11-19T16:20:00-05:00",
+    "claim": "发行及配售后 Amazon 和 Google 的非投票股权按已发行股本衡量。公司列出四个可原生训练和推理的芯片系列，并与 NVIDIA 合作优化未来硬件。",
+    "observed": {
+      "post_offering_ownership_pct_outstanding_capital_stock_rounded": {
+        "Amazon": 14.6,
+        "Google": 13.4
+      },
+      "native_chip_families": [
+        "NVIDIA GPU",
+        "AMD GPU",
+        "AWS Trainium",
+        "Google TPU"
+      ]
+    },
+    "script_inputs": []
+  },
+  {
+    "source": "OpenAI",
+    "url": "https://openai.com/index/the-work-now-within-reach/",
+    "location": "Company post dated 2026-09-08, Consumer and enterprise strengthen each other",
+    "retrieved_at": "2026-11-19T16:20:00-05:00",
+    "claim": "公司自行披露企业触达规模与消费者、企业、API 分销路径。",
+    "observed": {
+      "businesses_reached": 2500000
+    },
+    "script_inputs": []
+  },
+  {
+    "source": "OpenAI",
+    "url": "https://openai.com/index/gpt-6-for-everyone/",
+    "location": "Product release dated 2026-10-07, opening paragraph",
+    "retrieved_at": "2026-11-19T16:20:00-05:00",
+    "claim": "OpenAI 自报 ChatGPT 每周使用人数超过 12 亿。",
+    "observed": {
+      "chatgpt_weekly_users_strict_lower_bound": 1200000000
+    },
+    "script_inputs": []
+  },
+  {
+    "source": "Vanguard，2026 年第三季度 VTI factsheet，第 1–2 页",
+    "url": "https://workplace.vanguard.com/assets/corp/fund_communications/pdf_publish/us-products/fact-sheet/F0970.pdf",
+    "as_of": "2026-09-30",
+    "retrieved_at": "2026-11-19T16:20-05:00",
+    "claim": "VTI 持有 3,519 只股票。按发行人合并后的七项权重与仓库 9/30 基数一致。",
+    "observations_pct": {
+      "NVDA": 7.1,
+      "MSFT": 5.2,
+      "GOOGL": 4.9,
+      "AMZN": 3.3,
+      "AVGO": 2.3,
+      "META": 2.2,
+      "MU": 1.6
+    },
+    "model_use": "交叉核对仓库穿透计算的 9/30 起点。情景使用仓库冻结的 11/13 漂移结果。",
+    "script_inputs": []
+  },
+  {
+    "source": "仓库已采纳方案，claude_analysis_20261114/out/summary.json 中 vti_lookthrough",
+    "url": "https://github.com/ShuaiWang-Castle/StockPortfolio/blob/f9c4e5481742a828f7e548d0ad0ce6c99d613247/claude_analysis_20261114/out/summary.json",
+    "retrieved_from": "claude_analysis_20261114/out/summary.json",
+    "as_of": "2026-11-13",
+    "retrieved_at": "2026-11-19T16:20-05:00",
+    "claim": "VTI 中七家 AI 公司的估算权重合计 0.23704985567219836，其中 NVDA 估算权重为 0.0510546852559278。",
+    "model_use": "每个 VTI 出资百分点的穿透权重算自本地结果。这是股价漂移估计。",
+    "script_inputs": []
+  },
+  {
+    "source": "Vanguard，Anthropic IPO 纳入指数的规则和预估，11/11 发表",
+    "url": "https://advisors.vanguard.com/insights/article/anthropics-ipo-puts-index-rules-in-the-spotlight",
+    "as_of": "2026-11-11",
+    "retrieved_at": "2026-11-19T16:20-05:00",
+    "claim": "Vanguard 按发行前预估流通市值 500 亿至 1,050 亿美元推算，VTI 跟踪的指数预期在 IPO 后第 5 个交易日收盘后纳入 ANT，初始权重约 0.05%–0.15%。",
+    "model_use": "仅用于展示 25% VTI 可间接拥有多少 ANT。首日风险模型没有加入这个未来权重。",
+    "script_inputs": []
+  },
+  {
+    "source": "Berkshire Hathaway，9/30 Form 10-Q，Financial Condition",
+    "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526452412/brka-20260930.htm",
+    "as_of": "2026-09-30",
+    "retrieved_at": "2026-11-19T16:20-05:00",
+    "claim": "保险及其他业务 9/30 所持现金、等价物及美国短债扣除待结算采购款为 3,523 亿美元。集团也经营 BNSF 铁路和能源业务。",
+    "model_use": "文字解释，无数值进入风险模型。",
+    "script_inputs": []
+  },
+  {
+    "source": "State Street Investment Management，XLV 基金资料",
+    "url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-health-care-select-sector-spdr-etf-xlv",
+    "as_of": "2026-11-18",
+    "retrieved_at": "2026-11-19T16:20-05:00",
+    "claim": "XLV 追踪标普 500 的医疗板块，制药和生物技术分别占基金 37.28%、20.04%。",
+    "model_use": "文字解释，无数值进入风险模型。",
+    "script_inputs": []
+  },
+  {
+    "source": "iShares，SGOV 基金资料",
+    "url": "https://www.ishares.com/us/products/314116/ishares-0-3-month-treasury-bond-etf",
+    "as_of": "2026-11-18",
+    "retrieved_at": "2026-11-19T16:20-05:00",
+    "claim": "指数覆盖存续 0–3 个月的美国短债。基金 11/18 的有效久期为 0.11 年，30 日 SEC 收益率为 3.89%。",
+    "model_use": "3.89% 仅用于静态年化持有收益示例，无数值进入风险模型。",
+    "script_inputs": []
+  },
+  {
+    "source": "Microsoft，9/30 Form 10-Q，Note 1",
+    "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526436133/msft-20260930.htm",
+    "as_of": "2026-09-30",
+    "retrieved_at": "2026-11-19T16:20-05:00",
+    "claim": "微软以权益法核算的 OpenAI 投资按转换口径约占 OpenAI 的 24%。",
+    "model_use": "文字解释，无数值进入风险模型。",
+    "script_inputs": []
+  },
+  {
+    "claim": "2025 年 NVIDIA 开发者社区超过 600 万人，CUDA 应用接近 6,000 个。",
+    "source": "NVIDIA，Rubin CPX 公告",
+    "url": "https://investor.nvidia.com/news/press-release-details/2025/NVIDIA-Unveils-Rubin-CPX-A-New-Class-of-GPU-Designed-for-Massive-Context-Inference/default.aspx",
+    "retrieved_at": "2026-11-19T16:21:07-05:00",
+    "script_inputs": []
+  },
+  {
+    "claim": "FY27 Q3 公司收入 1,158 亿美元，数据中心收入 1,076 亿美元、同比增长 110%，GAAP 毛利率 74.8%。Vera Rubin NVL72 已在多家云运行。多一周的 Q4 收入指引 1,300 亿美元上下 3%，GAAP 毛利率 71% 至 72%。",
+    "source": "NVIDIA，FY27 Q3 业绩新闻稿",
+    "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Third-Quarter-Fiscal-2027/",
+    "retrieved_at": "2026-11-19T16:21:07-05:00",
+    "script_inputs": []
+  },
+  {
+    "claim": "FY27 Q3 三家直接客户的收入占比分别是 14%、11%、11%。直接客户可包括分销商、ODM、OEM 等。",
+    "source": "NVIDIA，FY27 Q3 补充财报第 7 页",
+    "url": "https://investor.nvidia.com/files/doc_financials/2027/Q327/Supplemental-Financial-Information-NVDA-2027-Q3.pdf",
+    "retrieved_at": "2026-11-19T16:21:07-05:00",
+    "script_inputs": []
+  },
+  {
+    "claim": "Claude 训练与推理原生支持 AWS Trainium、Google TPU、NVIDIA GPU 和 AMD GPU。 发行概要披露 NVIDIA 满足条件并在 IPO 交割后将按每股 83 美元认购 120,481,927 股 N 类股票，合计约 100 亿美元。",
+    "source": "Anthropic，最终 424B4，第 142 页及发行概要",
+    "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026074944/anthropicpbc-424b4.htm",
+    "retrieved_at": "2026-11-19T16:21:07-05:00",
+    "script_inputs": []
+  },
+  {
+    "claim": "Anthropic 在 4 月披露已使用超过 100 万颗 Trainium2 芯片训练和运行 Claude。",
+    "source": "Anthropic，2026 年 4 月与 Amazon 的算力公告",
+    "url": "https://www.anthropic.com/news/anthropic-amazon-compute",
+    "retrieved_at": "2026-11-19T16:21:07-05:00",
+    "script_inputs": []
+  },
+  {
+    "claim": "Broadcom 截至 2026-08-02 季度 AI 半导体收入 167 亿美元，同比增长 221%。包含定制 AI 加速器和网络。",
+    "source": "Broadcom，FY26 Q3 业绩新闻稿",
+    "url": "https://investors.broadcom.com/news-releases/news-release-details/broadcom-inc-announces-third-quarter-fiscal-year-2026-financial",
+    "retrieved_at": "2026-11-19T16:21:07-05:00",
+    "script_inputs": []
+  },
+  {
+    "section": "portfolio",
+    "claim": "两家战略持股方的公司市值采用共同的11/16收盘快照。与 ANT 的估值时点不同。",
+    "source": "FMP 报价，PR #4 固定 Git blob",
+    "url": "https://github.com/ShuaiWang-Castle/StockPortfolio/blob/d5bf419b94179b6ad5f8d6be6ed794f0bfb31d64/claude_analysis_20261116/data/fmp_raw/quotes_close_20261116.json",
+    "retrieved_at": "2026-11-19T15:38:14-05:00",
+    "numeric_inputs": {
+      "market_cap_usd": {
+        "AMZN": 2787076525000,
+        "GOOGL": 3450678503607.0005
+      }
+    },
+    "id": "market_caps",
+    "script_inputs": [
+      "numeric_inputs.market_cap_usd"
+    ]
+  },
+  {
+    "claim": "11/19 常规时段收盘为 97.17 美元，发行价 83 美元。存档的 secondaryData 标有收盘，primaryData 标为盘后。",
+    "source": "Nasdaq ANT info feed",
+    "url": "https://api.nasdaq.com/api/quote/ANT/info?assetclass=stocks",
+    "retrieved_at": "2026-11-19T16:19:35-05:00",
+    "script_inputs": [
+      "nasdaq_close.json:data.secondaryData.lastSalePrice",
+      "nasdaq_close.json:data.secondaryData.lastTradeTimestamp"
+    ]
+  },
+  {
+    "claim": "估值使用原复核从最终招股书转录的发行、稀释、季度营收及净现金数据。经营 EV 采用转股和公益股上限情景；穿透侧用两家实际持有人在发行及定向配售后无绿鞋的预计持股。",
+    "source": "Anthropic 424B4，发行概要、Capitalization、附注及 Certain Stockholders",
+    "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026074944/anthropicpbc-424b4.htm",
+    "retrieved_at": "2026-11-19T15:38:00-05:00",
+    "script_inputs": [
+      "ant_filing_inputs.json:offering.price,legal_a,legal_n",
+      "ant_filing_inputs.json:incremental_to_legal_economic_shares",
+      "ant_filing_inputs.json:capital.cash_short_pf_adjusted_b,finance_lease_b",
+      "ant_filing_inputs.json:financials.quarterly_revenue_m_from_2025q1,run_rate_oct31_b_approx",
+      "ant_filing_inputs.json:holders.post_placement_n_total_shares"
+    ]
+  },
+  {
+    "claim": "11/19 生效的规则对特定先进计算芯片、终端用途和部分境外数据中心渠道增设许可要求。",
+    "source": "Federal Register, 91 FR, Addressing Remote Access to Advanced Semiconductors",
+    "url": "https://www.federalregister.gov/documents/2026/11/19/2026-23529/addressing-remote-access-to-advanced-semiconductors",
+    "retrieved_at": "2026-11-19T15:38:00-05:00",
+    "script_inputs": []
+  }
+]
