@@ -18,6 +18,8 @@
 4. [复现说明](docs/REPRODUCIBILITY.md)：使用冻结的数据重算，而不是下载新数据覆盖旧结果。
 5. [多 agent 协作约定](docs/AGENT_COLLABORATION.md)：来源、文件责任、方案版本和复核方式。
 
+[GPT 早期原始交付归档](gpt_archive_20261113/README_IMPORT.md)收录了 11/13 组合复核与 11/9 会计估值的两个 ZIP，列有已恢复的包内路径和仍缺的原件。
+
 ## 当前方案（2026-11-15 更新：周一一次性买入 + 长期理论比例）
 
 - **长期理论比例**：Hybrid-核心（`hybrid_core_20261114`），Shuai 2026-11-14 选定，取代下方的 `conviction8`。分析见 [`claude_analysis_20261114/`](claude_analysis_20261114/README.md)。

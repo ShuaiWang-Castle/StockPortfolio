@@ -1,0 +1,96 @@
+{
+  "archives": {
+    "ai_portfolio_review_20261113_data_code.zip": {
+      "audit_model_and_price_hashes_match": 4,
+      "base_csv_hashes_match": 2,
+      "berkshire_referenced_pdfs_absent": {
+        "3rdqtr26.pdf": "1371ad3954dea03432d726186276680e701af2751c7ba10389102b2603c483c5",
+        "feb2826.pdf": "2ec3ce932ca119eb9d68904831046e111e8e969d282fb08e811f6cc7880cd91b",
+        "nov0726.pdf": "733486712614884d27dd4af2ee736039eeb648cde342b7afeaa9d87feae80224"
+      },
+      "bytes": 7200406,
+      "crc_members": 146,
+      "members_by_root": {
+        "portfolio_refresh_20261113": 145,
+        "valuation_research": 1
+      },
+      "prior_review_extended_csv_match": true,
+      "prior_review_extended_provenance_match": true,
+      "prior_review_raw_identical": [
+        "AMZN",
+        "AVGO",
+        "BRK-B",
+        "GOOGL",
+        "JNJ",
+        "KO",
+        "META",
+        "MSFT",
+        "MU",
+        "NVDA",
+        "SGOV",
+        "SPY",
+        "TSM",
+        "VTI",
+        "XLV",
+        "XOM"
+      ],
+      "raw_provenance_match": {
+        "market_data": 32,
+        "market_data_extended": 39
+      },
+      "sha256": "63e5a106b91124b1d798dcfc24082b7a595c6b3f251b4c6e07211fe4c1dad695",
+      "workbook_model_hash_match": true
+    },
+    "ai_portfolio_valuation_data_and_code.zip": {
+      "asof": "2026-11-09",
+      "bytes": 9776730,
+      "crc_members": 135,
+      "manifest_match": 133,
+      "members_by_root": {
+        "MANIFEST.json": 1,
+        "README.txt": 1,
+        "ai_expansion_analysis": 16,
+        "investment_plan_analysis": 9,
+        "market_data": 22,
+        "valuation_research": 86
+      },
+      "not_in_manifest": [
+        "MANIFEST.json",
+        "README.txt"
+      ],
+      "price_end": "2026-11-06",
+      "raw_provenance_match": {
+        "ai_expansion_analysis": 8,
+        "investment_plan_analysis": 3,
+        "market_data": 15
+      },
+      "sha256": "5961db76cdb0163c3a015254fe45a6b6f4f757b1b7841a40038d6a83ccbbce30"
+    }
+  },
+  "common_members_identical": [
+    "valuation_research/consolidated_model.json"
+  ],
+  "inputs_sha256": {
+    "gpt_archive_20261113/ai_portfolio_review_20261113_data_code.zip": "63e5a106b91124b1d798dcfc24082b7a595c6b3f251b4c6e07211fe4c1dad695",
+    "gpt_archive_20261113/ai_portfolio_valuation_data_and_code.zip": "5961db76cdb0163c3a015254fe45a6b6f4f757b1b7841a40038d6a83ccbbce30",
+    "gpt_review_20261113/MANIFEST_SHA256.json": "384606ee9ac3ce1f22b9342f7aebb1167dd543d4b1751f011c2ae45675f0544f",
+    "gpt_review_20261113/data_audit/original_16_asset_provenance.json": "ea9bdfc842c1d356b35b1bc4e478b2bc7d094670e3edbc83f938d7c10eaabe63",
+    "gpt_review_20261113/data_audit/provenance.json": "da61968aaaddce4b3d821069e1618eef13ec126a10e99da4587bb1c2d0320570",
+    "gpt_review_20261113/data_audit/raw/AMZN.json": "ba3247eff6ec77c13443eb97f11dd187cdaa5c08a25b8e5380175e21938a1a08",
+    "gpt_review_20261113/data_audit/raw/AVGO.json": "7107efeae4c96c3561f382231c65cd497cac640920446f9c6d510935e3aa7466",
+    "gpt_review_20261113/data_audit/raw/BRK-B.json": "d452a69a7c7882b29456de1050aa4c0e3aabf9e795f55a0f9bba1a87cdebf027",
+    "gpt_review_20261113/data_audit/raw/GOOGL.json": "982e31ff684798b05f67612043cc85c1d7eeba8552beddae347d2fd86d9610c4",
+    "gpt_review_20261113/data_audit/raw/JNJ.json": "b39a6b9fa97859dfd047c3cfefede857b6783f50064e89a65ca1b1277c2366f1",
+    "gpt_review_20261113/data_audit/raw/KO.json": "aedee8ea40effb78e5958fe70b140b522cc1921c1e2e86b1c5bbdf70563e1a19",
+    "gpt_review_20261113/data_audit/raw/META.json": "900f0016bd2e809ead2d89673e918f6c8a38a39f4c0ad813f59ca7e25ed1dd7c",
+    "gpt_review_20261113/data_audit/raw/MSFT.json": "52fdf61898c18046d17ed17af6d621e55ee2907e6fa850b14a5555bd270cfdd7",
+    "gpt_review_20261113/data_audit/raw/MU.json": "62554a3b4bedfdf5f6a5c772d40cae20656c14657f55cd316b13c1771336bb58",
+    "gpt_review_20261113/data_audit/raw/NVDA.json": "ce7544223410acaa73aff38d4c004a558f5964ee8b4d74c6d9101ab17cd1f48b",
+    "gpt_review_20261113/data_audit/raw/SGOV.json": "71edd2623a8e4cddaa5e57d93eba26b0f298a7ac3aa136fc1f81bac8e781bdfb",
+    "gpt_review_20261113/data_audit/raw/SPY.json": "1d8d4106bb9efeed82c09ced6ae5f92116a50cfae863214df45c27e95b53188f",
+    "gpt_review_20261113/data_audit/raw/TSM.json": "06b3d5836b6b64acf80e7eeba80a0258c842f16a10bdfaa3673faf71ab1ffe4b",
+    "gpt_review_20261113/data_audit/raw/VTI.json": "1a4080f3d0adb2023cee489cdec4a3df7df9c9c0bede35216b8cf8b2d3dab9f4",
+    "gpt_review_20261113/data_audit/raw/XLV.json": "39e023c72044ecb6e5ffb18ca5ab4381a5e78a39c76054fd1d90c35b4cfa429b",
+    "gpt_review_20261113/data_audit/raw/XOM.json": "4c4b50bed5e16f3e19e4042e09e0434983063024e7024451534df8d6d4a9f464"
+  }
+}
