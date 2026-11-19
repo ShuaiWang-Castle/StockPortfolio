@@ -1,0 +1,55 @@
+{
+  "valuation": {
+    "close": 97.17,
+    "diluted_shares_b": 18.146659601495834,
+    "diluted_cap_usd_b": 1763.3109134773501,
+    "pro_forma_net_cash_usd_b": 230.677,
+    "ev_usd_b": 1532.6339134773502,
+    "ev_over_q3_annualized": 22.59722094652852,
+    "ev_over_oct_run_rate": 18.921406339226547,
+    "required_growth_10y": 0.32326406441931754,
+    "year10_revenue_usd_b": 1116.473926975465,
+    "terminal_share": 0.7734376598618927,
+    "required_first5_if_last5_grow_15pct": 0.501499080621649
+  },
+  "risk": {
+    "baseline": {
+      "vti": 0.25,
+      "brk": 0.11,
+      "xlv": 0.06,
+      "sgov": 0.11,
+      "msft": 0.07,
+      "nvda_direct": 0.125,
+      "nvda_lookthrough": 0.13776367131398196,
+      "ai9": 0.5292624639180497,
+      "vol": 0.1762067729162375,
+      "rc_nvda": 0.3031408854496274,
+      "rc_ant": 0.0,
+      "indirect_ant_via_amzn_googl": 0.008681479702961011,
+      "ant_plus_two_holders_loss_at_minus60_usd": 36.462214752436246,
+      "ant_only_loss_at_minus60_usd": 0.0,
+      "joint_loss_usd_nvda_minus30_ant_minus60": 289.3037097593621
+    },
+    "issuer_drift_in_vti": {
+      "NVDA": 0.05105468525592781,
+      "MSFT": 0.05356116318265293,
+      "GOOGL": 0.04247548297779935,
+      "AMZN": 0.03561709485833294,
+      "AVGO": 0.022917922563289755,
+      "META": 0.0196313286366791,
+      "MU": 0.011792178197516464
+    },
+    "factor_volatility": 0.29936863787705614,
+    "assumed_ant_corr": 0.534586853351886,
+    "return_observations": 753,
+    "budget": 7000
+  },
+  "inputs_sha256": {
+    "current_plan.json": "b8f143c0a18917a861bb3db0f929071bcfafbce86cdf1d97162af9ffd9fd6738",
+    "gpt_review_20261113/data_audit/adjusted_close.csv": "c297262a16daebfeb084de94bc5086c99ae26cc40a5e6efd16ee12d29586beae",
+    "claude_analysis_20261114/out/summary.json": "23889a56e2decbee527a4fc6bd3e45a2b75b65daa90899aba52e0b7ec1a8162d",
+    "codex_analysis_20261119/data/ant_filing_inputs.json": "9551271858b17c65c4eee7db5eab4c6594f52bf7b38f3c7a4a321dc78399fb3f",
+    "codex_analysis_20261119/data/nasdaq_close.json": "949482045ff6d53d7f32771eb2c469856876d8fc870fc7168642094fc0307e92",
+    "codex_analysis_20261119/data/sources_web_20261119.json": "b404e7e1513957fad0919fe4a3a8a8b04656d85f0b6cd90094066e614dfdd9a7"
+  }
+}
