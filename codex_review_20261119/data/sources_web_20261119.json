@@ -1,0 +1,393 @@
+[
+  {
+    "section": "ant",
+    "claim": "最终报价、公司与老股公开发行、私募的逐项股数及净款、无绿鞋基准。",
+    "source": "Anthropic，最终 424B4",
+    "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026074944/anthropicpbc-424b4.htm",
+    "script_inputs": [
+      "ant_filing_inputs.json: offering"
+    ],
+    "locator": "封面、The Offering、Underwriting",
+    "retrieved_at": "2026-11-19T15:36:00-05:00"
+  },
+  {
+    "section": "ant",
+    "claim": "区分合并会计在外、法定在外、稀释。逐项列示库存股法、分期归属奖励、Amazon 转股、收购和公益承诺。",
+    "source": "Anthropic，最终 424B4",
+    "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026074944/anthropicpbc-424b4.htm",
+    "script_inputs": [
+      "ant_filing_inputs.json: incremental_to_legal_economic_shares, offering"
+    ],
+    "locator": "第 21–27、132、172–173 页",
+    "retrieved_at": "2026-11-19T15:36:00-05:00"
+  },
+  {
+    "section": "ant",
+    "claim": "9/30 实际及模拟交易后的现金和短投、RSU 代扣、剩余票据、收购或匹配涉及的不同权利；融资租赁与经营租赁分列，权益法投资未单列重大金额。",
+    "source": "Anthropic，最终 424B4",
+    "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026074944/anthropicpbc-424b4.htm",
+    "script_inputs": [
+      "ant_filing_inputs.json: capital"
+    ],
+    "locator": "Capitalization、Use of Proceeds、Note 4、5、7",
+    "retrieved_at": "2026-11-19T15:38:00-05:00"
+  },
+  {
+    "section": "ant",
+    "claim": "季度收入、算力开支、经营损益；9 月和 10 月 run-rate 与客户集中度；经营现金流、设备购置/预付与股权薪酬。",
+    "source": "Anthropic，最终 424B4",
+    "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026074944/anthropicpbc-424b4.htm",
+    "script_inputs": [
+      "ant_filing_inputs.json: financials"
+    ],
+    "locator": "季度经营表第 165 页、经营指标、财务报表",
+    "retrieved_at": "2026-11-19T15:38:00-05:00"
+  },
+  {
+    "section": "ant",
+    "claim": "战略投资者私募股数；Amazon 与 Google 的发行后预计总数，以及 Amazon 的可转权益及持股上限。",
+    "source": "Anthropic，最终 424B4",
+    "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026074944/anthropicpbc-424b4.htm",
+    "script_inputs": [
+      "ant_filing_inputs.json: holders"
+    ],
+    "locator": "The Offering、Outstanding Notes",
+    "retrieved_at": "2026-11-19T15:38:00-05:00"
+  },
+  {
+    "section": "ant",
+    "claim": "长期算力义务和未固定总额的额外安排；分批解锁是可出售股数上限，首 76 天包括 IPO 当日释放。",
+    "source": "Anthropic，最终 424B4",
+    "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026074944/anthropicpbc-424b4.htm",
+    "script_inputs": [
+      "ant_filing_inputs.json: contractual, unlock_caps_m"
+    ],
+    "locator": "第 178–179、318–319 页",
+    "retrieved_at": "2026-11-19T15:38:00-05:00"
+  },
+  {
+    "section": "ant",
+    "claim": "旧发行规模为 825M 股，按价格中点 $74 估计，资本表已被最终定价取代。",
+    "source": "Anthropic，11/17 S-1/A",
+    "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026074338/anthropicpbc-sx1ax3.htm",
+    "script_inputs": [],
+    "locator": "The Offering",
+    "retrieved_at": "2026-11-19T15:38:00-05:00"
+  },
+  {
+    "section": "ant",
+    "claim": "公司与老股东拆分，预计 11/20 有条件完成交割。",
+    "source": "Anthropic，发行人定价公告",
+    "url": "https://www.anthropic.com/news/anthropic-prices-initial-public-offering",
+    "script_inputs": [],
+    "retrieved_at": "2026-11-19T15:38:00-05:00"
+  },
+  {
+    "section": "ant",
+    "claim": "11/19 的 IPO 开盘交叉成交价为 $111.50，成交时间 11:48:24 ET。",
+    "source": "Nasdaq Trader，交易系统记录",
+    "url": "https://www.nasdaqtrader.com/Trader.aspx?id=MarketSystemStatus",
+    "script_inputs": [
+      "ant_filing_inputs.json: opening_price"
+    ],
+    "locator": "11/19 11:50:41 ET 系统公告",
+    "retrieved_at": "2026-11-19T15:37:00-05:00"
+  },
+  {
+    "section": "ant",
+    "claim": "原始 JSON 归档于 ant_nasdaq_quote_1535.json。11/19 15:35 ET 最新成交 $95.22；盘中。",
+    "source": "Nasdaq，ANT 盘中报价接口",
+    "url": "https://api.nasdaq.com/api/quote/ANT/info?assetclass=stocks",
+    "script_inputs": [
+      "ant_nasdaq_quote_1535.json: data.primaryData.lastSalePrice"
+    ],
+    "retrieved_at": "2026-11-19T15:36:02-05:00"
+  },
+  {
+    "section": "ant",
+    "claim": "为同价比较固定使用原分析中 12:12:58 ET 的 $100.18；本项仅沿用当时记录。",
+    "source": "PR #4 的 Yahoo Finance 盘中快照记录",
+    "url": "https://github.com/ShuaiWang-Castle/StockPortfolio/blob/d5bf419b94179b6ad5f8d6be6ed794f0bfb31d64/claude_analysis_20261119/data/ant_ipo_facts_20261119.json",
+    "script_inputs": [
+      "ant_filing_inputs.json: claude_comparison_price"
+    ],
+    "retrieved_at": "2026-11-19T15:37:00-05:00"
+  },
+  {
+    "section": "ant",
+    "claim": "表 18d 分开计算首日收盘价与发行价购买，区分两种 P/S 分组规则和样本量。",
+    "source": "Jay R. Ritter，University of Florida",
+    "url": "https://site.warrington.ufl.edu/ritter/files/IPO-Statistics.pdf",
+    "script_inputs": [],
+    "locator": "2026-04-07 修订的表 18d，Panel A 和 B。另见作者数据目录 https://site.warrington.ufl.edu/ritter/ipo-data/",
+    "retrieved_at": "2026-11-19T15:41:00-05:00"
+  },
+  {
+    "section": "equities",
+    "source": "Microsoft 10-Q, September 30, 2026, notes 1, 3, 4 and leases",
+    "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526436133/msft-20260930.htm",
+    "claim": "现金与短投、长期投资和租赁按公司报表拆分；OpenAI 按转换口径约占24%，当季贡献关联交易收入 $10.0B，期末关联应收 $7.2B；全部权益法投资 $12.4B，供应商协议受限投资 $12.6B。投资考虑清算顺序和分配条款。",
+    "retrieved_at": "2026-11-19T15:41:00-05:00",
+    "used_in_script": {
+      "openai_share": 0.24,
+      "restricted_investments_B": 12.6
+    },
+    "retrieval_window_ET": "2026-11-19 15:36–15:41 (timestamp denotes end of verification batch)"
+  },
+  {
+    "section": "equities",
+    "source": "Alphabet 10-Q, September 30, 2026, notes 3, 4, 6 and 7",
+    "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000084/goog-20260930.htm",
+    "claim": "公开报表分列短期与长期债券、经营与融资租赁、非上市投资和优先股账面值。",
+    "retrieved_at": "2026-11-19T15:41:00-05:00",
+    "retrieval_window_ET": "2026-11-19 15:36–15:41 (timestamp denotes end of verification batch)"
+  },
+  {
+    "section": "equities",
+    "source": "SEC XBRL companyfacts MSFT",
+    "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000789019.json",
+    "claim": "计算采用的 XBRL 行含单位、季度区间、accession 和 filed 日期，见 equities_sec_fields.json。",
+    "retrieved_at": "2026-11-19T15:41:00-05:00",
+    "retrieval_window_ET": "2026-11-19 15:36–15:41 (timestamp denotes end of verification batch)"
+  },
+  {
+    "section": "equities",
+    "source": "SEC XBRL companyfacts GOOGL",
+    "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001652044.json",
+    "claim": "计算采用的 XBRL 行含单位、季度区间、accession 和 filed 日期，见 equities_sec_fields.json。",
+    "retrieved_at": "2026-11-19T15:41:00-05:00",
+    "retrieval_window_ET": "2026-11-19 15:36–15:41 (timestamp denotes end of verification batch)"
+  },
+  {
+    "section": "equities",
+    "source": "Microsoft recapitalization announcement 2025-10-28",
+    "url": "https://blogs.microsoft.com/blog/2025/10/28/the-next-chapter-of-the-microsoft-openai-partnership/",
+    "claim": "重组时点历史标记约27%、$135B；不直接外推到2026年。",
+    "retrieved_at": "2026-11-19T15:41:00-05:00",
+    "retrieval_window_ET": "2026-11-19 15:36–15:41 (timestamp denotes end of verification batch)"
+  },
+  {
+    "section": "equities",
+    "source": "OpenAI financing announcement, March 31, 2026",
+    "url": "https://openai.com/index/accelerating-the-next-phase-ai/",
+    "claim": "3月公司融资的投后估值 $852B。分析仅作敏感性。",
+    "retrieved_at": "2026-11-19T15:41:00-05:00",
+    "used_in_script": {
+      "march_post_money_B": 852
+    },
+    "retrieval_window_ET": "2026-11-19 15:36–15:41 (timestamp denotes end of verification batch)"
+  },
+  {
+    "section": "equities",
+    "source": "Bloomberg financing report, November 6, 2026",
+    "url": "https://www.bloomberg.com/news/articles/2026-11-06/openai-completes-11-billion-portion-of-funding-at-1-25-trillion-value",
+    "claim": "11月6日报道，部分融资完成时估值 $1.25T。缺少本轮条款和新持股比例，归为二手情景。仅可见来源标题与索引摘要，未核得证券权利、投前/投后定义。",
+    "retrieved_at": "2026-11-19T15:41:00-05:00",
+    "used_in_script": {
+      "november_round_B": 1250
+    },
+    "retrieval_window_ET": "2026-11-19 15:36–15:41 (timestamp denotes end of verification batch)"
+  },
+  {
+    "section": "equities",
+    "source": "SEC submissions, NVIDIA",
+    "url": "https://data.sec.gov/submissions/CIK0001045810.json",
+    "claim": "截至检索当时，最新 10-Q 为8/26提交、7/26期末；11/17 的Q3结果由8-K提供。",
+    "retrieved_at": "2026-11-19T15:41:00-05:00",
+    "retrieval_window_ET": "2026-11-19 15:36–15:41 (timestamp denotes end of verification batch)",
+    "snapshot_sha256": "927dd8cbc011d2ff416f0827bf4591b20991564ace772684639cbafeb1a6e928",
+    "recent_forms_excerpt": [
+      {
+        "form": "8-K",
+        "reportDate": "2026-11-17",
+        "filingDate": "2026-11-17",
+        "accessionNumber": "0001045810-26-000088",
+        "primaryDocument": "nvda-20261117.htm"
+      },
+      {
+        "form": "8-K",
+        "reportDate": "2026-11-11",
+        "filingDate": "2026-11-12",
+        "accessionNumber": "0001045810-26-000082",
+        "primaryDocument": "nvda-20261111.htm"
+      },
+      {
+        "form": "8-K",
+        "reportDate": "2026-09-02",
+        "filingDate": "2026-09-03",
+        "accessionNumber": "0001045810-26-000078",
+        "primaryDocument": "nvda-20260902.htm"
+      },
+      {
+        "form": "10-Q",
+        "reportDate": "2026-07-26",
+        "filingDate": "2026-08-26",
+        "accessionNumber": "0001045810-26-000075",
+        "primaryDocument": "nvda-20260726.htm"
+      },
+      {
+        "form": "8-K",
+        "reportDate": "2026-08-26",
+        "filingDate": "2026-08-26",
+        "accessionNumber": "0001045810-26-000073",
+        "primaryDocument": "nvda-20260826.htm"
+      }
+    ]
+  },
+  {
+    "section": "equities",
+    "source": "NVIDIA Q2 FY27 10-Q, Note 1 and balance sheet",
+    "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm",
+    "claim": "财年到一月最后一个周日，FY27有53周、第四季14周。Q2收入和期末应收取10-Q，Q1见上一季10-Q。",
+    "retrieved_at": "2026-11-19T15:41:00-05:00",
+    "used_in_script": {
+      "fiscal_end": "2027-01-31",
+      "q2_rev_B": 96.221,
+      "q2_ar_B": 63.059
+    },
+    "retrieval_window_ET": "2026-11-19 15:36–15:41 (timestamp denotes end of verification batch)"
+  },
+  {
+    "section": "equities",
+    "source": "NVIDIA Q1 FY27 10-Q, statements",
+    "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000052/nvda-20260426.htm",
+    "claim": "5月20日提交的10-Q，4月26日期末。",
+    "retrieved_at": "2026-11-19T15:41:00-05:00",
+    "used_in_script": {
+      "q1_rev_B": 81.615,
+      "q1_ar_B": 40.71
+    },
+    "retrieval_window_ET": "2026-11-19 15:36–15:41 (timestamp denotes end of verification batch)"
+  },
+  {
+    "section": "equities",
+    "source": "NVIDIA 8-K, November 17, exhibits 99.1–99.3",
+    "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000088/nvda-20261117.htm",
+    "claim": "公司提交业绩新闻稿、CFO 评论和补充财表。",
+    "retrieved_at": "2026-11-19T15:41:00-05:00",
+    "retrieval_window_ET": "2026-11-19 15:36–15:41 (timestamp denotes end of verification batch)"
+  },
+  {
+    "section": "equities",
+    "source": "NVIDIA Q3 FY27 earnings release",
+    "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Third-Quarter-Fiscal-2027/default.aspx",
+    "claim": "10月25日季末，收入1158.44亿美元，期末应收810.33亿美元。列报现金、可交易债券、可交易股权各自余额；Vera Rubin NVL72 已开始出货。",
+    "retrieved_at": "2026-11-19T15:41:00-05:00",
+    "used_in_script": {
+      "q3_rev_B": 115.844,
+      "q3_ar_B": 81.033,
+      "cash_B": 29.089,
+      "marketable_debt_B": 24.423,
+      "marketable_equity_B": 44.219
+    },
+    "retrieval_window_ET": "2026-11-19 15:36–15:41 (timestamp denotes end of verification batch)"
+  },
+  {
+    "section": "equities",
+    "source": "NVIDIA Q3 FY27 CFO commentary pp. 4–6",
+    "url": "https://s201.q4cdn.com/141608511/files/doc_financials/2027/Q327/Q3FY27-CFO-Commentary.pdf",
+    "claim": "Q4毛利率指引71–72%，不计中国数据中心计算收入；Q3中国Hopper销售$2.4B。Q3总担保上限$118B、附条件neocloud协议$32B、无已支付担保款。",
+    "retrieved_at": "2026-11-19T15:41:00-05:00",
+    "used_in_script": {
+      "guarantees_B": 118,
+      "contingent_B": 32
+    },
+    "retrieval_window_ET": "2026-11-19 15:36–15:41 (timestamp denotes end of verification batch)"
+  },
+  {
+    "section": "equities",
+    "source": "NVIDIA earnings webcast, company replay",
+    "url": "https://investor.nvidia.com/events-and-presentations/events-and-presentations/event-details/2026/NVIDIA-3rd-Quarter-FY27-Financial-Results/default.aspx",
+    "claim": "11/17 17:00 ET 公司电话会索引；网页导向播放器。逐字核对用下条承载发言文本。",
+    "retrieved_at": "2026-11-19T15:41:00-05:00",
+    "retrieval_window_ET": "2026-11-19 15:36–15:41 (timestamp denotes end of verification batch)"
+  },
+  {
+    "section": "equities",
+    "source": "NVIDIA executives’ remarks transcribed by The Motley Fool, 11/17 call",
+    "url": "https://www.fool.com/earnings/call-transcripts/2026/11/18/nvidia-nvda-q3-2027-earnings-call-transcript/",
+    "claim": "Kress说明FY28收入同比约75%（旧值70%），基数上调；称已评估本周出口新规、细节仍在研究。管理层表示照常推进路线图、客户支持，对中国持牌Hopper已停运。董事长说明CEO搜寻安排。",
+    "retrieved_at": "2026-11-19T15:41:00-05:00",
+    "retrieval_window_ET": "2026-11-19 15:36–15:41 (timestamp denotes end of verification batch)"
+  },
+  {
+    "section": "equities",
+    "source": "BIS interim final rule announcement 11/16",
+    "url": "https://www.bis.gov/press-release/bis-issues-rule-addressing-remote-access-american-super-intelligence-technology",
+    "claim": "11/16公告宣布针对数据中心先进计算芯片的许可新规。",
+    "retrieved_at": "2026-11-19T15:41:00-05:00",
+    "retrieval_window_ET": "2026-11-19 15:36–15:41 (timestamp denotes end of verification batch)"
+  },
+  {
+    "section": "equities",
+    "source": "Federal Register 91 FR 74970, 2026-23529",
+    "url": "https://www.govinfo.gov/content/pkg/FR-2026-11-19/pdf/2026-23529.pdf",
+    "claim": "11/19生效；含境外算力终端用途、五个目的地、适用例外和存量运营商90日安排。",
+    "retrieved_at": "2026-11-19T15:41:00-05:00",
+    "retrieval_window_ET": "2026-11-19 15:36–15:41 (timestamp denotes end of verification batch)"
+  },
+  {
+    "section": "equities",
+    "source": "Senate Banking hearing calendar",
+    "url": "https://www.banking.senate.gov/hearings",
+    "claim": "确认邀请、最终日程和证词分别以委员会当期公告为准。",
+    "retrieved_at": "2026-11-19T15:41:00-05:00",
+    "retrieval_window_ET": "2026-11-19 15:36–15:41 (timestamp denotes end of verification batch)"
+  },
+  {
+    "section": "equities",
+    "source": "Report on Senate chair’s proposed dates (secondary)",
+    "url": "https://www.thedailybeast.com/sex-mad-ceo-dodges-public-grilling-over-spy-as-trump-meets-xi",
+    "claim": "报道所列12月3日与10日是拟邀日期，须与委员会最终议程核对。",
+    "retrieved_at": "2026-11-19T15:41:00-05:00",
+    "retrieval_window_ET": "2026-11-19 15:36–15:41 (timestamp denotes end of verification batch)"
+  },
+  {
+    "section": "portfolio",
+    "claim": "截至9月30日，VTI 的七家大型 AI 发行人权重。Alphabet 两类股按发行人合计。",
+    "source": "Vanguard F0970_092026 第2页",
+    "url": "https://workplace.vanguard.com/assets/corp/fund_communications/pdf_publish/us-products/fact-sheet/F0970.pdf",
+    "retrieved_at": "2026-11-19T15:38:14-05:00",
+    "numeric_inputs": {
+      "weights_pct": {
+        "NVDA": 7.1,
+        "MSFT": 5.2,
+        "GOOGL": 4.9,
+        "AMZN": 3.3,
+        "AVGO": 2.3,
+        "META": 2.2,
+        "MU": 1.6
+      }
+    },
+    "id": "vti"
+  },
+  {
+    "section": "portfolio",
+    "claim": "两家战略持股方的公司市值采用共同的11/16收盘快照。与 ANT 的估值时点不同。",
+    "source": "FMP 报价，PR #4 固定 Git blob",
+    "url": "https://github.com/ShuaiWang-Castle/StockPortfolio/blob/d5bf419b94179b6ad5f8d6be6ed794f0bfb31d64/claude_analysis_20261116/data/fmp_raw/quotes_close_20261116.json",
+    "retrieved_at": "2026-11-19T15:38:14-05:00",
+    "numeric_inputs": {
+      "market_cap_usd": {
+        "AMZN": 2787076525000,
+        "GOOGL": 3450678503607.0005
+      }
+    },
+    "id": "market_caps"
+  },
+  {
+    "section": "portfolio",
+    "claim": "无绿鞋、同步交易完成、亚马逊不豁免上限的持股情景。亚马逊另有或将转换的票据。Google 数字包含同步认购。",
+    "source": "Anthropic 424B4 第21–26页及主要股东表",
+    "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026074944/anthropicpbc-424b4.htm",
+    "retrieved_at": "2026-11-19T15:38:14-05:00",
+    "numeric_inputs": {
+      "shares": {
+        "AMZN": 1936452353,
+        "GOOGL": 1774959745
+      },
+      "amzn_uncapped_additional_shares": 1547676309
+    },
+    "id": "ant_holders"
+  }
+]

@@ -1,0 +1,67 @@
+{
+  "reviewed_main": "f9c4e5481742a828f7e548d0ad0ce6c99d613247",
+  "reviewed_pr4": "d5bf419b94179b6ad5f8d6be6ed794f0bfb31d64",
+  "ant_asof_et": "2026-11-19 15:35 intraday",
+  "ant_valuation": {
+    "label": "nasdaq_1535_ET",
+    "price": 95.22,
+    "diluted_shares_b": 18.14557141152174,
+    "diluted_equity_b": 1727.8213098051,
+    "operating_ev_b": 1497.1443098051,
+    "ps_ttm_accounting_basic": 33.392045267249024,
+    "ps_ttm_legal_economic": 35.677522173637556,
+    "ps_ttm_diluted": 48.97175074556715,
+    "ev_ttm": 42.43365766694349,
+    "ev_q3_annualized": 22.073960689506663,
+    "ev_run_rate": 18.48326308401358,
+    "full_greenshoe_ev_b_approx": 1498.9406498051,
+    "ev_if_partner_rights_deducted_b": 1495.1223098051
+  },
+  "ant_reverse_dcf_central": {
+    "quote": "nasdaq_1535_ET",
+    "model": "gaap_q3_annualized",
+    "initial_revenue_b": 67.824,
+    "discount": 0.11,
+    "initial_fcf_margin": 0,
+    "terminal_fcf_margin": 0.25,
+    "perpetual_growth": 0.025,
+    "implied_10y_cagr": 0.3200132431346522,
+    "year10_revenue_b": 1089.347102109682,
+    "terminal_pv_fraction": 0.7725343141990876
+  },
+  "ant_proposed_weight": {
+    "low": 0.015,
+    "central": 0.02,
+    "high": 0.025,
+    "assumed_direct_loss_fraction": 0.6,
+    "max_direct_loss_fraction_of_portfolio": 0.015
+  },
+  "entry_portfolio": {
+    "vol": 0.1762067729162375,
+    "nvda_rc": 0.3031408854496274,
+    "nvda_weight": 0.13776367131398196,
+    "ai8_weight": 0.5292624639180497,
+    "googl_rc": 0.08650948768874489
+  },
+  "six_options_largest_abs_difference": 2.842170943040401e-14,
+  "nvda_export_condition": "新许可已生效，专门针对的范围待决",
+  "inputs_sha256": {
+    "claude_analysis_20261114/out/summary.json": "23889a56e2decbee527a4fc6bd3e45a2b75b65daa90899aba52e0b7ec1a8162d",
+    "claude_analysis_20261115/data/fmp_raw/NVDA.json": "02f20f4301b9f055504155fa4488d5b449bb442e151bf91212835dc84dc1fef1",
+    "claude_analysis_20261115/data/fmp_raw/estimates_GOOGL.json": "c8498c561eec45f89ec400573207466a46054e71f09f005a828e619c90e300a9",
+    "claude_analysis_20261115/data/fmp_raw/estimates_MSFT_AMZN_META_TSM.json": "1b347b806a5db1868237dcacc55d153f3f76af35940c0077b67d1897a17cc082",
+    "claude_analysis_20261115/out/timing_table_ai8.csv": "a0a576de48fcdca88b2711830ed1edc39535ef66beb4c10f154c4f6ad3f34fa1",
+    "codex_review_20261119/ant_valuation_20261119.py": "1b46487d2c44c0176c5906bfe66462b3da90216197a9333cce2c2bf94288b298",
+    "codex_review_20261119/data/ant_filing_inputs.json": "9551271858b17c65c4eee7db5eab4c6594f52bf7b38f3c7a4a321dc78399fb3f",
+    "codex_review_20261119/data/ant_nasdaq_quote_1535.json": "faf23741277355a573de8dbed90e9d345951d8cc339c78a11cde470722a63f08",
+    "codex_review_20261119/data/equities_pr4_fields.json": "3d598cea2f8dc37fc118a4dfe5e83eaeeb21fe743e347331c3608bec277ef4bd",
+    "codex_review_20261119/data/equities_sec_fields.json": "4ce4297ce2c27eacaec5be383c585225c1f6d16f4ca3d2ff0e1821f4e74fb946",
+    "codex_review_20261119/data/history_audit_20261119.json": "d43a8774dc82694e30d8ded935af91772bf0f7625d8ac94018bde8fb1acdbfeb",
+    "codex_review_20261119/data/sources_web_20261119.json": "f1fa67658cf2fe65d3ca44791b1553b79144868134b8d9e2c0e455906500a1a5",
+    "codex_review_20261119/equities_20261119.py": "e16b1dceba91064fdd835ed83d5876088d84ae4f2179235f86af194226b05d01",
+    "codex_review_20261119/portfolio_20261119.py": "af6470337572287101690a72ecca4ba76e6d05ed428b9a0a30e0d658dad995dc",
+    "codex_review_20261119/review_20261119.py": "b598275ca92ad36581348a6c29c30f5f45bf7f2e254cb4362ee2d3e5a5857429",
+    "current_plan.json": "b8f143c0a18917a861bb3db0f929071bcfafbce86cdf1d97162af9ffd9fd6738",
+    "gpt_review_20261113/data_audit/adjusted_close.csv": "c297262a16daebfeb084de94bc5086c99ae26cc40a5e6efd16ee12d29586beae"
+  }
+}

@@ -1,0 +1,309 @@
+{
+  "ref": "d5bf419b94179b6ad5f8d6be6ed794f0bfb31d64",
+  "provenance": {
+    "claude_analysis_20261116/data/fmp_raw/quotes_close_20261116.json": "2404dadd8ebabed5737e2909f1951e4dd5a5976b0b6e1536fa7a0693dc6de1d2",
+    "claude_analysis_20261116/data/fmp_raw/MSFT_20261116.json": "df71c1a6712a5f98bf5967bcd402a578d87234670c625aaddcfd8bfaea957bdb",
+    "claude_analysis_20261116/data/fmp_raw/GOOGL_20261116.json": "f2ff439cd1fc5398a798e35f719cedebafd6964256cecfb4eddb200045368df8",
+    "claude_analysis_20261116/data/fmp_raw/NVDA_20261116.json": "4a6b0a95a11a1a18e021a6e99425e4d73ddb0dd3a77007818e9f1932d233728b",
+    "claude_analysis_20261116/out/reallocation_options.csv": "b74dc11524a7a80d434b9443a99a3746f21621e2312864ab8c785bbded2b5258",
+    "claude_analysis_20261117/out/summary.json": "06a742eb4bb522328bb717ed13334d7aa2fd13dd519c796b5050cab48c47c9de"
+  },
+  "companies": {
+    "MSFT": {
+      "quote": {
+        "price": 517.99,
+        "marketCap": 3846692158100,
+        "timestamp": 1794862801
+      },
+      "quarters": [
+        {
+          "date": "2026-09-30",
+          "incomeBeforeTax": 45953000000,
+          "operatingIncome": 45915000000,
+          "weightedAverageShsOutDil": 7446000000
+        },
+        {
+          "date": "2026-06-30",
+          "incomeBeforeTax": 44047000000,
+          "operatingIncome": 40603000000,
+          "weightedAverageShsOutDil": 7453000000
+        },
+        {
+          "date": "2026-03-31",
+          "incomeBeforeTax": 39340000000,
+          "operatingIncome": 38398000000,
+          "weightedAverageShsOutDil": 7445000000
+        },
+        {
+          "date": "2025-12-31",
+          "incomeBeforeTax": 48246000000,
+          "operatingIncome": 38275000000,
+          "weightedAverageShsOutDil": 7460000000
+        }
+      ],
+      "fcf_quarters": [
+        18633000000,
+        19639000000,
+        15803000000,
+        5882000000
+      ],
+      "balance": {
+        "date": "2026-09-30",
+        "totalDebt": 133931000000,
+        "preferredStock": 0,
+        "longTermInvestments": 37811000000,
+        "cashAndShortTermInvestments": 64643000000
+      }
+    },
+    "GOOGL": {
+      "quote": {
+        "price": 283.72,
+        "marketCap": 3450678503607.0005,
+        "timestamp": 1794862801
+      },
+      "quarters": [
+        {
+          "date": "2026-09-30",
+          "incomeBeforeTax": 32355000000,
+          "operatingIncome": 40576000000,
+          "weightedAverageShsOutDil": 12368000000
+        },
+        {
+          "date": "2026-06-30",
+          "incomeBeforeTax": 138753000000,
+          "operatingIncome": 40770000000,
+          "weightedAverageShsOutDil": 12309000000
+        },
+        {
+          "date": "2026-03-31",
+          "incomeBeforeTax": 77412000000,
+          "operatingIncome": 39696000000,
+          "weightedAverageShsOutDil": 12238000000
+        },
+        {
+          "date": "2025-12-31",
+          "incomeBeforeTax": 39117000000,
+          "operatingIncome": 35934000000,
+          "weightedAverageShsOutDil": 12228000000
+        }
+      ],
+      "fcf_quarters": [
+        -9065000000,
+        -5855000000,
+        10116000000,
+        24551000000
+      ],
+      "balance": {
+        "date": "2026-09-30",
+        "totalDebt": 141917000000,
+        "preferredStock": 18023000000,
+        "longTermInvestments": 135230000000,
+        "cashAndShortTermInvestments": 265098000000
+      }
+    },
+    "NVDA": {
+      "quote": {
+        "price": 156.14,
+        "marketCap": 3762974000000,
+        "timestamp": 1794862801
+      },
+      "quarters": [
+        {
+          "date": "2026-07-26",
+          "incomeBeforeTax": 71507000000,
+          "operatingIncome": 63734000000,
+          "weightedAverageShsOutDil": 24285000000
+        },
+        {
+          "date": "2026-04-26",
+          "incomeBeforeTax": 69903000000,
+          "operatingIncome": 53536000000,
+          "weightedAverageShsOutDil": 24391000000
+        },
+        {
+          "date": "2026-01-25",
+          "incomeBeforeTax": 50398000000,
+          "operatingIncome": 44299000000,
+          "weightedAverageShsOutDil": 24432000000
+        },
+        {
+          "date": "2025-10-26",
+          "incomeBeforeTax": 37936000000,
+          "operatingIncome": 36010000000,
+          "weightedAverageShsOutDil": 24483000000
+        }
+      ],
+      "fcf_quarters": [
+        21400000000,
+        48587000000,
+        34904000000,
+        22115000000
+      ],
+      "balance": {
+        "date": "2026-07-26",
+        "totalDebt": 38860000000,
+        "preferredStock": 0,
+        "longTermInvestments": 51157000000,
+        "cashAndShortTermInvestments": 99369000000
+      }
+    }
+  },
+  "published_options": [
+    {
+      "option": "A  current Monday plan (MSFT 7)",
+      "NVDA_w": "0.125",
+      "MSFT_w": "0.07",
+      "GOOGL_w": "0.07",
+      "vol": "0.1762067729162375",
+      "nvda_lt": "0.13776367131398196",
+      "rc_nvda": "0.3031408854496275",
+      "googl_lt": "0.08061887074444984",
+      "rc_googl": "0.08650948768874486",
+      "msft_lt": "0.08339029079566324",
+      "rc_msft": "0.07862288315465678",
+      "ai8_lt": "0.5292624639180497",
+      "rc_ai8": "0.8377398429029705",
+      "largest_issuer": "NVDA",
+      "largest_issuer_lt": "0.13776367131398196",
+      "te_vs_long_term": "0.010517785314697686",
+      "loss_if_nvda_minus30_usd": "-289.3037097593621",
+      "loss_if_googl_minus30_usd": "-169.29962856334467",
+      "nvda_report_day_move_usd": "102.2206441149746",
+      "d_fwd_ep_bp": "0.0",
+      "d_fcf_yield_bp": "0.0"
+    },
+    {
+      "option": "B  MSFT 7->0, +3.5 NVDA, +3.5 GOOGL",
+      "NVDA_w": "0.16",
+      "MSFT_w": "0.0",
+      "GOOGL_w": "0.105",
+      "vol": "0.18582620118182056",
+      "nvda_lt": "0.17276367131398196",
+      "rc_nvda": "0.3717243461309067",
+      "googl_lt": "0.11561887074444983",
+      "rc_googl": "0.12191264897930149",
+      "msft_lt": "0.01339029079566323",
+      "rc_msft": "0.010527935951723983",
+      "ai8_lt": "0.5292624639180497",
+      "rc_ai8": "0.8517918779566668",
+      "largest_issuer": "NVDA",
+      "largest_issuer_lt": "0.17276367131398196",
+      "te_vs_long_term": "0.027798849250887502",
+      "loss_if_nvda_minus30_usd": "-362.8037097593621",
+      "loss_if_googl_minus30_usd": "-242.79962856334464",
+      "nvda_report_day_move_usd": "128.1906441149746",
+      "d_fwd_ep_bp": "20.96071673301564",
+      "d_fcf_yield_bp": "2.9053014185594153"
+    },
+    {
+      "option": "C  MSFT 7->0, +7 GOOGL",
+      "NVDA_w": "0.125",
+      "MSFT_w": "0.0",
+      "GOOGL_w": "0.14",
+      "vol": "0.17929754229067077",
+      "nvda_lt": "0.13776367131398196",
+      "rc_nvda": "0.2924892478143133",
+      "googl_lt": "0.15061887074444985",
+      "rc_googl": "0.17819547459306362",
+      "msft_lt": "0.01339029079566323",
+      "rc_msft": "0.010988061910252152",
+      "ai8_lt": "0.5292624639180497",
+      "rc_ai8": "0.8424377110597028",
+      "largest_issuer": "GOOGL",
+      "largest_issuer_lt": "0.15061887074444985",
+      "te_vs_long_term": "0.025784704299632786",
+      "loss_if_nvda_minus30_usd": "-289.3037097593621",
+      "loss_if_googl_minus30_usd": "-316.2996285633447",
+      "nvda_report_day_move_usd": "102.2206441149746",
+      "d_fwd_ep_bp": "6.754619463090598",
+      "d_fcf_yield_bp": "-6.904797073955797"
+    },
+    {
+      "option": "D  MSFT 7->0, +7 NVDA",
+      "NVDA_w": "0.195",
+      "MSFT_w": "0.0",
+      "GOOGL_w": "0.07",
+      "vol": "0.1935249370922708",
+      "nvda_lt": "0.20776367131398196",
+      "rc_nvda": "0.44570949443475877",
+      "googl_lt": "0.08061887074444984",
+      "rc_googl": "0.07488618514946956",
+      "msft_lt": "0.01339029079566323",
+      "rc_msft": "0.00998209235397077",
+      "ai8_lt": "0.5292624639180497",
+      "rc_ai8": "0.8619453190746968",
+      "largest_issuer": "NVDA",
+      "largest_issuer_lt": "0.20776367131398196",
+      "te_vs_long_term": "0.03764912907673942",
+      "loss_if_nvda_minus30_usd": "-436.3037097593621",
+      "loss_if_googl_minus30_usd": "-169.29962856334467",
+      "nvda_report_day_move_usd": "154.16064411497462",
+      "d_fwd_ep_bp": "35.1668140029407",
+      "d_fcf_yield_bp": "12.715399911074629"
+    },
+    {
+      "option": "E  MSFT 7->3.5, +3.5 GOOGL",
+      "NVDA_w": "0.125",
+      "MSFT_w": "0.035",
+      "GOOGL_w": "0.105",
+      "vol": "0.1773839122017713",
+      "nvda_lt": "0.13776367131398196",
+      "rc_nvda": "0.29898247983238885",
+      "googl_lt": "0.11561887074444983",
+      "rc_googl": "0.13109015278115815",
+      "msft_lt": "0.04839029079566323",
+      "rc_msft": "0.042795364703611345",
+      "ai8_lt": "0.5292624639180495",
+      "rc_ai8": "0.8394530187796981",
+      "largest_issuer": "NVDA",
+      "largest_issuer_lt": "0.13776367131398196",
+      "te_vs_long_term": "0.015955311133406834",
+      "loss_if_nvda_minus30_usd": "-289.3037097593621",
+      "loss_if_googl_minus30_usd": "-242.79962856334464",
+      "nvda_report_day_move_usd": "102.2206441149746",
+      "d_fwd_ep_bp": "3.3773097315452922",
+      "d_fcf_yield_bp": "-3.452398536977899"
+    },
+    {
+      "option": "F  MSFT 7->5, +2 GOOGL",
+      "NVDA_w": "0.125",
+      "MSFT_w": "0.05",
+      "GOOGL_w": "0.09",
+      "vol": "0.1767881727167992",
+      "nvda_lt": "0.13776367131398196",
+      "rc_nvda": "0.301064923228988",
+      "googl_lt": "0.10061887074444983",
+      "rc_googl": "0.11159971984484311",
+      "msft_lt": "0.06339029079566323",
+      "rc_msft": "0.05769707603802395",
+      "ai8_lt": "0.5292624639180495",
+      "rc_ai8": "0.83855609960422",
+      "largest_issuer": "NVDA",
+      "largest_issuer_lt": "0.13776367131398196",
+      "te_vs_long_term": "0.012659697741601413",
+      "loss_if_nvda_minus30_usd": "-289.3037097593621",
+      "loss_if_googl_minus30_usd": "-211.29962856334464",
+      "nvda_report_day_move_usd": "102.2206441149746",
+      "d_fwd_ep_bp": "1.9298912751687354",
+      "d_fcf_yield_bp": "-1.9727991639873719"
+    }
+  ],
+  "nvda_q3_guidance_model": {
+    "fy27_revenue_implied_B": 423.68,
+    "fy27_revenue_consensus_pre_B": 410.48104835,
+    "fy27_revenue_vs_consensus": 0.03215483809314823,
+    "fy28_revenue_implied_B": 741.44,
+    "fy28_revenue_consensus_pre_B": 694.84757397,
+    "fy28_revenue_vs_consensus": 0.06705416810163856,
+    "fy28_revenue_old_framework_on_old_base_B": 697.817782195,
+    "q4_eps_implied": 2.812308773670719,
+    "fy27_eps_implied": 10.36230877367072,
+    "fy27_eps_consensus_pre": 9.2983,
+    "fy27_nonop_after_tax_per_share": 0.8318665471881174,
+    "fy27_eps_implied_clean": 9.530442226482602,
+    "fy28_eps_consensus_pre": 15.75336,
+    "fy28_eps_scaled": 16.80968844960563,
+    "ntm_weight_fy1": 0.18904109589041096,
+    "fcf_yield_ttm_at_close": 0.039695338636294486
+  }
+}
