@@ -1,0 +1,492 @@
+{
+  "bases": {
+    "fully_diluted_shares_B": 18.071993147189403,
+    "fd_estimates_B": [
+      18.072289156626507,
+      17.937219730941703,
+      18.206470554
+    ],
+    "outstanding_shares_s1a_B": 13.086672593,
+    "cash_pro_forma_B": 236.7,
+    "revenue_ttm_B": 35.282,
+    "revenue_q3_annualized_B": 67.824,
+    "run_rate_revenue_B": 81.0,
+    "q3_revenue_qoq": 0.4674167027260927,
+    "q3_revenue_yoy": 11.26917510853835,
+    "compute_to_revenue_q3": 0.5816820004718094,
+    "compute_to_revenue_q1_2025": 2.5106382978723403,
+    "ocf_margin_9m": 0.19761145538776248,
+    "sbc_to_revenue_9m": 0.09791829613140003,
+    "commitments_before_2031_to_run_rate": 5.575308641975309
+  },
+  "risk_model": {
+    "ai_basket_vol": 0.29936863787705614,
+    "ant_beta_base": 1.25,
+    "ant_sigma_base": 0.7,
+    "ant_corr_with_basket_base": 0.534586853351886,
+    "rc_googl_in_monday_plan": 0.08650948768874486,
+    "weight_where_rc_ant_equals_googl": {
+      "new money": 0.03730121981381007,
+      "from SGOV": 0.0387464635581119,
+      "from MSFT": 0.03740700312305513
+    },
+    "weight_where_rc_ant_is_15pct": {
+      "new money": 0.06137114166735738,
+      "from SGOV": 0.06538382701726617
+    },
+    "stake_share_of_market_cap": {
+      "AMZN": 0.06973227977656624,
+      "GOOGL": 0.05138658956916692
+    },
+    "stress_shocks": {
+      "ANT": -0.5,
+      "NVDA": -0.3,
+      "TSM": -0.3,
+      "AVGO": -0.3,
+      "MU": -0.3,
+      "GOOGL": -0.3,
+      "META": -0.3,
+      "MSFT": -0.3,
+      "AMZN": -0.3,
+      "VTI_rest": -0.15,
+      "BRK-B": -0.1,
+      "XLV": -0.05,
+      "SGOV": 0.0
+    }
+  },
+  "lockup_dates": [
+    {
+      "date": "2026-12-15",
+      "pct_of_other_holders": 6
+    },
+    {
+      "date": "2027-01-05",
+      "pct_of_other_holders": 6
+    },
+    {
+      "date": "2027-01-19",
+      "pct_of_other_holders": 7
+    },
+    {
+      "date": "2027-02-02",
+      "pct_of_other_holders": 7
+    }
+  ],
+  "lockup_unlock_vs_float": 1.6326530612244898,
+  "valuation_grid": [
+    {
+      "price": 83.0,
+      "vs_ipo": 0.0,
+      "mcap_fd_B": 1499.9754312167204,
+      "mcap_outstanding_B": 1086.193825219,
+      "ev_fd_B": 1263.2754312167203,
+      "ev_to_run_rate": 15.595992977984201,
+      "ev_to_q3_annualized": 18.625787792178585,
+      "ps_ttm_fd": 42.51390032358485,
+      "ps_ttm_outstanding": 30.78606159568619,
+      "ev_to_q3_adj_operating_income_annualized": 124.17191861452392
+    },
+    {
+      "price": 90.0,
+      "vs_ipo": 0.0843373493975903,
+      "mcap_fd_B": 1626.4793832470464,
+      "mcap_outstanding_B": 1177.80053337,
+      "ev_fd_B": 1389.7793832470463,
+      "ev_to_run_rate": 17.15777016354378,
+      "ev_to_q3_annualized": 20.490967552002925,
+      "ps_ttm_fd": 46.099409989429354,
+      "ps_ttm_outstanding": 33.38247642905731,
+      "ev_to_q3_adj_operating_income_annualized": 136.6064503466862
+    },
+    {
+      "price": 100.18,
+      "vs_ipo": 0.20698795180722906,
+      "mcap_fd_B": 1810.4522734854345,
+      "mcap_outstanding_B": 1311.02286036674,
+      "ev_fd_B": 1573.7522734854344,
+      "ev_to_run_rate": 19.429040413400426,
+      "ev_to_q3_annualized": 23.20347183129032,
+      "ps_ttm_fd": 51.313765474900364,
+      "ps_ttm_outstanding": 37.15840542958846,
+      "ev_to_q3_adj_operating_income_annualized": 154.68981220860212
+    },
+    {
+      "price": 111.5,
+      "vs_ipo": 0.34337349397590367,
+      "mcap_fd_B": 2015.0272359116184,
+      "mcap_outstanding_B": 1459.1639941195,
+      "ev_fd_B": 1778.3272359116183,
+      "ev_to_run_rate": 21.95465723347677,
+      "ev_to_q3_annualized": 26.21973395717767,
+      "ps_ttm_fd": 57.112046820237474,
+      "ps_ttm_outstanding": 41.35717913155434,
+      "ev_to_q3_adj_operating_income_annualized": 174.7982263811845
+    },
+    {
+      "price": 114.99,
+      "vs_ipo": 0.38542168674698796,
+      "mcap_fd_B": 2078.0984919953094,
+      "mcap_outstanding_B": 1504.83648146907,
+      "ev_fd_B": 1841.3984919953093,
+      "ev_to_run_rate": 22.733314715991472,
+      "ev_to_q3_annualized": 27.149659294575805,
+      "ps_ttm_fd": 58.89967949649424,
+      "ps_ttm_outstanding": 42.651677384192226,
+      "ev_to_q3_adj_operating_income_annualized": 180.99772863050538
+    }
+  ],
+  "reverse_dcf": [
+    {
+      "price": 83.0,
+      "discount_rate": 0.1,
+      "terminal_fcf_margin": 0.25,
+      "implied_10y_revenue_cagr": 0.23593017036358133,
+      "implied_revenue_2036_B": 673.634557538767
+    },
+    {
+      "price": 83.0,
+      "discount_rate": 0.1,
+      "terminal_fcf_margin": 0.35,
+      "implied_10y_revenue_cagr": 0.19337347397981375,
+      "implied_revenue_2036_B": 474.51377139635827
+    },
+    {
+      "price": 83.0,
+      "discount_rate": 0.12,
+      "terminal_fcf_margin": 0.25,
+      "implied_10y_revenue_cagr": 0.2838374196355121,
+      "implied_revenue_2036_B": 985.3381925800484
+    },
+    {
+      "price": 83.0,
+      "discount_rate": 0.12,
+      "terminal_fcf_margin": 0.35,
+      "implied_10y_revenue_cagr": 0.23941503932727215,
+      "implied_revenue_2036_B": 692.8714007087011
+    },
+    {
+      "price": 100.18,
+      "discount_rate": 0.1,
+      "terminal_fcf_margin": 0.25,
+      "implied_10y_revenue_cagr": 0.2653672370511503,
+      "implied_revenue_2036_B": 852.4145886349878
+    },
+    {
+      "price": 100.18,
+      "discount_rate": 0.1,
+      "terminal_fcf_margin": 0.35,
+      "implied_10y_revenue_cagr": 0.22195430985975106,
+      "implied_revenue_2036_B": 601.2217643727209
+    },
+    {
+      "price": 100.18,
+      "discount_rate": 0.12,
+      "terminal_fcf_margin": 0.25,
+      "implied_10y_revenue_cagr": 0.3146500546428984,
+      "implied_revenue_2036_B": 1249.069652757012
+    },
+    {
+      "price": 100.18,
+      "discount_rate": 0.12,
+      "terminal_fcf_margin": 0.35,
+      "implied_10y_revenue_cagr": 0.2693406655691676,
+      "implied_revenue_2036_B": 879.5630073510474
+    },
+    {
+      "price": 111.5,
+      "discount_rate": 0.1,
+      "terminal_fcf_margin": 0.25,
+      "implied_10y_revenue_cagr": 0.28194872511210256,
+      "implied_revenue_2036_B": 970.9381524189855
+    },
+    {
+      "price": 111.5,
+      "discount_rate": 0.1,
+      "terminal_fcf_margin": 0.35,
+      "implied_10y_revenue_cagr": 0.2380474564000078,
+      "implied_revenue_2036_B": 685.2640381383023
+    },
+    {
+      "price": 111.5,
+      "discount_rate": 0.12,
+      "terminal_fcf_margin": 0.25,
+      "implied_10y_revenue_cagr": 0.33200138936757073,
+      "implied_revenue_2036_B": 1424.0715073352146
+    },
+    {
+      "price": 111.5,
+      "discount_rate": 0.12,
+      "terminal_fcf_margin": 0.35,
+      "implied_10y_revenue_cagr": 0.28618584906190303,
+      "implied_revenue_2036_B": 1003.5113513840505
+    }
+  ],
+  "sizing_base": [
+    {
+      "mode": "new money",
+      "ant_weight": 0.0,
+      "ant_usd": 0.0,
+      "portfolio_usd": 7000.0,
+      "vol": 0.1762067729162375,
+      "rc_ant": 0.0,
+      "rc_nvda": 0.3031408854496275,
+      "rc_googl": 0.08650948768874486,
+      "rc_ai_incl_ant": 0.8377398429029705,
+      "ant_indirect_via_amzn_googl": 0.008947580914941178,
+      "ant_total_exposure": 0.008947580914941178,
+      "loss_if_ant_minus50_usd": -31.316533202294124,
+      "ai_unwind_stress_usd": -1409.725587113952
+    },
+    {
+      "mode": "new money",
+      "ant_weight": 0.02,
+      "ant_usd": 142.85714285714286,
+      "portfolio_usd": 7142.857142857143,
+      "vol": 0.18021983939173267,
+      "rc_ant": 0.043965030933392796,
+      "rc_nvda": 0.29001536072708933,
+      "rc_googl": 0.08271075424779083,
+      "rc_ai_incl_ant": 0.8464415622774245,
+      "ant_indirect_via_amzn_googl": 0.008768629296642355,
+      "ant_total_exposure": 0.028768629296642353,
+      "loss_if_ant_minus50_usd": -102.74510463086555,
+      "ai_unwind_stress_usd": -1481.1541585425236
+    },
+    {
+      "mode": "new money",
+      "ant_weight": 0.03,
+      "ant_usd": 216.49484536082474,
+      "portfolio_usd": 7216.494845360825,
+      "vol": 0.18251842178290748,
+      "rc_ant": 0.06814361717123485,
+      "rc_nvda": 0.2827762774836024,
+      "rc_googl": 0.08062116213708936,
+      "rc_ai_incl_ant": 0.8510664925103595,
+      "ant_indirect_via_amzn_googl": 0.008679153487492944,
+      "ant_total_exposure": 0.03867915348749294,
+      "loss_if_ant_minus50_usd": -139.5639558827065,
+      "ai_unwind_stress_usd": -1517.9730097943645
+    },
+    {
+      "mode": "new money",
+      "ant_weight": 0.05,
+      "ant_usd": 368.42105263157896,
+      "portfolio_usd": 7368.421052631579,
+      "vol": 0.18766391693733098,
+      "rc_ant": 0.11955875286139725,
+      "rc_nvda": 0.26734937772635614,
+      "rc_googl": 0.07617693387264413,
+      "rc_ai_incl_ant": 0.860643854944951,
+      "ant_indirect_via_amzn_googl": 0.008500201869194118,
+      "ant_total_exposure": 0.05850020186919412,
+      "loss_if_ant_minus50_usd": -215.5270595180836,
+      "ai_unwind_stress_usd": -1593.9361134297415
+    },
+    {
+      "mode": "new money",
+      "ant_weight": 0.07,
+      "ant_usd": 526.8817204301076,
+      "portfolio_usd": 7526.881720430108,
+      "vol": 0.19349105658386404,
+      "rc_ant": 0.1734251963602388,
+      "rc_nvda": 0.25115087937191166,
+      "rc_googl": 0.07151998698972259,
+      "rc_ai_incl_ant": 0.8703977733123808,
+      "ant_indirect_via_amzn_googl": 0.008321250250895296,
+      "ant_total_exposure": 0.0783212502508953,
+      "loss_if_ant_minus50_usd": -294.7573934173479,
+      "ai_unwind_stress_usd": -1673.1664473290057
+    },
+    {
+      "mode": "new money",
+      "ant_weight": 0.1,
+      "ant_usd": 777.7777777777778,
+      "portfolio_usd": 7777.777777777777,
+      "vol": 0.20337985038124198,
+      "rc_ant": 0.25522360862481247,
+      "rc_nvda": 0.22650076866820687,
+      "rc_googl": 0.06444702198291985,
+      "rc_ai_incl_ant": 0.8848058309322102,
+      "ant_indirect_via_amzn_googl": 0.008052822823447062,
+      "ant_total_exposure": 0.10805282282344707,
+      "loss_if_ant_minus50_usd": -420.20542209118304,
+      "ai_unwind_stress_usd": -1798.6144760028408
+    },
+    {
+      "mode": "from SGOV",
+      "ant_weight": 0.0,
+      "ant_usd": 0.0,
+      "portfolio_usd": 7000.0,
+      "vol": 0.1762067729162375,
+      "rc_ant": 0.0,
+      "rc_nvda": 0.3031408854496275,
+      "rc_googl": 0.08650948768874486,
+      "rc_ai_incl_ant": 0.8377398429029705,
+      "ant_indirect_via_amzn_googl": 0.008947580914941178,
+      "ant_total_exposure": 0.008947580914941178,
+      "loss_if_ant_minus50_usd": -31.316533202294124,
+      "ai_unwind_stress_usd": -1409.725587113952
+    },
+    {
+      "mode": "from SGOV",
+      "ant_weight": 0.02,
+      "ant_usd": 140.0,
+      "portfolio_usd": 7000.0,
+      "vol": 0.1837365765954749,
+      "rc_ant": 0.04304310239181868,
+      "rc_nvda": 0.29029031970104036,
+      "rc_googl": 0.08279031871791524,
+      "rc_ai_incl_ant": 0.8462625792690676,
+      "ant_indirect_via_amzn_googl": 0.008947580914941178,
+      "ant_total_exposure": 0.02894758091494118,
+      "loss_if_ant_minus50_usd": -101.31653320229412,
+      "ai_unwind_stress_usd": -1479.7255871139523
+    },
+    {
+      "mode": "from SGOV",
+      "ant_weight": 0.03,
+      "ant_usd": 210.0,
+      "portfolio_usd": 7000.0,
+      "vol": 0.18777990637928485,
+      "rc_ant": 0.06598317101548284,
+      "rc_nvda": 0.283422343079946,
+      "rc_googl": 0.08080771672260963,
+      "rc_ai_incl_ant": 0.8506556378011851,
+      "ant_indirect_via_amzn_googl": 0.008947580914941178,
+      "ant_total_exposure": 0.038947580914941174,
+      "loss_if_ant_minus50_usd": -136.3165332022941,
+      "ai_unwind_stress_usd": -1514.725587113952
+    },
+    {
+      "mode": "from SGOV",
+      "ant_weight": 0.05,
+      "ant_usd": 350.0,
+      "portfolio_usd": 7000.0,
+      "vol": 0.19636609973591493,
+      "rc_ant": 0.11327312117344199,
+      "rc_nvda": 0.26923531012110946,
+      "rc_googl": 0.07671999007214164,
+      "rc_ai_incl_ant": 0.8594863436078498,
+      "ant_indirect_via_amzn_googl": 0.008947580914941178,
+      "ant_total_exposure": 0.05894758091494118,
+      "loss_if_ant_minus50_usd": -206.31653320229412,
+      "ai_unwind_stress_usd": -1584.725587113952
+    },
+    {
+      "mode": "from SGOV",
+      "ant_weight": 0.07,
+      "ant_usd": 490.00000000000006,
+      "portfolio_usd": 7000.0,
+      "vol": 0.20554812031083847,
+      "rc_ant": 0.1609680584789317,
+      "rc_nvda": 0.254896806873692,
+      "rc_googl": 0.07259655446903018,
+      "rc_ai_incl_ant": 0.8681597056537835,
+      "ant_indirect_via_amzn_googl": 0.008947580914941178,
+      "ant_total_exposure": 0.07894758091494118,
+      "loss_if_ant_minus50_usd": -276.3165332022941,
+      "ai_unwind_stress_usd": -1654.725587113952
+    },
+    {
+      "mode": "from SGOV",
+      "ant_weight": 0.1,
+      "ant_usd": 700.0,
+      "portfolio_usd": 7000.0,
+      "vol": 0.22027407502999383,
+      "rc_ant": 0.2305333733034998,
+      "rc_nvda": 0.23394292802604932,
+      "rc_googl": 0.06658138078561747,
+      "rc_ai_incl_ant": 0.880495461655887,
+      "ant_indirect_via_amzn_googl": 0.008947580914941178,
+      "ant_total_exposure": 0.10894758091494118,
+      "loss_if_ant_minus50_usd": -381.3165332022941,
+      "ai_unwind_stress_usd": -1759.7255871139523
+    },
+    {
+      "mode": "from MSFT",
+      "ant_weight": 0.0,
+      "ant_usd": 0.0,
+      "portfolio_usd": 7000.0,
+      "vol": 0.1762067729162375,
+      "rc_ant": 0.0,
+      "rc_nvda": 0.3031408854496275,
+      "rc_googl": 0.08650948768874486,
+      "rc_ai_incl_ant": 0.8377398429029705,
+      "ant_indirect_via_amzn_googl": 0.008947580914941178,
+      "ant_total_exposure": 0.008947580914941178,
+      "loss_if_ant_minus50_usd": -31.316533202294124,
+      "ai_unwind_stress_usd": -1409.725587113952
+    },
+    {
+      "mode": "from MSFT",
+      "ant_weight": 0.02,
+      "ant_usd": 140.0,
+      "portfolio_usd": 7000.0,
+      "vol": 0.18047427407566025,
+      "rc_ant": 0.04391664931338124,
+      "rc_nvda": 0.2965373344299394,
+      "rc_googl": 0.08435753361969973,
+      "rc_ai_incl_ant": 0.8431781402625778,
+      "ant_indirect_via_amzn_googl": 0.008947580914941178,
+      "ant_total_exposure": 0.02894758091494118,
+      "loss_if_ant_minus50_usd": -101.31653320229412,
+      "ai_unwind_stress_usd": -1437.725587113952
+    },
+    {
+      "mode": "from MSFT",
+      "ant_weight": 0.03,
+      "ant_usd": 210.0,
+      "portfolio_usd": 7000.0,
+      "vol": 0.18293772731904842,
+      "rc_ant": 0.06799691719286464,
+      "rc_nvda": 0.292285115512858,
+      "rc_googl": 0.08302105354999603,
+      "rc_ai_incl_ant": 0.846329639641512,
+      "ant_indirect_via_amzn_googl": 0.008947580914941178,
+      "ant_total_exposure": 0.038947580914941174,
+      "loss_if_ant_minus50_usd": -136.3165332022941,
+      "ai_unwind_stress_usd": -1451.725587113952
+    },
+    {
+      "mode": "from MSFT",
+      "ant_weight": 0.05,
+      "ant_usd": 350.0,
+      "portfolio_usd": 7000.0,
+      "vol": 0.18848095179397942,
+      "rc_ant": 0.11895707513996048,
+      "rc_nvda": 0.2822799156572262,
+      "rc_googl": 0.07994321489756288,
+      "rc_ai_incl_ant": 0.8532693515714959,
+      "ant_indirect_via_amzn_googl": 0.008947580914941178,
+      "ant_total_exposure": 0.05894758091494118,
+      "loss_if_ant_minus50_usd": -206.31653320229412,
+      "ai_unwind_stress_usd": -1479.7255871139523
+    },
+    {
+      "mode": "from MSFT",
+      "ant_weight": 0.07,
+      "ant_usd": 490.00000000000006,
+      "portfolio_usd": 7000.0,
+      "vol": 0.19478639545825446,
+      "rc_ant": 0.171920205769643,
+      "rc_nvda": 0.27079283779189284,
+      "rc_googl": 0.07647451874874363,
+      "rc_ai_incl_ant": 0.8607742284451128,
+      "ant_indirect_via_amzn_googl": 0.008947580914941178,
+      "ant_total_exposure": 0.07894758091494118,
+      "loss_if_ant_minus50_usd": -276.3165332022941,
+      "ai_unwind_stress_usd": -1507.7255871139523
+    }
+  ],
+  "price_now": {
+    "price": 100.18,
+    "time_et": "12:12:58"
+  },
+  "inputs_sha256": {
+    "claude_analysis_20261119/data/ant_ipo_facts_20261119.json": "0e764fe89bf44177a4b90f84a715bca46690440bba2a419c607c6949ab3a4143",
+    "gpt_review_20261113/data_audit/adjusted_close.csv": "c297262a16daebfeb084de94bc5086c99ae26cc40a5e6efd16ee12d29586beae",
+    "claude_analysis_20261114/out/summary.json": "23889a56e2decbee527a4fc6bd3e45a2b75b65daa90899aba52e0b7ec1a8162d",
+    "claude_analysis_20261115/out/summary.json": "05a382c596b5144aafeee5d000401020f86fe67c2ae7871833f13f4546469a66",
+    "claude_analysis_20261116/data/fmp_raw/quotes_close_20261116.json": "2404dadd8ebabed5737e2909f1951e4dd5a5976b0b6e1536fa7a0693dc6de1d2"
+  }
+}

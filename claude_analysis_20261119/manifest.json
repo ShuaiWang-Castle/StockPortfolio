@@ -1,0 +1,63 @@
+{
+ "folder": "claude_analysis_20261119",
+ "asof": "ANT first trading day 2026-11-19, price $100.18 at 12:12:58 ET; S-1/A figures via third-party summaries",
+ "conflict_of_interest": "written by Claude, a model developed by Anthropic",
+ "status": "proposal for Shuai; current_plan.json unchanged",
+ "clean_export_rerun": "byte-identical out/ and figures/ from git-archive of the input folders plus this folder (2026-11-19 ET)",
+ "inputs": {
+  "gpt_review_20261113/data_audit/adjusted_close.csv": "c297262a16daebfeb084de94bc5086c99ae26cc40a5e6efd16ee12d29586beae",
+  "claude_analysis_20261114/out/summary.json": "23889a56e2decbee527a4fc6bd3e45a2b75b65daa90899aba52e0b7ec1a8162d",
+  "claude_analysis_20261115/out/summary.json": "05a382c596b5144aafeee5d000401020f86fe67c2ae7871833f13f4546469a66",
+  "claude_analysis_20261116/data/fmp_raw/quotes_close_20261116.json": "2404dadd8ebabed5737e2909f1951e4dd5a5976b0b6e1536fa7a0693dc6de1d2"
+ },
+ "reproduce": [
+  "python3 -I claude_analysis_20261119/ant_ipo_sizing_20261119.py .",
+  "python3 -I claude_analysis_20261119/make_figures_20261119.py ."
+ ],
+ "files": {
+  "README.md": {
+   "sha256": "b906ddf26a5bd491cdf889e93fa64c4837c5b16cd8590055aeaeed2f624fa1dc",
+   "bytes": 12184
+  },
+  "ant_ipo_sizing_20261119.py": {
+   "sha256": "aeb258f44b84f3e2f42a2c564721f26e3827f279a141e66cddeb68d6d2c5c491",
+   "bytes": 12448
+  },
+  "data/ant_ipo_facts_20261119.json": {
+   "sha256": "0e764fe89bf44177a4b90f84a715bca46690440bba2a419c607c6949ab3a4143",
+   "bytes": 6987
+  },
+  "figures/f1_ant_growth_and_sizing.png": {
+   "sha256": "21fa0d5ea4564644e6e9c9989fcfa6d55663c039ab6721b67cacf0582b840479",
+   "bytes": 255710
+  },
+  "make_figures_20261119.py": {
+   "sha256": "128cf825c0dcb2889ea72c66afa686c74fbd3a68376758dbc6b12d05801e8b86",
+   "bytes": 4355
+  },
+  "out/rc_curve_new_money.csv": {
+   "sha256": "e0286c0ed62d1c5e3df06692c1845e4a77b6b6cae883e6489e25d4ae41e2fb8f",
+   "bytes": 8505
+  },
+  "out/reverse_dcf.csv": {
+   "sha256": "d7114def378f7143311ee314b641ffc172e5d876e8726490da57d5b67d01ce51",
+   "bytes": 727
+  },
+  "out/sizing_base.csv": {
+   "sha256": "4e3eac2286aa614fb426ad0c1639f0c9c8948a1541300336fb8ded0c7d07fdf0",
+   "bytes": 3760
+  },
+  "out/sizing_sensitivity.csv": {
+   "sha256": "806d0c2907b62225defbeaa39c8b29d2a34322eb8981353366e420b8a5aa2555",
+   "bytes": 1993
+  },
+  "out/summary.json": {
+   "sha256": "5bc91333c234e79c95b65ab5568829f4e0ea81fe6c27f2c1ce54ad3bc67c4783",
+   "bytes": 16358
+  },
+  "out/valuation_grid.csv": {
+   "sha256": "30c65a1f8f4f5f29d45b54c5848f17eafb0f017fcd341536d0cc564b6fbdd4bb",
+   "bytes": 1000
+  }
+ }
+}
