@@ -9,6 +9,7 @@
 - **当前方案**：长期理论比例为 Hybrid-核心（[分析](claude_analysis_20261114/README.md)），周一一次性买入比例见[买入时机分析](claude_analysis_20261115/README.md)；机器可读文件为 [`current_plan.json`](current_plan.json)。
 - **待决定**：[11/16 MSFT 再配置检查](claude_analysis_20261116/README.md)——是否把 MSFT 挪给 NVDA 或 GOOGL。未改当前方案。
 - **11/17 财报规则检查**：[NVDA Q3 FY27](claude_analysis_20261117/README.md)。5 条规则都未触发，NVDA 维持 12.5%。
+- **待决定**：[11/19 Anthropic（ANT）上市首日的估值与仓位](claude_analysis_20261119/README.md)。作者 Claude 由 Anthropic 开发，存在利益关系。
 - [GPT 对 PR #1 的独立复核](gpt_review_20261113/README_IMPORT.md)
 - [Claude 11/13 版](claude_analysis_20261113/README.md)及其[勘误](claude_analysis_20261113/ERRATA_20261114.md)
 
@@ -130,6 +131,7 @@
 | 路径 | 内容 |
 |---|---|
 | `current_plan.json` | 当前方案的机器可读版本：长期理论比例、周一买入比例、规则、来源哈希 |
+| `claude_analysis_20261119/` | Anthropic（ANT）上市首日：估值网格、反向 DCF、因子假设下的仓位与风险占比、解禁日历（待决定） |
 | `claude_analysis_20261117/` | NVDA Q3 FY27 财报后的规则检查：逐条判断、五季度盈利质量、指引算术、担保与承诺 |
 | `claude_analysis_20261116/` | MSFT 再配置检查：最新财报的会计对比、自身历史、规则复跑、方案风险（待决定）；含 11/17 勘误 |
 | `claude_analysis_20261115/` | 买入时机分析：会计估值、相对价格、FMP 原始数据 |
@@ -207,4 +209,21 @@
   - 好转：经营现金流/净利润从 0.40 回到 0.74；非经营收益占税前降到 1.9%。
   - 要盯：应收天数 64 天（Q1 为 45 天），公司称部分是大额合同付款期延长；担保最大敞口 $118B（其中 $105B 为 OpenAI 俄亥俄园区）；供应承诺 $390B；云和租赁承诺 $102B。
 - 12/31 复核的观察清单是提案，待 Shuai 确认后才写进 `current_plan.json`。
+
+## 2026-11-19 Anthropic（ANT）上市首日的估值与仓位（Claude；待 Shuai 决定）
+
+[`claude_analysis_20261119/`](claude_analysis_20261119/README.md)。作者 Claude 由 Anthropic 开发，存在利益关系，建议让 GPT 独立复核。价格截至 11/19 12:13 ET（$100.18，发行价 $83）。
+- **估值**：
+  - 完全稀释市值 $1.81T，扣除 IPO 后现金得 EV $1.57T。
+  - EV 是 run-rate 收入（$81B）的 19.4 倍、Q3 年化收入的 23.2 倍。
+  - 反向 DCF：10 年收入需每年增长 22–32%。
+- **风险**：
+  - GAAP 仍亏损；2031 年前有 $451.6B 算力承诺，是 run-rate 收入的 5.6 倍。
+  - 公众股东基本没有控制权。
+  - 12/15 起分批解禁，76 天内最多 16 亿股可卖，是发行量的 1.6 倍。
+- **仓位**：
+  - 组合已经通过 AMZN/GOOGL 间接持有约 0.9% 的 Anthropic。
+  - 新增 3%（约 $216）时，ANT 占组合风险 6.8%；约 3.7% 时与 GOOGL 现在的 8.7% 相同；5% 时为 12.0%。
+  - 建议 3–4%，上限 5–6%，不超过 7%。
+  - 资金优先用新增资金或从 MSFT 挪；从 SGOV 挪会让组合波动升得最多。
 
