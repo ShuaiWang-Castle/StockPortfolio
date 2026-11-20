@@ -1,0 +1,48 @@
+{
+  "inputs_sha256": {
+    "data/events.json": "80e38c4f8628e25bd0caa67ca1a92f727886d33423daa8c9f2f0b576b6ed97fc",
+    "data/sources_web_20261120.json": "37862f7ca2fc8551a95843efc39069dd752dee5681001ccb4955560b3ccd70e5",
+    "data/filing_metadata.json": "4b6cba0148ffce929cfd64b0d663d5601a624754dc4ae22f928b40c619f15f6d"
+  },
+  "reproduce": "python3 -I codex_analysis_20261120/verify_timeline.py .",
+  "files": {
+    "README.md": {
+      "sha256": "56e3180434364ddfb56e37dc15361424caee900cf5501fa63d07f1f1d686bdf2",
+      "bytes": 13450
+    },
+    "data/events.json": {
+      "sha256": "80e38c4f8628e25bd0caa67ca1a92f727886d33423daa8c9f2f0b576b6ed97fc",
+      "bytes": 6026
+    },
+    "data/filing_metadata.json": {
+      "sha256": "4b6cba0148ffce929cfd64b0d663d5601a624754dc4ae22f928b40c619f15f6d",
+      "bytes": 2166
+    },
+    "data/sources_web_20261120.json": {
+      "sha256": "37862f7ca2fc8551a95843efc39069dd752dee5681001ccb4955560b3ccd70e5",
+      "bytes": 25676
+    },
+    "out/summary.json": {
+      "sha256": "33ee7dfccb5de58f0b49c4cbc48eda54e04f6e0b4798fa8f1d072f4b5c2d2bb8",
+      "bytes": 637
+    },
+    "out/timeline.md": {
+      "sha256": "ecd4951f19b096d154e9033fe2b0311f16cafc24b452e29604a55945ee94bef6",
+      "bytes": 10191
+    },
+    "verify_timeline.py": {
+      "sha256": "0a30245987a7437ff720d0087b29cff364250f1e2ab2b9edf78497377583fb21",
+      "bytes": 2601
+    }
+  },
+  "clean_export": {
+    "procedure": "从 git archive 提取本研究和 current_plan.json，移除 out/，从仓库根目录复跑。",
+    "python": "3.14.7",
+    "outputs_byte_identical": [
+      "summary.json",
+      "timeline.md"
+    ],
+    "checked_inputs": 3,
+    "result": "passed"
+  }
+}

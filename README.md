@@ -98,6 +98,8 @@
 
 ## 报表与图表
 
+[Codex 11/20 黄仁勋离职与回任时间线](codex_analysis_20261120/README.md)核对辞职的生效日、董事会拒绝复职的理由与调查进展。
+
 当前方案的图表见 [`claude_analysis_20261114/figures/`](claude_analysis_20261114/figures/)。以下是 GPT 早期交付的链接，尚未上传：
 
 - [最新 Excel 报表](outputs/ai_portfolio_20261113/ai_portfolio_review_20261113.xlsx)

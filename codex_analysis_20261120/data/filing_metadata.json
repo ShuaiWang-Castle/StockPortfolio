@@ -1,0 +1,51 @@
+{
+  "data_type": "公开来源元数据摘录",
+  "hash_scope": "raw_response_sha256 核对取得时完整 HTTP 响应的正文原始字节。SEC 名录和 X 接口会随时间更新。",
+  "sec_submissions": {
+    "url": "https://data.sec.gov/submissions/CIK0001045810.json",
+    "retrieved_at": "2026-11-20T15:59:35-05:00",
+    "raw_response_bytes": 160255,
+    "raw_response_sha256": "bd9dbcb9c9fb2ed73869cb524b442ebbc838eb9da2ec8166b1deae6d872a14db",
+    "locator": "filings.recent",
+    "format": "SEC 按列返回的 JSON，此处按 accessionNumber 筛选后将同一索引的原字段重排成行。acceptanceDateTime 保留 SEC 的 UTC 时间串。",
+    "rows": [
+      {
+        "accessionNumber": "0001045810-26-000082",
+        "form": "8-K",
+        "filingDate": "2026-11-12",
+        "reportDate": "2026-11-11",
+        "acceptanceDateTime": "2026-11-12T13:52:41.000Z",
+        "items": "5.02,9.01",
+        "primaryDocument": "nvda-20261111.htm"
+      },
+      {
+        "accessionNumber": "0001045810-26-000088",
+        "form": "8-K",
+        "filingDate": "2026-11-17",
+        "reportDate": "2026-11-17",
+        "acceptanceDateTime": "2026-11-17T21:20:51.000Z",
+        "items": "2.02,9.01",
+        "primaryDocument": "nvda-20261117.htm"
+      }
+    ],
+    "verification_index_urls": [
+      "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000082/0001045810-26-000082-index.html",
+      "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000088/0001045810-26-000088-index.html"
+    ]
+  },
+  "x_syndication": {
+    "url": "https://cdn.syndication.twimg.com/tweet-result?id=2122726005219737649&lang=en&token=0",
+    "retrieved_at": "2026-11-20T15:59:36-05:00",
+    "raw_response_bytes": 1042,
+    "raw_response_sha256": "97cde3a3c83302c3d29d58cb9f3633d889ae4c1ca2b1ce31c0f8a127dcc6e15e",
+    "format": "X 公开嵌入接口的必要元数据摘录。created_at 为 UTC。",
+    "fields": {
+      "id_str": "2122726005219737649",
+      "created_at": "2026-11-17T16:18:12.000Z",
+      "user": {
+        "screen_name": "JensenHuang"
+      }
+    },
+    "post_url": "https://x.com/JensenHuang/status/2122726005219737649"
+  }
+}
