@@ -1,0 +1,204 @@
+[
+  {
+    "source": "Yahoo Finance 交易日线",
+    "claim": "11/20 常规收盘与前收，盘后另列。",
+    "file": "data/regular_price.json",
+    "script_inputs": [
+      "meta.regularMarketPrice",
+      "meta.chartPreviousClose"
+    ],
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/NVDA?period1=1795122000&period2=1795305600&interval=1d",
+    "retrieved_at": "2026-11-20T16:27:43-05:00"
+  },
+  {
+    "source": "CNBC / Nasdaq Last Sale",
+    "claim": "常规收盘、总市值及盘后报价分别列示。",
+    "file": "data/cnbc_quote.json",
+    "script_inputs": [
+      "last",
+      "mktcapView"
+    ],
+    "url": "https://quote.cnbc.com/quote-html-webservice/restQuote/symbolType/symbol?symbols=NVDA&requestMethod=itv&noform=1&partnerId=2&fund=1&exthrs=1&output=json",
+    "retrieved_at": "2026-11-20T16:28:05-05:00"
+  },
+  {
+    "source": "Nasdaq",
+    "claim": "年度与季度 EPS 预期、分析师数量，更新时间字段为空。",
+    "file": "data/earnings_forecast.json",
+    "script_inputs": [
+      "yearlyForecast.rows",
+      "quarterlyForecast.rows"
+    ],
+    "url": "https://api.nasdaq.com/api/analyst/NVDA/earnings-forecast",
+    "retrieved_at": "2026-11-20T16:27:13-05:00"
+  },
+  {
+    "source": "Nasdaq / TipRanks",
+    "claim": "分析师目标均值及高低，未给每家更新日。",
+    "file": "data/street_targets.json",
+    "script_inputs": [
+      "consensusOverview"
+    ],
+    "url": "https://api.nasdaq.com/api/analyst/NVDA/targetprice",
+    "retrieved_at": "2026-11-20T16:27:14-05:00"
+  },
+  {
+    "source": "SEC 8-K 附件 99.1（2026-11-17）",
+    "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000088/q3fy27pr.htm",
+    "retrieved_at": "2026-11-20T16:29-05:00",
+    "claim": "截至 10/25 的九个月，Q3 稀释股数，Q4 指引、税率区间及下一次股息。",
+    "script_inputs": [
+      "revenue_9m",
+      "ni_9m",
+      "adjusted_ni_9m",
+      "other_income_9m",
+      "gaap_eps_9m",
+      "diluted_9m",
+      "fcf_9m",
+      "diluted_q",
+      "quarter_dividend",
+      "q4_revenue_mid",
+      "q4_gm_low",
+      "q4_gm_high",
+      "q4_gaap_opex",
+      "tax_mid",
+      "net_income",
+      "other_income"
+    ],
+    "data_group": "fy27_q3",
+    "values": {
+      "revenue_9m": 293.681,
+      "ni_9m": 183.297,
+      "adjusted_ni_9m": 164.374,
+      "other_income_9m": 25.636,
+      "gaap_eps_9m": 7.55,
+      "diluted_9m": 24.287,
+      "fcf_9m": 113.672,
+      "diluted_q": 24.186,
+      "quarter_dividend": 0.25,
+      "q4_revenue_mid": 130,
+      "q4_gm_low": 0.71,
+      "q4_gm_high": 0.72,
+      "q4_gaap_opex": 11,
+      "tax_mid": 0.17,
+      "net_income": 65.287,
+      "other_income": 1.497
+    }
+  },
+  {
+    "source": "NVIDIA 公司财报（2026-02-25）",
+    "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Fourth-Quarter-and-Fiscal-2026/",
+    "retrieved_at": "2026-11-20T16:29-05:00",
+    "claim": "单季历史现金流和盈利，用来拼接 TTM。",
+    "script_inputs": [
+      "fcf",
+      "net_income",
+      "gaap_eps",
+      "other_income",
+      "diluted"
+    ],
+    "data_group": "fy26_q4",
+    "values": {
+      "fcf": 34.902,
+      "net_income": 42.96,
+      "gaap_eps": 1.76,
+      "other_income": 6.098,
+      "diluted": 24.432
+    }
+  },
+  {
+    "source": "NVIDIA 托管的 Q3 FY27 财报会逐字稿（第 7 页）",
+    "url": "https://s201.q4cdn.com/141608511/files/content_files/NVDA-3Q27-Earnings-Transcript.pdf",
+    "retrieved_at": "2026-11-20T16:29-05:00",
+    "claim": "管理层的 FY28 收入增长及毛利率框架。Q4 FY27 有 14 周。",
+    "script_inputs": [
+      "fy28_sales_growth",
+      "fy28_gross_margin_low",
+      "fy28_gross_margin_high"
+    ],
+    "data_group": "management",
+    "values": {
+      "fy28_sales_growth": 0.75,
+      "fy28_gross_margin_low": 0.72,
+      "fy28_gross_margin_high": 0.73
+    }
+  },
+  {
+    "source": "NVIDIA 10-K 财年注释",
+    "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/R31.htm",
+    "retrieved_at": "2026-11-20T16:29-05:00",
+    "claim": "每个财年的最后一天为一月最后一个周日。",
+    "script_inputs": [
+      "fy27_end",
+      "fy28_end"
+    ],
+    "data_group": "calendar",
+    "values": {
+      "fy27_end": "2027-01-31",
+      "fy28_end": "2028-01-30"
+    }
+  },
+  {
+    "source": "NVIDIA Q3 FY27 CFO 说明（第 4–5 页）",
+    "url": "https://s201.q4cdn.com/141608511/files/doc_financials/2027/Q327/Q3FY27-CFO-Commentary.pdf",
+    "retrieved_at": "2026-11-20T16:29-05:00",
+    "claim": "公司披露 Q3 应收周转天数 64，上一季 60。付款条款及产品发货时点影响回款；新增出口要求与客户担保影响未来可用现金。",
+    "script_inputs": [],
+    "data_group": "cfo",
+    "values": {
+      "dso_q3": 64,
+      "dso_q2": 60
+    }
+  },
+  {
+    "source": "Nasdaq Analyst Research",
+    "url": "https://www.nasdaq.com/market-activity/stocks/nvda/analyst-research",
+    "claim": "Nasdaq 将 TipRanks 目标价描述为最近三个月提交的十二个月目标。",
+    "retrieved_at": "2026-11-20T16:29-05:00",
+    "script_inputs": []
+  },
+  {
+    "source": "SEC 8-K 附件 99.1",
+    "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000051/q1fy27pr.htm",
+    "retrieved_at": "2026-11-20T16:30-05:00",
+    "claim": "单季净收入、非经营净收益及稀释股数。",
+    "data_group": "fy27_q1",
+    "script_inputs": [
+      "net_income",
+      "other_income",
+      "diluted"
+    ],
+    "values": {
+      "net_income": 58.321,
+      "other_income": 16.367,
+      "diluted": 24.391
+    }
+  },
+  {
+    "source": "SEC 8-K 附件 99.1",
+    "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000073/q2fy27pr.htm",
+    "retrieved_at": "2026-11-20T16:30-05:00",
+    "claim": "单季净收入、非经营净收益及稀释股数。",
+    "data_group": "fy27_q2",
+    "script_inputs": [
+      "net_income",
+      "other_income",
+      "diluted"
+    ],
+    "values": {
+      "net_income": 59.688,
+      "other_income": 7.773,
+      "diluted": 24.285
+    }
+  },
+  {
+    "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/pages/xml?data=daily_treasury_yield_curve&field_tdr_date_value_month=202611",
+    "retrieved_at": "2026-11-20T16:29:05-05:00",
+    "source": "美国财政部 11/20 收益率曲线",
+    "claim": "十年期国债收益率为 4.92%。",
+    "script_inputs": [],
+    "values": {
+      "ten_year_yield": 0.0492
+    }
+  }
+]

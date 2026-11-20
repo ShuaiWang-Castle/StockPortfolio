@@ -1,0 +1,57 @@
+{
+  "reproduce": "python3 -I codex_analysis_20261120_c/value.py .",
+  "inputs_sha256": {
+    "data/sources_web_20261120.json": "298c6c4354b751d147995efeb3506a3788527233997c8f768e1e75f6dd8a0101",
+    "data/scenarios.json": "db2d7c394b9db5410ea21541324b8010348a5eb816215191aac2986ae0f29c83",
+    "data/regular_price.json": "d7de30a7a8e0c09f9e1fc8dce50a0456ea8f7c7fb955c085faf4fc7a768a9ba3",
+    "data/cnbc_quote.json": "5c5fd64e154c3b5d9c3c74e5253f8df52ad2f4cc3061144e485756280af674a5",
+    "data/earnings_forecast.json": "8b6af0dfa34eb4fb1760580cb02ce0603186b6cfa0e974069f14ec0f3b18b79d",
+    "data/street_targets.json": "7725994befad1d9df1f23afbe9d17f0a7b37f8ee10e1bb04674c1d3237c24d11"
+  },
+  "files": {
+    "README.md": {
+      "bytes": 8527,
+      "sha256": "a40f4058747a3b020cf5a3e63a728c5d8a7eb791b964c6478c426db09370c225"
+    },
+    "data/cnbc_quote.json": {
+      "bytes": 1650,
+      "sha256": "5c5fd64e154c3b5d9c3c74e5253f8df52ad2f4cc3061144e485756280af674a5"
+    },
+    "data/earnings_forecast.json": {
+      "bytes": 2031,
+      "sha256": "8b6af0dfa34eb4fb1760580cb02ce0603186b6cfa0e974069f14ec0f3b18b79d"
+    },
+    "data/regular_price.json": {
+      "bytes": 1422,
+      "sha256": "d7de30a7a8e0c09f9e1fc8dce50a0456ea8f7c7fb955c085faf4fc7a768a9ba3"
+    },
+    "data/scenarios.json": {
+      "bytes": 788,
+      "sha256": "db2d7c394b9db5410ea21541324b8010348a5eb816215191aac2986ae0f29c83"
+    },
+    "data/sources_web_20261120.json": {
+      "bytes": 6558,
+      "sha256": "298c6c4354b751d147995efeb3506a3788527233997c8f768e1e75f6dd8a0101"
+    },
+    "data/street_targets.json": {
+      "bytes": 1757,
+      "sha256": "7725994befad1d9df1f23afbe9d17f0a7b37f8ee10e1bb04674c1d3237c24d11"
+    },
+    "out/summary.json": {
+      "bytes": 2946,
+      "sha256": "37e36b89bca3ad7ded362c5a02e3034f3a1a74097cdc837cf6ce0a99d57b2b40"
+    },
+    "value.py": {
+      "bytes": 5819,
+      "sha256": "40fa17a02d5b00d1aec366b5b615db7aac0ec2383e3789d316c2b56c3f25387f"
+    }
+  },
+  "clean_export": {
+    "procedure": "git archive 取出研究目录，删除 out/，从仓库根目录重跑脚本，逐项验证输入和输出。",
+    "python": "3.14.7",
+    "outputs_byte_identical": [
+      "out/summary.json"
+    ],
+    "result": "passed"
+  }
+}
