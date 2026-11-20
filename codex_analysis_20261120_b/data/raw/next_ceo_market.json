@@ -1,0 +1,12 @@
+{
+  "market": {
+    "ticker": "KXNVDACEO-29JAN-JENS",
+    "close_time": "2029-01-01T05:00:00Z",
+    "status": "active",
+    "last_price_dollars": "0.1000",
+    "yes_bid_dollars": "0.0900",
+    "yes_ask_dollars": "0.1000",
+    "volume_24h_fp": "1724251.68"
+  },
+  "full_response_sha256": "c20ffc109070612aa8c945e494abe08be66941341ae3c77b47504419f8ca95e4"
+}
