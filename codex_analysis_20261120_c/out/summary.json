@@ -1,0 +1,83 @@
+{
+  "as_of": "2026-11-20",
+  "current": {
+    "price": 125.53,
+    "market_cap_vendor": "3.025T",
+    "ntm_eps": 14.809780821917808,
+    "ntm_pe": 8.47615515107565,
+    "four_quarter_eps": 14.21,
+    "four_quarter_pe": 8.833919774806473,
+    "gaap_eps_ttm": 9.31,
+    "pe_gaap": 13.483351235230934,
+    "core_eps_ttm": 8.277578383209017,
+    "pe_core": 15.165063281627912,
+    "ttm_fcf_bn": 148.574,
+    "ttm_fcf_per_share": 6.142975274952453,
+    "price_to_fcf": 20.43472330286591,
+    "fcf_yield": 0.04893631223574008,
+    "fcf_to_gaap_ni_ttm": 0.6566603464202213,
+    "fcf_to_company_adjusted_ni_9m": 0.6915448915278573
+  },
+  "fy27_revenue_at_guide_bn": 423.681,
+  "next_year_street_ntm": 20.9953698630137,
+  "analysts": {
+    "lowPriceTarget": 130.0,
+    "highPriceTarget": 350.0,
+    "priceTarget": 232.59,
+    "buy": 29,
+    "sell": 1,
+    "hold": 13
+  },
+  "cases": {
+    "bear": {
+      "fy28_revenue_bn": 550.7853,
+      "fy28_eps": 10.703261845695856,
+      "fy29_eps": 10.703261845695856,
+      "horizon_ntm_eps": 10.703261845695856,
+      "exit_ntm_pe": 7.453815178282197,
+      "target": 79.7801356025765,
+      "price_return": -0.36445363178063817,
+      "fair_today": 72.125121073729
+    },
+    "base": {
+      "fy28_revenue_bn": 656.70555,
+      "fy28_eps": 13.847673468122053,
+      "fy29_eps": 16.340254692384022,
+      "horizon_ntm_eps": 15.855396426842653,
+      "exit_ntm_pe": 10.361524457718353,
+      "target": 164.28607786355033,
+      "price_return": 0.3087395671437132,
+      "fair_today": 147.5768552353128
+    },
+    "bull": {
+      "fy28_revenue_bn": 741.44175,
+      "fy28_eps": 16.2475865169933,
+      "fy29_eps": 21.121862472091294,
+      "horizon_ntm_eps": 20.173715642469492,
+      "exit_ntm_pe": 12.943443619276474,
+      "target": 261.11735100961977,
+      "price_return": 1.0801191030798996,
+      "fair_today": 234.0333491157319
+    }
+  },
+  "expected_annual_dividend_assumed": 1.0,
+  "today_discount_to_base_fair": 0.1493923637291149,
+  "own_fy27_eps": 9.528714105144307,
+  "own_base_ntm_eps": 12.995714360904525,
+  "own_base_ntm_pe": 9.65933818749021,
+  "base_without_multiple_expansion": 153.15263618359705,
+  "cash_checks": {
+    "0.1": 127.30117710915795,
+    "0.15": 148.0559797342034,
+    "0.2": 171.5269057024196
+  },
+  "reverse_five_year_cash_growth": 0.17634196723254536,
+  "inputs_sha256": {
+    "data/sources_web_20261120.json": "298c6c4354b751d147995efeb3506a3788527233997c8f768e1e75f6dd8a0101",
+    "data/scenarios.json": "db2d7c394b9db5410ea21541324b8010348a5eb816215191aac2986ae0f29c83",
+    "data/regular_price.json": "d7de30a7a8e0c09f9e1fc8dce50a0456ea8f7c7fb955c085faf4fc7a768a9ba3",
+    "data/cnbc_quote.json": "5c5fd64e154c3b5d9c3c74e5253f8df52ad2f4cc3061144e485756280af674a5",
+    "data/earnings_forecast.json": "8b6af0dfa34eb4fb1760580cb02ce0603186b6cfa0e974069f14ec0f3b18b79d",
+    "data/street_targets.json": "7725994befad1d9df1f23afbe9d17f0a7b37f8ee10e1bb04674c1d3237c24d11"
+  }
+}

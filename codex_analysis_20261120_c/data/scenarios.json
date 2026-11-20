@@ -1,0 +1,16 @@
+{
+  "as_of": "2026-11-20",
+  "horizon": "2027-11-20",
+  "equity_return": 0.12,
+  "terminal_growth": 0.03,
+  "nonoperating_tax_normalization": 0.21,
+  "dividend_quarters": 4,
+  "dcf_cash_years": 5,
+  "cash_check_first_year_growth": 0.50,
+  "cash_check_following_growth": [0.10, 0.15, 0.20],
+  "cases": {
+    "bear": {"fy28_sales_growth": 0.30, "after_tax_operating_margin": 0.47, "fy29_eps_growth": 0.00, "years_2_to_5_eps_growth": 0.04, "cash_conversion": 0.65},
+    "base": {"fy28_sales_growth": 0.55, "after_tax_operating_margin": 0.51, "fy29_eps_growth": 0.18, "years_2_to_5_eps_growth": 0.10, "cash_conversion": 0.75},
+    "bull": {"fy28_sales_growth": 0.75, "after_tax_operating_margin": 0.53, "fy29_eps_growth": 0.30, "years_2_to_5_eps_growth": 0.14, "cash_conversion": 0.83}
+  }
+}
