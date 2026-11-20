@@ -8,7 +8,7 @@
   },
   "chronology_rows": 13,
   "inputs_sha256": {
-    "data/events.json": "80e38c4f8628e25bd0caa67ca1a92f727886d33423daa8c9f2f0b576b6ed97fc",
+    "data/events.json": "7d2b8c4f3ff1ef677418818aa0ed37105f7788580966922f1daaf6a41b0e79e3",
     "data/sources_web_20261120.json": "37862f7ca2fc8551a95843efc39069dd752dee5681001ccb4955560b3ccd70e5",
     "data/filing_metadata.json": "4b6cba0148ffce929cfd64b0d663d5601a624754dc4ae22f928b40c619f15f6d"
   }
