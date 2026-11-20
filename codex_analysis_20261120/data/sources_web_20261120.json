@@ -1,0 +1,478 @@
+[
+  {
+    "id": "trust_report",
+    "source": "Reuters，11/13，两名知情人士与记者审阅的往来信息（MarketScreener 授权转载）",
+    "url": "https://www.marketscreener.com/news/ex-nvidia-ceo-misled-top-lawyer-on-affair-with-chinese-businesswoman-sources-say-ce785eded88cf127",
+    "claim": "据知情者，2025 年秋对公司领导层谈及此事时，黄未说明是婚外情。Reuters 看到的 2026 年 10 月内部通信，才明确将相关接触解释为普通客户往来。",
+    "access": "已查阅公开报道或原始文件",
+    "retrieved_at": "2026-11-20 15:56–16:00 ET",
+    "script_inputs": []
+  },
+  {
+    "id": "bloomberg",
+    "source": "Bloomberg，11/12 美东晚间，记者采访还原（原发）",
+    "url": "https://www.bloomberg.com/news/articles/2026-11-13/inside-jensen-huang-s-final-hours-as-the-ceo-of-nvidia",
+    "claim": "FT 报道后，法务总监 Teter 当面向黄核实并获其承认，要求董事会采取行动；11/11 涉及直属高管的报道后，董事们远程开会至晚间，知情人称离任已无实际选择。",
+    "access": "同一署名稿全文核对 https://www.livemint.com/companies/people/im-a-piece-of-sh-inside-jensen-huang-s-final-hours-as-nvidia-ceo-11794545307416.html",
+    "retrieved_at": "2026-11-20 15:56–16:00 ET",
+    "script_inputs": []
+  },
+  {
+    "id": "nytimes",
+    "source": "The New York Times，11/11，员工采访",
+    "url": "https://www.nytimes.com/2026/11/11/technology/jensen-huang-nvidia-affair.html",
+    "claim": "报道黄与直接向他汇报的医疗业务副总裁 Kimberly Powell 有亲密关系。",
+    "access": "原始链接经 CBS 与 Bloomberg 的报道核对。董事会未在公开声明中列名认定。",
+    "retrieved_at": "2026-11-20 15:56–16:00 ET",
+    "script_inputs": []
+  },
+  {
+    "id": "huang_letter",
+    "source": "黄仁勋，NVIDIA Newsroom，11/8",
+    "url": "https://nvidianews.nvidia.com/news/a-message-to-our-company",
+    "claim": "黄承认婚内不忠，向员工和家人致歉，承诺配合独立调查；没有在这封信里点名。",
+    "access": "已查阅公开报道或原始文件",
+    "retrieved_at": "2026-11-20 15:56–16:00 ET",
+    "script_inputs": []
+  },
+  {
+    "id": "open_inquiry",
+    "source": "NVIDIA 董事会，11/8",
+    "url": "https://nvidianews.nvidia.com/news/statement-from-nvidia-board-of-directors",
+    "claim": "启动独立调查，由独立董事和外部律师监督；仍对黄和团队有信心，当时没有理由认为国家安全或公司机密已受损。",
+    "access": "已查阅公开报道或原始文件",
+    "retrieved_at": "2026-11-20 15:56–16:00 ET",
+    "script_inputs": []
+  },
+  {
+    "id": "counsel",
+    "source": "NVIDIA 独立董事，11/10",
+    "url": "https://nvidianews.nvidia.com/news/statement-from-the-independent-members-of-the-nvidia-board",
+    "claim": "聘请前纽约南区代理联邦检察官 Joon H. Kim 和 Wachtell, Lipton, Rosen & Katz 主持独立调查。",
+    "access": "已查阅公开报道或原始文件",
+    "retrieved_at": "2026-11-20 15:56–16:00 ET",
+    "script_inputs": []
+  },
+  {
+    "id": "sec",
+    "source": "NVIDIA Form 8-K，Item 5.02，SEC EDGAR",
+    "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000082/nvda-20261111.htm",
+    "claim": "董事会在 11/11 接受黄辞去全部三个职务并立即生效，同时任命临时 CEO 和董事长。提交日期为 11/12。",
+    "access": "已查阅公开报道或原始文件",
+    "retrieved_at": "2026-11-20 15:56–16:00 ET",
+    "script_inputs": []
+  },
+  {
+    "id": "sec_index",
+    "source": "SEC，8-K 接收索引",
+    "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000082/0001045810-26-000082-index.html",
+    "claim": "11/12 08:52:41 ET 接收，与 SEC submissions 字段相符。",
+    "access": "已查阅公开报道或原始文件",
+    "retrieved_at": "2026-11-20 15:56–16:00 ET",
+    "script_inputs": [
+      "filing_metadata.json:sec_submissions.rows"
+    ]
+  },
+  {
+    "id": "transition",
+    "source": "NVIDIA，11/12 人事公告",
+    "url": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition",
+    "claim": "Kress 任临时 CEO 兼 CFO，Harvey Jones 为新董事长，内外部均寻访；董事会预期路线图和客户承诺持续执行。",
+    "access": "已查阅公开报道或原始文件",
+    "retrieved_at": "2026-11-20 15:56–16:00 ET",
+    "script_inputs": []
+  },
+  {
+    "id": "second_employee",
+    "source": "Reuters，11/12，第二名员工的独立报道",
+    "url": "https://www.reuters.com/technology/former-nvidia-ceo-huang-had-relationship-with-second-employee-sources-say-2026-11-12/",
+    "claim": "两名知情人士称黄与另一名员工有亲密关系。报道在辞职后发表，其在 11/11 会议上的知悉程度未披露。",
+    "access": "Reuters 11/13 的后续自引亦已核对。",
+    "retrieved_at": "2026-11-20 15:56–16:00 ET",
+    "script_inputs": [],
+    "related_urls": [
+      "https://www.investing.com/news/stock-market-news/exclusiveformer-nvidia-ceo-huang-had-a-relationship-with-a-second-employee-sources-say-5023034"
+    ]
+  },
+  {
+    "id": "cnbc16",
+    "source": "CNBC，11/16，记者采访知情人士",
+    "url": "https://www.cnbc.com/2026/11/16/nvidia-ceo-jensen-huang.html",
+    "claim": "知情人士称董事会当时关注潜在国安与商业机密问题，未考虑重新任命。",
+    "access": "已查阅公开报道或原始文件",
+    "retrieved_at": "2026-11-20 15:56–16:00 ET",
+    "script_inputs": []
+  },
+  {
+    "id": "semafor",
+    "source": "Semafor，11/17 晚间，Rohan Goswami 与 Reed Albergotti",
+    "url": "https://www.semafor.com/article/11/17/2026/some-nvidia-directors-push-to-bring-huang-back-despite-board-opposition",
+    "claim": "消息人士称部分董事推动回归，黄与至少一名董事在公开声明和财报会之前讨论此事；报道未公布董事姓名或表决记录，双方发言人拒评。",
+    "access": "已查阅公开报道或原始文件",
+    "retrieved_at": "2026-11-20 15:56–16:00 ET",
+    "script_inputs": []
+  },
+  {
+    "id": "huang_offer",
+    "source": "AP 全文刊登黄仁勋 11/17 本人声明",
+    "url": "https://apnews.com/article/jensen-huang-return-nvidia-0f6d83fc6d97a30fc54bd66b5ac42eda",
+    "claim": "本人承认个人错误、愿配合调查，称收到来自各方的支持；若董事会判断复职符合各方利益，愿回任 CEO。",
+    "access": "已查阅公开报道或原始文件",
+    "retrieved_at": "2026-11-20 15:56–16:00 ET",
+    "script_inputs": []
+  },
+  {
+    "id": "post_clock",
+    "source": "X 平台嵌入元数据及本人账号",
+    "url": "https://x.com/JensenHuang/status/2122726005219737649",
+    "claim": "平台创建时间为 11/17 16:18:12 UTC，即 11:18:12 ET。",
+    "access": "有限字段见 filing_metadata.json。",
+    "retrieved_at": "2026-11-20 15:56–16:00 ET",
+    "script_inputs": [
+      "filing_metadata.json:x_syndication.fields.created_at"
+    ]
+  },
+  {
+    "id": "call",
+    "source": "NVIDIA，第三季度财报会，公司 IR 活动页",
+    "url": "https://investor.nvidia.com/events-and-presentations/events-and-presentations/event-details/2026/NVIDIA-3rd-Quarter-FY27-Financial-Results/default.aspx",
+    "claim": "11/17 17:00 ET 财报会。Jones 代表董事会在开场披露辞职、复任及寻聘立场。",
+    "access": "已查阅公开报道或原始文件",
+    "retrieved_at": "2026-11-20 15:56–16:00 ET",
+    "script_inputs": []
+  },
+  {
+    "id": "transcript",
+    "source": "11/17 财报会逐字记录，董事长开场，第 2 页",
+    "url": "https://docs.publicnow.com/viewDoc?filename=41263%5CEXT%5C1469229E206EF43AC9E7B70AFC261B2BCCFD10B3_7F8BB01E247D65DF4C22BFA8B6A4D5043F0D1710.PDF",
+    "claim": "Jones 表示黄的行为与公司准则、标准和文化不相容，董事会一致接受辞职，无意恢复其 CEO 职务；已委托 Heidrick & Struggles 寻找继任者。",
+    "access": "已查阅公开报道或原始文件",
+    "retrieved_at": "2026-11-20 15:56–16:00 ET",
+    "script_inputs": []
+  },
+  {
+    "id": "kress",
+    "source": "CNBC 对 Kress 的访谈记录，11/17 晚",
+    "url": "https://pressroom.versantmedia.com/cnbc/press-releases/cnbc-exclusive-transcript-nvidia-interim-ceo-colette-kress-speaks-cnbcs-jim",
+    "claim": "Kress 明确称董事会已决定不恢复黄的 CEO 职务。",
+    "access": "已查阅公开报道或原始文件",
+    "retrieved_at": "2026-11-20 15:56–16:00 ET",
+    "script_inputs": []
+  },
+  {
+    "id": "committee",
+    "source": "NVIDIA，董事会设立常设监督委员会，11/17",
+    "url": "https://nvidianews.nvidia.com/news/nvidia-board-of-directors-establishes-national-security-and-export-control-oversight-committee",
+    "claim": "Suzanne Nora Johnson 任主席，负责国家安全、出口合规及全球贸易风险，相关职能对新委员会与临时 CEO 汇报。",
+    "access": "已查阅公开报道或原始文件",
+    "retrieved_at": "2026-11-20 15:56–16:00 ET",
+    "script_inputs": []
+  },
+  {
+    "id": "code",
+    "source": "NVIDIA 公开行为准则，利益冲突条款",
+    "url": "https://images.nvidia.com/aem-dam/en-zz/Solutions/about-us/NVIDIA-Code-of-Conduct-External.pdf",
+    "claim": "准则把私人关系列为潜在利益冲突，出现冲突时应从涉及事项的决策中回避。",
+    "access": "已查阅公开报道或原始文件",
+    "retrieved_at": "2026-11-20 15:56–16:00 ET",
+    "script_inputs": []
+  },
+  {
+    "id": "denials",
+    "source": "AP，11/15，Megaspeed 回复及当事方说法",
+    "url": "https://apnews.com/article/e9e2e18169dce0b30a34f39715bf35ed",
+    "claim": "Megaspeed 表示 Alice 已于 2025 年 8 月离开、否认自身违法并聘外部律师调查。",
+    "access": "已查阅公开报道或原始文件",
+    "retrieved_at": "2026-11-20 15:56–16:00 ET",
+    "script_inputs": []
+  },
+  {
+    "id": "politics",
+    "source": "AP，11/16，特朗普谈复职与贝森特表态",
+    "url": "https://apnews.com/article/202e72d0c05646479e96a4936620b983",
+    "claim": "特朗普支持给黄回归机会。财政部长贝森特更倾向外部接班与合规改革；这些表态没有董事会任命效力。",
+    "access": "已查阅公开报道或原始文件",
+    "retrieved_at": "2026-11-20 15:56–16:00 ET",
+    "script_inputs": []
+  },
+  {
+    "id": "support",
+    "source": "Stand With Jensen 请愿公开信",
+    "url": "https://standwithjensen.com/",
+    "claim": "独立的请愿组织要求在调查期间让黄回任，网站声明不隶属于公司或黄。签名和员工身份为网站自报。",
+    "access": "已查阅公开报道或原始文件",
+    "retrieved_at": "2026-11-20 15:56–16:00 ET",
+    "script_inputs": []
+  },
+  {
+    "id": "litigation",
+    "source": "Reuters，11/19，解释调查与股东诉讼",
+    "url": "https://www.investing.com/news/stock-market-news/explainercould-huang-nvidia-and-companys-board-be-held-liable-over-affair-scandal-5039847",
+    "claim": "报道股东 11/11 提起派生诉讼质疑董事会监督；司法部长称 FBI 正在调查。中方否认间谍指控。起诉及调查不是裁判。",
+    "access": "已查阅公开报道或原始文件",
+    "retrieved_at": "2026-11-20 15:56–16:00 ET",
+    "script_inputs": []
+  },
+  {
+    "id": "bloomberg_old",
+    "source": "Bloomberg，11/20，查阅旧案卷，Livemint 同文",
+    "url": "https://www.livemint.com/companies/nvidia-employees-complained-about-huang-s-behavior-years-ago-11795200230275.html",
+    "claim": "旧案材料含前雇员指控，案件和解，黄的代表否认。此报道晚于 11/17 董事会公开表态。",
+    "access": "已查阅公开报道或原始文件",
+    "retrieved_at": "2026-11-20 15:56–16:00 ET",
+    "script_inputs": []
+  },
+  {
+    "id": "ft_initial",
+    "source": "FT，11/6，援引知情人士的原报道",
+    "url": "https://www.ft.com/content/a55a2a22-4479-4f93-a445-6147a5c6d790",
+    "claim": "美国官员将两人的接触描述为恋爱关系；出处亦见众议院能源商务委员会 11/18 致商务部函脚注。",
+    "retrieved_at": "2026-11-20 15:56–16:00 ET",
+    "script_inputs": []
+  },
+  {
+    "id": "wsj_board",
+    "source": "WSJ，11/16，援引熟悉董事会想法的人士",
+    "url": "https://www.wsj.com/business/nvidias-board-not-considering-reinstating-jensen-huang-as-ceo-a2b913b1",
+    "claim": "当时董事会并未考虑重新任命黄；该文称 FT 更早报道。",
+    "retrieved_at": "2026-11-20 15:56–16:00 ET",
+    "script_inputs": []
+  },
+  {
+    "id": "nytimes_intel",
+    "source": "The New York Times，11/6，有关情报评估的报道",
+    "url": "https://www.nytimes.com/2026/11/06/us/politics/chinese-spy-agency-nvidia-jensen-huang.html",
+    "claim": "报道美国情报官员对 Alice Huang 身份的评估。",
+    "retrieved_at": "2026-11-20 15:56–16:00 ET",
+    "script_inputs": []
+  },
+  {
+    "id": "letters",
+    "source": "两位股东联署信，由 Altimeter 创办人 11/13 发布",
+    "url": "https://x.com/altcap/status/2121389561414623679",
+    "claim": "股东要求查明事实、谨慎落实接班计划，保留包括黄回归在内的选项。",
+    "retrieved_at": "2026-11-20 15:56–16:00 ET",
+    "script_inputs": []
+  },
+  {
+    "id": "october",
+    "source": "Reuters 事件时间线，经 Investing.com 发布",
+    "url": "https://www.investing.com/news/stock-market-news/how-former-nvidia-ceo-jensen-huang-got-entangled-in-a-china-chip-and-spy-scandal-5033633",
+    "claim": "区分 2025 年就芯片销售及接触的报道、2026 年 10 月底的情报报道、11 月恋爱关系报道和董事会行动。",
+    "retrieved_at": "2026-11-20 15:56–16:00 ET",
+    "script_inputs": []
+  },
+  {
+    "id": "cbs",
+    "source": "CBS News，11/11 起，采访熟悉公司的人士",
+    "url": "https://www.cbsnews.com/news/nvidia-board-ceo-jensen-huang-china/",
+    "claim": "CBS 以两名知情人士独立核对董事会正在准备换帅，亦注明 WSJ 更早报道。",
+    "retrieved_at": "2026-11-20 15:56–16:00 ET",
+    "script_inputs": []
+  },
+  {
+    "id": "company_filings",
+    "source": "SEC，NVIDIA 公司申报名录",
+    "url": "https://data.sec.gov/submissions/CIK0001045810.json",
+    "claim": "检索截至 11/20 美东下午已披露的公司人事文件。人事与财报两份申报的索引及摘录见 filing_metadata.json。",
+    "retrieved_at": "2026-11-20 15:56–16:00 ET",
+    "script_inputs": []
+  },
+  {
+    "id": "ft_return",
+    "event_date": "2026-11-15",
+    "claim": "FT 报道黄与亲信讨论过回归，一位盟友在为游说董事会和争取白宫支持组织团队。报道依据为知情人士，对接人和董事会没有公开会谈纪要。Reuters 所刊为对 FT 的转述。",
+    "source": "FT 采访知情人士，Reuters 转述（原文有访问限制）",
+    "url": "https://www.ft.com/content/45383d86-33c4-4d99-86e5-5e058d3567c1",
+    "retrieved_at": "2026-11-20T15:59-05:00",
+    "related_urls": [
+      "https://www.streetinsider.com/Reuters/Jensen%2BHuang%2Bdiscusses%2Bcomeback%2Bas%2BNvidia%2BCEO%2Bwith%2Ballies%2C%2BFT%2Breports/27346348.html",
+      "https://www.techmeme.com/261115/p14"
+    ],
+    "script_inputs": []
+  },
+  {
+    "id": "investor",
+    "event_date": "2026-11-16",
+    "claim": "Gerstner 解释他和 Gavin Baker 11/13 要求董事会在选人前查明事实、保留包括黄回归在内的选项。Gerstner 特别澄清没有要求立即复职。",
+    "source": "Reuters 采访 Altimeter Capital CEO、NVIDIA 股东 Brad Gerstner，MarketScreener 承载视频文字",
+    "url": "https://uk.marketscreener.com/news/tech-firm-ceo-urges-nvidia-to-take-its-time-on-future-ceo-ce785edfdf81f727",
+    "retrieved_at": "2026-11-20T15:59-05:00",
+    "script_inputs": []
+  },
+  {
+    "id": "reuters_board",
+    "event_date": "2026-11-16",
+    "claim": "11/16 电讯称董事会当时未在考虑让黄回任。网页 11/17 更新。11/17 董事长在财报会公开说明当时的意向。",
+    "source": "Reuters 引述三位知情人士；Euronext 承载原报道",
+    "url": "https://live.euronext.com/en/financial-news/nvidia-rules-out-huang-comeback-campaign-his-return-grows",
+    "retrieved_at": "2026-11-20T15:59-05:00",
+    "script_inputs": []
+  },
+  {
+    "id": "petition",
+    "event_date": "2026-11-14",
+    "claim": "11/14 当时该请愿超过十万签名，其中 5,248 个签名自称现职员工。此处仅指当时参与者的自报身份，无法当作公司名册或董事、股东选票。",
+    "source": "The Information 对请愿网页的当日观察及组织者公开信",
+    "url": "https://www.theinformation.com/briefings/thousands-nvidia-staff-sign-petition-bring-back-huang",
+    "retrieved_at": "2026-11-20T15:59-05:00",
+    "related_urls": [
+      "https://standwithjensen.com/",
+      "https://standwithjensen.com/?lang=zh-Hans"
+    ],
+    "script_inputs": []
+  },
+  {
+    "id": "taipei",
+    "event_date": "2026-11-16",
+    "claim": "台北 101 在当地时间 11/16 晚点灯，科技业人士共同出资表达支持。中央社记录的是民间声援，未宣布采购承诺。",
+    "source": "台湾中央社记者文字及当日现场照片",
+    "url": "https://www.cna.com.tw/news/afe/202611160228.aspx",
+    "retrieved_at": "2026-11-20T15:59-05:00",
+    "script_inputs": []
+  },
+  {
+    "id": "bessent",
+    "event_date": "2026-11-15",
+    "claim": "Bessent 建议董事会选一位外部 CEO，质疑有关销售并主张整顿。这是他的公开主张，调查事实与政治主张分别解读。",
+    "source": "Axios 报道财政部长 Scott Bessent 在 Fox 的当日采访",
+    "url": "https://www.axios.com/2026/11/15/bessent-nvidia-earnings-china-chip-sales-ceo",
+    "retrieved_at": "2026-11-20T15:58-05:00",
+    "script_inputs": []
+  },
+  {
+    "id": "huang",
+    "event_date": "2026-11-17",
+    "claim": "11/17 11:18 美东宣布愿在董事会认定符合股东、员工、公司和美国利益时回任，并将配合董事会调查。员工、投资人、伙伴和客户联系他是本人自述。X 页面直连受限，文字已用美联社全文核对。",
+    "source": "黄仁勋本人 X 声明，美联社收录完整原文",
+    "url": "https://x.com/JensenHuang/status/2122726005219737649",
+    "retrieved_at": "2026-11-20T15:59-05:00",
+    "related_urls": [
+      "https://apnews.com/article/jensen-huang-return-nvidia-0f6d83fc6d97a30fc54bd66b5ac42eda"
+    ],
+    "script_inputs": []
+  },
+  {
+    "id": "board_call",
+    "event_date": "2026-11-17",
+    "claim": "Harvey Jones 说董事会一致接受辞呈，当前无意恢复黄的 CEO 职务，继续评估内外候选。Heidrick & Struggles 协助。董事会用一致描述接受辞职，未在发言中另列复职表决。",
+    "source": "NVIDIA 公司活动及 11/17 财报电话会 Bloomberg 整理的逐字稿，第 2 页",
+    "url": "https://investor.nvidia.com/events-and-presentations/events-and-presentations/event-details/2026/NVIDIA-3rd-Quarter-FY27-Financial-Results/default.aspx",
+    "retrieved_at": "2026-11-20T15:59-05:00",
+    "related_urls": [
+      "https://docs.publicnow.com/viewDoc?filename=41263%5CEXT%5C1469229E206EF43AC9E7B70AFC261B2BCCFD10B3_7F8BB01E247D65DF4C22BFA8B6A4D5043F0D1710.PDF",
+      "https://www.fool.com/earnings/call-transcripts/2026/11/18/nvidia-nvda-q3-2027-earnings-call-transcript/"
+    ],
+    "script_inputs": []
+  },
+  {
+    "id": "staff",
+    "event_date": "2026-11-17",
+    "claim": "开发者技术总监 Nader Khalil 致董事会及高管，警告若不恢复黄的职位，公司面临核心人才流失风险。他担任公司业务职务，信件表达个人判断。",
+    "source": "Wall Street Journal 取得内部信件内容的知情人士报道",
+    "url": "https://www.wsj.com/business/nvidia-board-warned-of-irreplaceable-talent-loss-in-employee-letter-b9783b1e",
+    "retrieved_at": "2026-11-20T15:59-05:00",
+    "script_inputs": []
+  },
+  {
+    "id": "staff_differ",
+    "event_date": "2026-11-13",
+    "claim": "该副总裁驳斥了另一封网传、署有其名的集体信，表达对董事会及临时 CEO 的支持。这和实际公开的 Stand with Jensen 请愿是两份材料。",
+    "source": "NVIDIA 应用深度学习副总裁 Bryan Catanzaro 个人 X 发言，Tom’s Hardware 转述",
+    "url": "https://x.com/ctnzr/status/2121324405112635467",
+    "retrieved_at": "2026-11-20T15:58-05:00",
+    "related_urls": [
+      "https://www.tomshardware.com/tech-industry/elon-musk-signs-petition-to-reinstate-jensen-huang-as-nvidia-ceo-over-130-000-sign-online-petition-but-not-all-nvidians-support-jensens-return"
+    ],
+    "script_inputs": []
+  },
+  {
+    "id": "wired_staff",
+    "event_date": "2026-11-18",
+    "claim": "Jones 将辞职与个人行为和坦诚不足联系起来。Kress 告诉员工加薪和股权调整提前至 12 月，以留住人才。公司未就报道补充评论。",
+    "source": "WIRED 核阅首次全员会的管理层发言",
+    "url": "https://www.wired.com/story/inside-nvidias-first-all-hands-without-jensen-huang-as-ceo/",
+    "retrieved_at": "2026-11-20T15:59-05:00",
+    "script_inputs": []
+  },
+  {
+    "id": "musk",
+    "event_date": "2026-11-18",
+    "claim": "Musk 将黄比作巅峰乔丹，认为离任损害股东利益。他表达个人意见，讲话没有规定采购量。",
+    "source": "The New York Times 访谈原视频：Andrew Ross Sorkin 对 Elon Musk 的 DealBook 采访",
+    "url": "https://www.youtube.com/watch?v=zWeT91uH7LI",
+    "retrieved_at": "2026-11-20T15:59-05:00",
+    "related_urls": [
+      "https://singjupost.com/transcript-andrew-ross-sorkin-interviews-elon-musk-at-dealbook-summit-2026/"
+    ],
+    "script_inputs": []
+  },
+  {
+    "id": "nadella",
+    "event_date": "2026-11-18",
+    "claim": "Nadella 尊重黄对公司的贡献，称是否回任交由 NVIDIA 董事会决定，认可临时 CEO Kress，继续与原班商业对口人员联系并对公司保持信心。该段发言不含微软订单或数量承诺。",
+    "source": "Satya Nadella 在 DealBook 峰会回答 Andrew Ross Sorkin，TechCrunch 报道并引述现场讲话",
+    "url": "https://techcrunch.com/2026/11/18/microsoft-ceo-satya-nadella-remains-confident-in-nvidia-after-huangs-exit/",
+    "retrieved_at": "2026-11-20T15:59-05:00",
+    "related_urls": [
+      "https://singjupost.com/transcript-satya-nadella-on-new-algorithm-dealbook-summit-2026/"
+    ],
+    "script_inputs": []
+  },
+  {
+    "id": "senate",
+    "event_date": "2026-11-18",
+    "claim": "Scott 表示黄及商务部长 Lutnick 两人都同意出席，希望圣诞前举行。确认出席与确认最终日期分别记录，11/18 的报道未公布最终日期。",
+    "source": "参议院银行委员会主席 Tim Scott 在 CNBC 受访；Quartz 及 CNBC 转引页核过文字",
+    "url": "https://www.cnbc.com/2026/11/18/jensen-huang-nvidia-tim-scott-congress.html",
+    "retrieved_at": "2026-11-20T15:59-05:00",
+    "related_urls": [
+      "https://qz.com/jensen-huang-howard-lutnick-senate-banking-testify-111826",
+      "https://www.banking.senate.gov/hearings"
+    ],
+    "script_inputs": []
+  },
+  {
+    "id": "house",
+    "event_date": "2026-11-17",
+    "claim": "情报、外交和中共问题特设委员会确认黄自愿于 12/1、总法律顾问 Tim Teter 于 12/2 参加记录在案的问询。11/12 邀请给黄安排闭门形式。",
+    "source": "美国众议院情报委员会与另两委员会主席的联合公告",
+    "url": "https://intelligence.house.gov/2026/11/17/jensen-huang-and-nvidia-agree-to-appear-before-congress/",
+    "retrieved_at": "2026-11-20T15:59-05:00",
+    "related_urls": [
+      "https://foreignaffairs.house.gov/sites/evo-subsites/republicans-foreignaffairs.house.gov/files/evo-media-document/11.12.26-chairmen-letter-to-mr-jensen-huang.pdf"
+    ],
+    "script_inputs": []
+  },
+  {
+    "id": "ca_ag",
+    "event_date": "2026-11-19",
+    "claim": "州检察长已向 NVIDIA 发出调查传票，调查涉及中国获得先进芯片或机密资料的情况及公司是否就风险误导投资者或公众。当日公布的动作是调查取证。",
+    "source": "加利福尼亚州司法部、州检察长 Rob Bonta 官方公告",
+    "url": "https://oag.ca.gov/node/633133",
+    "retrieved_at": "2026-11-20T15:59-05:00",
+    "script_inputs": []
+  },
+  {
+    "id": "summit",
+    "event_date": "2026-11-19",
+    "claim": "Trump 称和习近平讨论了 AI，仅简短谈到黄。内容是美方总统描述会谈。",
+    "source": "Trump 在深圳接受 Fox News 的采访片段，Reuters 文字及视频经 MarketScreener 刊载",
+    "url": "https://www.marketscreener.com/news/trump-says-he-discussed-ai-with-xi-barely-mentioned-jensen-huang-ce785eddde8ff42d",
+    "retrieved_at": "2026-11-20T15:59-05:00",
+    "script_inputs": []
+  },
+  {
+    "id": "whitehouse",
+    "event_date": "2026-11-20",
+    "claim": "Trump 公开赞赏黄，主张公司接受其道歉并让他回去工作。他说习近平认可黄的才智。这只记录 Trump 对两人会谈的叙述，并非中方声明或 NVIDIA 董事会决定。",
+    "source": "白宫记者会的美联社现场报道，另列美方官方视频活动索引",
+    "url": "https://apnews.com/article/540e631e21d003b83877ee4174cde2c0",
+    "retrieved_at": "2026-11-20T15:59-05:00",
+    "related_urls": [
+      "https://www.dvidshub.net/webcast/38729",
+      "https://www.cbsnews.com/live-updates/trump-press-conference-live-stream-2026-11-20/"
+    ],
+    "script_inputs": []
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "as_of": "2026-11-20T16:00:00-05:00",
+  "verified_times": {
+    "change_effective_date": "2026-11-11",
+    "personnel_8k_accepted_et": "2026-11-12T08:52:41-05:00",
+    "huang_statement_et": "2026-11-17T11:18:12-05:00",
+    "earnings_8k_accepted_et": "2026-11-17T16:20:51-05:00"
+  },
+  "chronology_rows": 13,
+  "inputs_sha256": {
+    "data/events.json": "7d2b8c4f3ff1ef677418818aa0ed37105f7788580966922f1daaf6a41b0e79e3",
+    "data/sources_web_20261120.json": "37862f7ca2fc8551a95843efc39069dd752dee5681001ccb4955560b3ccd70e5",
+    "data/filing_metadata.json": "4b6cba0148ffce929cfd64b0d663d5601a624754dc4ae22f928b40c619f15f6d"
+  }
+}

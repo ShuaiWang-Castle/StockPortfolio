@@ -1,0 +1,131 @@
+[
+  {
+    "date_et": "2025 年秋至 2026-10 下旬",
+    "evidence": "记者查阅通信及采访",
+    "detail": "新加坡数据中心公司 Megaspeed 的芯片去向及其前高管 Alice Huang 与黄仁勋的往来引起注意。两名知情者对 Reuters 表示，2025 年秋黄与公司领导层交流时未说明婚外关系。Reuters 查阅了 2026 年 10 月的信息，黄当时向包括总法律顾问 Tim Teter 和首席营销官 Alison Wagonfeld 在内的高管称这些接触是普通客户往来。",
+    "sources": [
+      "trust_report",
+      "october"
+    ]
+  },
+  {
+    "date_et": "10 月底至 11-08 公告前",
+    "evidence": "情报评估报道及记者采访",
+    "detail": "媒体先报道美国方面关注相关接触，11/6 FT 披露官员称两人有恋爱关系，纽约时报报道美情报评估。此后据 Bloomberg 采访，兼任董事会秘书的 Teter 登门核实，黄承认关系，Teter 要求董事会采取行动。登门日期及黄首次通知全体董事的精确时点未披露。",
+    "sources": [
+      "ft_initial",
+      "nytimes_intel",
+      "bloomberg"
+    ]
+  },
+  {
+    "date_et": "11-08",
+    "evidence": "当事人信件、董事会公告",
+    "detail": "黄在公开的员工信中承认婚内不忠并承诺配合，未在信中点名。董事会启动独立调查，当日仍公开支持他与管理团队，并说当时没有理由相信国家安全或公司机密已受损。",
+    "sources": [
+      "huang_letter",
+      "open_inquiry"
+    ]
+  },
+  {
+    "date_et": "11-10",
+    "evidence": "独立董事声明",
+    "detail": "独立董事聘请外部律师 Joon H. Kim 与 Wachtell, Lipton, Rosen & Katz 开展调查。此时黄仍在任，对当天以前到岗的报道应按在任工作理解。",
+    "sources": [
+      "counsel",
+      "sec"
+    ]
+  },
+  {
+    "date_et": "11-11 至 11-12",
+    "evidence": "媒体采访、法定披露",
+    "detail": "纽约时报引述公司工作过的人士，报道黄与直接向其汇报的医疗业务副总裁有亲密关系。Bloomberg 报道董事当晚远程开会至深夜，黄面临实际离任压力。8-K 记载 11/11 董事会接受黄辞去总裁、CEO、董事，当日立即生效；翌晨披露。CFO Colette Kress 兼任临时 CEO，Harvey Jones 任董事长，寻访内外候选。",
+    "sources": [
+      "nytimes",
+      "bloomberg",
+      "sec",
+      "transition"
+    ]
+  },
+  {
+    "date_et": "11-12 至 11-13",
+    "evidence": "事后媒体核实",
+    "detail": "Reuters 随后援引两名知情者报道还涉及另一名员工，次日详述此前内部说法。报道晚于 11/11，无法仅凭发表顺序判断当晚董事具体知道哪些事实。",
+    "sources": [
+      "second_employee",
+      "trust_report"
+    ]
+  },
+  {
+    "date_et": "11-13 至 11-15",
+    "evidence": "股东信、请愿、媒体采访",
+    "detail": "Altimeter 的 Brad Gerstner 和 Atreides 的 Gavin Baker 联名要求查明事实、保留所有选项；独立请愿方主张调查期间即回任。11/15 FT 援引知情者报道黄与亲信讨论复出，一位盟友组织科技界人士争取董事会及白宫支持。Reuters 和 Bloomberg 对这项 FT 消息的转载不构成两次独立确认。",
+    "sources": [
+      "letters",
+      "investor",
+      "support",
+      "ft_return"
+    ]
+  },
+  {
+    "date_et": "11-15 至 11-16",
+    "evidence": "具名采访与知情人士报道",
+    "detail": "财政部长贝森特主张外聘并整顿合规。特朗普公开支持给黄机会。11/16 CNBC、Reuters 分别引述知情者称董事会没有考虑复任，正在关注调查。政府、投资人和员工未就人事问题发出一致信号。",
+    "sources": [
+      "bessent",
+      "politics",
+      "cnbc16",
+      "reuters_board",
+      "wsj_board"
+    ]
+  },
+  {
+    "date_et": "11-17 公开表态前",
+    "evidence": "匿名采访，晚间刊发",
+    "detail": "Semafor 报道部分董事支持回归，黄与至少一名董事在其声明和财报会前谈过此事。没有公开个人表决记录或书面复任议案。",
+    "sources": [
+      "semafor"
+    ]
+  },
+  {
+    "date_et": "11-17 上午",
+    "evidence": "本人声明及平台时间戳",
+    "detail": "黄在 X 承担个人错误、承诺配合调查。他表示收到员工、投资人、伙伴和客户的呼声，若董事会认定回任符合各方利益，他愿回来担任 CEO。支持范围是他的自述。",
+    "sources": [
+      "post_clock",
+      "huang_offer"
+    ]
+  },
+  {
+    "date_et": "11-17 同日及 17:00 ET 起",
+    "evidence": "公司公告、董事长与临时 CEO 的发言",
+    "detail": "董事会另设常设国家安全与出口管制监督委员会。财报会上 Jones 说董事会一致接受辞职，无意恢复其 CEO 职务，已委托 Heidrick & Struggles 寻访继任者；不在此次电话会回答调查细节。Kress 当晚在 CNBC 确认董事会已决定不予复职。",
+    "sources": [
+      "committee",
+      "call",
+      "transcript",
+      "kress"
+    ]
+  },
+  {
+    "date_et": "11-18",
+    "evidence": "媒体查阅员工大会发言、具名客户表态",
+    "detail": "WIRED 审阅员工大会发言，Jones 把接受辞职归因于行为与不够坦诚。Kress 提前安排员工薪酬与股权调整。马斯克强调失去黄的代价，微软 Nadella 肯定 Kress、把任命交给董事会。客户评价无法替代实际采购或取消订单。",
+    "sources": [
+      "wired_staff",
+      "musk",
+      "nadella"
+    ]
+  },
+  {
+    "date_et": "11-19 至 11-20",
+    "evidence": "监管机关公告、总统公开发言",
+    "detail": "加州总检察长公布向 NVIDIA 发出调查传票，关注芯片、机密与是否误导投资者。11/20 特朗普公开希望公司接受黄道歉、让他回来。二者均在 11/17 董事会表态之后；截至本研究截点，公司最近对 CEO 回归的具名立场仍见 Jones 与 Kress 发言。",
+    "sources": [
+      "ca_ag",
+      "whitehouse",
+      "company_filings",
+      "kress"
+    ]
+  }
+]
