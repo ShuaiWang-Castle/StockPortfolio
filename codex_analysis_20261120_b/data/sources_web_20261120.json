@@ -1,0 +1,359 @@
+[
+  {
+    "source": "Yahoo Finance chart historical",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/VTI?period1=1794528000&period2=1795305600&interval=1d&events=div%2Csplits",
+    "retrieved_at": "2026-11-20T16:10:18-05:00",
+    "claim": "VTI 11/13 至 11/20 常规时段收盘及复权收盘。按复权价格比率续接历史，跨除息日也纳入分配。",
+    "script_inputs": [
+      "timestamp",
+      "indicators.adjclose[0].adjclose"
+    ],
+    "file": "data/raw/VTI_chart.json"
+  },
+  {
+    "source": "Yahoo Finance chart historical",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/NVDA?period1=1794528000&period2=1795305600&interval=1d&events=div%2Csplits",
+    "retrieved_at": "2026-11-20T16:10:18-05:00",
+    "claim": "NVDA 11/13 至 11/20 常规时段收盘及复权收盘。按复权价格比率续接历史，跨除息日也纳入分配。",
+    "script_inputs": [
+      "timestamp",
+      "indicators.adjclose[0].adjclose"
+    ],
+    "file": "data/raw/NVDA_chart.json"
+  },
+  {
+    "source": "Yahoo Finance chart historical",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/TSM?period1=1794528000&period2=1795305600&interval=1d&events=div%2Csplits",
+    "retrieved_at": "2026-11-20T16:10:18-05:00",
+    "claim": "TSM 11/13 至 11/20 常规时段收盘及复权收盘。按复权价格比率续接历史，跨除息日也纳入分配。",
+    "script_inputs": [
+      "timestamp",
+      "indicators.adjclose[0].adjclose"
+    ],
+    "file": "data/raw/TSM_chart.json"
+  },
+  {
+    "source": "Yahoo Finance chart historical",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/AVGO?period1=1794528000&period2=1795305600&interval=1d&events=div%2Csplits",
+    "retrieved_at": "2026-11-20T16:10:18-05:00",
+    "claim": "AVGO 11/13 至 11/20 常规时段收盘及复权收盘。按复权价格比率续接历史，跨除息日也纳入分配。",
+    "script_inputs": [
+      "timestamp",
+      "indicators.adjclose[0].adjclose"
+    ],
+    "file": "data/raw/AVGO_chart.json"
+  },
+  {
+    "source": "Yahoo Finance chart historical",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/MU?period1=1794528000&period2=1795305600&interval=1d&events=div%2Csplits",
+    "retrieved_at": "2026-11-20T16:10:18-05:00",
+    "claim": "MU 11/13 至 11/20 常规时段收盘及复权收盘。按复权价格比率续接历史，跨除息日也纳入分配。",
+    "script_inputs": [
+      "timestamp",
+      "indicators.adjclose[0].adjclose"
+    ],
+    "file": "data/raw/MU_chart.json"
+  },
+  {
+    "source": "Yahoo Finance chart historical",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/GOOGL?period1=1794528000&period2=1795305600&interval=1d&events=div%2Csplits",
+    "retrieved_at": "2026-11-20T16:10:18-05:00",
+    "claim": "GOOGL 11/13 至 11/20 常规时段收盘及复权收盘。按复权价格比率续接历史，跨除息日也纳入分配。",
+    "script_inputs": [
+      "timestamp",
+      "indicators.adjclose[0].adjclose"
+    ],
+    "file": "data/raw/GOOGL_chart.json"
+  },
+  {
+    "source": "Yahoo Finance chart historical",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/META?period1=1794528000&period2=1795305600&interval=1d&events=div%2Csplits",
+    "retrieved_at": "2026-11-20T16:10:18-05:00",
+    "claim": "META 11/13 至 11/20 常规时段收盘及复权收盘。按复权价格比率续接历史，跨除息日也纳入分配。",
+    "script_inputs": [
+      "timestamp",
+      "indicators.adjclose[0].adjclose"
+    ],
+    "file": "data/raw/META_chart.json"
+  },
+  {
+    "source": "Yahoo Finance chart historical",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/MSFT?period1=1794528000&period2=1795305600&interval=1d&events=div%2Csplits",
+    "retrieved_at": "2026-11-20T16:10:18-05:00",
+    "claim": "MSFT 11/13 至 11/20 常规时段收盘及复权收盘。按复权价格比率续接历史，跨除息日也纳入分配。",
+    "script_inputs": [
+      "timestamp",
+      "indicators.adjclose[0].adjclose"
+    ],
+    "file": "data/raw/MSFT_chart.json"
+  },
+  {
+    "source": "Yahoo Finance chart historical",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/AMZN?period1=1794528000&period2=1795305600&interval=1d&events=div%2Csplits",
+    "retrieved_at": "2026-11-20T16:10:18-05:00",
+    "claim": "AMZN 11/13 至 11/20 常规时段收盘及复权收盘。按复权价格比率续接历史，跨除息日也纳入分配。",
+    "script_inputs": [
+      "timestamp",
+      "indicators.adjclose[0].adjclose"
+    ],
+    "file": "data/raw/AMZN_chart.json"
+  },
+  {
+    "source": "Yahoo Finance chart historical",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/BRK-B?period1=1794528000&period2=1795305600&interval=1d&events=div%2Csplits",
+    "retrieved_at": "2026-11-20T16:10:18-05:00",
+    "claim": "BRK-B 11/13 至 11/20 常规时段收盘及复权收盘。按复权价格比率续接历史，跨除息日也纳入分配。",
+    "script_inputs": [
+      "timestamp",
+      "indicators.adjclose[0].adjclose"
+    ],
+    "file": "data/raw/BRK-B_chart.json"
+  },
+  {
+    "source": "Yahoo Finance chart historical",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/SGOV?period1=1794528000&period2=1795305600&interval=1d&events=div%2Csplits",
+    "retrieved_at": "2026-11-20T16:10:18-05:00",
+    "claim": "SGOV 11/13 至 11/20 常规时段收盘及复权收盘。按复权价格比率续接历史，跨除息日也纳入分配。",
+    "script_inputs": [
+      "timestamp",
+      "indicators.adjclose[0].adjclose"
+    ],
+    "file": "data/raw/SGOV_chart.json"
+  },
+  {
+    "source": "Yahoo Finance chart historical",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/XLV?period1=1794528000&period2=1795305600&interval=1d&events=div%2Csplits",
+    "retrieved_at": "2026-11-20T16:10:18-05:00",
+    "claim": "XLV 11/13 至 11/20 常规时段收盘及复权收盘。按复权价格比率续接历史，跨除息日也纳入分配。",
+    "script_inputs": [
+      "timestamp",
+      "indicators.adjclose[0].adjclose"
+    ],
+    "file": "data/raw/XLV_chart.json"
+  },
+  {
+    "source": "Nasdaq 交易所",
+    "url": "https://api.nasdaq.com/api/quote/NVDA/info?assetclass=stocks",
+    "retrieved_at": "2026-11-20T16:09:04-05:00",
+    "claim": "NVDA 的常规时段收盘。使用 16:00 ET 收盘字段，排除盘后。",
+    "file": "data/raw/NVDA_info.json",
+    "script_inputs": [
+      "data.secondaryData:lastSalePrice,netChange,percentageChange,lastTradeTimestamp"
+    ]
+  },
+  {
+    "source": "Nasdaq 交易所",
+    "url": "https://api.nasdaq.com/api/quote/NVDA/historical?assetclass=stocks&fromdate=2026-10-29&todate=2026-11-20&limit=50",
+    "retrieved_at": "2026-11-20T16:09:04-05:00",
+    "claim": "NVDA 的常规时段收盘。历史含 11/3、11/17 等日期。",
+    "file": "data/raw/NVDA_historical.json",
+    "script_inputs": [
+      "data.tradesTable.rows:date,close"
+    ]
+  },
+  {
+    "source": "Nasdaq 交易所",
+    "url": "https://api.nasdaq.com/api/quote/QQQ/info?assetclass=etf",
+    "retrieved_at": "2026-11-20T16:09:06-05:00",
+    "claim": "QQQ 的常规时段收盘。使用 16:00 ET 收盘字段，排除盘后。",
+    "file": "data/raw/QQQ_info.json",
+    "script_inputs": [
+      "data.secondaryData:lastSalePrice,netChange,percentageChange,lastTradeTimestamp"
+    ]
+  },
+  {
+    "source": "Nasdaq 交易所",
+    "url": "https://api.nasdaq.com/api/quote/SOXX/info?assetclass=etf",
+    "retrieved_at": "2026-11-20T16:09:04-05:00",
+    "claim": "SOXX 的常规时段收盘。使用 16:00 ET 收盘字段，排除盘后。",
+    "file": "data/raw/SOXX_info.json",
+    "script_inputs": [
+      "data.secondaryData:lastSalePrice,netChange,percentageChange,lastTradeTimestamp"
+    ]
+  },
+  {
+    "source": "Nasdaq 交易所",
+    "url": "https://api.nasdaq.com/api/quote/SPY/info?assetclass=etf",
+    "retrieved_at": "2026-11-20T16:09:04-05:00",
+    "claim": "SPY 的常规时段收盘。使用 16:00 ET 收盘字段，排除盘后。",
+    "file": "data/raw/SPY_info.json",
+    "script_inputs": [
+      "data.secondaryData:lastSalePrice,netChange,percentageChange,lastTradeTimestamp"
+    ]
+  },
+  {
+    "source": "Nasdaq 交易所",
+    "url": "https://api.nasdaq.com/api/quote/VTI/info?assetclass=etf",
+    "retrieved_at": "2026-11-20T16:09:06-05:00",
+    "claim": "VTI 的常规时段收盘。使用 16:00 ET 收盘字段，排除盘后。",
+    "file": "data/raw/VTI_info.json",
+    "script_inputs": [
+      "data.secondaryData:lastSalePrice,netChange,percentageChange,lastTradeTimestamp"
+    ]
+  },
+  {
+    "source": "Nasdaq 一致预期接口",
+    "url": "https://api.nasdaq.com/api/analyst/NVDA/earnings-forecast",
+    "retrieved_at": "2026-11-20T16:10:44-05:00",
+    "claim": "Jan 2027 / Jan 2028 年度 Consensus EPS Forecast，接口 asOf 为 null；获取时间不是分析师更新时点。",
+    "script_inputs": [
+      "data.yearlyForecast.rows"
+    ],
+    "file": "data/raw/earnings_forecast.json"
+  },
+  {
+    "source": "Kalshi 市场接口",
+    "url": "https://api.elections.kalshi.com/trade-api/v2/markets/KXNVDACEO-29JAN-JENS",
+    "retrieved_at": "2026-11-20T16:09:43-05:00",
+    "claim": "下一任正式 CEO 合约 2029-01-01 前截止；排除代理/临时，官方宣布即可结算。盘口是交易价格，不是统计概率。 归档为筛选字段，另记完整响应 SHA-256。",
+    "script_inputs": [
+      "market.ticker",
+      "market.yes_bid_dollars",
+      "market.yes_ask_dollars",
+      "market.last_price_dollars"
+    ],
+    "file": "data/raw/next_ceo_market.json"
+  },
+  {
+    "source": "NVIDIA 财报及电话会，11/17",
+    "url": "https://s201.q4cdn.com/141608511/files/content_files/NVDA-3Q27-Earnings-Transcript.pdf",
+    "claim": "董事会无意恢复其 CEO 职务；管理层维持 2027 Rubin Ultra 与 2028 Feynman 时间表，Rubin 平台首个交付季度收入约 200 亿美元。Kress 仍评估当周政策，FY28 营收增长框架提高至约 75%。",
+    "retrieved_at": "2026-11-20 16:08–16:13 ET",
+    "script_inputs": []
+  },
+  {
+    "source": "NVIDIA Q3 FY27 新闻稿",
+    "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Third-Quarter-Fiscal-2027/",
+    "claim": "10/25 财季截至时黄仍在任；收入 1158 亿美元，数据中心收入 1076 亿美元；Q4 约 1300 亿美元上下 3%，GAAP 毛利率 71%–72%。",
+    "retrieved_at": "2026-11-20 16:08–16:13 ET",
+    "script_inputs": []
+  },
+  {
+    "source": "NVIDIA FY27 Q2 10-Q 财年说明",
+    "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm",
+    "claim": "财年截止一月最后一个周日，FY27 最后一天是 2027-01-31；作为年度一致预期转换 NTM 的日期输入。",
+    "retrieved_at": "2026-11-20 16:08–16:13 ET",
+    "script_inputs": [
+      "2027-01-31"
+    ]
+  },
+  {
+    "source": "CoreWeave，9/30，Cognition 的生产负载",
+    "url": "https://investors.coreweave.com/news/news-details/2026/CoreWeave-Delivers-NVIDIA-Vera-Rubin-NVL72-Performance-at-Production-Scale-Starting-With-Cognition/default.aspx",
+    "claim": "黄辞任前已有客户在 Rubin 上跑生产工作负载。",
+    "retrieved_at": "2026-11-20 16:08–16:13 ET",
+    "script_inputs": []
+  },
+  {
+    "source": "Google Cloud，11/13，高性能计算更新",
+    "url": "https://cloud.google.com/blog/topics/hpc/whats-new-in-hpc-and-ai-at-sc26",
+    "claim": "公司持续提供 A5X Rubin 实例，同时发展 TPU。",
+    "retrieved_at": "2026-11-20 16:08–16:13 ET",
+    "script_inputs": []
+  },
+  {
+    "source": "韩国科技部门负责人具名表态，Yonhap，11/13",
+    "url": "https://en.yna.co.kr/view/AEN20261113008400320",
+    "claim": "黄离任后再确认面向韩国政府和业界的约 26 万颗 GPU 既有供应合作计划。属于计划重申，非已交付量。",
+    "retrieved_at": "2026-11-20 16:08–16:13 ET",
+    "script_inputs": []
+  },
+  {
+    "source": "NVIDIA 对韩国合作的原始公告",
+    "url": "https://investor.nvidia.com/news/press-release-details/2025/NVIDIA-South-Korea-Government-and-Industrial-Giants-Build-AI-Infrastructure-and-Ecosystem-to-Fuel-Korea-Innovation-Industries-and-Jobs/",
+    "claim": "原全球部署计划面向韩国公共部门和工业界。",
+    "retrieved_at": "2026-11-20 16:08–16:13 ET",
+    "script_inputs": []
+  },
+  {
+    "source": "Anthropic 与 Amazon 合作公告",
+    "url": "https://www.anthropic.com/news/anthropic-amazon-compute",
+    "claim": "模型训练与推理已有超过一百万颗 Trainium2 用于 Claude，说明替代芯片已投入实际工作。",
+    "retrieved_at": "2026-11-20 16:08–16:13 ET",
+    "script_inputs": []
+  },
+  {
+    "source": "财报会之后的调查状态，加州总检察长 11/19",
+    "url": "https://oag.ca.gov/node/633133",
+    "claim": "关于芯片、信息及风险披露的调查传票，未公布违法裁定。",
+    "retrieved_at": "2026-11-20 16:08–16:13 ET",
+    "script_inputs": []
+  },
+  {
+    "source": "Reuters，11/20，两名知情人士；MarketScreener 授权稿",
+    "url": "https://in.marketscreener.com/news/nvidia-s-accounting-is-a-focus-of-us-sec-investigation-sources-say-ce785ed3dd8ff526",
+    "claim": "报道美国 SEC 的调查涉及会计，具体会计事项、调查开始日未公开；并非已发现错报。",
+    "retrieved_at": "2026-11-20 16:08–16:13 ET",
+    "script_inputs": []
+  },
+  {
+    "source": "总统 11/20 记者会，美联社",
+    "url": "https://apnews.com/article/f1ac03b73d13445400eeed8631d9d879",
+    "claim": "特朗普称将限制美国企业在海外建设 AI 数据中心并威胁重税；讲话未公布生效条文、税率、实施方式。",
+    "retrieved_at": "2026-11-20 16:08–16:13 ET",
+    "script_inputs": []
+  },
+  {
+    "source": "BIS 已生效法规，91 FR 74970",
+    "url": "https://www.govinfo.gov/content/pkg/FR-2026-11-19/html/2026-23529.htm",
+    "claim": "11/19 生效的先进半导体许可措施按产品、目的地和终端用途界定，影响特定境外数据中心渠道，包含例外及过渡安排。",
+    "retrieved_at": "2026-11-20 16:08–16:13 ET",
+    "script_inputs": []
+  },
+  {
+    "source": "WIRED 查阅 11/18 员工大会发言",
+    "url": "https://www.wired.com/story/inside-nvidias-first-all-hands-without-jensen-huang-as-ceo/",
+    "claim": "Jones 向员工解释行为及不够坦诚；管理层试图稳定人才。",
+    "retrieved_at": "2026-11-20 16:08–16:13 ET",
+    "script_inputs": []
+  },
+  {
+    "source": "黄 11/17 的声明，AP 完整刊登",
+    "url": "https://apnews.com/article/jensen-huang-return-nvidia-0f6d83fc6d97a30fc54bd66b5ac42eda",
+    "claim": "黄愿在董事会判断符合各方利益时回任。",
+    "retrieved_at": "2026-11-20 16:08–16:13 ET",
+    "script_inputs": []
+  },
+  {
+    "source": "Semafor 11/17 匿名董事会采访",
+    "url": "https://www.semafor.com/article/11/17/2026/some-nvidia-directors-push-to-bring-huang-back-despite-board-opposition",
+    "claim": "部分董事支持回任的报道，非任免决议。",
+    "retrieved_at": "2026-11-20 16:08–16:13 ET",
+    "script_inputs": []
+  },
+  {
+    "source": "AP 白宫现场 11/20",
+    "url": "https://apnews.com/article/540e631e21d003b83877ee4174cde2c0",
+    "claim": "特朗普再次表示希望黄道歉并回去。",
+    "retrieved_at": "2026-11-20 16:08–16:13 ET",
+    "script_inputs": []
+  },
+  {
+    "source": "Polymarket 的任职范围及期限条款",
+    "url": "https://polymarket.com/event/jensen-huang-rejoins-nvidia-byptptpt",
+    "claim": "更宽的重返公司合约包含董事、顾问等身份，不能拿它与正式 CEO 事件直接比价。",
+    "retrieved_at": "2026-11-20 16:08–16:13 ET",
+    "script_inputs": []
+  },
+  {
+    "source": "SEC EDGAR 公司申报名录",
+    "url": "https://data.sec.gov/submissions/CIK0001045810.json",
+    "claim": "截至 11/20 约 16:10 ET，最近财报 8-K 日期 11/17；Q3 的 10-Q 尚待核对。",
+    "retrieved_at": "2026-11-20 16:08–16:13 ET",
+    "script_inputs": []
+  },
+  {
+    "source": "PR #7 发行人复核（11/19）",
+    "url": "https://github.com/ShuaiWang-Castle/StockPortfolio/pull/7",
+    "claim": "说明出口条款两种解释，区分渠道限制与公司专属限制。",
+    "retrieved_at": "2026-11-20 16:08–16:13 ET",
+    "script_inputs": []
+  },
+  {
+    "source": "NVIDIA 官网 CFO 评述，11/17",
+    "url": "https://s201.q4cdn.com/141608511/files/doc_financials/2027/Q327/Q3FY27-CFO-Commentary.pdf",
+    "claim": "Q4 指引不含中国数据中心计算收入。",
+    "retrieved_at": "2026-11-20 16:08–16:13 ET",
+    "script_inputs": []
+  }
+]

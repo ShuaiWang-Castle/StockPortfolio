@@ -1,0 +1,135 @@
+{
+  "inputs_sha256": {
+    "current_plan.json": "b8f143c0a18917a861bb3db0f929071bcfafbce86cdf1d97162af9ffd9fd6738",
+    "claude_analysis_20261114/out/summary.json": "23889a56e2decbee527a4fc6bd3e45a2b75b65daa90899aba52e0b7ec1a8162d",
+    "gpt_review_20261113/data_audit/adjusted_close.csv": "c297262a16daebfeb084de94bc5086c99ae26cc40a5e6efd16ee12d29586beae",
+    "codex_analysis_20261120_b/data/raw/VTI_chart.json": "e5b037168afc615e7707b5efe0b6ad5453207b0f43ff63b1e72a8bd67250900c",
+    "codex_analysis_20261120_b/data/raw/NVDA_chart.json": "bc4ef75942a4eb832606ec40af9ed82fbdd53d299d03a30e7b80c641e69eb85d",
+    "codex_analysis_20261120_b/data/raw/MSFT_chart.json": "afa04e6c7425f2c4f176e67ac5a52fc5d7c186bf1fc6842881fef1f50932006f",
+    "codex_analysis_20261120_b/data/raw/GOOGL_chart.json": "1a195b9c25639728af9c9ea07bd58791faade9e73376f97c476e3b3f820a6a98",
+    "codex_analysis_20261120_b/data/raw/AMZN_chart.json": "d54127a14d48c2b7ab13b6593c10e56522f0627542c2a14d86c3185cd8fbbdd5",
+    "codex_analysis_20261120_b/data/raw/META_chart.json": "5801e7c4863ccdcbe760b10c99a96eb34375476a12fec3f7331f8c822622f4bf",
+    "codex_analysis_20261120_b/data/raw/TSM_chart.json": "a8aefc912de2a129b01971cd17287cdab540fce6f12f67a161c7e0571aab9053",
+    "codex_analysis_20261120_b/data/raw/AVGO_chart.json": "a96ec6e1ad820c652188073486ea00b9f8c8b6f26fd003104ff38a5064d6f654",
+    "codex_analysis_20261120_b/data/raw/MU_chart.json": "4c4e1d510abc5c8031ef243b247fcf5af34d39bfe83808008cfd17520db0449d",
+    "codex_analysis_20261120_b/data/raw/BRK-B_chart.json": "f1e372b393045bf441cd636e8e975bce9537ba4225ea95f1348ec36292e4bf23",
+    "codex_analysis_20261120_b/data/raw/XLV_chart.json": "45b6ace654dc56193795dd277493daaadc0a2fa7017308bcb1475aab09d33ec8",
+    "codex_analysis_20261120_b/data/raw/SGOV_chart.json": "49e7498510db93ea545babae19a48d1131ad3d2083350adc72773d65f393516d",
+    "codex_analysis_20261120_b/data/raw/NVDA_info.json": "aac1f76ab05b076758e517ab49d43a18fd22e9e867d12f5fd05e95894a4e5cfe",
+    "codex_analysis_20261120_b/data/raw/SOXX_info.json": "8bbe554c527056f2f750a603ad9325182355a06bc4787d5f6de569715327dcd4",
+    "codex_analysis_20261120_b/data/raw/QQQ_info.json": "e191c8e7ea5fb3a45a0346f8132bea601a637ba09f6b02132a800e9f20ca5bfb",
+    "codex_analysis_20261120_b/data/raw/SPY_info.json": "39bfbd65a9d80cf658f8a427abc07f2ed885300e915ecaf92496c437f02a32d9",
+    "codex_analysis_20261120_b/data/raw/VTI_info.json": "894c91926823345127b0065d570927ca0138110fef5b941942327a65e0d5eda8",
+    "codex_analysis_20261120_b/data/raw/NVDA_historical.json": "296a774dfe017e445276b4324ce1fcceee60be78491e0ba956c6f1c2ece15098",
+    "codex_analysis_20261120_b/data/raw/earnings_forecast.json": "8b6af0dfa34eb4fb1760580cb02ce0603186b6cfa0e974069f14ec0f3b18b79d",
+    "codex_analysis_20261120_b/data/raw/next_ceo_market.json": "113c29baaed5e6a907c5b41a8a40fdec557c1889d07c492ca3c5b3b2b55aaec5"
+  },
+  "reproduce": "python3 -I codex_analysis_20261120_b/analyze.py .",
+  "files": {
+    "README.md": {
+      "sha256": "d1c607fb01a7b5d6dad165d3662879cfe80675e1b7099047fef61517ad53078e",
+      "bytes": 12749
+    },
+    "analyze.py": {
+      "sha256": "a1c41c332d94b3f0b441aa0ad2aa422d5cbf9e6afb1932497fcdf5ea8983af64",
+      "bytes": 6936
+    },
+    "data/raw/AMZN_chart.json": {
+      "sha256": "d54127a14d48c2b7ab13b6593c10e56522f0627542c2a14d86c3185cd8fbbdd5",
+      "bytes": 1809
+    },
+    "data/raw/AVGO_chart.json": {
+      "sha256": "a96ec6e1ad820c652188073486ea00b9f8c8b6f26fd003104ff38a5064d6f654",
+      "bytes": 1829
+    },
+    "data/raw/BRK-B_chart.json": {
+      "sha256": "f1e372b393045bf441cd636e8e975bce9537ba4225ea95f1348ec36292e4bf23",
+      "bytes": 1834
+    },
+    "data/raw/GOOGL_chart.json": {
+      "sha256": "1a195b9c25639728af9c9ea07bd58791faade9e73376f97c476e3b3f820a6a98",
+      "bytes": 1854
+    },
+    "data/raw/META_chart.json": {
+      "sha256": "5801e7c4863ccdcbe760b10c99a96eb34375476a12fec3f7331f8c822622f4bf",
+      "bytes": 1850
+    },
+    "data/raw/MSFT_chart.json": {
+      "sha256": "afa04e6c7425f2c4f176e67ac5a52fc5d7c186bf1fc6842881fef1f50932006f",
+      "bytes": 1905
+    },
+    "data/raw/MU_chart.json": {
+      "sha256": "4c4e1d510abc5c8031ef243b247fcf5af34d39bfe83808008cfd17520db0449d",
+      "bytes": 1830
+    },
+    "data/raw/NVDA_chart.json": {
+      "sha256": "bc4ef75942a4eb832606ec40af9ed82fbdd53d299d03a30e7b80c641e69eb85d",
+      "bytes": 1866
+    },
+    "data/raw/NVDA_historical.json": {
+      "sha256": "296a774dfe017e445276b4324ce1fcceee60be78491e0ba956c6f1c2ece15098",
+      "bytes": 2090
+    },
+    "data/raw/NVDA_info.json": {
+      "sha256": "aac1f76ab05b076758e517ab49d43a18fd22e9e867d12f5fd05e95894a4e5cfe",
+      "bytes": 1317
+    },
+    "data/raw/QQQ_info.json": {
+      "sha256": "e191c8e7ea5fb3a45a0346f8132bea601a637ba09f6b02132a800e9f20ca5bfb",
+      "bytes": 922
+    },
+    "data/raw/SGOV_chart.json": {
+      "sha256": "49e7498510db93ea545babae19a48d1131ad3d2083350adc72773d65f393516d",
+      "bytes": 1908
+    },
+    "data/raw/SOXX_info.json": {
+      "sha256": "8bbe554c527056f2f750a603ad9325182355a06bc4787d5f6de569715327dcd4",
+      "bytes": 943
+    },
+    "data/raw/SPY_info.json": {
+      "sha256": "39bfbd65a9d80cf658f8a427abc07f2ed885300e915ecaf92496c437f02a32d9",
+      "bytes": 927
+    },
+    "data/raw/TSM_chart.json": {
+      "sha256": "a8aefc912de2a129b01971cd17287cdab540fce6f12f67a161c7e0571aab9053",
+      "bytes": 1876
+    },
+    "data/raw/VTI_chart.json": {
+      "sha256": "e5b037168afc615e7707b5efe0b6ad5453207b0f43ff63b1e72a8bd67250900c",
+      "bytes": 1876
+    },
+    "data/raw/VTI_info.json": {
+      "sha256": "894c91926823345127b0065d570927ca0138110fef5b941942327a65e0d5eda8",
+      "bytes": 928
+    },
+    "data/raw/XLV_chart.json": {
+      "sha256": "45b6ace654dc56193795dd277493daaadc0a2fa7017308bcb1475aab09d33ec8",
+      "bytes": 1891
+    },
+    "data/raw/earnings_forecast.json": {
+      "sha256": "8b6af0dfa34eb4fb1760580cb02ce0603186b6cfa0e974069f14ec0f3b18b79d",
+      "bytes": 2031
+    },
+    "data/raw/next_ceo_market.json": {
+      "sha256": "113c29baaed5e6a907c5b41a8a40fdec557c1889d07c492ca3c5b3b2b55aaec5",
+      "bytes": 356
+    },
+    "data/sources_web_20261120.json": {
+      "sha256": "2dcd8eb5ae110939498bf2d4a6127999c754ca3b648085dd35d924a573e4bec8",
+      "bytes": 16763
+    },
+    "out/summary.json": {
+      "sha256": "15d48024d80c1f1219814f1b3ffa9e2971182b02a80239872b88b0b7ec58208d",
+      "bytes": 16175
+    }
+  },
+  "clean_export": {
+    "procedure": "git archive 提取研究目录及 3 个仓库依赖，删除 out/，按复现命令重跑，逐字节比对输出并核对输入哈希。",
+    "python": "3.14.7",
+    "outputs_byte_identical": [
+      "summary.json"
+    ],
+    "checked_inputs": 23,
+    "result": "passed"
+  }
+}
