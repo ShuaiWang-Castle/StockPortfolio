@@ -8,6 +8,7 @@
 
 - **当前方案**：长期理论比例为 Hybrid-核心（[分析](claude_analysis_20261114/README.md)），周一一次性买入比例见[买入时机分析](claude_analysis_20261115/README.md)；机器可读文件为 [`current_plan.json`](current_plan.json)。
 - [GPT 对 PR #1 的独立复核](gpt_review_20261113/README_IMPORT.md)
+- [Codex 11/23 一次建仓时点与 NVDA、ANT 首配提案](codex_analysis_20261122_b/README.md)
 - [Claude 11/13 版](claude_analysis_20261113/README.md)及其[勘误](claude_analysis_20261113/ERRATA_20261114.md)
 
 以下 1–5 是 GPT 早期索引中的文件。截至 2026-11-14，这些文件尚未上传到仓库，链接暂时不可用：
