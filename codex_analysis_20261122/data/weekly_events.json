@@ -1,0 +1,176 @@
+[
+  {
+    "previous": {
+      "day": "2000-04-07",
+      "close": 1516.35
+    },
+    "event": {
+      "day": "2000-04-14",
+      "close": 1356.56
+    },
+    "next_week": {
+      "day": "2000-04-20",
+      "close": 1434.54
+    },
+    "four_weeks_later": {
+      "day": "2000-05-12",
+      "close": 1420.96
+    }
+  },
+  {
+    "previous": {
+      "day": "2001-09-10",
+      "close": 1092.54
+    },
+    "event": {
+      "day": "2001-09-21",
+      "close": 965.8
+    },
+    "next_week": {
+      "day": "2001-09-28",
+      "close": 1040.94
+    },
+    "four_weeks_later": {
+      "day": "2001-10-19",
+      "close": 1073.48
+    }
+  },
+  {
+    "previous": {
+      "day": "2008-09-26",
+      "close": 1213.27
+    },
+    "event": {
+      "day": "2008-10-03",
+      "close": 1099.23
+    },
+    "next_week": {
+      "day": "2008-10-10",
+      "close": 899.22
+    },
+    "four_weeks_later": {
+      "day": "2008-10-31",
+      "close": 968.75
+    }
+  },
+  {
+    "previous": {
+      "day": "2008-10-03",
+      "close": 1099.23
+    },
+    "event": {
+      "day": "2008-10-10",
+      "close": 899.22
+    },
+    "next_week": {
+      "day": "2008-10-17",
+      "close": 940.55
+    },
+    "four_weeks_later": {
+      "day": "2008-11-07",
+      "close": 930.99
+    }
+  },
+  {
+    "previous": {
+      "day": "2008-11-14",
+      "close": 873.29
+    },
+    "event": {
+      "day": "2008-11-21",
+      "close": 800.03
+    },
+    "next_week": {
+      "day": "2008-11-28",
+      "close": 896.24
+    },
+    "four_weeks_later": {
+      "day": "2008-12-19",
+      "close": 887.88
+    }
+  },
+  {
+    "previous": {
+      "day": "2020-02-21",
+      "close": 3337.75
+    },
+    "event": {
+      "day": "2020-02-28",
+      "close": 2954.22
+    },
+    "next_week": {
+      "day": "2020-03-06",
+      "close": 2972.37
+    },
+    "four_weeks_later": {
+      "day": "2020-03-27",
+      "close": 2541.47
+    }
+  },
+  {
+    "previous": {
+      "day": "2020-03-06",
+      "close": 2972.37
+    },
+    "event": {
+      "day": "2020-03-13",
+      "close": 2711.02
+    },
+    "next_week": {
+      "day": "2020-03-20",
+      "close": 2304.92
+    },
+    "four_weeks_later": {
+      "day": "2020-04-09",
+      "close": 2789.82
+    }
+  },
+  {
+    "previous": {
+      "day": "2020-03-13",
+      "close": 2711.02
+    },
+    "event": {
+      "day": "2020-03-20",
+      "close": 2304.92
+    },
+    "next_week": {
+      "day": "2020-03-27",
+      "close": 2541.47
+    },
+    "four_weeks_later": {
+      "day": "2020-04-17",
+      "close": 2874.56
+    }
+  },
+  {
+    "previous": {
+      "day": "2025-03-28",
+      "close": 5580.94
+    },
+    "event": {
+      "day": "2025-04-04",
+      "close": 5074.08
+    },
+    "next_week": {
+      "day": "2025-04-11",
+      "close": 5363.36
+    },
+    "four_weeks_later": {
+      "day": "2025-05-02",
+      "close": 5686.67
+    }
+  },
+  {
+    "previous": {
+      "day": "2026-11-13",
+      "close": 7561.67
+    },
+    "event": {
+      "day": "2026-11-20",
+      "close": 6910.39
+    },
+    "next_week": null,
+    "four_weeks_later": null
+  }
+]

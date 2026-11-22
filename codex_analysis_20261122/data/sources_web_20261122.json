@@ -1,0 +1,167 @@
+{
+  "GSPC": {
+    "source": "Yahoo Finance 日收盘行情",
+    "claim": "常规时段收盘价；最高点是自 2025-11-19 起的最高收盘。",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5EGSPC?period1=1763528400&period2=1795237200&interval=1d",
+    "retrieved_at": "2026-11-22T15:05:56-05:00",
+    "sha256": "98c5e5c70f49f26e2363589b3acd9189cfd4ab6c2e86ecf039ce05459e3b0e31",
+    "script_inputs": {
+      "close_1120": 6910.39,
+      "close_1119": 7175.83,
+      "close_1113": 7561.67,
+      "peak_day": "2026-10-06",
+      "peak_close": 7818.93
+    }
+  },
+  "IXIC": {
+    "source": "Yahoo Finance 日收盘行情",
+    "claim": "常规时段收盘价；最高点是自 2025-11-19 起的最高收盘。",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5EIXIC?period1=1763528400&period2=1795237200&interval=1d",
+    "retrieved_at": "2026-11-22T15:05:56-05:00",
+    "sha256": "79dac4915c09eda9a480d209c7e160d897e156d0248d65119f48fb762eecff6a",
+    "script_inputs": {
+      "close_1120": 22617.73,
+      "close_1119": 23879.2,
+      "close_1113": 25136.27,
+      "peak_day": "2026-10-06",
+      "peak_close": 27599.79
+    }
+  },
+  "SOX": {
+    "source": "Yahoo Finance 日收盘行情",
+    "claim": "常规时段收盘价；最高点是自 2025-11-19 起的最高收盘。",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5ESOX?period1=1763528400&period2=1795237200&interval=1d",
+    "retrieved_at": "2026-11-22T15:05:56-05:00",
+    "sha256": "b0b3e056e74ab2b4dd7d3c89ef513943eada9ada9e696538b3242110c6e0af9f",
+    "script_inputs": {
+      "close_1120": 8408.59,
+      "close_1119": 9419.72,
+      "close_1113": 10146.32,
+      "peak_day": "2026-06-22",
+      "peak_close": 14634.72
+    }
+  },
+  "RUT": {
+    "source": "Yahoo Finance 日收盘行情",
+    "claim": "常规时段收盘价；最高点是自 2025-11-19 起的最高收盘。",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5ERUT?period1=1763528400&period2=1795237200&interval=1d",
+    "retrieved_at": "2026-11-22T15:05:56-05:00",
+    "sha256": "96bb064ed638c9aa72b8a298de3ac58462130871f2f1168ec382ca53e4d10a2a",
+    "script_inputs": {
+      "close_1120": 2581.79,
+      "close_1119": 2655.11,
+      "close_1113": 2790.49,
+      "peak_day": "2026-08-14",
+      "peak_close": 3068.42
+    }
+  },
+  "VIX": {
+    "source": "Cboe",
+    "claim": "期权隐含波动率指数的收盘观察值。",
+    "url": "https://cdn.cboe.com/api/global/us_indices/daily_prices/VIX_History.csv",
+    "retrieved_at": "2026-11-22T15:05:57-05:00",
+    "sha256": "2a3b180ffb268b7805c17567c0ac7787c74898b0d99f62f550be67eafffd1c16",
+    "script_inputs": {
+      "11/13/2026": 19.3,
+      "11/20/2026": 35.89
+    }
+  },
+  "HY": {
+    "source": "ICE BofA，经圣路易斯联储 FRED 发布",
+    "claim": "美国公司债期权调整利差。每日百分数，最后观察日 11/19。",
+    "url": "https://fred.stlouisfed.org/series/BAMLH0A0HYM2",
+    "retrieved_at": "2026-11-22T15:07:46-05:00",
+    "script_inputs": {
+      "2026-11-19": 3.52,
+      "2026-11-18": 3.47,
+      "2026-11-17": 3.43,
+      "2026-11-16": 3.34,
+      "2026-11-13": 3.23
+    },
+    "next_update": "Nov 23, 2026"
+  },
+  "IG": {
+    "source": "ICE BofA，经圣路易斯联储 FRED 发布",
+    "claim": "美国公司债期权调整利差。每日百分数，最后观察日 11/19。",
+    "url": "https://fred.stlouisfed.org/series/BAMLC0A0CM",
+    "retrieved_at": "2026-11-22T15:07:46-05:00",
+    "script_inputs": {
+      "2026-11-19": 0.94,
+      "2026-11-18": 0.93,
+      "2026-11-17": 0.92,
+      "2026-11-16": 0.9,
+      "2026-11-13": 0.89
+    },
+    "next_update": "Nov 23, 2026"
+  },
+  "sofr": {
+    "source": "Federal Reserve Bank of New York",
+    "claim": "官方公布的指定日期隔夜融资观察值或常备回购操作结果。",
+    "url": "https://markets.newyorkfed.org/api/rates/secured/sofr/search.json?startDate=2026-11-13&endDate=2026-11-20",
+    "retrieved_at": "2026-11-22T15:06:15-05:00",
+    "bytes": 1208,
+    "sha256": "f1d616be997a0f30069afaa49af363affd6949b98387ed21483ff10fe900e6a6",
+    "script_inputs": "sofr.json"
+  },
+  "effr": {
+    "source": "Federal Reserve Bank of New York",
+    "claim": "官方公布的指定日期隔夜融资观察值或常备回购操作结果。",
+    "url": "https://markets.newyorkfed.org/api/rates/unsecured/effr/search.json?startDate=2026-11-13&endDate=2026-11-20",
+    "retrieved_at": "2026-11-22T15:06:15-05:00",
+    "bytes": 1429,
+    "sha256": "1d37692aa433e20a9575288bbc28b4f51956cc987174106973feb2557d5b31b5",
+    "script_inputs": "effr.json"
+  },
+  "repoops": {
+    "source": "Federal Reserve Bank of New York",
+    "claim": "官方公布的指定日期隔夜融资观察值或常备回购操作结果。",
+    "url": "https://markets.newyorkfed.org/api/rp/results/search.json?startDate=2026-11-13&endDate=2026-11-20&operationTypes=repo",
+    "retrieved_at": "2026-11-22T15:06:55-05:00",
+    "bytes": 9208,
+    "sha256": "8325b1ed6c038f35ad87a0ab149c68a3c9afc821a2e6ee07cb4f7709ad6e54bc",
+    "script_inputs": "repoops.json"
+  },
+  "SP500_history": {
+    "source": "Yahoo Finance S&P 500 daily chart",
+    "claim": "由日收盘价提取截至 2026-11-20 周跌至少 8% 的事件样本。",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5EGSPC?period1=628214400&period2=1795392000&interval=1d",
+    "retrieved_at": "2026-11-22T15:07:07-05:00",
+    "sha256": "fd9670bc0d8e2de02274a08be56ba3364cbe430bb99586c523e70c8edfd401a7",
+    "script_inputs": "weekly_events.json"
+  },
+  "Federal Reserve, November 2026 Financial Stability Report": {
+    "source": "Federal Reserve, November 2026 Financial Stability Report",
+    "url": "https://www.federalreserve.gov/publications/files/financial-stability-report-20261113.pdf",
+    "claim": "11/13 报告的 Box 2.2 估计，截至 10 月先进计算领域公开交易债务超过 1.1 万亿美元，今年前十个月相关发债超过 6800 亿美元。银行的未保险存款总体稳定，反映截至报告观察期的状况。",
+    "retrieved_at": "2026-11-22T20:07:47+00:00",
+    "script_inputs": null
+  },
+  "Bloomberg": {
+    "source": "Bloomberg",
+    "url": "https://news.bloomberglaw.com/capital-markets/ings-500-million-data-center-loan-auction-stalls-on-low-bids",
+    "claim": "ING 对约 5 亿美元存量数据中心贷款的二级市场出售，在 11/19 拍卖中收到的报价不足以成交，随后与潜在买家分别接洽。",
+    "retrieved_at": "2026-11-22T20:07:47+00:00",
+    "script_inputs": null
+  },
+  "SEC short sales": {
+    "source": "SEC short sales",
+    "url": "https://www.sec.gov/investor/pubs/regsho.htm",
+    "claim": "卖空股票需要借入证券，损失理论上无上限，且有保证金等要求。",
+    "retrieved_at": "2026-11-22T20:07:47+00:00",
+    "script_inputs": null
+  },
+  "AP": {
+    "source": "Associated Press",
+    "url": "https://apnews.com/article/c10b797a17c2acf37924d834efebe135",
+    "claim": "交叉核验 11/20 美股主要指数收盘。",
+    "retrieved_at": "2026-11-22T15:09:08-05:00",
+    "script_inputs": null
+  },
+  "CDX": {
+    "source": "Bloomberg",
+    "url": "https://news.bloomberglaw.com/capital-markets/ai-credit-risk-gauges-worsen-as-tech-selloff-roils-markets",
+    "claim": "周五五年投资级 CDX 盘中一度升至 65.5 bp，比前收高 2.9 bp。",
+    "retrieved_at": "2026-11-22T15:09:08-05:00",
+    "script_inputs": null
+  }
+}
