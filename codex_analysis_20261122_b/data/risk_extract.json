@@ -1,0 +1,54 @@
+[
+  {
+    "nvda_direct": 0.075,
+    "ant_direct": 0.03,
+    "direct_target_usd": 525.0,
+    "volatility": 0.18024368272085708,
+    "nvda_risk_share": 0.17467550552722833,
+    "nvda_issuer_weight": 0.0848815153899173,
+    "ai8_issuer_weight": 0.5218053515815599,
+    "nvda_only_minus30_loss_usd": 178.25118231882632,
+    "ai8_minus30_ant_minus60_loss_usd": 1221.7912383212756,
+    "direct_weights": {
+      "VTI": 0.23,
+      "NVDA": 0.075,
+      "MSFT": 0.08068632832215457,
+      "GOOGL": 0.07904200871389752,
+      "AMZN": 0.06771775293203083,
+      "META": 0.057212358456085216,
+      "TSM": 0.046047729286898015,
+      "AVGO": 0.044994427815691226,
+      "MU": 0.019299394473242634,
+      "BRK-B": 0.1,
+      "XLV": 0.06,
+      "SGOV": 0.11,
+      "ANT": 0.03
+    }
+  },
+  {
+    "nvda_direct": 0.125,
+    "ant_direct": 0.03,
+    "direct_target_usd": 875.0,
+    "volatility": 0.18673052675903315,
+    "nvda_risk_share": 0.28615323788521174,
+    "nvda_issuer_weight": 0.1348815153899173,
+    "ai8_issuer_weight": 0.5218053515815599,
+    "nvda_only_minus30_loss_usd": 283.25118231882635,
+    "ai8_minus30_ant_minus60_loss_usd": 1221.7912383212756,
+    "direct_weights": {
+      "VTI": 0.23,
+      "NVDA": 0.125,
+      "MSFT": 0.07,
+      "GOOGL": 0.07,
+      "AMZN": 0.06,
+      "META": 0.05,
+      "TSM": 0.04,
+      "AVGO": 0.04,
+      "MU": 0.015,
+      "BRK-B": 0.1,
+      "XLV": 0.06,
+      "SGOV": 0.11,
+      "ANT": 0.03
+    }
+  }
+]

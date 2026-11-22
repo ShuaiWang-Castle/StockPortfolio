@@ -1,0 +1,127 @@
+[
+  {
+    "source": "Nasdaq",
+    "url": "https://api.nasdaq.com/api/quote/ANT/historical?assetclass=stocks&fromdate=2026-11-19&todate=2026-11-20&limit=5",
+    "claim": "11/19 及 11/20 的美东常规时段收盘价。",
+    "script_inputs": "ant_close.json",
+    "retrieved_at": "2026-11-22T15:14:59-05:00",
+    "sha256": "d9652dcbb0db002388b6e50caae49934595ec101bf1deee66848cd9e7882f1c7"
+  },
+  {
+    "source": "Anthropic",
+    "url": "https://www.anthropic.com/news/ipo-close",
+    "claim": "绿鞋全部行使。公司售出额外 1.47 亿股。公开发行与同期 260 亿美元私募均已交割。",
+    "script_inputs": {
+      "extra_shares_issuer": 147000000
+    },
+    "retrieved_at": "2026-11-22T15:14:48-05:00",
+    "source_response_sha256": "3957acf597bc1c804baaab53a37544dfb14ee6e23a144301d7c52c7c2009c6f0"
+  },
+  {
+    "source": "SEC / 424B4",
+    "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026074944/anthropicpbc-424b4.htm",
+    "claim": "全稀释桥、备考资本、季度营收，具体输入逐项见文件。绿鞋加发部分无额外承销折扣。",
+    "script_inputs": "ant_filing_inputs.json",
+    "retrieved_at": "2026-11-22T15:15:48-05:00"
+  },
+  {
+    "source": "Codex PR #8",
+    "url": "https://github.com/ShuaiWang-Castle/StockPortfolio/blob/9550780c465ef3462dad9140b5d025f27e11c6d4/codex_analysis_20261119/data/ant_filing_inputs.json",
+    "claim": "估值沿用招股书输入，同口径对照周四价格。",
+    "script_inputs": "ant_filing_inputs.json",
+    "retrieved_at": "2026-11-22T15:15:48-05:00"
+  },
+  {
+    "source": "Codex PR #10",
+    "url": "https://github.com/ShuaiWang-Castle/StockPortfolio/blob/c4fe00077dfac2216ab585da58346f0da673b634/codex_analysis_20261120_b/out/summary.json",
+    "claim": "提取 11/20 三年窗口、3% ANT 时两个 NVDA 对比仓位的组合风险结果，适用原模型限制。",
+    "script_inputs": "risk_extract.json",
+    "retrieved_at": "2026-11-22T15:15:48-05:00"
+  },
+  {
+    "source": "Codex PR #11",
+    "url": "https://github.com/ShuaiWang-Castle/StockPortfolio/pull/11",
+    "claim": "11/20 NVDA 美东 16:00 收盘 125.53 美元，基准公允值 147.58 美元。",
+    "script_inputs": null,
+    "retrieved_at": "2026-11-22T15:15:48-05:00"
+  },
+  {
+    "source": "BIS",
+    "url": "https://www.govinfo.gov/content/pkg/FR-2026-11-19/pdf/2026-23529.pdf",
+    "claim": "11/19 生效，对特定海外数据中心采购和部分目的地设许可及例外。",
+    "script_inputs": null,
+    "retrieved_at": "2026-11-22T15:15:48-05:00"
+  },
+  {
+    "source": "NVIDIA 投资者关系",
+    "url": "https://s201.q4cdn.com/141608511/files/content_files/NVDA-3Q27-Earnings-Transcript.pdf",
+    "claim": "管理层讨论出口新规与 FY28 营收增长约 75% 的框架。",
+    "script_inputs": null,
+    "retrieved_at": "2026-11-22T15:15:48-05:00"
+  },
+  {
+    "source": "ICE BofA via FRED",
+    "url": "https://fred.stlouisfed.org/series/BAMLH0A0HYM2",
+    "claim": "11/13 至 11/19 现券 OAS；上次实际发布时间和下次排定发布日期。",
+    "script_inputs": {
+      "class": "HY",
+      "oas_pct": {
+        "2026-11-19": 3.52,
+        "2026-11-18": 3.47,
+        "2026-11-17": 3.43,
+        "2026-11-16": 3.34,
+        "2026-11-13": 3.23
+      },
+      "updated": "Nov 20, 2026 8:23 AM CST",
+      "next_release": "Nov 23, 2026"
+    },
+    "retrieved_at": "2026-11-22T15:07:46-05:00"
+  },
+  {
+    "source": "ICE BofA via FRED",
+    "url": "https://fred.stlouisfed.org/series/BAMLC0A0CM",
+    "claim": "11/13 至 11/19 现券 OAS；上次实际发布时间和下次排定发布日期。",
+    "script_inputs": {
+      "class": "IG",
+      "oas_pct": {
+        "2026-11-19": 0.94,
+        "2026-11-18": 0.93,
+        "2026-11-17": 0.92,
+        "2026-11-16": 0.9,
+        "2026-11-13": 0.89
+      },
+      "updated": "Nov 20, 2026 8:19 AM CST",
+      "next_release": "Nov 23, 2026"
+    },
+    "retrieved_at": "2026-11-22T15:07:46-05:00"
+  },
+  {
+    "source": "Federal Reserve Bank of New York",
+    "url": "https://markets.newyorkfed.org/api/rates/secured/sofr/search.json?startDate=2026-11-13&endDate=2026-11-20",
+    "claim": "取 11/19 最新观察，与周一到齐的 11/20 数据比较。",
+    "script_inputs": {
+      "series": "sofr",
+      "observation_date": "2026-11-19",
+      "rate_pct": 3.91
+    },
+    "retrieved_at": "2026-11-22T15:06:15-05:00"
+  },
+  {
+    "source": "Federal Reserve Bank of New York",
+    "url": "https://markets.newyorkfed.org/api/rates/unsecured/effr/search.json?startDate=2026-11-13&endDate=2026-11-20",
+    "claim": "取 11/19 最新观察，与周一到齐的 11/20 数据比较。",
+    "script_inputs": {
+      "series": "effr",
+      "observation_date": "2026-11-19",
+      "rate_pct": 3.88
+    },
+    "retrieved_at": "2026-11-22T15:06:15-05:00"
+  },
+  {
+    "source": "纽约联储",
+    "url": "https://www.newyorkfed.org/markets/reference-rates/additional-information-about-reference-rates",
+    "claim": "通常发布上一营业日的 SOFR 约 08:00 ET，EFFR 约 09:00 ET。",
+    "script_inputs": null,
+    "retrieved_at": "2026-11-22T15:15:48-05:00"
+  }
+]

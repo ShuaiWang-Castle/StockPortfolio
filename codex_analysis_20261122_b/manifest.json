@@ -1,0 +1,48 @@
+{
+  "inputs_sha256": {
+    "current_plan.json": "b8f143c0a18917a861bb3db0f929071bcfafbce86cdf1d97162af9ffd9fd6738",
+    "claude_analysis_20261114/out/summary.json": "23889a56e2decbee527a4fc6bd3e45a2b75b65daa90899aba52e0b7ec1a8162d",
+    "codex_analysis_20261122_b/data/ant_close.json": "d9652dcbb0db002388b6e50caae49934595ec101bf1deee66848cd9e7882f1c7",
+    "codex_analysis_20261122_b/data/ant_filing_inputs.json": "9551271858b17c65c4eee7db5eab4c6594f52bf7b38f3c7a4a321dc78399fb3f",
+    "codex_analysis_20261122_b/data/risk_extract.json": "24fb09bc99cc2870186100d7553799ee34e38530418d28ee6043a3a941698748",
+    "codex_analysis_20261122_b/data/sources_web_20261122.json": "6c6320879037e54131b57303641f73538fb3171f5834b6742ef434fdb95e3002"
+  },
+  "reproduce": "python3 -I codex_analysis_20261122_b/entry.py .",
+  "files": {
+    "README.md": {
+      "sha256": "cb536895ff4af6f5ff67b19fc62bf9049b299c218281c31b41a4b9f1b54b6d7d",
+      "bytes": 6548
+    },
+    "data/ant_close.json": {
+      "sha256": "d9652dcbb0db002388b6e50caae49934595ec101bf1deee66848cd9e7882f1c7",
+      "bytes": 486
+    },
+    "data/ant_filing_inputs.json": {
+      "sha256": "9551271858b17c65c4eee7db5eab4c6594f52bf7b38f3c7a4a321dc78399fb3f",
+      "bytes": 2699
+    },
+    "data/risk_extract.json": {
+      "sha256": "24fb09bc99cc2870186100d7553799ee34e38530418d28ee6043a3a941698748",
+      "bytes": 1441
+    },
+    "data/sources_web_20261122.json": {
+      "sha256": "6c6320879037e54131b57303641f73538fb3171f5834b6742ef434fdb95e3002",
+      "bytes": 5140
+    },
+    "entry.py": {
+      "sha256": "cde2f061e30f7deeccc5bb8ef9374e268a7d55b7ad0dfd7f24cff13c3616c192",
+      "bytes": 4417
+    },
+    "out/summary.json": {
+      "sha256": "a5d15b0181b4300497e8aaed1186b7da03081fbcc2d4e0c2010361cdb47e1be2",
+      "bytes": 3249
+    }
+  },
+  "clean_export": {
+    "method": "git archive staged tree, delete out, rerun",
+    "outputs_checked": 1,
+    "byte_identical": true,
+    "all_inputs_match": true,
+    "python": "3.14.7"
+  }
+}
