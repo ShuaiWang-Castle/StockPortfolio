@@ -6,6 +6,7 @@
 
 ## 从这里开始
 
+- [Codex 11/22 美股急跌、信用市场与做空风险分析](codex_analysis_20261122/README.md)
 - **当前方案**：长期理论比例为 Hybrid-核心（[分析](claude_analysis_20261114/README.md)），周一一次性买入比例见[买入时机分析](claude_analysis_20261115/README.md)；机器可读文件为 [`current_plan.json`](current_plan.json)。
 - [GPT 对 PR #1 的独立复核](gpt_review_20261113/README_IMPORT.md)
 - [Claude 11/13 版](claude_analysis_20261113/README.md)及其[勘误](claude_analysis_20261113/ERRATA_20261114.md)

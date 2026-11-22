@@ -1,0 +1,147 @@
+{
+  "inputs_sha256": {
+    "current_plan.json": "b8f143c0a18917a861bb3db0f929071bcfafbce86cdf1d97162af9ffd9fd6738",
+    "codex_analysis_20261122/data/effr.json": "1d37692aa433e20a9575288bbc28b4f51956cc987174106973feb2557d5b31b5",
+    "codex_analysis_20261122/data/repoops.json": "8325b1ed6c038f35ad87a0ab149c68a3c9afc821a2e6ee07cb4f7709ad6e54bc",
+    "codex_analysis_20261122/data/sofr.json": "f1d616be997a0f30069afaa49af363affd6949b98387ed21483ff10fe900e6a6",
+    "codex_analysis_20261122/data/sources_web_20261122.json": "dd11205d616f67074edceae33c3975afeb08411653e73e5ecf20ecdcea9a78de",
+    "codex_analysis_20261122/data/weekly_events.json": "f9e54f5440209f643fb55cc2d06846662797e456c45638cb2dbc3fdc447b5634"
+  },
+  "indices": {
+    "GSPC": {
+      "close": 6910.39,
+      "day_pct": -3.6991,
+      "week_pct": -8.6129,
+      "drawdown_pct": -11.6197,
+      "peak_day": "2026-10-06"
+    },
+    "IXIC": {
+      "close": 22617.73,
+      "day_pct": -5.2827,
+      "week_pct": -10.0195,
+      "drawdown_pct": -18.0511,
+      "peak_day": "2026-10-06"
+    },
+    "RUT": {
+      "close": 2581.79,
+      "day_pct": -2.7615,
+      "week_pct": -7.479,
+      "drawdown_pct": -15.8593,
+      "peak_day": "2026-08-14"
+    },
+    "SOX": {
+      "close": 8408.59,
+      "day_pct": -10.7342,
+      "week_pct": -17.1267,
+      "drawdown_pct": -42.5436,
+      "peak_day": "2026-06-22"
+    }
+  },
+  "vix_close": {
+    "11/13/2026": 19.3,
+    "11/20/2026": 35.89
+  },
+  "oas_bp": {
+    "HY": {
+      "nov19": 352,
+      "change_since_nov13": 29
+    },
+    "IG": {
+      "nov19": 94,
+      "change_since_nov13": 5
+    }
+  },
+  "sofr_less_effr_bp": {
+    "2026-11-19": 3,
+    "2026-11-18": 2,
+    "2026-11-17": 4,
+    "2026-11-16": 5,
+    "2026-11-13": 2
+  },
+  "nov20_srf_accepted_usd": {
+    "08:30": 0,
+    "13:45": 1000000
+  },
+  "sp500_history": {
+    "events": [
+      {
+        "day": "2000-04-14",
+        "weekly_return_pct": -10.5378,
+        "no_signal_in_prior_four_weeks": true,
+        "next_week": 5.7484,
+        "four_weeks_later": 4.7473
+      },
+      {
+        "day": "2001-09-21",
+        "weekly_return_pct": -11.6005,
+        "no_signal_in_prior_four_weeks": true,
+        "next_week": 7.7801,
+        "four_weeks_later": 11.1493
+      },
+      {
+        "day": "2008-10-03",
+        "weekly_return_pct": -9.3994,
+        "no_signal_in_prior_four_weeks": true,
+        "next_week": -18.1955,
+        "four_weeks_later": -11.8701
+      },
+      {
+        "day": "2008-10-10",
+        "weekly_return_pct": -18.1955,
+        "no_signal_in_prior_four_weeks": false,
+        "next_week": 4.5962,
+        "four_weeks_later": 3.5331
+      },
+      {
+        "day": "2008-11-21",
+        "weekly_return_pct": -8.389,
+        "no_signal_in_prior_four_weeks": true,
+        "next_week": 12.0258,
+        "four_weeks_later": 10.9808
+      },
+      {
+        "day": "2020-02-28",
+        "weekly_return_pct": -11.4907,
+        "no_signal_in_prior_four_weeks": true,
+        "next_week": 0.6144,
+        "four_weeks_later": -13.9715
+      },
+      {
+        "day": "2020-03-13",
+        "weekly_return_pct": -8.7926,
+        "no_signal_in_prior_four_weeks": false,
+        "next_week": -14.9796,
+        "four_weeks_later": 2.9067
+      },
+      {
+        "day": "2020-03-20",
+        "weekly_return_pct": -14.9796,
+        "no_signal_in_prior_four_weeks": false,
+        "next_week": 10.2628,
+        "four_weeks_later": 24.7141
+      },
+      {
+        "day": "2025-04-04",
+        "weekly_return_pct": -9.082,
+        "no_signal_in_prior_four_weeks": true,
+        "next_week": 5.7011,
+        "four_weeks_later": 12.0729
+      },
+      {
+        "day": "2026-11-20",
+        "weekly_return_pct": -8.6129,
+        "no_signal_in_prior_four_weeks": true,
+        "next_week": null,
+        "four_weeks_later": null
+      }
+    ],
+    "completed_episodes": 6,
+    "next_week_up": 5,
+    "four_weeks_later_up": 4
+  },
+  "hypothetical_equity_usd": 6230.0,
+  "hypothetical_loss_usd": {
+    "10": 623.0,
+    "20": 1246.0
+  }
+}

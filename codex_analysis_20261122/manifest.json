@@ -1,0 +1,56 @@
+{
+  "inputs_sha256": {
+    "current_plan.json": "b8f143c0a18917a861bb3db0f929071bcfafbce86cdf1d97162af9ffd9fd6738",
+    "codex_analysis_20261122/data/effr.json": "1d37692aa433e20a9575288bbc28b4f51956cc987174106973feb2557d5b31b5",
+    "codex_analysis_20261122/data/repoops.json": "8325b1ed6c038f35ad87a0ab149c68a3c9afc821a2e6ee07cb4f7709ad6e54bc",
+    "codex_analysis_20261122/data/sofr.json": "f1d616be997a0f30069afaa49af363affd6949b98387ed21483ff10fe900e6a6",
+    "codex_analysis_20261122/data/sources_web_20261122.json": "dd11205d616f67074edceae33c3975afeb08411653e73e5ecf20ecdcea9a78de",
+    "codex_analysis_20261122/data/weekly_events.json": "f9e54f5440209f643fb55cc2d06846662797e456c45638cb2dbc3fdc447b5634"
+  },
+  "reproduce": "python3 -I codex_analysis_20261122/analyze.py .",
+  "files": {
+    "README.md": {
+      "sha256": "b294e80a54dcf0a030f6d8e9a718fc8dffa8f4cbbda4105984b67bf5641d6a74",
+      "bytes": 6148
+    },
+    "analyze.py": {
+      "sha256": "a3dd81acec5a199469dc71e7faf63e14b5b5fb6254d5a9335e1fd02183211469",
+      "bytes": 3706
+    },
+    "data/effr.json": {
+      "sha256": "1d37692aa433e20a9575288bbc28b4f51956cc987174106973feb2557d5b31b5",
+      "bytes": 1429
+    },
+    "data/repoops.json": {
+      "sha256": "8325b1ed6c038f35ad87a0ab149c68a3c9afc821a2e6ee07cb4f7709ad6e54bc",
+      "bytes": 9208
+    },
+    "data/sofr.json": {
+      "sha256": "f1d616be997a0f30069afaa49af363affd6949b98387ed21483ff10fe900e6a6",
+      "bytes": 1208
+    },
+    "data/sources_web_20261122.json": {
+      "sha256": "dd11205d616f67074edceae33c3975afeb08411653e73e5ecf20ecdcea9a78de",
+      "bytes": 7450
+    },
+    "data/weekly_events.json": {
+      "sha256": "f9e54f5440209f643fb55cc2d06846662797e456c45638cb2dbc3fdc447b5634",
+      "bytes": 3026
+    },
+    "extract_events.py": {
+      "sha256": "587bc07108df357eae89f33474d7087ed6818297ed9c27cca473241991160703",
+      "bytes": 1239
+    },
+    "out/summary.json": {
+      "sha256": "088898055e1784b41ec787e598f63cc29513b005dfe997f628500f2cd06b9d32",
+      "bytes": 4015
+    }
+  },
+  "clean_export": {
+    "source": "git archive of staged tree; remove out/summary.json and rerun offline",
+    "out_bytes_match": true,
+    "all_inputs_match": true,
+    "weekly_events_reextracted_from_original_daily_response": true,
+    "python": "3.14.7"
+  }
+}
