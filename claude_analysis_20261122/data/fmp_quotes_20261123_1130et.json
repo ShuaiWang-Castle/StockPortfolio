@@ -1,0 +1,91 @@
+{
+ "source": "FMP MCP: indexes/index-quote (^IXIC, ^GSPC, ^VIX) and quote/quote (NVDA)",
+ "retrieved": "2026-11-23 about 11:30 ET (intraday; timestamps are Unix seconds)",
+ "note": "Used only for the 11/23 note in README section 4c; not an input to the scripts",
+ "responses": {
+  "^IXIC": [
+   {
+    "symbol": "^IXIC",
+    "name": "NASDAQ Composite",
+    "price": 24173.256,
+    "changePercentage": 6.87745,
+    "change": 1555.524,
+    "volume": 4712235000,
+    "dayLow": 23794.957,
+    "dayHigh": 24353.65,
+    "yearHigh": 27722.75,
+    "yearLow": 20690.25,
+    "marketCap": 0,
+    "priceAvg50": 26113.44,
+    "priceAvg200": 25157.465,
+    "exchange": "INDEX",
+    "open": 24269.746,
+    "previousClose": 22617.732,
+    "timestamp": 1795451398
+   }
+  ],
+  "^GSPC": [
+   {
+    "symbol": "^GSPC",
+    "name": "S&P 500",
+    "price": 7257.95,
+    "changePercentage": 5.02953,
+    "change": 347.56,
+    "volume": 1582968000,
+    "dayLow": 7152.66,
+    "dayHigh": 7295.6,
+    "yearHigh": 7844.52,
+    "yearLow": 6316.91,
+    "marketCap": 0,
+    "priceAvg50": 7625.2563,
+    "priceAvg200": 7348.58,
+    "exchange": "INDEX",
+    "open": 7227.41,
+    "previousClose": 6910.39,
+    "timestamp": 1795451403
+   }
+  ],
+  "^VIX": [
+   {
+    "symbol": "^VIX",
+    "name": "CBOE Volatility Index",
+    "price": 27.52,
+    "changePercentage": -23.32126,
+    "change": -8.37,
+    "volume": 0,
+    "dayLow": 25.92,
+    "dayHigh": 35.08,
+    "yearHigh": 40.03,
+    "yearLow": 13.38,
+    "marketCap": 0,
+    "priceAvg50": 18.4352,
+    "priceAvg200": 18.65905,
+    "exchange": "INDEX",
+    "open": 31.38,
+    "previousClose": 35.89,
+    "timestamp": 1795451386
+   }
+  ],
+  "NVDA": [
+   {
+    "symbol": "NVDA",
+    "name": "NVIDIA Corporation",
+    "price": 166.4772,
+    "changePercentage": 32.61945,
+    "change": 40.9472,
+    "volume": 459348386,
+    "dayLow": 156.93,
+    "dayHigh": 171.5,
+    "yearHigh": 243.37,
+    "yearLow": 124.5,
+    "marketCap": 4012100520000,
+    "priceAvg50": 207.0004,
+    "priceAvg200": 203.3454,
+    "exchange": "NASDAQ",
+    "open": 167.035,
+    "previousClose": 125.53,
+    "timestamp": 1795451436
+   }
+  ]
+ }
+}

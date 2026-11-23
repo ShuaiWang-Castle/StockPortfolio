@@ -634,6 +634,21 @@
    "max": 0.05199255741620146
   }
  },
+ "big_up_days": {
+  "n": 13,
+  "later_close_below_pre_jump_within_252d": 11,
+  "within_15d": 4,
+  "within_26d": 8,
+  "ret_252d": {
+   "n": 13,
+   "median": 0.09633418584825248,
+   "p25": -0.3072427157588761,
+   "p75": 0.3537974081122477,
+   "min": -0.496103136485195,
+   "max": 0.7367184969225784,
+   "share_positive": 0.5384615384615384
+  }
+ },
  "portfolio_scenarios": {
   "assumption": "uniform shock: every non-SGOV holding falls by the Nasdaq's further decline; SGOV flat",
   "equity_share": 0.89,

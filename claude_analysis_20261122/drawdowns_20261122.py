@@ -328,6 +328,31 @@ for name, rule, cap in WAIT_RULES:
 for rule in ("dip5_or_15d", "dip5_or_26d"):
     waiting[f"half_now_half_{rule}"] = {k: 0.5 * waiting[rule][k] for k in ("mean", "median", "min", "max")}
 
+# ------------------- one-day jumps of 6%+ while 15%+ below the 52-week high (added 11/23)
+# First such day in each 21-trading-day cluster. "lower close" = a later close below the
+# close of the day before the jump, within 252 trading days.
+JUMP, JUMP_DD = 0.06, -0.15
+jump_rows, last_jump = [], -10**9
+for t in range(WINDOW + 1, n):
+    hi = max(px[t - WINDOW:t])
+    dd_prev = px[t - 1] / hi - 1
+    if px[t] / px[t - 1] - 1 >= JUMP and dd_prev <= JUMP_DD:
+        if t - last_jump > 21:
+            later = next((k for k in range(1, 253) if t + k < n and px[t + k] < px[t - 1]), None)
+            jump_rows.append({
+                "date": dates[t], "jump": px[t] / px[t - 1] - 1, "drawdown_day_before": dd_prev,
+                "td_to_close_below_pre_jump": later if later is not None else "",
+                "ret_63d": px[t + 63] / px[t] - 1 if t + 63 < n else None,
+                "ret_252d": px[t + 252] / px[t] - 1 if t + 252 < n else None})
+        last_jump = t
+jumps = {
+    "n": len(jump_rows),
+    "later_close_below_pre_jump_within_252d": sum(r["td_to_close_below_pre_jump"] != "" for r in jump_rows),
+    "within_15d": sum(r["td_to_close_below_pre_jump"] != "" and r["td_to_close_below_pre_jump"] <= 15 for r in jump_rows),
+    "within_26d": sum(r["td_to_close_below_pre_jump"] != "" and r["td_to_close_below_pre_jump"] <= 26 for r in jump_rows),
+    "ret_252d": describe(jump_rows, "ret_252d"),
+}
+
 # ------------------------------ what a further leg down would mean for the $7,000 plan
 plan = json.loads((ROOT / "current_plan.json").read_text())
 eq_share = 1 - plan["weights"]["SGOV"]
@@ -354,6 +379,7 @@ write_csv(OUT / "episodes.csv", ep_rows)
 write_csv(OUT / "after_first_close_at_current_dd.csv", after)
 write_csv(OUT / "lump_vs_staged.csv", stage_rows)
 write_csv(OUT / "waiting_rules.csv", wait_rows)
+write_csv(OUT / "big_up_days.csv", jump_rows)
 
 paths = {}
 for ep, row in zip(episodes, ep_rows):
@@ -374,6 +400,7 @@ summary = {
     "signature_by_group": signature,
     "lump_vs_staged": staging,
     "waiting_rules": waiting,
+    "big_up_days": jumps,
     "portfolio_scenarios": scen,
     "paths_after_cross": paths,
     "inputs_sha256": {str(p.relative_to(ROOT)): sha256(p) for p in inputs},

@@ -6,7 +6,7 @@
   "news_and_futures": "2026-11-22 about 22:30 ET"
  },
  "status": "research only; current_plan.json not changed",
- "clean_export_rerun": "byte-identical out/ (5 files) and figures/ (2 PNG) from git archive after deleting out/ and figures/; 16/16 input hashes match (2026-11-22 23:15 ET)",
+ "clean_export_rerun": "byte-identical out/ (6 files) and figures/ (2 PNG) from git archive after deleting out/ and figures/; 16/16 input hashes match (2026-11-23 11:50 ET)",
  "inputs": {
   "claude_analysis_20261122/data/fmp_raw/EURUSD_page1.json": "896a67df459f2059a930f47310e07709bffbaa653222ebbf1e615461af1ef531",
   "claude_analysis_20261122/data/fmp_raw/EURUSD_page2.json": "3a73cd57fa9c926a8eb480fe303a465a5dfada6acba704ee9f613c18aabd6804",
@@ -32,12 +32,16 @@
  "environment": "Python 3.13.18, numpy 2.5.3, pandas 3.0.5, matplotlib 3.11.2, font Noto Sans CJK SC",
  "files": {
   "README.md": {
-   "sha256": "aac692db69d54b3a1c805339997b0061fcb2b8e0ca6d85a7c6c3abc15ce40376",
-   "bytes": 18784
+   "sha256": "4f6ee9ebf6debe7d6e5200d71c08fb107640294dd42b65b72bd7945e75679888",
+   "bytes": 21587
   },
   "data/btc_extract_fmp_20261122.json": {
    "sha256": "61d9c17c26c80b8443b018163f06fd4d614dee22f6f29670f28931e9aa8bb296",
    "bytes": 984
+  },
+  "data/fmp_quotes_20261123_1130et.json": {
+   "sha256": "48fad0a8e1b6e42a263246944e3bc60e0ebc89626e8ba92c24ea487321ab39e2",
+   "bytes": 2126
   },
   "data/fmp_raw/EURUSD_page1.json": {
    "sha256": "896a67df459f2059a930f47310e07709bffbaa653222ebbf1e615461af1ef531",
@@ -100,8 +104,8 @@
    "bytes": 6748
   },
   "drawdowns_20261122.py": {
-   "sha256": "a591928c59644580f60914f34db4ad5dd02bf0d6903fc06cd7363a242b5e735c",
-   "bytes": 17135
+   "sha256": "c6c60cff9a8a326f13a9ef04862ea947386c0c00fca6d511065c06c3ceeb3130",
+   "bytes": 18623
   },
   "figures/f1_nasdaq_drawdowns_since_1971.png": {
    "sha256": "a6a327fce0677ab58d20ef7a619b74f667898c4ec674fc9fd836febb70591519",
@@ -119,6 +123,10 @@
    "sha256": "6a544843f76645bdd7d3531bb7866884f8b2b9d5cf003d4fa91d240f59919646",
    "bytes": 1993
   },
+  "out/big_up_days.csv": {
+   "sha256": "22692ef57be22bfa3f3dd44619732c93e23932478ec06b54b87078858e9a2580",
+   "bytes": 756
+  },
   "out/episodes.csv": {
    "sha256": "9bb9f615244af04ca4a2e81856765d3580ee9615592526084573ca0286118eac",
    "bytes": 6474
@@ -128,8 +136,8 @@
    "bytes": 1434
   },
   "out/summary.json": {
-   "sha256": "5319281f9e44f58b070d5af0cfee18a276ef3dc304ab6efdb9df23f4462985f0",
-   "bytes": 122095
+   "sha256": "5864380582ada9fccdf55601ba0f4f53910e3009282e0456753646584a04cf6a",
+   "bytes": 122441
   },
   "out/waiting_rules.csv": {
    "sha256": "04ef791ffddec46d9f0b01d0acd0b3079a8fca53e2c026a8976d723d04c4cc23",
@@ -137,6 +145,7 @@
   }
  },
  "updates": [
-  "2026-11-22 23:10 ET: added waiting rules (README 4b, out/waiting_rules.csv); earlier outputs and figures unchanged"
+  "2026-11-22 23:10 ET: added waiting rules (README 4b, out/waiting_rules.csv); earlier outputs and figures unchanged",
+  "2026-11-23 11:45 ET: added one-day jumps of 6%+ during 15%+ drawdowns (README 4c, out/big_up_days.csv) and an 11/23 intraday quote record; earlier outputs and figures unchanged"
  ]
 }
