@@ -539,6 +539,101 @@
    "share_positive": 0.0
   }
  },
+ "waiting_rules": {
+  "wait_21d": {
+   "cheaper_count": 7,
+   "n": 17,
+   "mean": -0.01304627357188919,
+   "median": -0.01687116564417157,
+   "min": -0.11881912936709915,
+   "max": 0.15896764754627712,
+   "filled_count": null
+  },
+  "wait_63d": {
+   "cheaper_count": 5,
+   "n": 17,
+   "mean": -0.054910622202461165,
+   "median": -0.09511242315464885,
+   "min": -0.23658346417898302,
+   "max": 0.15740132747913926,
+   "filled_count": null
+  },
+  "wait_126d": {
+   "cheaper_count": 6,
+   "n": 17,
+   "mean": -0.10024911574435616,
+   "median": -0.14641761239101847,
+   "min": -0.3205468477229425,
+   "max": 0.25161238559005605,
+   "filled_count": null
+  },
+  "dip5_or_15d": {
+   "cheaper_count": 10,
+   "n": 17,
+   "mean": 0.01792429943339872,
+   "median": 0.03339483394833942,
+   "min": -0.10240278058496621,
+   "max": 0.10398511483240291,
+   "filled_count": 8
+  },
+  "dip5_or_26d": {
+   "cheaper_count": 9,
+   "n": 17,
+   "mean": 0.004571504866815581,
+   "median": 0.052226188239714366,
+   "min": -0.18002501830607764,
+   "max": 0.10398511483240291,
+   "filled_count": 8
+  },
+  "dip5_or_63d": {
+   "cheaper_count": 11,
+   "n": 17,
+   "mean": 0.004312340667190479,
+   "median": 0.05698158195131775,
+   "min": -0.23658346417898302,
+   "max": 0.10398511483240291,
+   "filled_count": 11
+  },
+  "dip10_or_26d": {
+   "cheaper_count": 7,
+   "n": 17,
+   "mean": 0.00958515579081931,
+   "median": -0.03843131652260867,
+   "min": -0.18002501830607764,
+   "max": 0.2211821310394455,
+   "filled_count": 4
+  },
+  "dip10_or_63d": {
+   "cheaper_count": 8,
+   "n": 17,
+   "mean": 0.0050727209006054316,
+   "median": -0.028247039085729453,
+   "min": -0.23658346417898302,
+   "max": 0.2211821310394455,
+   "filled_count": 8
+  },
+  "rebound10_from_low": {
+   "cheaper_count": 6,
+   "n": 17,
+   "mean": -0.015273431525209828,
+   "median": -0.02619674819078055,
+   "min": -0.09767789105138502,
+   "max": 0.11413547788431799,
+   "filled_count": 17
+  },
+  "half_now_half_dip5_or_15d": {
+   "mean": 0.00896214971669936,
+   "median": 0.01669741697416971,
+   "min": -0.05120139029248311,
+   "max": 0.05199255741620146
+  },
+  "half_now_half_dip5_or_26d": {
+   "mean": 0.0022857524334077904,
+   "median": 0.026113094119857183,
+   "min": -0.09001250915303882,
+   "max": 0.05199255741620146
+  }
+ },
  "portfolio_scenarios": {
   "assumption": "uniform shock: every non-SGOV holding falls by the Nasdaq's further decline; SGOV flat",
   "equity_share": 0.89,

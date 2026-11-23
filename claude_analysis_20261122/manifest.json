@@ -6,7 +6,7 @@
   "news_and_futures": "2026-11-22 about 22:30 ET"
  },
  "status": "research only; current_plan.json not changed",
- "clean_export_rerun": "byte-identical out/ (4 files) and figures/ (2 PNG) from git archive of this commit after deleting out/ and figures/; 16/16 input hashes match (2026-11-22 ET)",
+ "clean_export_rerun": "byte-identical out/ (5 files) and figures/ (2 PNG) from git archive after deleting out/ and figures/; 16/16 input hashes match (2026-11-22 23:15 ET)",
  "inputs": {
   "claude_analysis_20261122/data/fmp_raw/EURUSD_page1.json": "896a67df459f2059a930f47310e07709bffbaa653222ebbf1e615461af1ef531",
   "claude_analysis_20261122/data/fmp_raw/EURUSD_page2.json": "3a73cd57fa9c926a8eb480fe303a465a5dfada6acba704ee9f613c18aabd6804",
@@ -32,8 +32,8 @@
  "environment": "Python 3.13.18, numpy 2.5.3, pandas 3.0.5, matplotlib 3.11.2, font Noto Sans CJK SC",
  "files": {
   "README.md": {
-   "sha256": "e7451782372771f3c945fe19e38220cbe39a90e127cc674c265669ce213dcae0",
-   "bytes": 16222
+   "sha256": "aac692db69d54b3a1c805339997b0061fcb2b8e0ca6d85a7c6c3abc15ce40376",
+   "bytes": 18784
   },
   "data/btc_extract_fmp_20261122.json": {
    "sha256": "61d9c17c26c80b8443b018163f06fd4d614dee22f6f29670f28931e9aa8bb296",
@@ -100,8 +100,8 @@
    "bytes": 6748
   },
   "drawdowns_20261122.py": {
-   "sha256": "d6edff000d9e024a0f51559ef7d25ede78f7956ab53026bceaaffa470cc0cc38",
-   "bytes": 14814
+   "sha256": "a591928c59644580f60914f34db4ad5dd02bf0d6903fc06cd7363a242b5e735c",
+   "bytes": 17135
   },
   "figures/f1_nasdaq_drawdowns_since_1971.png": {
    "sha256": "a6a327fce0677ab58d20ef7a619b74f667898c4ec674fc9fd836febb70591519",
@@ -128,8 +128,15 @@
    "bytes": 1434
   },
   "out/summary.json": {
-   "sha256": "6893574785f92454d7615d057081e4b29edf8872c1fce4cf5bff0a47349cb162",
-   "bytes": 119827
+   "sha256": "5319281f9e44f58b070d5af0cfee18a276ef3dc304ab6efdb9df23f4462985f0",
+   "bytes": 122095
+  },
+  "out/waiting_rules.csv": {
+   "sha256": "04ef791ffddec46d9f0b01d0acd0b3079a8fca53e2c026a8976d723d04c4cc23",
+   "bytes": 2762
   }
- }
+ },
+ "updates": [
+  "2026-11-22 23:10 ET: added waiting rules (README 4b, out/waiting_rules.csv); earlier outputs and figures unchanged"
+ ]
 }

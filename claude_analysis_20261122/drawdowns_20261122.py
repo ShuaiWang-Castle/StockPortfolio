@@ -286,6 +286,48 @@ staging = {
                                             "worst_mark_staged_126d"]},
 }
 
+# ------------------------- waiting for a lower price after the first -18% close
+# advantage = price at the first -18% close / price actually paid - 1  (>0: waiting bought cheaper).
+# Both buyers then hold to the same date, so this is the whole difference; cash interest is ignored.
+WAIT_RULES = [("wait_21d", None, 21), ("wait_63d", None, 63), ("wait_126d", None, 126),
+              ("dip5_or_15d", 0.05, 15), ("dip5_or_26d", 0.05, 26), ("dip5_or_63d", 0.05, 63),
+              ("dip10_or_26d", 0.10, 26), ("dip10_or_63d", 0.10, 63),
+              ("rebound10_from_low", "rebound", 252)]
+wait_rows = []
+for ep, row in zip(episodes, ep_rows):
+    if row["status"] != "completed" or not row["first_close_at_current_dd"]:
+        continue
+    t0 = first_cross(ep, CUR_DD)
+    p0 = px[t0]
+    rec = {"peak_date": row["peak_date"], "cross_date": dates[t0]}
+    for name, rule, cap in WAIT_RULES:
+        if rule is None:
+            tb, filled = t0 + cap, ""
+        elif rule == "rebound":
+            lo, tb = p0, None
+            for u in range(t0 + 1, t0 + cap + 1):
+                lo = min(lo, px[u])
+                if px[u] >= 1.10 * lo:
+                    tb = u
+                    break
+            filled = tb is not None
+            tb = tb if tb is not None else t0 + cap
+        else:
+            hit = next((u for u in range(t0 + 1, t0 + cap + 1) if px[u] <= (1 - rule) * p0), None)
+            filled = hit is not None
+            tb = hit if hit is not None else t0 + cap
+        rec[name] = p0 / px[tb] - 1
+        rec[name + "_filled"] = filled
+    wait_rows.append(rec)
+waiting = {}
+for name, rule, cap in WAIT_RULES:
+    v = [r[name] for r in wait_rows]
+    waiting[name] = {"cheaper_count": sum(x > 0 for x in v), "n": len(v), "mean": statistics.mean(v),
+                     "median": q(v, 0.5), "min": min(v), "max": max(v),
+                     "filled_count": (sum(bool(r[name + "_filled"]) for r in wait_rows) if rule is not None else None)}
+for rule in ("dip5_or_15d", "dip5_or_26d"):
+    waiting[f"half_now_half_{rule}"] = {k: 0.5 * waiting[rule][k] for k in ("mean", "median", "min", "max")}
+
 # ------------------------------ what a further leg down would mean for the $7,000 plan
 plan = json.loads((ROOT / "current_plan.json").read_text())
 eq_share = 1 - plan["weights"]["SGOV"]
@@ -311,6 +353,7 @@ def write_csv(path, rows):
 write_csv(OUT / "episodes.csv", ep_rows)
 write_csv(OUT / "after_first_close_at_current_dd.csv", after)
 write_csv(OUT / "lump_vs_staged.csv", stage_rows)
+write_csv(OUT / "waiting_rules.csv", wait_rows)
 
 paths = {}
 for ep, row in zip(episodes, ep_rows):
@@ -330,6 +373,7 @@ summary = {
     "current_window_2026_10_06_to_11_20": current_window,
     "signature_by_group": signature,
     "lump_vs_staged": staging,
+    "waiting_rules": waiting,
     "portfolio_scenarios": scen,
     "paths_after_cross": paths,
     "inputs_sha256": {str(p.relative_to(ROOT)): sha256(p) for p in inputs},
@@ -347,3 +391,5 @@ for g in groups:
           "share>0", s["ret_252d"] and round(s["ret_252d"]["share_positive"], 2))
 print("staging:", json.dumps(staging, default=str)[:700])
 print("scenarios:", json.dumps(scen["rows"]))
+for k, v in waiting.items():
+    print(k, {kk: (round(vv, 4) if isinstance(vv, float) else vv) for kk, vv in v.items()})
