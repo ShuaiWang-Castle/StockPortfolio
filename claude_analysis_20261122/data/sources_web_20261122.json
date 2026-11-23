@@ -1,0 +1,53 @@
+{
+  "retrieved": "2026-11-22 22:00-22:45 ET via WebSearch result pages (snippets); claims are paraphrased",
+  "note": "None of these numbers enter the scripts; the scripts use only data/fmp_raw, the treasury and bitcoin extracts, and current_plan.json. Each claim below is cited in README.md.",
+  "friday_2026_11_20": [
+    {"claim": "Nvidia fell 14% on Friday, a seventh straight decline, 22.9% for the week and 47.5% below its Oct. 6 high; Anthropic closed at $88.91 vs the $83 offer price", "source": "BigGo Finance", "url": "https://finance.biggo.com/news/30fcd533-fb97-4186-82d1-f67c89ff31fb"},
+    {"claim": "Philadelphia Semiconductor Index fell 10.7% on Friday, about 43% below its June peak; VIX touched about 40 intraday, highest since April 2025", "source": "36Kr", "url": "https://eu.36kr.com/en/p/4078935983182722"},
+    {"claim": "Friday selloff erased the Nasdaq's 2026 gain and pushed the Dow and S&P 500 into correction; VIX highest close since April 2025", "source": "Fox Business", "url": "https://www.foxbusiness.com/markets/wall-street-suffers-historic-losses-dow-sp-500-plunge-correction-territory"},
+    {"claim": "Friday: yields fell as risk-off sentiment rose", "source": "Charles Schwab market update", "url": "https://www.schwab.com/learn/story/stock-market-update-open"},
+    {"claim": "Nasdaq fell 10% for the week, its largest weekly drop since March 2020; Asian authorities readied support measures", "source": "Reuters via Global Banking & Finance Review", "url": "https://www.globalbankingandfinance.com/us-futures-bounce-while-asia-markets-brace-ai-wipeout/"},
+    {"claim": "Nasdaq 100 fell 10.4% for the week, worst since March 2020; S&P 500 fell 8.6% to 6,910.39 after seven straight declines; about $17 trillion lost across stocks, crypto and precious metals over five days", "source": "HuggingNews", "url": "https://huggingnews.com/us-markets/us-stock-futures-rebound-with-nasdaq-100-up-22percent-after-worst-week-s-501bab64"}
+  ],
+  "sunday_2026_11_22_futures": [
+    {"claim": "S&P 500 futures up 2.1% and Nasdaq 100 futures up 2.7% in Asian trading; Treasury futures fell and the yen weakened as haven demand ebbed", "source": "Bloomberg Markets Wrap, 2026-11-22", "url": "https://www.bloomberg.com/news/articles/2026-11-22/asia-braces-for-more-volatility-after-us-selloff-markets-wrap"},
+    {"claim": "CNBC live: Dow futures +449 points (0.9%), S&P 500 futures +1.5%, Nasdaq-100 futures up", "source": "CNBC via BizToc", "url": "https://biztoc.com/x/cdeccbf19982fdaf"},
+    {"claim": "Kospi fell more than 3% in the opening minutes on Nov. 23", "source": "Digg (Reuters)", "url": "https://digg.com/world-business/tln4p44g"}
+  ],
+  "credit_and_funding": [
+    {"claim": "US high-yield spreads widened to 348 bp in the Nov. 5 selloff; single-B to 367 bp, highest since March (ICE BofA, via Reuters)", "source": "Finimize / WSAU (Reuters)", "url": "https://finimize.com/content/bond-investors-are-rethinking-ai-data-center-debt"},
+    {"claim": "Galaxy Helios Data Center B+ notes fell to 89.25 cents on Nov. 5, yield about 13% vs a 9.875% coupon", "source": "Finimize (Reuters)", "url": "https://finimize.com/content/bond-investors-are-rethinking-ai-data-center-debt"},
+    {"claim": "SpaceX CDS more than doubled to nearly 300 bp after the Nov. 5 selloff", "source": "IFR", "url": "https://www.ifre.com/topic-codes/2509450/cds-market-flashes-warning-on-ai-ratings-downgrades"},
+    {"claim": "CoreWeave's troubles risk shutting AI issuers out of the junk market (Oct. 17)", "source": "Bloomberg Government", "url": "https://news.bgov.com/crypto/coreweave-woes-risk-shutting-down-ai-junk-market-credit-weekly"},
+    {"claim": "Data center bonds, concentrated in BB and single-B, under fresh pressure", "source": "Reuters via The Star", "url": "https://www.thestar.com.my/tech/tech-news/2026/11/10/analysis-ai-debt-faces-pressure-as-democrats-prepare-to-take-over-congress"},
+    {"claim": "HY OAS 323 -> 352 bp and IG 89 -> 94 bp (11/13 -> 11/19); SOFR 3.91%, EFFR 3.88% (11/19); NY Fed standing repo 11/20: $0 and $1 million; ING ~$500m data center loan auction stalled; CDX IG +2.9 bp to 65.5 bp on 11/20; Fed November FSR: public debt tied to advanced computing above $1.1 trillion", "source": "Codex PR #12 (codex_analysis_20261122/README.md and its data); not re-fetched by Claude", "url": "https://github.com/ShuaiWang-Castle/StockPortfolio/pull/12"},
+    {"claim": "ICE BofA US HY OAS widened from 360 bp (2019-12-31) to 1,087 bp on 2020-03-23 (the post prints the year as 2023, a typo given the 2019 start); Great Recession peak 2,147 bp", "source": "CFA Institute Enterprising Investor, 2025-06-02", "url": "https://blogs.cfainstitute.org/investor/2025/06/02/think-weve-seen-the-last-1000-bps-high-yield-spread-think-again"}
+  ],
+  "rates_inflation_oil": [
+    {"claim": "Rate futures priced a 93.9% chance of a 25 bp hike and 6.1% of 50 bp at the December FOMC; Fed Chair Kevin Warsh", "source": "Webull (MT Newswires), week of Nov. 16", "url": "https://www.webull.com/news/15933248810697729"},
+    {"claim": "Nov. 12: 10-year yield back above 5%; dollar index 103.17, highest since April 2025; gold -2.8% near $3,875; Daly: further tightening will be needed", "source": "BabyPips", "url": "https://www.babypips.com/news/daily-financial-forex-market-recap-2026-11-12"},
+    {"claim": "Nov. 17: Williams said the Fed will likely need to raise rates; Nov. 18: Barr said further hikes likely appropriate", "source": "BabyPips", "url": "https://www.babypips.com/news/daily-financial-forex-market-recap-2026-11-18"},
+    {"claim": "US October PPI +6.5% y/y, sharpest since November 2022", "source": "News on AIR", "url": "https://newsonair.gov.in/us-markets-ended-on-mixed-note/"},
+    {"claim": "Nov. 18: US forces bombed Qeshm Island near the Strait of Hormuz", "source": "TechFlow", "url": "https://techflowpost.com/en-US/article/35516"},
+    {"claim": "Brent near $95.50 on the evening of Nov. 15 despite Iranian tanker-mine claims", "source": "investingLive", "url": "https://investinglive.com/stocks/us-futures-open-firmer-as-nasdaq-leads-oil-slips-despite-iran-tanker-claims-5-things/"}
+  ],
+  "gold": [
+    {"claim": "Gold reached about $5,600 in late January 2026 and fell nearly 10% on Jan. 30 after the Warsh nomination and CME margin hikes", "source": "MEXC news", "url": "https://www.mexc.com/news/619566"},
+    {"claim": "Oct. 30: gold fell below $3,900 as an equity selloff triggered liquidation despite falling Treasury yields", "source": "Kitco", "url": "https://www.kitco.com/news/article/2026-10-30/gold-falls-below-3900-silver-tumbles-wall-street-selloff-triggers"},
+    {"claim": "Nov. 19: gold below $3,650 with the dollar near its strongest in 19 months", "source": "Kitco", "url": "https://www.kitco.com/news/article/2026-11-19/gold-falls-below-3650-silver-tumbles-fed-rate-concerns-pressure-metals"},
+    {"claim": "Gold lost 3.6% on a Friday; Commerzbank (to Reuters): investors may have sold safe assets to raise liquidity or meet margin calls; CIBC cut its forecasts", "source": "boerse-express (date in snippet: a Friday, World Gold Council data of the 20th)", "url": "https://www.boerse-express.com/news/articles/gold-margin-calls-als-moeglicher-verkaufsgrund-958172"}
+  ],
+  "policy_and_company_events": [
+    {"claim": "Nov. 5: S&P 500 -4.35%, Nasdaq -5.52%, Nasdaq 100 -6.36% (worst since 2020); Democrats' midterm wins raised fears of AI and data-center regulation", "source": "Zacks", "url": "https://www.zacks.com/stock/news/3025392/stock-market-news-for-nov-6-2026"},
+    {"claim": "Nov. 5: Philadelphia Semiconductor Index -12.25% to 9,011.14, its second-largest one-day fall on record", "source": "24/7 Wall St. via AlphaMaven", "url": "https://alpha-maven.com/news/hedge-fund/chip-stocks-just-had-their-second-worst-day-on-record"},
+    {"claim": "BIS interim final rule 'Addressing Remote Access to Advanced Semiconductors', released Nov. 16 and effective on publication Nov. 19: licenses for advanced chips to data centers anywhere supplying more than 12 million TPP to China/D:5-headquartered firms, and for advanced chips to Indonesia, Malaysia, Singapore, Thailand and Brazil; US-headquartered companies excluded subject to reporting", "source": "Pillsbury; Squire Patton Boggs", "url": "https://www.pillsburylaw.com/en/news-and-insights/commerce-restricts-remote-access-advanced-chips.html"},
+    {"claim": "WSJ (Nov. 17): the SEC is investigating Nvidia, including whether its disclosures misled investors", "source": "FourWeekMBA", "url": "https://fourweekmba.com/ai-sec-said-to-probe-nvidia-disclosures-2022-case-cost-5-5m/"},
+    {"claim": "Sept. 12: Dario Amodei published 'We Must Pace the Frontier', calling for slower frontier capability gains; Altman and Musk agreed", "source": "NYU Shanghai RITS", "url": "https://rits.shanghai.nyu.edu/ai/amodei-calls-to-pace-the-frontier-altman-and-musk-agree/"}
+  ],
+  "fund_flows": [
+    {"claim": "BofA/EPFR week to Nov. 4: money market funds +$140.4bn, equity funds +$89.2bn, bond funds +$11.6bn; tech funds +$9.8bn, +$44.6bn over four weeks; Hartnett: midterms mark peak AI equity concentration, prefers tech bonds to tech stocks", "source": "FourWeekMBA (Investing.com summary of BofA)", "url": "https://fourweekmba.com/ai-bofa-marks-peak-ai-concentration-as-tech-funds-draw-44-6b/"},
+    {"claim": "LSEG Lipper: global equity funds +$38.63bn in the week to Nov. 4 (seventh straight inflow) and +$50.99bn in the week to Nov. 11", "source": "Crypto Briefing; Devdiscourse (Reuters)", "url": "https://cryptobriefing.com/global-equity-funds-98-billion-inflows/"},
+    {"claim": "BofA weekly flows (mid-November report): cash -$29.5bn, stocks +$23.0bn, bonds +$19.9bn, gold -$1.2bn (first outflow in six weeks)", "source": "Newsquawk", "url": "https://www.newsquawk.com/headlines/bofas-weekly-flow-report-notes-usd-295bln-out-of-cash-usd-230bln-into-stocks-usd-199bln-into-bonds-usd-12bln-out-of-gold"},
+    {"claim": "BofA (late October): risk-off outflows visible in US HY bonds, EM debt and financial stocks, but positioning still lacks the bear panic usually seen at a durable low", "source": "Newsquawk", "url": "https://www.newsquawk.com/headlines/bofa-weekly-flow-data-shows-usd-132bln-into-stocks-usd-34bln-into-bonds-usd-08bln-into-cash-usd-02bln-out-of-crypto-and-usd-09bln-out-of-gold"}
+  ]
+}
