@@ -14,9 +14,13 @@
   "python3 -I claude_analysis_20261117/make_figures_20261117.py ."
  ],
  "files": {
+  "ERRATA_20261122.md": {
+   "sha256": "e2bf253bfe2b2ec6185caf95dd72289efec65ca482f7aacf1028885a2104d698",
+   "bytes": 2942
+  },
   "README.md": {
-   "sha256": "cfc0b374a5b39b64f626d3f3ecf7c764bc43a7df5eaabbae88975526fbf46e79",
-   "bytes": 10514
+   "sha256": "06739f0fb085bd6f9e705ebf6275bc8170bec449cd099843dda0528ddaaa9385",
+   "bytes": 10947
   },
   "data/fmp_raw/NVDA_q3fy27_20261117.json": {
    "sha256": "e110e631b25c2d0326f333a6af5a087de776826c8b6ebe414d6a034845f5d47d",
@@ -54,5 +58,6 @@
    "sha256": "06a742eb4bb522328bb717ed13334d7aa2fd13dd519c796b5050cab48c47c9de",
    "bytes": 8731
   }
- }
+ },
+ "errata": "ERRATA_20261122.md (2026-11-22): the BIS remote-access rule (released 11/16, effective 11/19) was missed in trigger 4; README 0.1 and section 1 annotated; out/ and figures/ unchanged"
 }

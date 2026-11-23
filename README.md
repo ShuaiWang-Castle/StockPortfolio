@@ -8,7 +8,7 @@
 
 - **当前方案**：长期理论比例为 Hybrid-核心（[分析](claude_analysis_20261114/README.md)），周一一次性买入比例见[买入时机分析](claude_analysis_20261115/README.md)；机器可读文件为 [`current_plan.json`](current_plan.json)。
 - **待决定**：[11/16 MSFT 再配置检查](claude_analysis_20261116/README.md)——是否把 MSFT 挪给 NVDA 或 GOOGL。未改当前方案。
-- **11/17 财报规则检查**：[NVDA Q3 FY27](claude_analysis_20261117/README.md)。5 条规则都未触发，NVDA 维持 12.5%。
+- **11/17 财报规则检查**：[NVDA Q3 FY27](claude_analysis_20261117/README.md)。原文称 5 条规则都未触发、NVDA 维持 12.5%。11/22 勘误：漏掉了 11/19 生效的 BIS 远程访问新规，第 4 条是否触发待 Shuai 决定，见 [`ERRATA_20261122.md`](claude_analysis_20261117/ERRATA_20261122.md)。
 - **待决定**：[11/19 Anthropic（ANT）上市首日的估值与仓位](claude_analysis_20261119/README.md)。作者 Claude 由 Anthropic 开发，存在利益关系。
 - [GPT 对 PR #1 的独立复核](gpt_review_20261113/README_IMPORT.md)
 - [Claude 11/13 版](claude_analysis_20261113/README.md)及其[勘误](claude_analysis_20261113/ERRATA_20261114.md)
