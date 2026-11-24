@@ -1,0 +1,14 @@
+{
+"source": "FMP MCP tools (index-quote, commodities-quote, forex-quote, cryptocurrency-quote); each array copied verbatim. Index quotes carry the 2026-11-23 US close (timestamp about 17:15 ET); gold, Brent, EUR/USD and BTC are overnight quotes at about 01:48 ET 2026-11-24. yearHigh/yearLow are 52-week intraday extremes as reported by FMP.",
+"retrieved_et": "2026-11-24 01:48 ET",
+"responses": {
+"^IXIC": [{"symbol":"^IXIC","name":"NASDAQ Composite","price":24089.559,"changePercentage":6.5074,"change":1471.827,"volume":9617942000,"dayLow":23794.957,"dayHigh":24353.65,"yearHigh":27722.75,"yearLow":20690.25,"marketCap":0,"priceAvg50":26113.44,"priceAvg200":25157.465,"exchange":"INDEX","open":24269.746,"previousClose":22617.732,"timestamp":1795472159}],
+"^GSPC": [{"symbol":"^GSPC","name":"S&P 500","price":7237.17,"changePercentage":4.72882,"change":326.78,"volume":4245654000,"dayLow":7152.66,"dayHigh":7295.6,"yearHigh":7844.52,"yearLow":6316.91,"marketCap":0,"priceAvg50":7625.2563,"priceAvg200":7348.58,"exchange":"INDEX","open":7227.41,"previousClose":6910.39,"timestamp":1795470153}],
+"^VIX": [{"symbol":"^VIX","name":"CBOE Volatility Index","price":26.62,"changePercentage":-25.82892,"change":-9.27,"volume":0,"dayLow":26.62,"dayHigh":35.89,"yearHigh":40.03,"yearLow":13.38,"marketCap":0,"priceAvg50":18.4352,"priceAvg200":18.65905,"exchange":"INDEX","open":35.89,"previousClose":35.89,"timestamp":1795468501}],
+"GCUSD": [{"symbol":"GCUSD","name":"Gold Futures","price":3614.4,"changePercentage":-1.01331,"change":-37,"volume":46890,"dayLow":3612.6,"dayHigh":3676.7,"yearHigh":5626.8,"yearLow":3502.9,"marketCap":null,"priceAvg50":4110.86,"priceAvg200":4375.2,"exchange":"COMMODITY","open":3636.4,"previousClose":3651.4,"timestamp":1795502329}],
+"BZUSD": [{"symbol":"BZUSD","name":"Brent Crude Oil","price":88.76,"changePercentage":-0.68256,"change":-0.61,"volume":1323,"dayLow":88.24,"dayHigh":89.76,"yearHigh":119.4,"yearLow":58.72,"marketCap":null,"priceAvg50":102.95,"priceAvg200":96.54,"exchange":"COMMODITY","open":89.37,"previousClose":89.37,"timestamp":1795502265}],
+"EURUSD": [{"symbol":"EURUSD","name":"EUR/USD","price":1.09056,"changePercentage":-0.00655583,"change":-0.0000715,"volume":30154,"dayLow":1.09039,"dayHigh":1.09218,"yearHigh":1.20831,"yearLow":1.08844,"marketCap":null,"priceAvg50":1.12298,"priceAvg200":1.14982,"exchange":"FOREX","open":1.09039,"previousClose":1.09063,"timestamp":1795502925}],
+"BTCUSD": [{"symbol":"BTCUSD","name":"Bitcoin USD","price":60361.6,"changePercentage":-1.3879,"change":-849.55,"volume":3457115232,"dayLow":59587.184,"dayHigh":61502.664,"yearHigh":116410.06,"yearLow":55149.566,"marketCap":1214213362294,"priceAvg50":76663.92,"priceAvg200":72326.08,"exchange":"CRYPTO","open":61211.15,"previousClose":61211.15,"timestamp":1795502929}]
+},
+"denied": {"CLUSD": "ACCESS DENIED: requires a higher FMP plan (WTI not used; Brent BZUSD used instead)"}
+}

@@ -1,0 +1,30 @@
+dimension,indicator,value,unit,as_of,reference,reading,source
+inflation,CPI y/y,3.72,%,2026-09,Fed target 2% (PCE basis),hot,FMP CPI
+inflation,CPI m/m,0.35,%,2026-10,Oct y/y not published (no Oct-2025 base),hot,FMP CPI; BLS via web
+inflation,CPI 3m annualized,5.72,%,2026-10,6m annualized 3.07,hot,FMP CPI
+inflation,PCE / core PCE y/y,3.6 / 3.1,%,2026-09,2%,hot,BEA via web
+inflation,ISM prices paid,75.2,index,2026-10,50,hot,ISM via web
+inflation,10y breakeven (T10YIE),2.13,%,2026-11-23,"2.38 on 2026-10-28; 2008 low 0.04, 2020 low 0.5","anchored, falling",FMP = FRED T10YIE
+growth,Real GDP q/q SAAR,3.37,%,2026Q3,CBO potential 2.1,hot,FMP realGDP; BEA
+growth,GDPNow Q4,3.2,%,2026-11-18,CBO potential 2.1,hot,Atlanta Fed via web
+growth,ISM manufacturing PMI,55.5,index,2026-10,50 (47.5 = economy-wide),hot,ISM via web
+growth,Real retail sales y/y (CPI-deflated),2.73,%,2026-09,nominal 6.54,warm,"FMP retailSales, CPI"
+growth,Industrial production y/y,2.15,%,2026-10,0,warm,FMP
+labor,Unemployment rate,4.1,%,2026-10,CBO 2026 projection 4.6; Nov-2025 4.5,hot,FMP
+labor,Sahm gap,0.0,pp,2026-10,recession signal >= 0.5,no signal,computed
+labor,Payrolls 3m avg,137.0,k/month,2026-10,CBO 2026 105k,hot,FMP
+labor,Initial claims 4wk avg,197.75,k,2026-11-14,250k rule of thumb,hot,FMP
+policy,Effective fed funds (monthly avg),3.88,%,2026-10,"Aug 3.63; hike 2026-09-16, hold 2026-10-28 (10-2)",tightening,FMP; Fed via web
+policy,Real policy rate (EFFR - core PCE),0.78,%,2026-10/09,positive = restrictive side,mildly restrictive,computed
+policy,10y Treasury,4.92,%,2026-11-23,high 5.31 on 2026-10-05,tight,FMP treasury
+policy,10y real yield (10y - T10YIE),2.79,%,2026-11-23,high 2.95 on 2026-10-05,tight,computed
+policy,30y mortgage rate,7.28,%,2026-11-19,low 6.43 on 2026-07-02,tight,FMP
+policy,Yield curve 10y-3m,55.0,bp,2026-11-23,inversion < 0,positive slope,FMP treasury
+market,Nasdaq vs 52w high,-13.11,%,2026-11-23,-10 correction / -20 bear,correction,FMP quote
+market,S&P 500 vs 52w high,-7.74,%,2026-11-23,-10 / -20,pullback,FMP quote
+market,VIX,26.62,index,2026-11-23,prior close 35.89,elevated,FMP quote
+market,S&P 500 forward P/E,17.7,x,2026-11-05,"5y avg 19.8, 10y avg 19.1",below averages,FactSet via web
+market,HY spread / CCC spread,3.23 / ~10,%,2026-11,HY > 5 = stress,calm / CCC stressed,"Trefis, Vanguard via web"
+market,Gold / Brent / BTC vs 52w high,-35.76 / -25.66 / -48.15,%,2026-11-24,-20,deleveraging,FMP quote
+sentiment,UMich consumer sentiment,48,index,2026-10,12m range 44.8-56.6,cold,FMP
+sentiment,Smoothed recession probability,0.4,%,2026-09,"coincident model, not a forecast",low,FMP (Chauvet-Piger)
