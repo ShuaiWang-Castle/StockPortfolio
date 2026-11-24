@@ -1,0 +1,114 @@
+{
+ "folder": "claude_analysis_20261124",
+ "question": "From the inflation/deflation and market angle, is the US in a hot cycle or a depression? (asked 2026-11-24 01:44 ET)",
+ "data_cutoff": {
+  "macro": "latest prints through 2026-10 (CPI, jobs), 2026Q3 (GDP), 2026-11-14 (claims)",
+  "rates": "2026-11-23",
+  "indices_close": "2026-11-23 17:15 ET",
+  "other_quotes": "2026-11-24 01:38 ET",
+  "web": "2026-11-24 about 02:20 ET"
+ },
+ "status": "research only; current_plan.json not changed",
+ "verdict": {
+  "macro_regime": "overheating",
+  "growth_hot": "4/4",
+  "inflation_hot": "4/4",
+  "recession_triggers": "0/5",
+  "deflation_triggers": "0/2",
+  "equity_state": "correction"
+ },
+ "gates": {
+  "cpi_missing_only_2025_10": true,
+  "cpi_oct_mom_matches_bls": true,
+  "cpi_sep_yoy_matches_bls": true,
+  "daily_t10yie_coverage": true,
+  "fred_t10yie_match": true,
+  "gdp_matches_bea": true,
+  "month_end_dates_aligned": true,
+  "payrolls_match_bls": true,
+  "unrate_missing_only_2025_10": true
+ },
+ "clean_export_rerun": "byte-identical out/ (8 files) and figures/ (1 PNG) from git archive of commit 678a560 after deleting out/ and figures/; 5/5 input hashes match (2026-11-24 about 02:40 ET)",
+ "inputs": {
+  "claude_analysis_20261124/data/fmp_economics_indicators_20261124.json": "99b59678b649191cac0dea110beabda7efea5c9f3d3130cf914d7b7c22f41117",
+  "claude_analysis_20261124/data/fmp_quotes_20261124.json": "f625efd1bc892a53bd92fb741027c314ea35783d6be874b685d7294a1a832273",
+  "claude_analysis_20261124/data/fmp_t10yie_inflationRate_20261124.json": "ac6025480b0614a18d0aaec490a7f26f82a23021e7df9184acad0d1a84c88db3",
+  "claude_analysis_20261124/data/fmp_treasury_rates_20261124.json": "02d84243f32b93cd834c64b7d0cb7de927f40ce0bd3a91d720aa9dfb88cffcff",
+  "claude_analysis_20261124/data/sources_web_20261124.json": "f54069ee76c0036970cd1c0bf6e4a5a205b9f145b321d120b809ed6673c34a44"
+ },
+ "reproduce": [
+  "python3 -I claude_analysis_20261124/macro_regime_20261124.py .",
+  "python3 -I claude_analysis_20261124/make_figures_20261124.py ."
+ ],
+ "environment": "Python 3.13.18, numpy 2.5.3, pandas 3.0.5, matplotlib 3.11.2, font Noto Sans CJK SC",
+ "files": {
+  "README.md": {
+   "sha256": "d7375c77bfbe98779cecbd0b58d85242a22ceffc17a0534c6dc8402dd215a365",
+   "bytes": 13225
+  },
+  "data/fmp_economics_indicators_20261124.json": {
+   "sha256": "99b59678b649191cac0dea110beabda7efea5c9f3d3130cf914d7b7c22f41117",
+   "bytes": 16263
+  },
+  "data/fmp_quotes_20261124.json": {
+   "sha256": "f625efd1bc892a53bd92fb741027c314ea35783d6be874b685d7294a1a832273",
+   "bytes": 2912
+  },
+  "data/fmp_t10yie_inflationRate_20261124.json": {
+   "sha256": "ac6025480b0614a18d0aaec490a7f26f82a23021e7df9184acad0d1a84c88db3",
+   "bytes": 19457
+  },
+  "data/fmp_treasury_rates_20261124.json": {
+   "sha256": "02d84243f32b93cd834c64b7d0cb7de927f40ce0bd3a91d720aa9dfb88cffcff",
+   "bytes": 15857
+  },
+  "data/sources_web_20261124.json": {
+   "sha256": "f54069ee76c0036970cd1c0bf6e4a5a205b9f145b321d120b809ed6673c34a44",
+   "bytes": 7374
+  },
+  "figures/f1_macro_market_dashboard.png": {
+   "sha256": "ceda70477a9481b00170f27bbb0ffb87e12304c4e73a1f0cdff0536c31cbc667",
+   "bytes": 369979
+  },
+  "macro_regime_20261124.py": {
+   "sha256": "649cac6355bdfa262597690eb22661a0cde4e82f1e8ffbdf1cfa4178f8952981",
+   "bytes": 24920
+  },
+  "make_figures_20261124.py": {
+   "sha256": "acb9301b3d92cc115dbeba8d0fd8834f3661f9ca87886c11d4b19a69a7269280",
+   "bytes": 9078
+  },
+  "out/dashboard.csv": {
+   "sha256": "dcdc12a39cc0a6b561c3edd480affde07f997ca734224b4256ebff3c2ed06c97",
+   "bytes": 2623
+  },
+  "out/gdp_quarterly.csv": {
+   "sha256": "14ac1f2adf4fc64439787a06232ff4b170c4380f8fe260930e0dca0c004ec4b4",
+   "bytes": 553
+  },
+  "out/inflation_monthly.csv": {
+   "sha256": "4d970a19f5d2cd513a2a32301dac13f2551ce43e9ee19c428e93fc77a2689cd6",
+   "bytes": 1251
+  },
+  "out/labor_monthly.csv": {
+   "sha256": "d5bf18dc3a9cc5f1753270f355c76e37533cb0737974e0bb133ef345b5514bc2",
+   "bytes": 894
+  },
+  "out/markets.csv": {
+   "sha256": "97685cbab1285af18c81c5610f8bde0151780a7966a41625ab1b746ed3bd2c60",
+   "bytes": 739
+  },
+  "out/rates_daily_recent.csv": {
+   "sha256": "c2f82e71553a7fe6b9d0f7d3bdfdff89018c18caac6a7257dc17d77bb835491e",
+   "bytes": 2236
+  },
+  "out/rates_monthly.csv": {
+   "sha256": "4e8ce0c37f06f86390cb5524f77a08594d14452a9b8c084b4fcd9ef09b1b9d6a",
+   "bytes": 1220
+  },
+  "out/summary.json": {
+   "sha256": "371f22f3a53db4c6209f985a7c8dd3b94a5df32598ac97143dc21efd1e76e899",
+   "bytes": 8163
+  }
+ }
+}
