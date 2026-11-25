@@ -1,0 +1,67 @@
+{
+ "folder": "claude_analysis_20261125_pce",
+ "question": "pce指数有什么影响？ (asked 2026-11-25 18:31 ET)",
+ "depends_on": "claude_analysis_20261124 (PR #15): out/summary.json and data/fmp_treasury_rates_20261124.json, hash-checked against its manifest.json",
+ "data_cutoff": {
+  "pce_release": "2026-11-25 08:30 ET (October 2026)",
+  "rates_and_nasdaq": "2026-11-25 close",
+  "web": "2026-11-25 about 18:30-18:45 ET",
+  "positions": "main@20691c6 (2026-11-25 13:16 ET)"
+ },
+ "status": "research only; current_plan.json not changed",
+ "verdict": {
+  "core_pce_yoy_oct": 3.3,
+  "core_vs_consensus_pp": 0.1,
+  "dec_25bp_fedwatch_pct": 97.8,
+  "treasury_bp_2y_10y": [
+   -2.0,
+   -6.0
+  ],
+  "inflation_tests_hot": "4/4 (unchanged)",
+  "macro_regime": "overheating (unchanged)",
+  "plan_action_triggered": false
+ },
+ "gates": "38/38 pass (see out/summary.json -> gates)",
+ "clean_export_rerun": "byte-identical out/ (2 files) from git archive of commit 1bce9b2 after deleting out/ (2026-11-25 about 18:46 ET)",
+ "inputs": {
+  "../claude_analysis_20261124/data/fmp_treasury_rates_20261124.json": "02d84243f32b93cd834c64b7d0cb7de927f40ce0bd3a91d720aa9dfb88cffcff",
+  "../claude_analysis_20261124/out/summary.json": "371f22f3a53db4c6209f985a7c8dd3b94a5df32598ac97143dc21efd1e76e899",
+  "data/fmp_rates_nasdaq_20261125_close.json": "d117046f82b8b0628f33dd66ab9bfb8c4dfda21ebc6ca050823574904d734d51",
+  "data/positions_main_20691c6.json": "d51da041dedfd86c7868d0618002d30ebf6d5b085605731a8c50d283fda5da65",
+  "data/sources_web_20261125_pce.json": "b516e38eb30b4789b23f40fde30b355b0e676c1c4ab7aec60f691c6ee67f3819"
+ },
+ "reproduce": [
+  "python3 -I claude_analysis_20261125_pce/pce_note_20261125.py ."
+ ],
+ "environment": "Python 3.13.18 (standard library only)",
+ "files": {
+  "README.md": {
+   "sha256": "e15a249fba4e62ec4b7243c6ac94b11c453f4b032f5cec19622487e7ebc1f488",
+   "bytes": 5699
+  },
+  "data/fmp_rates_nasdaq_20261125_close.json": {
+   "sha256": "d117046f82b8b0628f33dd66ab9bfb8c4dfda21ebc6ca050823574904d734d51",
+   "bytes": 1175
+  },
+  "data/positions_main_20691c6.json": {
+   "sha256": "d51da041dedfd86c7868d0618002d30ebf6d5b085605731a8c50d283fda5da65",
+   "bytes": 606
+  },
+  "data/sources_web_20261125_pce.json": {
+   "sha256": "b516e38eb30b4789b23f40fde30b355b0e676c1c4ab7aec60f691c6ee67f3819",
+   "bytes": 8225
+  },
+  "out/rates_change_20261124_to_20261125.csv": {
+   "sha256": "776ccc742e0efb346fed9d6b0b8bd9bb81fe5e26f628307251c97359d2008ffd",
+   "bytes": 221
+  },
+  "out/summary.json": {
+   "sha256": "f6548e61e0fef747c8c7cd0f32ea6f7b11e1e6f3ac74d384766ce2f14df2d389",
+   "bytes": 8625
+  },
+  "pce_note_20261125.py": {
+   "sha256": "9e3b618f2423c39ca552ce4bfe73c324784fa27cde0096eea9b18bc8e780f52b",
+   "bytes": 10463
+  }
+ }
+}
