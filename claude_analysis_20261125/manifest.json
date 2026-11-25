@@ -1,0 +1,93 @@
+{
+ "folder": "claude_analysis_20261125",
+ "question": "At the latest prices, do the proportions change? From a candlestick view, which holdings are not good entry points now? (asked 2026-11-25 12:55 and 12:58 ET)",
+ "data_cutoff": "intraday 2026-11-25 about 12:59-13:06 ET; today candles incomplete",
+ "status": "research only; current_plan.json not changed",
+ "kline_verdicts": {
+  "ok": [
+   "META",
+   "BRK-B",
+   "XLV"
+  ],
+  "wait": [
+   "NVDA",
+   "TSM",
+   "AVGO",
+   "MU",
+   "GOOGL",
+   "MSFT"
+  ],
+  "watch": [
+   "AMZN",
+   "VTI"
+  ]
+ },
+ "gates": {
+  "fmp_vs_gpt_AMZN": true,
+  "fmp_vs_gpt_GOOGL": true,
+  "fmp_vs_gpt_META": true,
+  "fmp_vs_gpt_MSFT": true,
+  "fmp_vs_gpt_NVDA": true,
+  "fmp_vs_gpt_TSM": true,
+  "gpt_price_file_hash": true,
+  "ma200_vs_fmp_AMZN": true,
+  "ma200_vs_fmp_GOOGL": true,
+  "ma200_vs_fmp_META": true,
+  "ma200_vs_fmp_MSFT": true,
+  "ma200_vs_fmp_NVDA": true,
+  "ma200_vs_fmp_TSM": true,
+  "web_vs_gpt_AVGO": true,
+  "web_vs_gpt_VTI": true
+ },
+ "clean_export_rerun": "byte-identical out/ (4 files) from git archive of commit 7402258 after deleting out/ (2026-11-25 about 13:25 ET)",
+ "inputs": {
+  "claude_analysis_20261114/out/summary.json": "23889a56e2decbee527a4fc6bd3e45a2b75b65daa90899aba52e0b7ec1a8162d",
+  "claude_analysis_20261115/out/timing_table_ai8.csv": "a0a576de48fcdca88b2711830ed1edc39535ef66beb4c10f154c4f6ad3f34fa1",
+  "claude_analysis_20261125/data/fmp_chart_20261125.json": "f666d68ffe2c830645cb880a9a0184c918e0b7f2d9c709920006a578e409743e",
+  "claude_analysis_20261125/data/fmp_quotes_profiles_20261125.json": "e0e53511bc31bb5ba4cbcb675c3995f7b9fc3f0d8c4eb9412dd384bae09b8a88",
+  "claude_analysis_20261125/data/sources_web_20261125.json": "a7d2b981498b173429c221d328ef9dcec0e9d600fb5d3d7c5d2ae2c9a3da548b",
+  "gpt_review_20261113/data_audit/adjusted_close.csv": "c297262a16daebfeb084de94bc5086c99ae26cc40a5e6efd16ee12d29586beae"
+ },
+ "reproduce": [
+  "python3 -I claude_analysis_20261125/entry_check_20261125.py ."
+ ],
+ "environment": "Python 3.13.18, numpy 2.5.3, pandas 3.0.5",
+ "files": {
+  "README.md": {
+   "sha256": "4959cc21f13bbd135efd486d804e52c171e564e4aa66d5c8c25c6a574b04999e",
+   "bytes": 7606
+  },
+  "data/fmp_chart_20261125.json": {
+   "sha256": "f666d68ffe2c830645cb880a9a0184c918e0b7f2d9c709920006a578e409743e",
+   "bytes": 22056
+  },
+  "data/fmp_quotes_profiles_20261125.json": {
+   "sha256": "e0e53511bc31bb5ba4cbcb675c3995f7b9fc3f0d8c4eb9412dd384bae09b8a88",
+   "bytes": 4245
+  },
+  "data/sources_web_20261125.json": {
+   "sha256": "a7d2b981498b173429c221d328ef9dcec0e9d600fb5d3d7c5d2ae2c9a3da548b",
+   "bytes": 3135
+  },
+  "entry_check_20261125.py": {
+   "sha256": "890f48ae68cad2cbcf61491d2866d1c90a27a74e0e04b63eda9f931c1bbfde62",
+   "bytes": 12611
+  },
+  "out/kline_status.csv": {
+   "sha256": "bc41aff49dbec6e60589a5e728c3c837cb92dbac77a6002df1605d70100e73af",
+   "bytes": 2956
+  },
+  "out/summary.json": {
+   "sha256": "cdb0425e5d9461b11c9e327d3f5238f300fc0aaa6454ba1b098d031e23c5b522",
+   "bytes": 16173
+  },
+  "out/tilt_recheck.csv": {
+   "sha256": "09f346d08b1c01aeadcc35c920a209f480d7c4e6d3117fc6412074c6684fc9a5",
+   "bytes": 1550
+  },
+  "out/weights_versions.csv": {
+   "sha256": "16d276329510cf194c7a3faf831c7bf5bae59d9e8a834d6c08fb1885fae0f9ae",
+   "bytes": 747
+  }
+ }
+}

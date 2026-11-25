@@ -1,0 +1,9 @@
+t,price_1113,pe_1113,ebit_yield_1113,peg_1113,cyclical,value_1113,price_bucket_1113,action_1113,price_now,pe_now,ebit_yield_now,peg_now,rank_pe,rank_ebit,rank_peg,value_score_now,value_now,dd_now,vs_ma200_now,price_bucket_now,action_now
+NVDA,162.85,11.2603,0.0501,0.3101,False,cheap,relative-low,overweight,144.6782,10.0038,0.0564,0.2755,1.0,2.0,1.0,1.3333,cheap,-0.3953,-0.2859,relative-low,overweight
+TSM,398.73,18.7116,0.0515,0.6838,False,cheap,middle,at target,333.65,15.6575,0.0615,0.5722,2.0,1.0,2.0,1.6667,cheap,-0.3132,-0.1704,relative-low,overweight
+AVGO,347.01,19.9446,0.0257,,False,expensive,relative-low,"at target (expensive, no add)",288.38,16.5748,0.031,,3.0,7.0,,5.0,mid,-0.3991,-0.2131,relative-low,at target
+MU,778.31,4.4104,0.1223,,True,cyclical-peak,middle,underweight (cycle-adjusted),567.97,3.2185,0.1676,,,,,,cyclical-peak,-0.5318,-0.2596,relative-low,underweight (cycle-adjusted)
+GOOGL,295.77,18.9165,0.0426,0.8937,False,mid,relative-low,at target,270.35,17.2907,0.0466,0.8169,4.0,4.0,4.0,4.0,mid,-0.3277,-0.1955,relative-low,at target
+META,641.69,19.1457,0.0456,1.1133,False,mid,middle,at target,600.165,17.9067,0.0487,1.0412,5.0,3.0,6.0,4.6667,mid,-0.2282,-0.0425,relative-low,at target
+MSFT,523.88,24.2507,0.0408,1.0521,False,expensive,relative-high,underweight,488.6,22.6176,0.0437,0.9813,7.0,5.0,5.0,5.6667,expensive,-0.1209,0.1003,middle,"at target (expensive, no add)"
+AMZN,266.66,24.2087,0.0337,0.6707,False,mid,relative-high,at target,244.23,22.1724,0.0368,0.6143,6.0,6.0,3.0,5.0,mid,-0.1401,-0.0063,middle,at target

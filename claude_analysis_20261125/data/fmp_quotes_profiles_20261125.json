@@ -1,0 +1,21 @@
+{
+"source": "FMP MCP tools. 'quotes' = mcp__FMP__quote endpoint quote (arrays verbatim, about 12:56 ET). 'profiles' = mcp__FMP__company endpoint profile-symbol, about 13:05 ET; the price fields below are copied verbatim, the long company descriptions and contact fields are omitted. FMP denied quote and chart access for AVGO, MU, VTI, BRK-B, XLV, SGOV and ANT on this plan; profile-symbol was allowed.",
+"retrieved_et": "2026-11-25 12:56-13:06 ET",
+"quotes": {
+"^IXIC": [{"symbol":"^IXIC","name":"NASDAQ Composite","price":23294.309,"changePercentage":-1.85066,"change":-439.226,"volume":6318580000,"dayLow":22632.396,"dayHigh":23295.105,"yearHigh":27722.75,"yearLow":20690.25,"marketCap":0,"priceAvg50":26026.543,"priceAvg200":25165.23,"exchange":"INDEX","open":22948.482,"previousClose":23733.535,"timestamp":1795629255}],
+"NVDA": [{"symbol":"NVDA","name":"NVIDIA Corporation","price":145.85,"changePercentage":-6.13335,"change":-9.53,"volume":224525322,"dayLow":141.17,"dayHigh":146.42,"yearHigh":243.37,"yearLow":124.5,"marketCap":3514985000000,"priceAvg50":204.9464,"priceAvg200":203.0703,"exchange":"NASDAQ","open":144.02,"previousClose":155.38,"timestamp":1795629398}],
+"MSFT": [{"symbol":"MSFT","name":"Microsoft Corporation","price":489.09,"changePercentage":-1.41898,"change":-7.04,"volume":11686825,"dayLow":477.39,"dayHigh":489.94,"yearHigh":559.15,"yearLow":349.2,"marketCap":3632075267100,"priceAvg50":519.5586,"priceAvg200":444.5019,"exchange":"NASDAQ","open":485.42,"previousClose":496.13,"timestamp":1795629398}],
+"GOOGL": [{"symbol":"GOOGL","name":"Alphabet Inc.","price":270.955,"changePercentage":-2.90091,"change":-8.095,"volume":22155306,"dayLow":262.73,"dayHigh":271.41,"yearHigh":408.61,"yearLow":262.73,"marketCap":3304600942890,"priceAvg50":319.6362,"priceAvg200":336.5433,"exchange":"NASDAQ","open":265.25,"previousClose":279.05,"timestamp":1795629398}],
+"AMZN": [{"symbol":"AMZN","name":"Amazon.com, Inc.","price":244.3,"changePercentage":-3.16699,"change":-7.99,"volume":33248336,"dayLow":235.96,"dayHigh":244.745,"yearHigh":287.2,"yearLow":196,"marketCap":2641640330000,"priceAvg50":255.1464,"priceAvg200":245.59375,"exchange":"NASDAQ","open":243.16,"previousClose":252.29,"timestamp":1795629398}],
+"META": [{"symbol":"META","name":"Meta Platforms, Inc.","price":602.3,"changePercentage":2.1159,"change":12.48,"volume":8523855,"dayLow":567.75,"dayHigh":604.02,"yearHigh":779.82,"yearLow":520.26,"marketCap":1539624060305,"priceAvg50":673.6852,"priceAvg200":627.83563,"exchange":"NASDAQ","open":574.775,"previousClose":589.82,"timestamp":1795629397}],
+"TSM": [{"symbol":"TSM","name":"Taiwan Semiconductor Manufacturing Company Limited","price":334.895,"changePercentage":-4.09651,"change":-14.305,"volume":15061037,"dayLow":321.1,"dayHigh":336.22,"yearHigh":487.47,"yearLow":275.08,"marketCap":1736926219600,"priceAvg50":419.7706,"priceAvg200":403.60684,"exchange":"NYSE","open":329.125,"previousClose":349.2,"timestamp":1795629397}]
+},
+"profiles": {
+"AVGO": {"symbol":"AVGO","price":288.38,"marketCap":1376619403777,"beta":1.508,"lastDividend":2.6,"range":"278-495","change":-12.7,"changePercentage":-4.21815,"volume":16608244,"averageVolume":24298304},
+"MU": {"symbol":"MU","price":567.97,"marketCap":642612617400,"beta":2.368,"lastDividend":0.565,"range":"221.69-1255","change":-61.82,"changePercentage":-9.81597,"volume":31649283,"averageVolume":31624781},
+"VTI": {"symbol":"VTI","price":350.22,"marketCap":2168194664848,"beta":1.021,"lastDividend":3.9482,"range":"310.4-385.12","change":-3.62,"changePercentage":-1.02306,"volume":3624584,"averageVolume":3371047},
+"BRK-B": {"symbol":"BRK-B","price":579.22998,"marketCap":813126286795,"beta":0.585,"lastDividend":0,"range":"464.01-596.92","change":2.01998,"changePercentage":0.34996,"volume":1839139,"averageVolume":4604199},
+"XLV": {"symbol":"XLV","price":184.15,"marketCap":48397029603,"beta":0.533,"lastDividend":2.54998,"range":"141.97-192.32","change":-0.57,"changePercentage":-0.30858,"volume":10688180,"averageVolume":9540495},
+"ANT": {"symbol":"ANT","price":83.995,"marketCap":1133570959230,"beta":0,"lastDividend":0,"range":"73.85-115.1","change":2.09,"changePercentage":2.55174,"volume":145183846,"averageVolume":456230137,"ipoDate":"2026-11-19"}
+}
+}
