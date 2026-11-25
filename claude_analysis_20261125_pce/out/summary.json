@@ -1,0 +1,318 @@
+{
+ "arithmetic": {
+  "core_mom_rounded_annualized_pct": 3.66,
+  "core_mom_rounded_over_target_pace": 1.82,
+  "core_mom_unrounded_annualized_pct": 3.54,
+  "core_yoy_surprise_pp": 0.1,
+  "headline_yoy_surprise_pp": 0.0,
+  "monthly_pace_of_2pct_target_pct": 0.165,
+  "note": "monthly inputs are rounded to 0.1, so the real-spending estimate is only good to about +/-0.1 pp",
+  "real_spending_mom_from_rounded_inputs_pct": 0.0
+ },
+ "as_of": "October 2026 PCE (BEA, 2026-11-25 08:30 ET); market data at the 2026-11-25 close",
+ "calendar": {
+  "fomc": "2026-12-08/09",
+  "november_cpi": "2026-12-10 (claude_analysis_20261124/README.md)",
+  "november_pce": "2026-12-23",
+  "quarterly_review": "2026-12-31"
+ },
+ "executed_basket_exposure": {
+  "AI8": {
+   "members": [
+    "NVDA",
+    "MSFT",
+    "GOOGL",
+    "AMZN",
+    "META",
+    "TSM",
+    "AVGO",
+    "MU"
+   ],
+   "pct": 47.0,
+   "usd": 3290
+  },
+  "BRKB_XLV": {
+   "members": [
+    "BRK-B",
+    "XLV"
+   ],
+   "pct": 17.0,
+   "usd": 1190
+  },
+  "SGOV": {
+   "members": [
+    "SGOV"
+   ],
+   "pct": 11.0,
+   "usd": 770
+  },
+  "VTI": {
+   "members": [
+    "VTI"
+   ],
+   "pct": 25.0,
+   "usd": 1750
+  }
+ },
+ "fed": {
+  "fed_target_range_after_25bp": [
+   4.0,
+   4.25
+  ],
+  "fedwatch_after_oct_cpi_2026_11_10": {
+   "any_hike": 100,
+   "hike_25bp": 89,
+   "hike_50bp": 11
+  },
+  "fedwatch_dec_25bp_hike_prob": 97.8,
+  "fedwatch_dec_25bp_hike_prob_week_earlier": 93.5,
+  "oxford_dec_call": {
+   "S14": "25 bp; markets overprice 50 bp"
+  },
+  "waller_50bp_threshold_core_cpi_mom": 0.3,
+  "waller_dec_options": {
+   "S12": "50 bp in December, or 25 bp plus an explicit signal of a January hike"
+  }
+ },
+ "gates": {
+  "fmp_rates_2026_11_23_same_in_both_pulls": {
+   "detail": "the 2026-11-23 row pulled on 11-25 equals the row pulled on 11-24 (12 tenors)",
+   "pass": true
+  },
+  "groups_cover_each_ticker_once": {
+   "detail": "12 tickers",
+   "pass": true
+  },
+  "nasdaq_close_matches_news": {
+   "detail": "FMP 23585.80 (-0.62%) vs news 23585.80 (-0.62%)",
+   "pass": true
+  },
+  "nasdaq_intraday_low_matches_news": {
+   "detail": "FMP low -4.64% vs news -4.64%",
+   "pass": true
+  },
+  "positions_total_7000": {
+   "detail": "sum of amount_usd = 7000",
+   "pass": true
+  },
+  "prev_core_pce_sep_equals_prior_reported_today": {
+   "detail": "claude_analysis_20261124 used 3.1; today's sources give September core as 3.1",
+   "pass": true
+  },
+  "prev_headline_pce_sep_equals_first_print": {
+   "detail": "claude_analysis_20261124 used 3.6; first print 3.6, revised 3.7",
+   "pass": true
+  },
+  "prev_package_files_match_its_manifest": {
+   "detail": "2/2 files of claude_analysis_20261124 match its manifest.json",
+   "pass": true
+  },
+  "real_spending_consistent_with_flat_report": {
+   "detail": "0.00% from nominal 0.3% and prices 0.3%",
+   "pass": true
+  },
+  "sources_agree:dpi_mom_oct": {
+   "detail": "1 source(s): S7",
+   "pass": true
+  },
+  "sources_agree:fed_target_range_after_25bp": {
+   "detail": "1 source(s): S3",
+   "pass": true
+  },
+  "sources_agree:fedwatch_after_oct_cpi_2026_11_10": {
+   "detail": "1 source(s): S13",
+   "pass": true
+  },
+  "sources_agree:fedwatch_dec_25bp_hike_prob": {
+   "detail": "1 source(s): S3",
+   "pass": true
+  },
+  "sources_agree:fedwatch_dec_25bp_hike_prob_week_earlier": {
+   "detail": "1 source(s): S3",
+   "pass": true
+  },
+  "sources_agree:mu_close_20261125": {
+   "detail": "1 source(s): S9",
+   "pass": true
+  },
+  "sources_agree:nasdaq_close_20261125": {
+   "detail": "2 source(s): S10, S9",
+   "pass": true
+  },
+  "sources_agree:nasdaq_close_pct_20261125": {
+   "detail": "3 source(s): S10, S8, S9",
+   "pass": true
+  },
+  "sources_agree:nasdaq_max_intraday_drop_pct_20261125": {
+   "detail": "1 source(s): S9",
+   "pass": true
+  },
+  "sources_agree:next_pce_release": {
+   "detail": "1 source(s): S7",
+   "pass": true
+  },
+  "sources_agree:nvda_close_20261125": {
+   "detail": "2 source(s): S10, S9",
+   "pass": true
+  },
+  "sources_agree:pce_core_mom_oct": {
+   "detail": "3 source(s): S1, S3, S5",
+   "pass": true
+  },
+  "sources_agree:pce_core_mom_oct_unrounded": {
+   "detail": "1 source(s): S6",
+   "pass": true
+  },
+  "sources_agree:pce_core_yoy_feb_to_sep_range": {
+   "detail": "1 source(s): S5",
+   "pass": true
+  },
+  "sources_agree:pce_core_yoy_oct": {
+   "detail": "5 source(s): S1, S2, S3, S4, S5",
+   "pass": true
+  },
+  "sources_agree:pce_core_yoy_oct_consensus": {
+   "detail": "3 source(s): S1, S3, S5",
+   "pass": true
+  },
+  "sources_agree:pce_core_yoy_oct_is_highest_in_about_3_years": {
+   "detail": "2 source(s): S1, S3",
+   "pass": true
+  },
+  "sources_agree:pce_core_yoy_sep": {
+   "detail": "3 source(s): S1, S4, S5",
+   "pass": true
+  },
+  "sources_agree:pce_headline_mom_oct": {
+   "detail": "3 source(s): S1, S3, S4",
+   "pass": true
+  },
+  "sources_agree:pce_headline_yoy_aug_revised": {
+   "detail": "1 source(s): S5",
+   "pass": true
+  },
+  "sources_agree:pce_headline_yoy_oct": {
+   "detail": "5 source(s): S1, S2, S3, S4, S5",
+   "pass": true
+  },
+  "sources_agree:pce_headline_yoy_oct_consensus": {
+   "detail": "2 source(s): S1, S3",
+   "pass": true
+  },
+  "sources_agree:pce_headline_yoy_sep_first_print": {
+   "detail": "3 source(s): S3, S4, S5",
+   "pass": true
+  },
+  "sources_agree:pce_headline_yoy_sep_revised": {
+   "detail": "2 source(s): S3, S5",
+   "pass": true
+  },
+  "sources_agree:pce_spending_nominal_mom_oct": {
+   "detail": "1 source(s): S7",
+   "pass": true
+  },
+  "sources_agree:personal_income_mom_oct": {
+   "detail": "1 source(s): S7",
+   "pass": true
+  },
+  "sources_agree:real_spending_oct_flat": {
+   "detail": "1 source(s): S3",
+   "pass": true
+  },
+  "sources_agree:saving_rate_oct": {
+   "detail": "2 source(s): S3, S7",
+   "pass": true
+  },
+  "sources_agree:waller_50bp_threshold_core_cpi_mom": {
+   "detail": "1 source(s): S11",
+   "pass": true
+  }
+ },
+ "inputs_sha256": {
+  "../claude_analysis_20261124/data/fmp_treasury_rates_20261124.json": "02d84243f32b93cd834c64b7d0cb7de927f40ce0bd3a91d720aa9dfb88cffcff",
+  "../claude_analysis_20261124/out/summary.json": "371f22f3a53db4c6209f985a7c8dd3b94a5df32598ac97143dc21efd1e76e899",
+  "data/fmp_rates_nasdaq_20261125_close.json": "d117046f82b8b0628f33dd66ab9bfb8c4dfda21ebc6ca050823574904d734d51",
+  "data/positions_main_20691c6.json": "d51da041dedfd86c7868d0618002d30ebf6d5b085605731a8c50d283fda5da65",
+  "data/sources_web_20261125_pce.json": "b516e38eb30b4789b23f40fde30b355b0e676c1c4ab7aec60f691c6ee67f3819"
+ },
+ "market_20261125": {
+  "mu_close": 601.25,
+  "nasdaq_composite": {
+   "close": 23585.8023,
+   "close_vs_prev_pct": -0.62,
+   "low": 22632.396,
+   "low_vs_prev_pct": -4.64,
+   "open": 22948.482,
+   "open_vs_prev_pct": -3.31,
+   "previous_close": 23733.535
+  },
+  "nvda_close": 149.3,
+  "selloff_drivers_reported": {
+   "S10": "stocks sank at the open after the October PCE report and a US tariff proposal",
+   "S15": "Nvidia -8% at the open; AI profitability and overinvestment questions",
+   "S8": "AI-spending worries and the Nvidia CEO saga; money moved to non-AI sectors",
+   "S9": "hot PCE data plus a Section 301 tariff proposal on 14 partners; S&P Global put Nvidia on CreditWatch Negative"
+  },
+  "treasury_change_bp_close_to_close": {
+   "month1": 6.0,
+   "month3": -2.0,
+   "month6": -2.0,
+   "year1": -3.0,
+   "year10": -6.0,
+   "year2": -2.0,
+   "year30": -6.0,
+   "year5": -4.0
+  }
+ },
+ "regime_update_vs_claude_analysis_20261124": {
+  "core_pce_yoy_feb_to_sep_range": [
+   3.0,
+   3.2
+  ],
+  "headline_pce_sep_first_print_to_revised": [
+   3.6,
+   3.7
+  ],
+  "inflation_hot_count_after": 4,
+  "inflation_hot_count_before": 4,
+  "inflation_tests_total": 4,
+  "unchanged_tests": [
+   "cpi_3m_annualized_above_12m",
+   "ism_prices_above_50"
+  ],
+  "updated_tests": {
+   "core_pce_yoy_above_2pct_target": {
+    "after_oct": 3.3,
+    "before_sep": 3.1,
+    "rule": "> 2.0",
+    "true": true
+   },
+   "pce_yoy_above_2pct_target": {
+    "after_oct": 3.8,
+    "before_sep_first_print": 3.6,
+    "rule": "> 2.0",
+    "true": true
+   }
+  }
+ },
+ "release": {
+  "dpi_mom_oct": 0.8,
+  "next_pce_release": "2026-12-23",
+  "pce_core_mom_oct": 0.3,
+  "pce_core_mom_oct_unrounded": 0.29,
+  "pce_core_yoy_oct": 3.3,
+  "pce_core_yoy_oct_consensus": 3.2,
+  "pce_core_yoy_oct_is_highest_in_about_3_years": true,
+  "pce_core_yoy_sep": 3.1,
+  "pce_headline_mom_oct": 0.3,
+  "pce_headline_yoy_aug_revised": 3.5,
+  "pce_headline_yoy_oct": 3.8,
+  "pce_headline_yoy_oct_consensus": 3.8,
+  "pce_headline_yoy_sep_first_print": 3.6,
+  "pce_headline_yoy_sep_revised": 3.7,
+  "pce_spending_nominal_mom_oct": 0.3,
+  "personal_income_mom_oct": 0.7,
+  "real_spending_oct_flat": true,
+  "saving_rate_oct": 4.1
+ }
+}

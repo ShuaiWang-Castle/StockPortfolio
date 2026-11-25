@@ -1,0 +1,6 @@
+{
+"source": "FMP MCP tools, copied verbatim: economics treasury-rates 2026-11-23..2026-11-25 and index-quote ^IXIC (timestamp 1795640405 = 2026-11-25 16:00 ET close).",
+"retrieved_et": "2026-11-25 about 18:35 ET",
+"treasury-rates|2026-11-23|2026-11-25": [{"date":"2026-11-25","month1":4.27,"month2":4.3,"month3":4.34,"month6":4.44,"year1":4.56,"year2":4.61,"year3":4.64,"year5":4.65,"year7":4.74,"year10":4.85,"year20":5.28,"year30":5.24},{"date":"2026-11-24","month1":4.21,"month2":4.28,"month3":4.36,"month6":4.46,"year1":4.59,"year2":4.63,"year3":4.67,"year5":4.69,"year7":4.79,"year10":4.91,"year20":5.33,"year30":5.3},{"date":"2026-11-23","month1":4.2,"month2":4.3,"month3":4.37,"month6":4.45,"year1":4.57,"year2":4.63,"year3":4.69,"year5":4.74,"year7":4.81,"year10":4.92,"year20":5.33,"year30":5.29}],
+"^IXIC": [{"symbol":"^IXIC","name":"NASDAQ Composite","price":23585.8023,"changePercentage":-0.62246,"change":-147.7327,"volume":9221817156,"dayLow":22632.396,"dayHigh":23627.453,"yearHigh":27722.75,"yearLow":20690.25,"marketCap":0,"priceAvg50":26026.543,"priceAvg200":25165.23,"exchange":"INDEX","open":22948.482,"previousClose":23733.535,"timestamp":1795640405}]
+}
