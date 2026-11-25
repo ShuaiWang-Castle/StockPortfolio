@@ -1,0 +1,7 @@
+{
+ "source": "positions.json on main, commit 20691c66f4aad05170f8b244814a99ce1b829f73 ('Record executed positions 2026-11-25 (entry_one_shot_20261116)'), committed 2026-11-25 13:16 ET",
+ "copied_fields": ["ticker", "amount_usd"],
+ "omitted_fields": "account details, shares and average costs are not copied here",
+ "executed": "whole basket bought by dollar amount on 2026-11-25 between 13:13 and 13:15 ET; total filled 6999.98 USD",
+ "amount_usd": {"VTI": 1750, "NVDA": 875, "MSFT": 490, "GOOGL": 490, "AMZN": 420, "META": 350, "TSM": 280, "AVGO": 280, "MU": 105, "BRK-B": 770, "XLV": 420, "SGOV": 770}
+}
