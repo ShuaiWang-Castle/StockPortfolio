@@ -1,0 +1,43 @@
+{
+ "source": "FMP MCP tool mcp__FMP__crypto, endpoint cryptocurrency-historical-price-eod-light, symbol BTCUSD, from_date 2025-09-01, to_date 2026-11-22",
+ "retrieved": "2026-11-22 22:15 ET",
+ "note": "EXTRACT: selected rows copied verbatim from the response (full response not saved); the 2026-11-22 row is an intraday value at retrieval time",
+ "rows": [
+  {
+   "symbol": "BTCUSD",
+   "date": "2026-11-22",
+   "price": 61125.79,
+   "volume": 11325095036
+  },
+  {
+   "symbol": "BTCUSD",
+   "date": "2026-11-20",
+   "price": 58882.6,
+   "volume": 60703101498
+  },
+  {
+   "symbol": "BTCUSD",
+   "date": "2026-11-13",
+   "price": 68224.27,
+   "volume": 42985296506
+  },
+  {
+   "symbol": "BTCUSD",
+   "date": "2026-10-06",
+   "price": 85539.77,
+   "volume": 30667100160
+  },
+  {
+   "symbol": "BTCUSD",
+   "date": "2025-12-31",
+   "price": 87497.94,
+   "volume": 33830210616
+  },
+  {
+   "symbol": "BTCUSD",
+   "date": "2025-10-06",
+   "price": 124720.09,
+   "volume": 72568881188
+  }
+ ]
+}
